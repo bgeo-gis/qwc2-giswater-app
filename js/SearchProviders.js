@@ -270,7 +270,146 @@ class QgisSearch {
     }
 }
 
+
 /** ************************************************************************ **/
+
+function giswaterSearch(text, searchParams, callback, axios) {
+    const requestUrl = GwUtils.getServiceUrl("search");
+    console.log("searchParams", searchParams);
+    if (!isEmpty(requestUrl) && !isEmpty(text)) {
+        // TODO: isTiled: True/False
+        const filterText = text;
+        let filterSearch = '"searchText": { "filterSign":"", "value": "' + filterText + '" }';
+
+        if (searchParams.filterPoly) {
+            const polygon = `POLYGON((${searchParams.filterPoly.map(c => c.join(" ")).join(",")}))`;
+            filterSearch += `, "searchPoly": "${polygon}"`;
+        }
+
+        const params = {
+            theme: searchParams.theme.title,
+            filterFields: filterSearch
+        };
+        axios.get(requestUrl + "getsearch", { params: params }).then(response => {
+            const result = response.data;
+            const output = [];
+            result.data.forEach((group) => {
+                const items = [];
+                group.values?.forEach((entry) => {
+                    items.push({
+                        id: entry.value,
+                        // shorten display_name
+                        text: entry.display_name,
+                        provider: "giswater",
+                        props: {
+                            ...entry,
+                            execFunc: group.execFunc,
+                            section: group.section,
+                            tableName: group.tableName,
+                            crs: searchParams.mapcrs,
+                            theme: searchParams.theme.title
+                        }
+                    });
+                });
+                if (items.length > 0) {
+                    output.push({
+                        id: `giswater-${group.section}`,
+                        title: group.alias,
+                        items: items
+                    });
+                }
+            });
+            console.log("output", output);
+            callback({results: output});
+        }).catch((e) => {
+            console.error(e);
+        });
+    }
+}
+
+function giswaterGetGeometry(result, callback, axios) {
+    console.log("geom result", result);
+    const requestUrl = GwUtils.getServiceUrl("search");
+    if (!isEmpty(requestUrl)) {
+        const props = result.props;
+        const extras = `"value": "${props.display_name}", "section": "${props.section}", "filterKey": "${props.key}", "filterValue": "${props.value}", "execFunc": "${props.execFunc}", "tableName": "${props.tableName}", "searchAdd": "${props.searchAdd}"`;
+        const params = {
+            theme: props.theme,
+            extras: extras
+        };
+        axios.get(requestUrl + "setsearch", { params: params }).then(response => {
+            const result = response.data;
+            callback({
+                geometry: result.data.geometry.st_astext,
+                crs: props.crs
+            });
+        }).catch((e) => {
+            console.error(e);
+        });
+    }
+}
+
+/** ************************************************************************ **/
+
+function customSearch(text, searchParams, callback, axios) {
+    const requestUrl = GwUtils.getServiceUrl("customSearch");
+
+    const tables = searchParams.cfgParams.tables;
+    const params = {
+        theme: searchParams.theme.title,
+        searchtables: tables.join(','),
+        query: text
+    };
+    axios.get(requestUrl + "search", { params: params }).then(response => {
+        let currentgroup = null;
+        let groupcounter = 0;
+        let counter = 0;
+        const results = [];
+        const providerId = "custom";
+        (response.data.results || []).forEach(entry => {
+            if (!entry.bbox) {
+                // Is group
+                currentgroup = {
+                    id: providerId + "_group" + (groupcounter++),
+                    title: entry.displaytext,
+                    items: []
+                };
+                results.push(currentgroup);
+            } else if (currentgroup) {
+                currentgroup.items.push({
+                    id: providerId + "_result" + (counter++),
+                    text: entry.displaytext,
+                    bbox: entry.bbox.slice(0),
+                    x: 0.5 * (entry.bbox[0] + entry.bbox[2]),
+                    y: 0.5 * (entry.bbox[1] + entry.bbox[3]),
+                    props: {
+                        crs: searchParams.mapcrs,
+                        theme: searchParams.theme.title,
+                        searchtable: entry.searchtable
+                    },
+                    provider: providerId
+                });
+            }
+        });
+        callback({results: results});
+    });
+}
+
+function customSearchGeom(resultItem, callback, axios) {
+    const requestUrl = GwUtils.getServiceUrl("customSearch");
+
+    const params = {
+        theme: resultItem.props.theme,
+        searchtable: resultItem.props.searchtable,
+        displaytext: resultItem.text
+    };
+    axios.get(requestUrl + "searchGeom", { params: params }).then(response => {
+        callback({ geometry: response.data, crs: resultItem.crs });
+    });
+}
+
+/** ************************************************************************ **/
+
 
 export const SearchProviders = {
     coordinates: {
@@ -288,5 +427,16 @@ export const SearchProviders = {
         onSearch: QgisSearch.search,
         getResultGeometry: QgisSearch.getResultGeometry,
         handlesGeomFilter: false
+    },
+    giswater: {
+        label: "Giswater",
+        handlesGeomFilter: true,
+        onSearch: giswaterSearch,
+        getResultGeometry: giswaterGetGeometry
+    },
+    custom: {
+        label: "Custom",
+        onSearch: customSearch,
+        getResultGeometry: customSearchGeom
     }
 };
