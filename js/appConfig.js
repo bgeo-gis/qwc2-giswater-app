@@ -71,6 +71,31 @@ import {renderHelp} from './Help';
 import {customAttributeCalculator, attributeTransform, customExporters} from './IdentifyExtensions';
 import {SearchProviders} from './SearchProviders';
 
+// Giswater
+import GwInfoPlugin from 'qwc2-giswater/plugins/GwInfo';
+import GwDateSelectorPlugin from 'qwc2-giswater/plugins/GwDateSelector';
+import GwSelectorPlugin from 'qwc2-giswater/plugins/GwSelector';
+import GwProfilePickerPlugin from 'qwc2-giswater/plugins/GwProfilePicker';
+import GwFlowtracePlugin from 'qwc2-giswater/plugins/GwFlowtrace';
+import GwProfileGraphPlugin from 'qwc2-giswater/plugins/GwProfileGraph';
+import GwMincutPlugin from 'qwc2-giswater/plugins/GwMincut';
+import GwMincutManagerPlugin from 'qwc2-giswater/plugins/GwMincutManager';
+import GwVisitPlugin from 'qwc2-giswater/plugins/GwVisit';
+import GwVisitManagerPlugin from 'qwc2-giswater/plugins/GwVisitManager';
+import GwToolboxPlugin from 'qwc2-giswater/plugins/GwToolbox';
+// import GwSearchBox from 'qwc2-giswater/components/GwSearchBox';
+import GwClearTempLayersPlugin from 'qwc2-giswater/plugins/GwClearTempLayers';
+import MapWatermarkPlugin from 'qwc2-giswater/plugins/MapWatermark';
+import NetCDFExplorerPlugin from 'qwc2-giswater/plugins/NetCDFExplorer';
+import GwLoadPluginPlugin from 'qwc2-giswater/plugins/GwLoadPlugin';
+import GwInfoValve from 'qwc2-giswater/plugins/tooltip_plugins/GwInfoValve';
+import StreetViewButton from 'qwc2-giswater/plugins/tooltip_plugins/StreetViewButton';
+import GwHelpPlugin from 'qwc2-giswater/plugins/GwHelp';
+import GwParcelFilterPlugin from 'qwc2-giswater/plugins/GwParcelFilter';
+import GwSupersetPlugin from 'qwc2-giswater/plugins/GwSuperset';
+
+
+
 export default {
     defaultLocaleData: defaultLocaleData,
     initialState: {
@@ -112,7 +137,10 @@ export default {
             MapCopyrightPlugin: MapCopyrightPlugin,
             MapExportPlugin: MapExportPlugin,
             MapFilterPlugin: MapFilterPlugin,
-            MapInfoTooltipPlugin: MapInfoTooltipPlugin(),
+            MapInfoTooltipPlugin: MapInfoTooltipPlugin([
+                GwInfoValve,
+                StreetViewButton
+            ]),
             MapLegendPlugin: MapLegendPlugin,
             MapTipPlugin: MapTipPlugin,
             MeasurePlugin: MeasurePlugin,
@@ -142,6 +170,23 @@ export default {
             }),
             ZoomInPlugin: ZoomInPlugin,
             ZoomOutPlugin: ZoomOutPlugin,
+            GwLoadPluginPlugin: GwLoadPluginPlugin,
+            GwInfoPlugin: GwInfoPlugin,
+            GwSelectorPlugin: GwSelectorPlugin,
+            GwToolboxPlugin: GwToolboxPlugin,
+            GwClearTempLayersPlugin: GwClearTempLayersPlugin,
+            GwDateSelectorPlugin: GwDateSelectorPlugin,
+            GwFlowtracePlugin: GwFlowtracePlugin,
+            GwMincutPlugin: GwMincutPlugin,
+            GwMincutManagerPlugin: GwMincutManagerPlugin,
+            GwVisitPlugin: GwVisitPlugin,
+            GwVisitManagerPlugin: GwVisitManagerPlugin,
+            NetCDFExplorerPlugin: NetCDFExplorerPlugin,
+            GwProfileGraphPlugin: GwProfileGraphPlugin,
+            MapWatermarkPlugin: MapWatermarkPlugin,
+            GwHelpPlugin: GwHelpPlugin,
+            GwParcelFilterPlugin: GwParcelFilterPlugin,
+            GwSupersetPlugin: GwSupersetPlugin
         },
         cfg: {
             IdentifyPlugin: {
