@@ -1,3 +1,6 @@
 [submodule "qwc2"]
 	path = qwc2
 	url = https://github.com/qgis/qwc2.git
+[submodule "qwc2-giswater"]
+	path = qwc2-giswater
+	url = https://github.com/bgeo-gis/qwc2-giswater.git
