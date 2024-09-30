@@ -39,9 +39,12 @@ module.exports = (env, argv) => {
             port: 8080
         },
         resolve: {
-            extensions: [".mjs", ".js", ".jsx"],
+            extensions: [".mjs", ".js", ".jsx", ".ts", ".tsx"],
             fallback: {
-                path: require.resolve("path-browserify")
+                path: require.resolve("path-browserify"),
+                stream: require.resolve("stream-browserify"),
+                buffer: require.resolve("buffer/"),
+                timers: require.resolve("timers-browserify")
             }
         },
         snapshot: {
@@ -52,7 +55,9 @@ module.exports = (env, argv) => {
             new webpack.DefinePlugin({
                 'process.env': {
                     NODE_ENV: JSON.stringify(argv.mode),
-                    BuildDate: JSON.stringify(buildDate)
+                    BuildDate: JSON.stringify(buildDate),
+                    Buffer: ['buffer', 'Buffer'],
+                    process: 'process/browser'
                 }
             }),
             new webpack.NormalModuleReplacementPlugin(/openlayers$/, path.join(__dirname, "qwc2", "libs", "openlayers")),
@@ -69,6 +74,13 @@ module.exports = (env, argv) => {
         ],
         module: {
             rules: [
+                {
+                    test: /\.tsx?$/,
+                    exclude: /node_modules/,
+                    use: {
+                        loader: 'ts-loader',
+                    }
+                },
                 {
                     test: /\.css$/,
                     use: [
