@@ -112,7 +112,8 @@ export default {
                 OverviewSupport: OverviewSupport,
                 RedliningSupport: RedliningSupport,
                 ScaleBarSupport: ScaleBarSupport,
-                SnappingSupport: SnappingSupport
+                SnappingSupport: SnappingSupport,
+                GwProfilePickerPlugin: GwProfilePickerPlugin
             }),
             APIPlugin: APIPlugin,
             AttributeTablePlugin: AttributeTablePlugin(/* CustomEditingInterface */),
