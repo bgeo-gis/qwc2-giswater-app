@@ -10,6 +10,8 @@
 import yaml from 'js-yaml';
 import CoordinatesUtils from '../qwc2/utils/CoordinatesUtils';
 import IdentifyUtils from '../qwc2/utils/IdentifyUtils';
+import GwUtils from 'qwc2-giswater/utils/GwUtils';
+import isEmpty from 'lodash.isempty';
 
 function coordinatesSearch(text, searchParams, callback) {
     const displaycrs = searchParams.displaycrs || "EPSG:4326";
