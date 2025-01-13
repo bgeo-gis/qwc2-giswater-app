@@ -4,38 +4,43 @@
     "appmenu": {
       "items": {
         "ExternalLink": "",
+        "Bookmark": "Marque-pages",
+        "Compare3D": "Comparer",
+        "DateTime3D": "Date et heure",
+        "Editing": "Editer",
+        "Help": "Aide",
+        "LayerTree": "Couches",
+        "LayerTree3D": "Couches",
+        "MapExport": "Exporter la carte",
         "MapFilter": "Filtrer la carte",
+        "Print": "Imprimer",
+        "Reports": "Rapports",
+        "Settings": "Paramètres",
+        "Share": "Partager",
+        "ThemeSwitcher": "Thèmes",
         "AttributeTable": "Table d'attributs",
         "Cyclomedia": "Cyclomedia",
-        "DxfExport": "Export DXF",
-        "Editing": "Editer",
+        "Draw3D": "Dessiner",
         "FeatureForm": "Formulaire d'objet",
         "FeatureSearch": "Recherche objet",
         "GeometryDigitizer": "Digitalisation des géométries",
-        "Help": "Aide",
         "IdentifyPoint": "Interroger point",
         "IdentifyRegion": "Interroger la région",
         "LayerCatalog": "Catalogue des couches",
-        "LayerTree": "Couches",
         "Login": "Connexion",
         "Logout": "Déconnexion",
         "MapLegend": "Légende",
         "Measure": "Mesurer",
+        "Measure3D": "Mesurer",
         "MeasureLineString": "Mesurer une ligne",
         "MeasurePolygon": "Mesurer un polygone",
         "Portal": "Portail",
-        "Print": "Imprimer",
-        "RasterExport": "Exporter l'image",
-        "Reports": "Rapports",
-        "MapExport": "Exporter la carte",
+        "PrintScreen3D": "Export raster",
         "Redlining": "Dessiner",
         "Routing": "Routage",
-        "Share": "Partager",
-        "ThemeSwitcher": "Thèmes",
         "Tools": "Outils",
-        "Bookmark": "Marque-pages",
         "TimeManager": "Ligne du temps",
-        "Settings": "Paramètres"
+        "View3D": "Vue 3D"
       },
       "filter": "Filtrer le menu...",
       "menulabel": "Cartes et outils"
@@ -45,20 +50,19 @@
       "all": "Tous",
       "circleradius": "Rayon du cercle",
       "clearfilter": "Effacer",
-      "enablelayer": "Activer la couche",
       "existinglayer": "La couche existe déjà dans la carte",
-      "filter": "Filtre",
-      "fulltext": "Recherche en plein texte",
-      "invisiblelayer": "Le résultat est sur une couche désactivée",
+      "filter": "Affiner la recherche",
+      "layers": "Couches",
       "limittoarea": "Limiter à la région",
-      "more": "Plus...",
+      "more": "{0} autres résultats",
+      "nodescription": "Pas de description disponible",
       "none": "Aucune",
       "noresults": "Pas de résultats",
+      "placeholder": "Rechercher un lieu ou ajouter une carte...",
+      "places": "Lieus",
       "providerselection": "Services de recherche",
+      "recent": "Recherches récentes",
       "search": "Chercher",
-      "searchall": "Rechercher un lieu ou ajouter une carte...",
-      "searchinprogress": "Recherche en cours",
-      "searchreset": "Réinitialiser la recherche",
       "themelayers": "Couches de thèmes",
       "themes": "Cartes"
     },
@@ -85,7 +89,6 @@
       "discard": "Abandonner les modifications",
       "formeditmode": "Basculer sur la vue formulaire",
       "geomnoadd": "Veuillez utiliser le formulaire d'édition pour ajouter de nouveaux objets à cette couche",
-      "layer": "Couche",
       "limittoextent": "Dans l'étendue de la carte",
       "loadfailed": "Echec du chargement de l'objet",
       "loading": "Chargement en cours...",
@@ -122,6 +125,11 @@
       "terms_label": "Conditions d'utilisation",
       "viewertitle_label": "Page d'accueil"
     },
+    "compare3d": {
+      "clipplane": "Plan d'écrêtage",
+      "compare_objects": "Comparer objets",
+      "toggleall": "Tous"
+    },
     "cookiepopup": {
       "accept": "Accepter",
       "message": "Ce site web utilise des cookies."
@@ -140,10 +148,24 @@
       "scalehint": "Les enregistrements ne sont visibles que sur la carte sous l'échelle 1 :{0}.",
       "title": "Visualiseur Cyclomedia"
     },
-    "dxfexport": {
-      "layers": "Couches",
-      "selectinfo": "Faites glisser un rectangle autour de la région à exporter..",
-      "symbologyscale": "Echelle"
+    "draw3d": {
+      "cone": "Cône",
+      "cuboid": "Cuboïde",
+      "cylinder": "Cylindre",
+      "delete": "Effacer",
+      "drawings": "Dessins",
+      "newgroupprompt": "Ajouter un groupe de dessin",
+      "numericinput": "Entrée numérique",
+      "pick": "Choisir",
+      "position": "Position",
+      "pyramid": "Pyramide",
+      "rotate": "Tourner",
+      "rotation": "Rotation",
+      "scale": "Redimensionner",
+      "sphere": "Sphère",
+      "thescale": "Echelle",
+      "translate": "Déplacer",
+      "wedge": "Coin"
     },
     "editing": {
       "add": "Ajouter",
@@ -169,7 +191,6 @@
       "reallydelete": "Supprimer",
       "relationcommitfailed": "Certaines relations n'ont pas pu être enregistrées. Pour plus de détails consulter le bouton d'informations",
       "select": "Sélectionner",
-      "selectedpicture": "Image sélectionnée",
       "takepicture": "Ajouter une photo",
       "unsavedchanged": "Il y a des modifications non enregistrées. Faut-il quand même quitter la page?"
     },
@@ -220,8 +241,9 @@
       "clipboard": "Copier dans le presse-papiers",
       "download": "Télécharger",
       "export": "Exporter",
-      "exportformat": "Format d'export:",
       "featureReport": "Données de l'objet",
+      "featurecount": "Éléments sélectionnés",
+      "layerall": "Toutes les couches",
       "link": "Lien",
       "noattributes": "Pas d'attribut",
       "noresults": "Pas de résultats pour la position sélectionnée",
@@ -281,6 +303,10 @@
       "visiblefilter": "Filtrer couches invisibles",
       "zoomtolayer": "Zoomer sur la couche"
     },
+    "layertree3d": {
+      "layers": "Couches",
+      "objects": "Objets"
+    },
     "linkfeatureform": {
       "cancel": "Annuler",
       "close": "Fermer",
@@ -302,6 +328,11 @@
     "map": {
       "loading": "Chargement de la carte...",
       "resetrotation": "Réinitialiser la rotation"
+    },
+    "map3d": {
+      "syncview": "Synchroniser la vue",
+      "terrain": "Terrain",
+      "title": "Vue 3D"
     },
     "mapexport": {
       "configuration": "Configuration",
@@ -338,8 +369,10 @@
       "windowtitle": "Légende"
     },
     "measureComponent": {
+      "absolute": "m alt.",
       "areaLabel": "Surface",
       "bearingLabel": "Direction",
+      "ground": "m a.d.s.",
       "imperial": "Impérial",
       "lengthLabel": "Longueur",
       "metric": "Métrique",
@@ -374,6 +407,10 @@
     },
     "print": {
       "atlasfeature": "Objet atlas",
+      "download": "Télécharger",
+      "download_as_onepdf": "en un seul document PDF",
+      "download_as_onezip": "en un seul fichier ZIP",
+      "download_as_single": "en fichiers séparés",
       "format": "Format",
       "grid": "Grille",
       "layout": "Mise en page",
@@ -383,25 +420,22 @@
       "nolayouts": "Il n'y a pas de mise en page disponible pour le thème choisi.",
       "notheme": "Pas de thème sélectionné",
       "output": "Impression",
+      "overlap": "Superposition",
       "pickatlasfeature": "Choisir dans la couche {0}",
       "resolution": "Résolution",
       "rotation": "Rotation",
       "save": "Enregistrer",
       "scale": "Echelle",
+      "series": "Impression en série",
       "submit": "Imprimer",
       "wait": "Veuillez patienter..."
     },
+    "printscreen3d": {
+      "format": "Format",
+      "selectinfo": "Sélectionner une zone sur la carte..."
+    },
     "qtdesignerform": {
       "loading": "Chargement du formulaire..."
-    },
-    "rasterexport": {
-      "format": "Format",
-      "resolution": "Résolution",
-      "scale": "Echelle",
-      "size": "Dimension",
-      "submit": "Exporter",
-      "usersize": "Selectionner sur la carte...",
-      "wait": "Veuillez patienter..."
     },
     "redlining": {
       "border": "Bordure",
@@ -416,6 +450,7 @@
       "draw": "Dessiner",
       "edit": "Editer",
       "ellipse": "Ellipse",
+      "export": "Exporter",
       "freehand": "Dessin à main libre",
       "label": "Texte",
       "layer": "Couche",
@@ -484,16 +519,6 @@
     "scratchdrawing": {
       "finish": "Terminer"
     },
-    "searchbox": {
-      "filter": "Affiner la recherche",
-      "layers": "Cartes",
-      "more": "Plus de résultats",
-      "morelayers": "Plus de résultats disponibles",
-      "nodescription": "Pas de description disponible",
-      "placeholder": "Rechercher un lieu ou ajouter une carte...",
-      "places": "Lieux",
-      "recent": "Recherches récentes"
-    },
     "serviceinfo": {
       "abstract": "Résumé",
       "contactEmail": "Courrier électronique",
@@ -534,7 +559,8 @@
     "themelayerslist": {
       "addlayer": "Ajouter la couche",
       "addlayerstotheme": "Ajouter des couches à la carte",
-      "addselectedlayers": "Ajouter les couches sélectionnées"
+      "addselectedlayers": "Ajouter les couches sélectionnées",
+      "existinglayers": "Les couches suivantes existent déjà dans la carte"
     },
     "themeswitcher": {
       "addlayerstotheme": "Ajouter des couches à la carte",
@@ -613,7 +639,9 @@
     },
     "window": {
       "close": "Fermer",
+      "detach": "Détacher",
       "dock": "Attacher",
+      "embed": "Incorporer",
       "maximize": "Agrandir",
       "minimize": "Minimiser",
       "undock": "Détacher",

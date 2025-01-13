@@ -4,38 +4,43 @@
     "appmenu": {
       "items": {
         "ExternalLink": "",
+        "Bookmark": "Yer işaretleri",
+        "Compare3D": "",
+        "DateTime3D": "",
+        "Editing": "Düzenleme",
+        "Help": "Yardım",
+        "LayerTree": "Katmanlar & Gösterim",
+        "LayerTree3D": "",
+        "MapExport": "Dışarıya ver",
         "MapFilter": "Harita Filtresi",
+        "Print": "Yazdır",
+        "Reports": "",
+        "Settings": "Ayarlar",
+        "Share": "Bağlantı Paylaş",
+        "ThemeSwitcher": "Tema",
         "AttributeTable": "Öznitelik Tablosu",
         "Cyclomedia": "Siklomedya",
-        "DxfExport": "DXF'e Veri Aktar",
-        "Editing": "Düzenleme",
+        "Draw3D": "",
         "FeatureForm": "Obje Formu",
         "FeatureSearch": "Obje Arama",
         "GeometryDigitizer": "Geometri Sayısallaştırıcı",
-        "Help": "Yardım",
         "IdentifyPoint": "Nokta bilgisi al",
         "IdentifyRegion": "Bölgeden Bilgi Al",
         "LayerCatalog": "Katman Kataloğu",
-        "LayerTree": "Katmanlar & Gösterim",
         "Login": "Giriş",
         "Logout": "Çıkış",
         "MapLegend": "Harita Lejandı",
         "Measure": "Ölç",
+        "Measure3D": "",
         "MeasureLineString": "Çizgi Ölç",
         "MeasurePolygon": "Alan Ölç",
         "Portal": "Portal",
-        "Print": "Yazdır",
-        "RasterExport": "Resim Olarak Kaydet",
-        "Reports": "",
-        "MapExport": "Dışarıya ver",
+        "PrintScreen3D": "",
         "Redlining": "Serbest Çizim",
         "Routing": "Navigasyon",
-        "Share": "Bağlantı Paylaş",
-        "ThemeSwitcher": "Tema",
         "Tools": "Harita Araçları",
-        "Bookmark": "Yer işaretleri",
         "TimeManager": "Zaman Yöneticisi",
-        "Settings": "Ayarlar"
+        "View3D": ""
       },
       "filter": "Filtre menüsü...",
       "menulabel": "Harita & Araçlar"
@@ -45,20 +50,19 @@
       "all": "Tümü",
       "circleradius": "Daire yarıçapı",
       "clearfilter": "Temizle",
-      "enablelayer": "Katmanı etkinleştir",
       "existinglayer": "Katman zaten haritada mevcut",
-      "filter": "Filtre",
-      "fulltext": "Tam metin araması",
-      "invisiblelayer": "Sonuç, görünmeyen bir katmanda bulunuyor.",
+      "filter": "Gelişmiş arama",
+      "layers": "",
       "limittoarea": "Bölgeyle sınırla",
-      "more": "Daha fazla sonuç...",
+      "more": "{0} diğer sonuç",
+      "nodescription": "Açıklama yok",
       "none": "Yok",
       "noresults": "Sonuç yok",
+      "placeholder": "Bir yer ara ya da harita ekle...",
+      "places": "",
       "providerselection": "Arama sağlayıcılar",
+      "recent": "Son aramalar",
       "search": "Ara",
-      "searchall": "Bir yer ara ya da harita ekle...",
-      "searchinprogress": "Arama yapılıyor",
-      "searchreset": "Aramayı sıfırla",
       "themelayers": "Tema katmanları",
       "themes": "Temalar"
     },
@@ -85,7 +89,6 @@
       "discard": "Değişiklikleri iptal et",
       "formeditmode": "Seçilen objenin düzenleme formunu aç",
       "geomnoadd": "Bu katmana yeni objeler eklemek için düzenleme formunu kullanın",
-      "layer": "Katman",
       "limittoextent": "Harita sınırlarına getir",
       "loadfailed": "Obje verisi yüklenemedi",
       "loading": "Yükleniyor...",
@@ -122,6 +125,11 @@
       "terms_label": "Kullanım Şartları",
       "viewertitle_label": ""
     },
+    "compare3d": {
+      "clipplane": "",
+      "compare_objects": "",
+      "toggleall": ""
+    },
     "cookiepopup": {
       "accept": "Kabul",
       "message": "Bu web sitesi çerez kullanıyor."
@@ -140,10 +148,24 @@
       "scalehint": "The recordings are only visible on the map below scale 1:{0}.",
       "title": "Cyclomedia Viewer"
     },
-    "dxfexport": {
-      "layers": "Katmanlar",
-      "selectinfo": "Export edilecek alana bir dikdörtgen çizin...",
-      "symbologyscale": "Sembol Ölçeği:"
+    "draw3d": {
+      "cone": "",
+      "cuboid": "",
+      "cylinder": "",
+      "delete": "",
+      "drawings": "",
+      "newgroupprompt": "",
+      "numericinput": "",
+      "pick": "",
+      "position": "",
+      "pyramid": "",
+      "rotate": "",
+      "rotation": "",
+      "scale": "",
+      "sphere": "",
+      "thescale": "",
+      "translate": "",
+      "wedge": ""
     },
     "editing": {
       "add": "Ekle",
@@ -169,7 +191,6 @@
       "reallydelete": "Sil",
       "relationcommitfailed": "Bazı ilişkili kayıtlar güncellenemedi, detay için ipucu ikonunu kontrol ediniz",
       "select": "Seçim",
-      "selectedpicture": "Seçili resim",
       "takepicture": "Fotoğraf çek",
       "unsavedchanged": "Kaydedilmemiş değişiklikler mevcut. Yine de sayfadan ayrılmak istiyor musunuz?"
     },
@@ -220,8 +241,9 @@
       "clipboard": "Panoya kopyala",
       "download": "",
       "export": "Dışarıya aktar",
-      "exportformat": "Dışarı aktarma formatı:",
       "featureReport": "Obje raporu",
+      "featurecount": "",
+      "layerall": "",
       "link": "Bağlantı",
       "noattributes": "Öznitelik yok",
       "noresults": "Seçilen nokta için geçerli bilgi yok",
@@ -281,6 +303,10 @@
       "visiblefilter": "Görünmeyen katmanları filtrele",
       "zoomtolayer": "Katman sınırlarına yaklaş"
     },
+    "layertree3d": {
+      "layers": "",
+      "objects": ""
+    },
     "linkfeatureform": {
       "cancel": "İptal",
       "close": "Kapat",
@@ -302,6 +328,11 @@
     "map": {
       "loading": "Yükleniyor...",
       "resetrotation": "Dönüklüğü sıfırla"
+    },
+    "map3d": {
+      "syncview": "",
+      "terrain": "",
+      "title": ""
     },
     "mapexport": {
       "configuration": "Yapılandırma",
@@ -338,8 +369,10 @@
       "windowtitle": "Lejant"
     },
     "measureComponent": {
+      "absolute": "",
       "areaLabel": "Alan",
       "bearingLabel": "Doğrultu",
+      "ground": "",
       "imperial": "Imperial",
       "lengthLabel": "Uzunluk",
       "metric": "Metrik",
@@ -374,6 +407,10 @@
     },
     "print": {
       "atlasfeature": "Atlas Objesi",
+      "download": "",
+      "download_as_onepdf": "",
+      "download_as_onezip": "",
+      "download_as_single": "",
       "format": "Format",
       "grid": "Karelaj",
       "layout": "Yazdırma düzeni",
@@ -383,25 +420,22 @@
       "nolayouts": "Seçili tema yazdırma işlemini desteklemiyor",
       "notheme": "Tema seçilmedi",
       "output": "Yazıcı çıktısı",
+      "overlap": "",
       "pickatlasfeature": "Katmandan seçiniz: {0}...",
       "resolution": "Çözünürlük",
       "rotation": "Döndürme",
       "save": "",
       "scale": "Ölçek:",
+      "series": "",
       "submit": "Yazdır",
       "wait": "Lütfen bekleyiniz..."
     },
+    "printscreen3d": {
+      "format": "",
+      "selectinfo": ""
+    },
     "qtdesignerform": {
       "loading": "Form yükleniyor..."
-    },
-    "rasterexport": {
-      "format": "Format:",
-      "resolution": "Çözünürlük:",
-      "scale": "Ölçek",
-      "size": "Boyut",
-      "submit": "Ver",
-      "usersize": "Haritadan seç...",
-      "wait": "Lütfen bekleyiniz..."
     },
     "redlining": {
       "border": "Sınır",
@@ -416,6 +450,7 @@
       "draw": "Çiz",
       "edit": "Düzenle",
       "ellipse": "Elips",
+      "export": "",
       "freehand": "Serbest çizim",
       "label": "Etiket",
       "layer": "Katman",
@@ -484,16 +519,6 @@
     "scratchdrawing": {
       "finish": "Bitir"
     },
-    "searchbox": {
-      "filter": "Gelişmiş arama",
-      "layers": "Haritalar",
-      "more": "Daha fazla sonuç",
-      "morelayers": "Kullanılabilir daha fazla sonuç",
-      "nodescription": "Açıklama yok",
-      "placeholder": "Bir yer ara ya da harita ekle...",
-      "places": "Yerler",
-      "recent": "Son aramalar"
-    },
     "serviceinfo": {
       "abstract": "Özet",
       "contactEmail": "Email",
@@ -534,7 +559,8 @@
     "themelayerslist": {
       "addlayer": "Katman ekle",
       "addlayerstotheme": "Geçerli haritaya katman ekle",
-      "addselectedlayers": "Seçili katmanları ekle"
+      "addselectedlayers": "Seçili katmanları ekle",
+      "existinglayers": ""
     },
     "themeswitcher": {
       "addlayerstotheme": "Geçerli haritaya katmanları ekle",
@@ -613,7 +639,9 @@
     },
     "window": {
       "close": "Kapat",
+      "detach": "",
       "dock": "Sabitle",
+      "embed": "",
       "maximize": "Maksimize",
       "minimize": "Minimize",
       "undock": "Çöz",

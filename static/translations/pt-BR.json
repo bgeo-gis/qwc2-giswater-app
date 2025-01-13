@@ -4,38 +4,43 @@
     "appmenu": {
       "items": {
         "ExternalLink": "",
+        "Bookmark": "Bookmark",
+        "Compare3D": "",
+        "DateTime3D": "",
+        "Editing": "Edição",
+        "Help": "Ajuda",
+        "LayerTree": "Camadas & Legendas",
+        "LayerTree3D": "",
+        "MapExport": "Exportar mapa",
         "MapFilter": "",
+        "Print": "Imprimir",
+        "Reports": "",
+        "Settings": "Configurações",
+        "Share": "Compartilhar link",
+        "ThemeSwitcher": "Tema",
         "AttributeTable": "Tabela de atributos",
         "Cyclomedia": "Cyclomedia",
-        "DxfExport": "Exportar DXF",
-        "Editing": "Edição",
+        "Draw3D": "",
         "FeatureForm": "Atributos da feição",
         "FeatureSearch": "Procurar feição",
         "GeometryDigitizer": "",
-        "Help": "Ajuda",
         "IdentifyPoint": "Identificar ponto",
         "IdentifyRegion": "Identificar região",
         "LayerCatalog": "Catálogo de camadas",
-        "LayerTree": "Camadas & Legendas",
         "Login": "Inicio da sessão",
         "Logout": "Fim da sessão",
         "MapLegend": "Legenda do mapa",
         "Measure": "Medir",
+        "Measure3D": "",
         "MeasureLineString": "Medir uma linha",
         "MeasurePolygon": "Medir um polígono",
         "Portal": "",
-        "Print": "Imprimir",
-        "RasterExport": "Exportar imagem",
-        "Reports": "",
-        "MapExport": "Exportar mapa",
+        "PrintScreen3D": "",
         "Redlining": "Linha de demarcação",
         "Routing": "Roteamento",
-        "Share": "Compartilhar link",
-        "ThemeSwitcher": "Tema",
         "Tools": "Ferramentas de mapa",
-        "Bookmark": "Bookmark",
         "TimeManager": "Gerenciador de tempo",
-        "Settings": "Configurações"
+        "View3D": ""
       },
       "filter": "Filtro",
       "menulabel": "Mapas & Ferramentas"
@@ -45,20 +50,19 @@
       "all": "Todos",
       "circleradius": "",
       "clearfilter": "",
-      "enablelayer": "Ativar a camada",
       "existinglayer": "A camada já existe no mapa",
-      "filter": "",
-      "fulltext": "",
-      "invisiblelayer": "O resultado reside numa camada que não é visível.",
+      "filter": "Refinar a procura",
+      "layers": "",
       "limittoarea": "",
-      "more": "Mais...",
+      "more": "{0} mais resultados",
+      "nodescription": "Não há descrição disponível",
       "none": "",
       "noresults": "Sem resultados",
+      "placeholder": "Procurar local ou adicionar mapa...",
+      "places": "",
       "providerselection": "Escolher o provedor",
+      "recent": "Pesquisas recentes",
       "search": "Pesquisa",
-      "searchall": "Procurar lugares ou adicionar mapas...",
-      "searchinprogress": "Busca em andamento...",
-      "searchreset": "Redefinir pesquisa",
       "themelayers": "",
       "themes": "Temas"
     },
@@ -85,7 +89,6 @@
       "discard": "Descartar",
       "formeditmode": "Modo de edição de forma",
       "geomnoadd": "Geometria não adicionada",
-      "layer": "Camada",
       "limittoextent": "",
       "loadfailed": "Falha ao carregar",
       "loading": "Carregando",
@@ -122,6 +125,11 @@
       "terms_label": "Termos de uso",
       "viewertitle_label": "QWC2 Demo"
     },
+    "compare3d": {
+      "clipplane": "",
+      "compare_objects": "",
+      "toggleall": ""
+    },
     "cookiepopup": {
       "accept": "",
       "message": ""
@@ -140,10 +148,24 @@
       "scalehint": "Indicação de escala",
       "title": "Titulo"
     },
-    "dxfexport": {
-      "layers": "Camada",
-      "selectinfo": "Arraste um retângulo ao redor da região para exportar",
-      "symbologyscale": "Escala de simbologia"
+    "draw3d": {
+      "cone": "",
+      "cuboid": "",
+      "cylinder": "",
+      "delete": "",
+      "drawings": "",
+      "newgroupprompt": "",
+      "numericinput": "",
+      "pick": "",
+      "position": "",
+      "pyramid": "",
+      "rotate": "",
+      "rotation": "",
+      "scale": "",
+      "sphere": "",
+      "thescale": "",
+      "translate": "",
+      "wedge": ""
     },
     "editing": {
       "add": "Adicionar",
@@ -169,7 +191,6 @@
       "reallydelete": "Excluir",
       "relationcommitfailed": "Falha na confirmação",
       "select": "Selecione",
-      "selectedpicture": "Imagem selecionada",
       "takepicture": "Selecionar imagem",
       "unsavedchanged": "Alterações não salvas"
     },
@@ -220,8 +241,9 @@
       "clipboard": "",
       "download": "",
       "export": "Exportação",
-      "exportformat": "Formato de exportação",
       "featureReport": "Relatório de recurso",
+      "featurecount": "",
+      "layerall": "",
       "link": "Link",
       "noattributes": "Sem atributos",
       "noresults": "Nenhuma informação disponível para o ponto selecionado",
@@ -281,6 +303,10 @@
       "visiblefilter": "Filtrar camadas invisíveis",
       "zoomtolayer": "Ampliar a camada"
     },
+    "layertree3d": {
+      "layers": "",
+      "objects": ""
+    },
     "linkfeatureform": {
       "cancel": "Cancelar",
       "close": "Fechar",
@@ -302,6 +328,11 @@
     "map": {
       "loading": "Carregar...",
       "resetrotation": "Redefinir rotação"
+    },
+    "map3d": {
+      "syncview": "",
+      "terrain": "",
+      "title": ""
     },
     "mapexport": {
       "configuration": "Configuração",
@@ -338,8 +369,10 @@
       "windowtitle": "Titulo da janela"
     },
     "measureComponent": {
+      "absolute": "",
       "areaLabel": "Área",
       "bearingLabel": "Direção",
+      "ground": "",
       "imperial": "Imperial",
       "lengthLabel": "Distância",
       "metric": "Métrica",
@@ -374,6 +407,10 @@
     },
     "print": {
       "atlasfeature": "Feições do atlas",
+      "download": "",
+      "download_as_onepdf": "",
+      "download_as_onezip": "",
+      "download_as_single": "",
       "format": "Formato",
       "grid": "Grade",
       "layout": "Layout",
@@ -383,25 +420,22 @@
       "nolayouts": "O tema selecionado não suporta impressão",
       "notheme": "Nenhum tema selecionado",
       "output": "Saída de impressão",
+      "overlap": "",
       "pickatlasfeature": "",
       "resolution": "Resolução",
       "rotation": "Rotação",
       "save": "",
       "scale": "Escala",
+      "series": "",
       "submit": "Imprimir",
       "wait": "Aguarde..."
     },
+    "printscreen3d": {
+      "format": "",
+      "selectinfo": ""
+    },
     "qtdesignerform": {
       "loading": "Carregando"
-    },
-    "rasterexport": {
-      "format": "Formato:",
-      "resolution": "Resolução:",
-      "scale": "Escala",
-      "size": "Tamanho",
-      "submit": "Enviar",
-      "usersize": "Medidas do usuário",
-      "wait": "Aguarde"
     },
     "redlining": {
       "border": "Borda",
@@ -416,6 +450,7 @@
       "draw": "Traçar",
       "edit": "Editar",
       "ellipse": "Elipse",
+      "export": "",
       "freehand": "Desenho à mão livre ",
       "label": "Etiqueta",
       "layer": "Camada",
@@ -484,16 +519,6 @@
     "scratchdrawing": {
       "finish": "Terminar"
     },
-    "searchbox": {
-      "filter": "Refinar a procura",
-      "layers": "Mapas",
-      "more": "Mais resultados",
-      "morelayers": "Mais resultados disponíveis",
-      "nodescription": "Não há descrição disponível",
-      "placeholder": "Procurar local ou adicionar mapa...",
-      "places": "Lugares",
-      "recent": "Pesquisas recentes"
-    },
     "serviceinfo": {
       "abstract": "Resumo",
       "contactEmail": "Email",
@@ -534,7 +559,8 @@
     "themelayerslist": {
       "addlayer": "Adicionar camada",
       "addlayerstotheme": "Adicionar camadas ao mapa atual",
-      "addselectedlayers": "Adicionar camadas selecionadas"
+      "addselectedlayers": "Adicionar camadas selecionadas",
+      "existinglayers": ""
     },
     "themeswitcher": {
       "addlayerstotheme": "Adicionar camadas ao mapa atual",
@@ -613,7 +639,9 @@
     },
     "window": {
       "close": "Fechar",
+      "detach": "",
       "dock": "Encaixar",
+      "embed": "",
       "maximize": "Maximizar",
       "minimize": "Minimizar",
       "undock": "Desencaixar",

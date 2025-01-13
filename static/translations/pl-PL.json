@@ -4,38 +4,43 @@
     "appmenu": {
       "items": {
         "ExternalLink": "",
+        "Bookmark": "",
+        "Compare3D": "",
+        "DateTime3D": "",
+        "Editing": "Edycja",
+        "Help": "Pomoc",
+        "LayerTree": "Warstwy i ich legendy",
+        "LayerTree3D": "",
+        "MapExport": "Eksportuj mapę",
         "MapFilter": "",
+        "Print": "Drukuj",
+        "Reports": "",
+        "Settings": "",
+        "Share": "Udostępnij Link",
+        "ThemeSwitcher": "Motyw",
         "AttributeTable": "",
         "Cyclomedia": "",
-        "DxfExport": "Eksport DXF",
-        "Editing": "Edycja",
+        "Draw3D": "",
         "FeatureForm": "",
         "FeatureSearch": "",
         "GeometryDigitizer": "",
-        "Help": "Pomoc",
         "IdentifyPoint": "",
         "IdentifyRegion": "Identifikuj Obszar",
         "LayerCatalog": "",
-        "LayerTree": "Warstwy i ich legendy",
         "Login": "Zaloguj",
         "Logout": "Wyloguj",
         "MapLegend": "",
         "Measure": "Pomiary",
+        "Measure3D": "",
         "MeasureLineString": "Zmierzyć linię",
         "MeasurePolygon": "Zmierzyć wielokąt",
         "Portal": "",
-        "Print": "Drukuj",
-        "RasterExport": "Eksport Rastra",
-        "Reports": "",
-        "MapExport": "Eksportuj mapę",
+        "PrintScreen3D": "",
         "Redlining": "Redlining",
         "Routing": "",
-        "Share": "Udostępnij Link",
-        "ThemeSwitcher": "Motyw",
         "Tools": "Narzędzia Mapy",
-        "Bookmark": "",
         "TimeManager": "",
-        "Settings": ""
+        "View3D": ""
       },
       "filter": "",
       "menulabel": "Zawartość mapy i narzędzia"
@@ -45,20 +50,19 @@
       "all": "Wszystko",
       "circleradius": "",
       "clearfilter": "",
-      "enablelayer": "Włącz warstwę",
       "existinglayer": "",
       "filter": "",
-      "fulltext": "",
-      "invisiblelayer": "Wynik znajduje się na warstwie, która nie jest widoczna.",
+      "layers": "",
       "limittoarea": "",
-      "more": "Więcej...",
+      "more": "",
+      "nodescription": "",
       "none": "",
       "noresults": "",
+      "placeholder": "",
+      "places": "",
       "providerselection": "",
+      "recent": "",
       "search": "Szukaj",
-      "searchall": "Szukaj miejsc lub dodaj mapy...",
-      "searchinprogress": "",
-      "searchreset": "",
       "themelayers": "",
       "themes": "Motywy"
     },
@@ -85,7 +89,6 @@
       "discard": "",
       "formeditmode": "",
       "geomnoadd": "",
-      "layer": "",
       "limittoextent": "",
       "loadfailed": "",
       "loading": "",
@@ -122,6 +125,11 @@
       "terms_label": "Warunki korzystania",
       "viewertitle_label": ""
     },
+    "compare3d": {
+      "clipplane": "",
+      "compare_objects": "",
+      "toggleall": ""
+    },
     "cookiepopup": {
       "accept": "",
       "message": ""
@@ -140,10 +148,24 @@
       "scalehint": "",
       "title": ""
     },
-    "dxfexport": {
-      "layers": "",
-      "selectinfo": "Narysuj prostokąt, określając obszar do eksportu...",
-      "symbologyscale": "Skala symbolizacji:"
+    "draw3d": {
+      "cone": "",
+      "cuboid": "",
+      "cylinder": "",
+      "delete": "",
+      "drawings": "",
+      "newgroupprompt": "",
+      "numericinput": "",
+      "pick": "",
+      "position": "",
+      "pyramid": "",
+      "rotate": "",
+      "rotation": "",
+      "scale": "",
+      "sphere": "",
+      "thescale": "",
+      "translate": "",
+      "wedge": ""
     },
     "editing": {
       "add": "",
@@ -169,7 +191,6 @@
       "reallydelete": "Usuń",
       "relationcommitfailed": "",
       "select": "Zaznacz",
-      "selectedpicture": "",
       "takepicture": "",
       "unsavedchanged": ""
     },
@@ -220,8 +241,9 @@
       "clipboard": "",
       "download": "",
       "export": "Eksport",
-      "exportformat": "",
       "featureReport": "Feature report",
+      "featurecount": "",
+      "layerall": "",
       "link": "Link",
       "noattributes": "Brak atrybutów",
       "noresults": "Brak dostępnych danych dla wybranego punktu",
@@ -281,6 +303,10 @@
       "visiblefilter": "",
       "zoomtolayer": ""
     },
+    "layertree3d": {
+      "layers": "",
+      "objects": ""
+    },
     "linkfeatureform": {
       "cancel": "",
       "close": "",
@@ -302,6 +328,11 @@
     "map": {
       "loading": "Ładowanie...",
       "resetrotation": ""
+    },
+    "map3d": {
+      "syncview": "",
+      "terrain": "",
+      "title": ""
     },
     "mapexport": {
       "configuration": "",
@@ -338,8 +369,10 @@
       "windowtitle": ""
     },
     "measureComponent": {
+      "absolute": "",
       "areaLabel": "Obszar",
       "bearingLabel": "Bearing",
+      "ground": "",
       "imperial": "",
       "lengthLabel": "Odległość",
       "metric": "",
@@ -374,6 +407,10 @@
     },
     "print": {
       "atlasfeature": "",
+      "download": "",
+      "download_as_onepdf": "",
+      "download_as_onezip": "",
+      "download_as_single": "",
       "format": "Format",
       "grid": "Siatka",
       "layout": "Layout",
@@ -383,25 +420,22 @@
       "nolayouts": "Wybrany motyw nie umożliwia drukowania",
       "notheme": "Brak wybranego motywu",
       "output": "Drukuj output",
+      "overlap": "",
       "pickatlasfeature": "",
       "resolution": "Rozdzielczość",
       "rotation": "Obrót",
       "save": "",
       "scale": "Skala",
+      "series": "",
       "submit": "Drukuj",
       "wait": "Proszę czekać..."
     },
+    "printscreen3d": {
+      "format": "",
+      "selectinfo": ""
+    },
     "qtdesignerform": {
       "loading": ""
-    },
-    "rasterexport": {
-      "format": "Format:",
-      "resolution": "Rozdzielczość:",
-      "scale": "",
-      "size": "",
-      "submit": "",
-      "usersize": "",
-      "wait": ""
     },
     "redlining": {
       "border": "Obramowanie",
@@ -416,6 +450,7 @@
       "draw": "Rysuj",
       "edit": "Edytuj",
       "ellipse": "",
+      "export": "",
       "freehand": "",
       "label": "Etykieta",
       "layer": "Warstwa",
@@ -484,16 +519,6 @@
     "scratchdrawing": {
       "finish": ""
     },
-    "searchbox": {
-      "filter": "",
-      "layers": "",
-      "more": "",
-      "morelayers": "",
-      "nodescription": "",
-      "placeholder": "",
-      "places": "",
-      "recent": ""
-    },
     "serviceinfo": {
       "abstract": "",
       "contactEmail": "",
@@ -534,7 +559,8 @@
     "themelayerslist": {
       "addlayer": "",
       "addlayerstotheme": "",
-      "addselectedlayers": ""
+      "addselectedlayers": "",
+      "existinglayers": ""
     },
     "themeswitcher": {
       "addlayerstotheme": "",
@@ -613,7 +639,9 @@
     },
     "window": {
       "close": "",
+      "detach": "",
       "dock": "",
+      "embed": "",
       "maximize": "",
       "minimize": "",
       "undock": "",

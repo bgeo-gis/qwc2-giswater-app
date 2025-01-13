@@ -4,38 +4,43 @@
     "appmenu": {
       "items": {
         "ExternalLink": "",
+        "Bookmark": "Lesezeichen",
+        "Compare3D": "Vergleichen",
+        "DateTime3D": "Datum und Zeit",
+        "Editing": "Editieren",
+        "Help": "Hilfe",
+        "LayerTree": "Ebenen und Legende",
+        "LayerTree3D": "Ebenen",
+        "MapExport": "Karte exportieren",
         "MapFilter": "Kartenfilter",
+        "Print": "Drucken",
+        "Reports": "Berichte",
+        "Settings": "Einstellungen",
+        "Share": "Teilen",
+        "ThemeSwitcher": "Themen",
         "AttributeTable": "Attributtabelle",
         "Cyclomedia": "Cyclomedia",
-        "DxfExport": "DXF-Export",
-        "Editing": "Editieren",
+        "Draw3D": "Zeichnen",
         "FeatureForm": "Objektformular",
         "FeatureSearch": "Objektsuche",
         "GeometryDigitizer": "Geometriedigitalisierung",
-        "Help": "Hilfe",
         "IdentifyPoint": "Punkt abfragen",
         "IdentifyRegion": "Region abfragen",
         "LayerCatalog": "Ebenenkatalog",
-        "LayerTree": "Ebenen und Legende",
         "Login": "Anmelden",
         "Logout": "Abmelden",
         "MapLegend": "Legende",
         "Measure": "Messen",
+        "Measure3D": "Messen",
         "MeasureLineString": "Messen Linie",
         "MeasurePolygon": "Messen Polygon",
         "Portal": "Portal",
-        "Print": "Drucken",
-        "RasterExport": "Raster-Export",
-        "Reports": "Berichte",
-        "MapExport": "Karte exportieren",
+        "PrintScreen3D": "Raster Export",
         "Redlining": "Zeichnen",
         "Routing": "Routing",
-        "Share": "Teilen",
-        "ThemeSwitcher": "Themen",
         "Tools": "Werkzeuge",
-        "Bookmark": "Lesezeichen",
         "TimeManager": "Zeitleiste",
-        "Settings": "Einstellungen"
+        "View3D": "3D Ansicht"
       },
       "filter": "Menü filtern...",
       "menulabel": "Karte & Werkzeuge"
@@ -45,20 +50,19 @@
       "all": "Alle",
       "circleradius": "Kreis radius",
       "clearfilter": "Zurücksetzen",
-      "enablelayer": "Ebene einschalten",
       "existinglayer": "Die Ebene existiert bereits in der Karte",
-      "filter": "Filter",
-      "fulltext": "Volltextsuche",
-      "invisiblelayer": "Das Resultat liegt auf einer Ebene, die ausgeschaltet ist.",
+      "filter": "Suche verfeinern",
+      "layers": "Ebenen",
       "limittoarea": "Auf Fläche begrenzen",
-      "more": "Mehr...",
+      "more": "{0} weitere Treffer",
+      "nodescription": "Keine Beschreibung verfügbar",
       "none": "Keine",
       "noresults": "Keine Ergebnisse",
+      "placeholder": "Ort suchen oder Karte hinzufügen...",
+      "places": "Orte",
       "providerselection": "Suchdienste",
+      "recent": "Zuletzt gesucht",
       "search": "Suchen",
-      "searchall": "Ort suchen oder Karte hinzufügen...",
-      "searchinprogress": "Suche läuft",
-      "searchreset": "Suche zurücksetzen",
       "themelayers": "Themenebenen",
       "themes": "Themen"
     },
@@ -85,7 +89,6 @@
       "discard": "Geänderte Zeile zurücksetzen",
       "formeditmode": "Ausgewähltes Objekt in der Formularansicht editieren",
       "geomnoadd": "Bitte die Formularansicht verwenden, um neue Objekte für diese Ebene zu erstellen",
-      "layer": "Ebene",
       "limittoextent": "In Kartenausschnitt",
       "loadfailed": "Die Objektdaten konnten nicht geladen werden",
       "loading": "Laden...",
@@ -122,6 +125,11 @@
       "terms_label": "Nutzungsbedingungen",
       "viewertitle_label": ""
     },
+    "compare3d": {
+      "clipplane": "Schnittebene",
+      "compare_objects": "Objekte vergleichen",
+      "toggleall": "Alle"
+    },
     "cookiepopup": {
       "accept": "Akzeptieren",
       "message": "Diese Seite verwendet Cookies."
@@ -140,10 +148,24 @@
       "scalehint": "Die Aufnahmen sind nur ab Massstab 1:{0} auf der Karte sichtbar.",
       "title": "Cyclomedia Viewer"
     },
-    "dxfexport": {
-      "layers": "Ebenen",
-      "selectinfo": "Rechteck um die zu exportierende Region aufziehen",
-      "symbologyscale": "Darstellungsmassstab"
+    "draw3d": {
+      "cone": "Kegel",
+      "cuboid": "Quader",
+      "cylinder": "Zylinder",
+      "delete": "Löschen",
+      "drawings": "Zeichnungen",
+      "newgroupprompt": "Zeichungsgruppe hinzufügen",
+      "numericinput": "Numerische Eingabe",
+      "pick": "Auswählen",
+      "position": "Position",
+      "pyramid": "Pyramide",
+      "rotate": "Rotieren",
+      "rotation": "Rotation",
+      "scale": "Skalieren",
+      "sphere": "Kugel",
+      "thescale": "Skalierung",
+      "translate": "Verschieben",
+      "wedge": "Kegel"
     },
     "editing": {
       "add": "Hinzufügen",
@@ -169,7 +191,6 @@
       "reallydelete": "Löschen",
       "relationcommitfailed": "Einige Relationen konnten nicht gespeichert werden, siehe Tooltips der Icons für mehr Details.",
       "select": "Auswählen",
-      "selectedpicture": "Ausgewähltes Bild",
       "takepicture": "Bild schiessen",
       "unsavedchanged": "Es gibt nicht gespeicherte Änderungen. Soll die Seite trotzdem verlassen werden?"
     },
@@ -220,8 +241,9 @@
       "clipboard": "Nach Zwischenablage kopieren",
       "download": "Herunterladen",
       "export": "Exportieren",
-      "exportformat": "Exportformat",
       "featureReport": "Objektblatt",
+      "featurecount": "Anzahl Objekte",
+      "layerall": "Alle Ebenen",
       "link": "Link",
       "noattributes": "Keine Attribute",
       "noresults": "Keine Resultate an der ausgewählten Position",
@@ -281,6 +303,10 @@
       "visiblefilter": "Unsichtbare Ebenen filtern",
       "zoomtolayer": "Auf den Layer zoomen"
     },
+    "layertree3d": {
+      "layers": "Ebenen",
+      "objects": "Objekte"
+    },
     "linkfeatureform": {
       "cancel": "Abbrechen",
       "close": "Schliessen",
@@ -302,6 +328,11 @@
     "map": {
       "loading": "Karte wird geladen...",
       "resetrotation": "Drehung zurücksetzen"
+    },
+    "map3d": {
+      "syncview": "Ansicht synchronisieren",
+      "terrain": "Gelände",
+      "title": "3D Ansicht"
     },
     "mapexport": {
       "configuration": "Konfiguration",
@@ -338,8 +369,10 @@
       "windowtitle": "Legende"
     },
     "measureComponent": {
+      "absolute": "m ü.M.",
       "areaLabel": "Fläche",
       "bearingLabel": "Richtung",
+      "ground": "m ü.B.",
       "imperial": "Imperial",
       "lengthLabel": "Länge",
       "metric": "Metrisch",
@@ -374,6 +407,10 @@
     },
     "print": {
       "atlasfeature": "Atlasobjekt",
+      "download": "Herunterladen",
+      "download_as_onepdf": "als ein PDF-Dokument",
+      "download_as_onezip": "als ein ZIP-Archiv",
+      "download_as_single": "als einzelne Dateien",
       "format": "Format",
       "grid": "Gitter",
       "layout": "Format",
@@ -383,25 +420,22 @@
       "nolayouts": "Das gewählte Thema stellt keine Druck-Vorlagen zur Verfügung.",
       "notheme": "Kein Thema selektiert",
       "output": "Druckausgabe",
+      "overlap": "Überlappung",
       "pickatlasfeature": "In Ebene {0} auswählen...",
       "resolution": "Auflösung",
       "rotation": "Rotation",
       "save": "Speichern",
       "scale": "Massstab",
+      "series": "Seriendruck",
       "submit": "Erzeugen",
       "wait": "Bitte warten..."
     },
+    "printscreen3d": {
+      "format": "Exportformat",
+      "selectinfo": "Bereich in der Karte auswählen..."
+    },
     "qtdesignerform": {
       "loading": "Formular wird geladen..."
-    },
-    "rasterexport": {
-      "format": "Format",
-      "resolution": "Auflösung",
-      "scale": "Massstab",
-      "size": "Dimensionen",
-      "submit": "Exportieren",
-      "usersize": "Auf Karte auswählen...",
-      "wait": "Bitte warten..."
     },
     "redlining": {
       "border": "Rand",
@@ -416,6 +450,7 @@
       "draw": "Zeichnen",
       "edit": "Bearbeiten",
       "ellipse": "Ellipse",
+      "export": "Exportieren",
       "freehand": "Freihand",
       "label": "Beschriftung",
       "layer": "Ebene",
@@ -484,16 +519,6 @@
     "scratchdrawing": {
       "finish": "Abschliessen"
     },
-    "searchbox": {
-      "filter": "Suche verfeinern",
-      "layers": "Karten",
-      "more": "weitere Treffer",
-      "morelayers": "Weitere Treffer verfügbar",
-      "nodescription": "Keine Beschreibung verfügbar",
-      "placeholder": "Ort suchen oder Karte hinzufügen...",
-      "places": "Orte",
-      "recent": "Zuletzt gesucht"
-    },
     "serviceinfo": {
       "abstract": "Zusammenfassung",
       "contactEmail": "Email",
@@ -534,7 +559,8 @@
     "themelayerslist": {
       "addlayer": "Layer hinzufügen",
       "addlayerstotheme": "Ebenen der Karte hinzufügen",
-      "addselectedlayers": "Selektierte Ebenen hinzufügen"
+      "addselectedlayers": "Selektierte Ebenen hinzufügen",
+      "existinglayers": "Folgende Ebenen sind bereits vorhanden"
     },
     "themeswitcher": {
       "addlayerstotheme": "Ebenen der Karte hinzufügen",
@@ -613,7 +639,9 @@
     },
     "window": {
       "close": "Schliessen",
+      "detach": "Abkoppeln",
       "dock": "Andocken",
+      "embed": "Einbetten",
       "maximize": "Maximieren",
       "minimize": "Minimieren",
       "undock": "Abdocken",

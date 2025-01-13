@@ -4,38 +4,43 @@
     "appmenu": {
       "items": {
         "ExternalLink": "Link extern",
+        "Bookmark": "Marcaj",
+        "Compare3D": "",
+        "DateTime3D": "",
+        "Editing": "Editare",
+        "Help": "Ajutor",
+        "LayerTree": "Straturi & Legendă",
+        "LayerTree3D": "",
+        "MapExport": "",
         "MapFilter": "",
+        "Print": "Tipărire",
+        "Reports": "",
+        "Settings": "Setări",
+        "Share": "Trimite Link",
+        "ThemeSwitcher": "Hărți tematice",
         "AttributeTable": "Tabela de atribute",
         "Cyclomedia": "Cyclomedia",
-        "DxfExport": "Export DXF",
-        "Editing": "Editare",
+        "Draw3D": "",
         "FeatureForm": "Editare atribute",
         "FeatureSearch": "",
         "GeometryDigitizer": "",
-        "Help": "Ajutor",
         "IdentifyPoint": "Interogare punct",
         "IdentifyRegion": "Interogare regiune",
         "LayerCatalog": "Catalog  de straturi",
-        "LayerTree": "Straturi & Legendă",
         "Login": "Conectează-te",
         "Logout": "Deconectează-te",
         "MapLegend": "Legenda",
         "Measure": "Măsoară",
+        "Measure3D": "",
         "MeasureLineString": "Măsoară o linie",
         "MeasurePolygon": "Măsoară un poligon",
         "Portal": "",
-        "Print": "Tipărire",
-        "RasterExport": "Export Raster",
-        "Reports": "",
-        "MapExport": "",
+        "PrintScreen3D": "",
         "Redlining": "Evidențiere",
         "Routing": "Traseu",
-        "Share": "Trimite Link",
-        "ThemeSwitcher": "Hărți tematice",
         "Tools": "Unelte hartă",
-        "Bookmark": "Marcaj",
         "TimeManager": "Informații temporale",
-        "Settings": "Setări"
+        "View3D": ""
       },
       "filter": "",
       "menulabel": "Hărți & Unelte"
@@ -45,20 +50,19 @@
       "all": "Toate",
       "circleradius": "",
       "clearfilter": "",
-      "enablelayer": "Activare strat",
       "existinglayer": "Stratul există deja în hartă",
-      "filter": "",
-      "fulltext": "",
-      "invisiblelayer": "Rezultatul este într-un strat invizibil",
+      "filter": "Filtrare căutare",
+      "layers": "",
       "limittoarea": "",
-      "more": "Mai multe...",
+      "more": "{0} alte rezultate",
+      "nodescription": "Nicio descriere disponibilă",
       "none": "",
       "noresults": "Niciun rezultat",
+      "placeholder": "Caută locație sau adaugă hartă",
+      "places": "",
       "providerselection": "Selectare furnizor",
+      "recent": "Căutări recente",
       "search": "Caută",
-      "searchall": "Caută sau adaugă în hartă...",
-      "searchinprogress": "Căutare în progres",
-      "searchreset": "Resetează căutarea",
       "themelayers": "",
       "themes": "Hărți tematice"
     },
@@ -85,7 +89,6 @@
       "discard": "Renunță",
       "formeditmode": "Deschide formularul de editare pentru obiecte spațiale selectate",
       "geomnoadd": "Vă rugăm să folosiți formularul de editare pentru adăugarea de noi obiecte spațiale",
-      "layer": "Strat",
       "limittoextent": "",
       "loadfailed": "Încărcarea a eșuat",
       "loading": "Se încarcă",
@@ -122,6 +125,11 @@
       "terms_label": "Termeni de utilizare",
       "viewertitle_label": "Despre"
     },
+    "compare3d": {
+      "clipplane": "",
+      "compare_objects": "",
+      "toggleall": ""
+    },
     "cookiepopup": {
       "accept": "",
       "message": ""
@@ -140,10 +148,24 @@
       "scalehint": "Înregistrările sunt vizibile pe hartă doar la scara 1:{0} sau mai mare",
       "title": "Informații Cyclomedia"
     },
-    "dxfexport": {
-      "layers": "Straturi",
-      "selectinfo": "Încadrați într-un dreptunghi zona de exportat..",
-      "symbologyscale": "Scara simbolurilor"
+    "draw3d": {
+      "cone": "",
+      "cuboid": "",
+      "cylinder": "",
+      "delete": "",
+      "drawings": "",
+      "newgroupprompt": "",
+      "numericinput": "",
+      "pick": "",
+      "position": "",
+      "pyramid": "",
+      "rotate": "",
+      "rotation": "",
+      "scale": "",
+      "sphere": "",
+      "thescale": "",
+      "translate": "",
+      "wedge": ""
     },
     "editing": {
       "add": "Adaugă",
@@ -169,7 +191,6 @@
       "reallydelete": "Șterge",
       "relationcommitfailed": "Salvarea relației a eșuat, vă rugăm să verificați informațiile asociate iconițelor",
       "select": "Selectează",
-      "selectedpicture": "Selectare imagine",
       "takepicture": "Fotografiază",
       "unsavedchanged": "Modificările nu sunt salvate. Doriți să părăsiți pagina oricum?"
     },
@@ -220,8 +241,9 @@
       "clipboard": "Copiere în clipboard",
       "download": "",
       "export": "Export",
-      "exportformat": "Formatul de export:",
       "featureReport": "Raport obiect spațial",
+      "featurecount": "",
+      "layerall": "",
       "link": "Link",
       "noattributes": "Fără atribute",
       "noresults": "Nu există informații în punctul selectat",
@@ -281,6 +303,10 @@
       "visiblefilter": "Filtrează straturile invizibile",
       "zoomtolayer": "Vedeți tot stratul"
     },
+    "layertree3d": {
+      "layers": "",
+      "objects": ""
+    },
     "linkfeatureform": {
       "cancel": "Renunță",
       "close": "Închide",
@@ -302,6 +328,11 @@
     "map": {
       "loading": "Se încarcă...",
       "resetrotation": "Resetează rotația"
+    },
+    "map3d": {
+      "syncview": "",
+      "terrain": "",
+      "title": ""
     },
     "mapexport": {
       "configuration": "",
@@ -338,8 +369,10 @@
       "windowtitle": "Legenda"
     },
     "measureComponent": {
+      "absolute": "",
       "areaLabel": "Arie",
       "bearingLabel": "Direcție",
+      "ground": "",
       "imperial": "Mărimi imperiale",
       "lengthLabel": "Lungime",
       "metric": "Mărimi metrice",
@@ -374,6 +407,10 @@
     },
     "print": {
       "atlasfeature": "Obiect în atlas",
+      "download": "",
+      "download_as_onepdf": "",
+      "download_as_onezip": "",
+      "download_as_single": "",
       "format": "",
       "grid": "Grid",
       "layout": "Șablon",
@@ -383,25 +420,22 @@
       "nolayouts": "Această temă nu permite tipărirea",
       "notheme": "Nicio temă selectată",
       "output": "Rezultat tipărire",
+      "overlap": "",
       "pickatlasfeature": "Selectare din stratul {0}...",
       "resolution": "Rezoluție",
       "rotation": "Rotație",
       "save": "",
       "scale": "Scară",
+      "series": "",
       "submit": "Tipărește",
       "wait": "Vă rugăm așteptați..."
     },
+    "printscreen3d": {
+      "format": "",
+      "selectinfo": ""
+    },
     "qtdesignerform": {
       "loading": "Formularul se încarcă"
-    },
-    "rasterexport": {
-      "format": "Format",
-      "resolution": "Rezoluție",
-      "scale": "Scara",
-      "size": "Dimensiuni",
-      "submit": "Export",
-      "usersize": "Selectați în hartă...",
-      "wait": "Vă rugăm așteptați..."
     },
     "redlining": {
       "border": "Margine",
@@ -416,6 +450,7 @@
       "draw": "Desenare",
       "edit": "Modifică",
       "ellipse": "Elipsă",
+      "export": "",
       "freehand": "Desen liber",
       "label": "Titlu",
       "layer": "Strat",
@@ -484,16 +519,6 @@
     "scratchdrawing": {
       "finish": "Finalizare"
     },
-    "searchbox": {
-      "filter": "Filtrare căutare",
-      "layers": "Hărți",
-      "more": "mai multe rezultate",
-      "morelayers": "Mai multe rezultate disponibile",
-      "nodescription": "Nicio descriere disponibilă",
-      "placeholder": "Caută locație sau adaugă hartă",
-      "places": "Locații",
-      "recent": "Căutări recente"
-    },
     "serviceinfo": {
       "abstract": "Abstract",
       "contactEmail": "Email",
@@ -534,7 +559,8 @@
     "themelayerslist": {
       "addlayer": "Adaugă strat",
       "addlayerstotheme": "Adaugă strat la hartă",
-      "addselectedlayers": "Adaugă straturile selectate"
+      "addselectedlayers": "Adaugă straturile selectate",
+      "existinglayers": ""
     },
     "themeswitcher": {
       "addlayerstotheme": "Adaugă straturi în hartă",
@@ -613,7 +639,9 @@
     },
     "window": {
       "close": "Închide",
+      "detach": "",
       "dock": "Andocare",
+      "embed": "",
       "maximize": "Maximizează",
       "minimize": "Minimizează",
       "undock": "Anulează andocarea",

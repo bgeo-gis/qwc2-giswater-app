@@ -4,38 +4,43 @@
     "appmenu": {
       "items": {
         "ExternalLink": "",
+        "Bookmark": "",
+        "Compare3D": "",
+        "DateTime3D": "",
+        "Editing": "Redigera",
+        "Help": "Hjälp",
+        "LayerTree": "Lager & teckenförklaring",
+        "LayerTree3D": "",
+        "MapExport": "Exportera karta",
         "MapFilter": "",
+        "Print": "Skriv ut",
+        "Reports": "",
+        "Settings": "",
+        "Share": "Dela länk",
+        "ThemeSwitcher": "Tema",
         "AttributeTable": "",
         "Cyclomedia": "",
-        "DxfExport": "DXF Export",
-        "Editing": "Redigera",
+        "Draw3D": "",
         "FeatureForm": "",
         "FeatureSearch": "",
         "GeometryDigitizer": "",
-        "Help": "Hjälp",
         "IdentifyPoint": "",
         "IdentifyRegion": "Identifiera med område",
         "LayerCatalog": "",
-        "LayerTree": "Lager & teckenförklaring",
         "Login": "Logga in",
         "Logout": "Logga ut",
         "MapLegend": "",
         "Measure": "Mät",
+        "Measure3D": "",
         "MeasureLineString": "Mäta en linje",
         "MeasurePolygon": "Mäta en polygon",
         "Portal": "",
-        "Print": "Skriv ut",
-        "RasterExport": "Raster Export",
-        "Reports": "",
-        "MapExport": "Exportera karta",
+        "PrintScreen3D": "",
         "Redlining": "Rita",
         "Routing": "",
-        "Share": "Dela länk",
-        "ThemeSwitcher": "Tema",
         "Tools": "Kartverktyg",
-        "Bookmark": "",
         "TimeManager": "",
-        "Settings": ""
+        "View3D": ""
       },
       "filter": "",
       "menulabel": "Karta & Verktyg"
@@ -45,20 +50,19 @@
       "all": "",
       "circleradius": "",
       "clearfilter": "",
-      "enablelayer": "",
       "existinglayer": "",
       "filter": "",
-      "fulltext": "",
-      "invisiblelayer": "",
+      "layers": "",
       "limittoarea": "",
-      "more": "Mer",
+      "more": "",
+      "nodescription": "",
       "none": "",
       "noresults": "",
+      "placeholder": "",
+      "places": "",
       "providerselection": "",
+      "recent": "",
       "search": "",
-      "searchall": "",
-      "searchinprogress": "",
-      "searchreset": "",
       "themelayers": "",
       "themes": ""
     },
@@ -85,7 +89,6 @@
       "discard": "",
       "formeditmode": "",
       "geomnoadd": "",
-      "layer": "",
       "limittoextent": "",
       "loadfailed": "",
       "loading": "",
@@ -122,6 +125,11 @@
       "terms_label": "Villkor",
       "viewertitle_label": "QWC2 Demo"
     },
+    "compare3d": {
+      "clipplane": "",
+      "compare_objects": "",
+      "toggleall": ""
+    },
     "cookiepopup": {
       "accept": "",
       "message": ""
@@ -140,10 +148,24 @@
       "scalehint": "",
       "title": ""
     },
-    "dxfexport": {
-      "layers": "",
-      "selectinfo": "Rita en rektangel runt området som ska exporteras...",
-      "symbologyscale": "Symbolskala:"
+    "draw3d": {
+      "cone": "",
+      "cuboid": "",
+      "cylinder": "",
+      "delete": "",
+      "drawings": "",
+      "newgroupprompt": "",
+      "numericinput": "",
+      "pick": "",
+      "position": "",
+      "pyramid": "",
+      "rotate": "",
+      "rotation": "",
+      "scale": "",
+      "sphere": "",
+      "thescale": "",
+      "translate": "",
+      "wedge": ""
     },
     "editing": {
       "add": "",
@@ -169,7 +191,6 @@
       "reallydelete": "Verkligen radera",
       "relationcommitfailed": "",
       "select": "Välj",
-      "selectedpicture": "",
       "takepicture": "",
       "unsavedchanged": ""
     },
@@ -220,8 +241,9 @@
       "clipboard": "",
       "download": "",
       "export": "Exportera",
-      "exportformat": "",
       "featureReport": "Objektrapport",
+      "featurecount": "",
+      "layerall": "",
       "link": "Länk",
       "noattributes": "Inga attribut",
       "noresults": "Ingen information för vald punkt",
@@ -281,6 +303,10 @@
       "visiblefilter": "",
       "zoomtolayer": ""
     },
+    "layertree3d": {
+      "layers": "",
+      "objects": ""
+    },
     "linkfeatureform": {
       "cancel": "",
       "close": "",
@@ -302,6 +328,11 @@
     "map": {
       "loading": "Laddar...",
       "resetrotation": ""
+    },
+    "map3d": {
+      "syncview": "",
+      "terrain": "",
+      "title": ""
     },
     "mapexport": {
       "configuration": "",
@@ -338,8 +369,10 @@
       "windowtitle": ""
     },
     "measureComponent": {
+      "absolute": "",
       "areaLabel": "Area",
       "bearingLabel": "Bäring",
+      "ground": "",
       "imperial": "",
       "lengthLabel": "Längd",
       "metric": "",
@@ -374,6 +407,10 @@
     },
     "print": {
       "atlasfeature": "",
+      "download": "",
+      "download_as_onepdf": "",
+      "download_as_onezip": "",
+      "download_as_single": "",
       "format": "Format",
       "grid": "Rutnät",
       "layout": "Layout:",
@@ -383,25 +420,22 @@
       "nolayouts": "Valt tema stöder inte utskrift",
       "notheme": "Inget tema valt",
       "output": "Utskrift",
+      "overlap": "",
       "pickatlasfeature": "",
       "resolution": "Upplösning",
       "rotation": "Rotation",
       "save": "",
       "scale": "Skala",
+      "series": "",
       "submit": "Skriv ut",
       "wait": "Vänta..."
     },
+    "printscreen3d": {
+      "format": "",
+      "selectinfo": ""
+    },
     "qtdesignerform": {
       "loading": ""
-    },
-    "rasterexport": {
-      "format": "Format:",
-      "resolution": "Upplösning:",
-      "scale": "",
-      "size": "",
-      "submit": "",
-      "usersize": "",
-      "wait": ""
     },
     "redlining": {
       "border": "Kant",
@@ -416,6 +450,7 @@
       "draw": "Rita",
       "edit": "Redigera",
       "ellipse": "",
+      "export": "",
       "freehand": "",
       "label": "Etikett",
       "layer": "Lager",
@@ -484,16 +519,6 @@
     "scratchdrawing": {
       "finish": ""
     },
-    "searchbox": {
-      "filter": "",
-      "layers": "",
-      "more": "",
-      "morelayers": "",
-      "nodescription": "",
-      "placeholder": "",
-      "places": "",
-      "recent": ""
-    },
     "serviceinfo": {
       "abstract": "",
       "contactEmail": "",
@@ -534,7 +559,8 @@
     "themelayerslist": {
       "addlayer": "",
       "addlayerstotheme": "",
-      "addselectedlayers": ""
+      "addselectedlayers": "",
+      "existinglayers": ""
     },
     "themeswitcher": {
       "addlayerstotheme": "",
@@ -613,7 +639,9 @@
     },
     "window": {
       "close": "",
+      "detach": "",
       "dock": "",
+      "embed": "",
       "maximize": "",
       "minimize": "",
       "undock": "",

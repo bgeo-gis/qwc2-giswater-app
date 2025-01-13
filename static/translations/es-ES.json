@@ -4,38 +4,43 @@
     "appmenu": {
       "items": {
         "ExternalLink": "",
+        "Bookmark": "Marcadores",
+        "Compare3D": "",
+        "DateTime3D": "",
+        "Editing": "Edición",
+        "Help": "Ayuda",
+        "LayerTree": "Capas & Leyenda",
+        "LayerTree3D": "",
+        "MapExport": "Exportar mapa",
         "MapFilter": "",
+        "Print": "Imprimir",
+        "Reports": "",
+        "Settings": "Opciones",
+        "Share": "Compartir enlace",
+        "ThemeSwitcher": "Tema",
         "AttributeTable": "Tabla de Atributos",
         "Cyclomedia": "",
-        "DxfExport": "Exportar DXF",
-        "Editing": "Edición",
+        "Draw3D": "",
         "FeatureForm": "Formulario de Elemento",
         "FeatureSearch": "",
         "GeometryDigitizer": "",
-        "Help": "Ayuda",
         "IdentifyPoint": "Identificar punto",
         "IdentifyRegion": "Identificar zona",
         "LayerCatalog": "Capa catálogo",
-        "LayerTree": "Capas & Leyenda",
         "Login": "Inicio de sesión",
         "Logout": "Cierre de sesión",
         "MapLegend": "Leyenda",
         "Measure": "Medida",
+        "Measure3D": "",
         "MeasureLineString": "Medir una línea",
         "MeasurePolygon": "Medir un polígono",
         "Portal": "",
-        "Print": "Imprimir",
-        "RasterExport": "Exportar trama",
-        "Reports": "",
-        "MapExport": "Exportar mapa",
+        "PrintScreen3D": "",
         "Redlining": "Línea de demarcación",
         "Routing": "Routing",
-        "Share": "Compartir enlace",
-        "ThemeSwitcher": "Tema",
         "Tools": "Herramientas de Mapa",
-        "Bookmark": "Marcadores",
         "TimeManager": "Gestor de Tiempo",
-        "Settings": "Opciones"
+        "View3D": ""
       },
       "filter": "Menú de filtros...",
       "menulabel": "Mapa & Herramientas"
@@ -45,20 +50,19 @@
       "all": "Todo",
       "circleradius": "",
       "clearfilter": "",
-      "enablelayer": "Habilitar capa",
       "existinglayer": "La capa ya existe en el mapa",
-      "filter": "",
-      "fulltext": "",
-      "invisiblelayer": "El resultado se encuentra en una capa no visible",
+      "filter": "Refinar búsqueda",
+      "layers": "",
       "limittoarea": "",
-      "more": "Más...",
+      "more": "{0} más resultados",
+      "nodescription": "No hay descripción disponible",
       "none": "",
       "noresults": "Sin resultados",
+      "placeholder": "Busque un lugar o agregue mapa",
+      "places": "",
       "providerselection": "Proveedores de búsqueda",
+      "recent": "Búsquedas recientes",
       "search": "Buscar",
-      "searchall": "Buscar lugares o agregar mapas...",
-      "searchinprogress": "Buscando...",
-      "searchreset": "Reiniciar búsqueda",
       "themelayers": "",
       "themes": "Temas"
     },
@@ -85,7 +89,6 @@
       "discard": "Descartar fila modificada",
       "formeditmode": "Abrir el formulario de edición del elemento seleccionado",
       "geomnoadd": "Por favor use el formulario de edición para añadir elementos a esta capa",
-      "layer": "Capa",
       "limittoextent": "",
       "loadfailed": "No se han podido cargar los datos del elemento",
       "loading": "Cargando...",
@@ -122,6 +125,11 @@
       "terms_label": "Términos de uso",
       "viewertitle_label": ""
     },
+    "compare3d": {
+      "clipplane": "",
+      "compare_objects": "",
+      "toggleall": ""
+    },
     "cookiepopup": {
       "accept": "",
       "message": ""
@@ -140,10 +148,24 @@
       "scalehint": "",
       "title": ""
     },
-    "dxfexport": {
-      "layers": "Capas",
-      "selectinfo": "Arrastre un rectángulo alrededor de la zona para exportar...",
-      "symbologyscale": "Escala de la simbología:"
+    "draw3d": {
+      "cone": "",
+      "cuboid": "",
+      "cylinder": "",
+      "delete": "",
+      "drawings": "",
+      "newgroupprompt": "",
+      "numericinput": "",
+      "pick": "",
+      "position": "",
+      "pyramid": "",
+      "rotate": "",
+      "rotation": "",
+      "scale": "",
+      "sphere": "",
+      "thescale": "",
+      "translate": "",
+      "wedge": ""
     },
     "editing": {
       "add": "Añadir",
@@ -169,7 +191,6 @@
       "reallydelete": "Borrar",
       "relationcommitfailed": "Algunos valores de las relaciones no han podido guardarse, verifique los tooltips de los iconos para más detalles",
       "select": "Seleccionar",
-      "selectedpicture": "Imagen seleccionada",
       "takepicture": "Tomar fotografía",
       "unsavedchanged": "Hay cambios sin guardar. Quieres salir de la página sin guardar?"
     },
@@ -220,8 +241,9 @@
       "clipboard": "",
       "download": "",
       "export": "Exportar",
-      "exportformat": "Exportar formato",
       "featureReport": "Informe del elemento",
+      "featurecount": "",
+      "layerall": "",
       "link": "Link",
       "noattributes": "Sin atributos",
       "noresults": "Sin información disponible sobre el punto seleccionado",
@@ -281,6 +303,10 @@
       "visiblefilter": "Filtrar capas no visibles",
       "zoomtolayer": "Zoom a la capa"
     },
+    "layertree3d": {
+      "layers": "",
+      "objects": ""
+    },
     "linkfeatureform": {
       "cancel": "Cancelar",
       "close": "Cerrar",
@@ -302,6 +328,11 @@
     "map": {
       "loading": "Cargando...",
       "resetrotation": "Reiniciar rotación"
+    },
+    "map3d": {
+      "syncview": "",
+      "terrain": "",
+      "title": ""
     },
     "mapexport": {
       "configuration": "",
@@ -338,8 +369,10 @@
       "windowtitle": "Leyenda"
     },
     "measureComponent": {
+      "absolute": "",
       "areaLabel": "Area",
       "bearingLabel": "Dirección",
+      "ground": "",
       "imperial": "",
       "lengthLabel": "Longitud",
       "metric": "",
@@ -374,6 +407,10 @@
     },
     "print": {
       "atlasfeature": "",
+      "download": "",
+      "download_as_onepdf": "",
+      "download_as_onezip": "",
+      "download_as_single": "",
       "format": "Formato:",
       "grid": "Grilla:",
       "layout": "Diseño:",
@@ -383,25 +420,22 @@
       "nolayouts": "El tema seleccionado no admite su impresión",
       "notheme": "No hay tema seleccionado",
       "output": "Salida de impresión",
+      "overlap": "",
       "pickatlasfeature": "",
       "resolution": "Resolución",
       "rotation": "Rotación",
       "save": "",
       "scale": "Escala:",
+      "series": "",
       "submit": "Imprimir",
       "wait": "Por favor espere..."
     },
+    "printscreen3d": {
+      "format": "",
+      "selectinfo": ""
+    },
     "qtdesignerform": {
       "loading": "Cargando formulario..."
-    },
-    "rasterexport": {
-      "format": "Formato:",
-      "resolution": "Resolución:",
-      "scale": "",
-      "size": "",
-      "submit": "",
-      "usersize": "",
-      "wait": ""
     },
     "redlining": {
       "border": "Límite",
@@ -416,6 +450,7 @@
       "draw": "Dibujar",
       "edit": "Editar",
       "ellipse": "Elipse",
+      "export": "",
       "freehand": "Dibujo a mano alzada",
       "label": "Etiqueta",
       "layer": "Capa",
@@ -484,16 +519,6 @@
     "scratchdrawing": {
       "finish": "Finalizar"
     },
-    "searchbox": {
-      "filter": "Refinar búsqueda",
-      "layers": "Mapas",
-      "more": "más resultados",
-      "morelayers": "Más resultados disponibles",
-      "nodescription": "No hay descripción disponible",
-      "placeholder": "Busque un lugar o agregue mapa",
-      "places": "Lugares",
-      "recent": "Búsquedas recientes"
-    },
     "serviceinfo": {
       "abstract": "Resumen",
       "contactEmail": "Correo electrónico",
@@ -534,7 +559,8 @@
     "themelayerslist": {
       "addlayer": "Agregar capa",
       "addlayerstotheme": "Agregar capas al mapa actual",
-      "addselectedlayers": "Agregar capa(s) seleccionada(s)"
+      "addselectedlayers": "Agregar capa(s) seleccionada(s)",
+      "existinglayers": ""
     },
     "themeswitcher": {
       "addlayerstotheme": "Agregar capas al mapa actual",
@@ -613,7 +639,9 @@
     },
     "window": {
       "close": "Cerrar",
+      "detach": "",
       "dock": "Acoplar",
+      "embed": "",
       "maximize": "Maximizar",
       "minimize": "Minimizar",
       "undock": "Desacoplar",

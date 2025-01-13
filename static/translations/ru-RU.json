@@ -4,38 +4,43 @@
     "appmenu": {
       "items": {
         "ExternalLink": "",
+        "Bookmark": "",
+        "Compare3D": "",
+        "DateTime3D": "",
+        "Editing": "Правка",
+        "Help": "Помощь",
+        "LayerTree": "Слои и легенда",
+        "LayerTree3D": "",
+        "MapExport": "экспортировать карту",
         "MapFilter": "",
+        "Print": "Печать",
+        "Reports": "",
+        "Settings": "",
+        "Share": "Поделиться ссылкой",
+        "ThemeSwitcher": "Тема",
         "AttributeTable": "",
         "Cyclomedia": "",
-        "DxfExport": "Экспорт в DXF",
-        "Editing": "Правка",
+        "Draw3D": "",
         "FeatureForm": "",
         "FeatureSearch": "",
         "GeometryDigitizer": "",
-        "Help": "Помощь",
         "IdentifyPoint": "",
         "IdentifyRegion": "Определить регион",
         "LayerCatalog": "",
-        "LayerTree": "Слои и легенда",
         "Login": "",
         "Logout": "",
         "MapLegend": "",
         "Measure": "Измерения",
+        "Measure3D": "",
         "MeasureLineString": "измерить линию",
         "MeasurePolygon": "измерить многоугольник",
         "Portal": "",
-        "Print": "Печать",
-        "RasterExport": "Экспорт в растровый Формат бумаги",
-        "Reports": "",
-        "MapExport": "экспортировать карту",
+        "PrintScreen3D": "",
         "Redlining": "Обводка",
         "Routing": "",
-        "Share": "Поделиться ссылкой",
-        "ThemeSwitcher": "Тема",
         "Tools": "Средства картографии",
-        "Bookmark": "",
         "TimeManager": "",
-        "Settings": ""
+        "View3D": ""
       },
       "filter": "",
       "menulabel": "Карта и инструменты"
@@ -45,20 +50,19 @@
       "all": "Всё",
       "circleradius": "",
       "clearfilter": "",
-      "enablelayer": "",
       "existinglayer": "",
       "filter": "",
-      "fulltext": "",
-      "invisiblelayer": "",
+      "layers": "",
       "limittoarea": "",
-      "more": "Больше...",
+      "more": "",
+      "nodescription": "",
       "none": "",
       "noresults": "",
+      "placeholder": "",
+      "places": "",
       "providerselection": "",
+      "recent": "",
       "search": "Поиск",
-      "searchall": "",
-      "searchinprogress": "",
-      "searchreset": "",
       "themelayers": "",
       "themes": ""
     },
@@ -85,7 +89,6 @@
       "discard": "",
       "formeditmode": "",
       "geomnoadd": "",
-      "layer": "",
       "limittoextent": "",
       "loadfailed": "",
       "loading": "",
@@ -122,6 +125,11 @@
       "terms_label": "Условия использования",
       "viewertitle_label": "Домашняя страница"
     },
+    "compare3d": {
+      "clipplane": "",
+      "compare_objects": "",
+      "toggleall": ""
+    },
     "cookiepopup": {
       "accept": "",
       "message": ""
@@ -140,10 +148,24 @@
       "scalehint": "",
       "title": ""
     },
-    "dxfexport": {
-      "layers": "",
-      "selectinfo": "Для экспорта обведите регион многоугольником...",
-      "symbologyscale": "Масштаб символики:"
+    "draw3d": {
+      "cone": "",
+      "cuboid": "",
+      "cylinder": "",
+      "delete": "",
+      "drawings": "",
+      "newgroupprompt": "",
+      "numericinput": "",
+      "pick": "",
+      "position": "",
+      "pyramid": "",
+      "rotate": "",
+      "rotation": "",
+      "scale": "",
+      "sphere": "",
+      "thescale": "",
+      "translate": "",
+      "wedge": ""
     },
     "editing": {
       "add": "",
@@ -169,7 +191,6 @@
       "reallydelete": "Удалить",
       "relationcommitfailed": "",
       "select": "Выберите...",
-      "selectedpicture": "",
       "takepicture": "",
       "unsavedchanged": ""
     },
@@ -220,8 +241,9 @@
       "clipboard": "",
       "download": "",
       "export": "Экспорт",
-      "exportformat": "",
       "featureReport": "Отчёт об объекте",
+      "featurecount": "",
+      "layerall": "",
       "link": "гиперссылка",
       "noattributes": "Аттрибуты отсутствуют",
       "noresults": "Для выбранной точки нет доступной информации",
@@ -281,6 +303,10 @@
       "visiblefilter": "",
       "zoomtolayer": ""
     },
+    "layertree3d": {
+      "layers": "",
+      "objects": ""
+    },
     "linkfeatureform": {
       "cancel": "",
       "close": "",
@@ -302,6 +328,11 @@
     "map": {
       "loading": "Загрузка...",
       "resetrotation": ""
+    },
+    "map3d": {
+      "syncview": "",
+      "terrain": "",
+      "title": ""
     },
     "mapexport": {
       "configuration": "",
@@ -338,8 +369,10 @@
       "windowtitle": ""
     },
     "measureComponent": {
+      "absolute": "",
       "areaLabel": "Площадь",
       "bearingLabel": "Пеленг",
+      "ground": "",
       "imperial": "",
       "lengthLabel": "Длина",
       "metric": "",
@@ -374,6 +407,10 @@
     },
     "print": {
       "atlasfeature": "",
+      "download": "",
+      "download_as_onepdf": "",
+      "download_as_onezip": "",
+      "download_as_single": "",
       "format": "Формат бумаги",
       "grid": "Сетка",
       "layout": "Формат бумаги",
@@ -383,25 +420,22 @@
       "nolayouts": "Выбранная тема не поддерживает печать",
       "notheme": "Тема не выбрана",
       "output": "",
+      "overlap": "",
       "pickatlasfeature": "",
       "resolution": "Разрешение",
       "rotation": "Поворот",
       "save": "",
       "scale": "Масштаб",
+      "series": "",
       "submit": "Печать",
       "wait": ""
     },
+    "printscreen3d": {
+      "format": "",
+      "selectinfo": ""
+    },
     "qtdesignerform": {
       "loading": ""
-    },
-    "rasterexport": {
-      "format": "Формат бумаги:",
-      "resolution": "Разрешение:",
-      "scale": "",
-      "size": "",
-      "submit": "",
-      "usersize": "",
-      "wait": ""
     },
     "redlining": {
       "border": "Граница",
@@ -416,6 +450,7 @@
       "draw": "",
       "edit": "",
       "ellipse": "",
+      "export": "",
       "freehand": "",
       "label": "Надпись",
       "layer": "",
@@ -484,16 +519,6 @@
     "scratchdrawing": {
       "finish": ""
     },
-    "searchbox": {
-      "filter": "",
-      "layers": "",
-      "more": "",
-      "morelayers": "",
-      "nodescription": "",
-      "placeholder": "",
-      "places": "",
-      "recent": ""
-    },
     "serviceinfo": {
       "abstract": "",
       "contactEmail": "",
@@ -534,7 +559,8 @@
     "themelayerslist": {
       "addlayer": "",
       "addlayerstotheme": "",
-      "addselectedlayers": ""
+      "addselectedlayers": "",
+      "existinglayers": ""
     },
     "themeswitcher": {
       "addlayerstotheme": "",
@@ -613,7 +639,9 @@
     },
     "window": {
       "close": "",
+      "detach": "",
       "dock": "",
+      "embed": "",
       "maximize": "",
       "minimize": "",
       "undock": "",

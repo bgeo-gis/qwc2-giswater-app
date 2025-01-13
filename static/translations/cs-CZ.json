@@ -4,38 +4,43 @@
     "appmenu": {
       "items": {
         "ExternalLink": "",
+        "Bookmark": "Záložky",
+        "Compare3D": "",
+        "DateTime3D": "",
+        "Editing": "Úpravy",
+        "Help": "Nápověda",
+        "LayerTree": "Vrstvy & legenda",
+        "LayerTree3D": "",
+        "MapExport": "Export mapu",
         "MapFilter": "",
+        "Print": "Tisk",
+        "Reports": "",
+        "Settings": "Nastavení",
+        "Share": "Sdílet odkaz",
+        "ThemeSwitcher": "Téma",
         "AttributeTable": "Atributy",
         "Cyclomedia": "Cyclomedia",
-        "DxfExport": "DXF Export",
-        "Editing": "Úpravy",
+        "Draw3D": "",
         "FeatureForm": "Editační formulář",
         "FeatureSearch": "",
         "GeometryDigitizer": "",
-        "Help": "Nápověda",
         "IdentifyPoint": "Informace o bodu",
         "IdentifyRegion": "Informace o oblasti",
         "LayerCatalog": "Katalog vrstev",
-        "LayerTree": "Vrstvy & legenda",
         "Login": "Přihlášení",
         "Logout": "Odhlášení",
         "MapLegend": "Legenda",
         "Measure": "Měření",
+        "Measure3D": "",
         "MeasureLineString": "Změřit úsek",
         "MeasurePolygon": "Měřit mnohoúhelník",
         "Portal": "",
-        "Print": "Tisk",
-        "RasterExport": "Export rastru",
-        "Reports": "",
-        "MapExport": "Export mapu",
+        "PrintScreen3D": "",
         "Redlining": "Připomínkování",
         "Routing": "Trasy",
-        "Share": "Sdílet odkaz",
-        "ThemeSwitcher": "Téma",
         "Tools": "Nástroje mapy",
-        "Bookmark": "Záložky",
         "TimeManager": "",
-        "Settings": "Nastavení"
+        "View3D": ""
       },
       "filter": "Hledat v menu...",
       "menulabel": "Mapa & Nástroje"
@@ -45,20 +50,19 @@
       "all": "Vše",
       "circleradius": "",
       "clearfilter": "",
-      "enablelayer": "Zapnout vrstvu",
       "existinglayer": "Vrstva v mapě již existuje",
-      "filter": "",
-      "fulltext": "",
-      "invisiblelayer": "Výsledek je ve vrstvě, která se nezobrazuje.",
+      "filter": "Filtrovat výsledky",
+      "layers": "",
       "limittoarea": "",
-      "more": "Více...",
+      "more": "{0} další výsledky",
+      "nodescription": "",
       "none": "",
       "noresults": "Nenalezeno",
+      "placeholder": "Hledat místo nebo přidat vrstvu...",
+      "places": "",
       "providerselection": "Poskytovatelé vyhledávání",
+      "recent": "Nedávná hledání",
       "search": "Hledat",
-      "searchall": "Najít místo nebo přidat mapu...",
-      "searchinprogress": "Hledání...",
-      "searchreset": "Smazat hledání",
       "themelayers": "",
       "themes": "Témata"
     },
@@ -85,7 +89,6 @@
       "discard": "Zahodit změny v řádku",
       "formeditmode": "Otevřít editační formulář pro vybrané prvky",
       "geomnoadd": "Pro přidání nových prvků do této vrstvy použijte editační formulář",
-      "layer": "Vrstva",
       "limittoextent": "",
       "loadfailed": "Chyba při načítání prvků",
       "loading": "Načítání...",
@@ -122,6 +125,11 @@
       "terms_label": "Podmínky použití",
       "viewertitle_label": ""
     },
+    "compare3d": {
+      "clipplane": "",
+      "compare_objects": "",
+      "toggleall": ""
+    },
     "cookiepopup": {
       "accept": "",
       "message": ""
@@ -140,10 +148,24 @@
       "scalehint": "",
       "title": "Cyclomedia"
     },
-    "dxfexport": {
-      "layers": "Vrstvy",
-      "selectinfo": "Vyberte oblast pro export...",
-      "symbologyscale": "Meřítko symbolů:"
+    "draw3d": {
+      "cone": "",
+      "cuboid": "",
+      "cylinder": "",
+      "delete": "",
+      "drawings": "",
+      "newgroupprompt": "",
+      "numericinput": "",
+      "pick": "",
+      "position": "",
+      "pyramid": "",
+      "rotate": "",
+      "rotation": "",
+      "scale": "",
+      "sphere": "",
+      "thescale": "",
+      "translate": "",
+      "wedge": ""
     },
     "editing": {
       "add": "Přidat",
@@ -169,7 +191,6 @@
       "reallydelete": "Odstranit",
       "relationcommitfailed": "",
       "select": "Vybrat",
-      "selectedpicture": "",
       "takepicture": "",
       "unsavedchanged": ""
     },
@@ -220,8 +241,9 @@
       "clipboard": "Zkopírovat do schránky",
       "download": "",
       "export": "Exportovat",
-      "exportformat": "Formát exportu",
       "featureReport": "Report prvku",
+      "featurecount": "",
+      "layerall": "",
       "link": "Odkaz",
       "noattributes": "Bez atributů",
       "noresults": "V tomto bodu nejsou k dispozici informace o žádném prvku",
@@ -281,6 +303,10 @@
       "visiblefilter": "Skrýt nezobrazující se vrstvy",
       "zoomtolayer": "Vycentrovat na vrstvu"
     },
+    "layertree3d": {
+      "layers": "",
+      "objects": ""
+    },
     "linkfeatureform": {
       "cancel": "",
       "close": "",
@@ -302,6 +328,11 @@
     "map": {
       "loading": "Načítání...",
       "resetrotation": "Obnovit orientaci mapy"
+    },
+    "map3d": {
+      "syncview": "",
+      "terrain": "",
+      "title": ""
     },
     "mapexport": {
       "configuration": "",
@@ -338,8 +369,10 @@
       "windowtitle": "Legenda"
     },
     "measureComponent": {
+      "absolute": "",
       "areaLabel": "Plocha",
       "bearingLabel": "Střed",
+      "ground": "",
       "imperial": "Imperiálně",
       "lengthLabel": "Délka",
       "metric": "Metricky",
@@ -374,6 +407,10 @@
     },
     "print": {
       "atlasfeature": "",
+      "download": "",
+      "download_as_onepdf": "",
+      "download_as_onezip": "",
+      "download_as_single": "",
       "format": "Formát",
       "grid": "Mřížka:",
       "layout": "Rovržení:",
@@ -383,25 +420,22 @@
       "nolayouts": "Vybrané téma nepodporuje tisk",
       "notheme": "Není vybráno téma",
       "output": "",
+      "overlap": "",
       "pickatlasfeature": "",
       "resolution": "Rozlišení",
       "rotation": "Orientace",
       "save": "",
       "scale": "Měřítko",
+      "series": "",
       "submit": "Tisk",
       "wait": "Čekejte..."
     },
+    "printscreen3d": {
+      "format": "",
+      "selectinfo": ""
+    },
     "qtdesignerform": {
       "loading": ""
-    },
-    "rasterexport": {
-      "format": "Formát:",
-      "resolution": "Rozlišení:",
-      "scale": "Měřítko",
-      "size": "Velikost",
-      "submit": "Export",
-      "usersize": "Vybrat na mapě...",
-      "wait": "Čekejte..."
     },
     "redlining": {
       "border": "Okraj",
@@ -416,6 +450,7 @@
       "draw": "",
       "edit": "",
       "ellipse": "",
+      "export": "",
       "freehand": "",
       "label": "Popisek",
       "layer": "Vrstva",
@@ -484,16 +519,6 @@
     "scratchdrawing": {
       "finish": ""
     },
-    "searchbox": {
-      "filter": "Filtrovat výsledky",
-      "layers": "Vrstvy",
-      "more": "další výsledky",
-      "morelayers": "",
-      "nodescription": "",
-      "placeholder": "Hledat místo nebo přidat vrstvu...",
-      "places": "Místa",
-      "recent": "Nedávná hledání"
-    },
     "serviceinfo": {
       "abstract": "Abstrakt",
       "contactEmail": "Kontaktní e-mail",
@@ -534,7 +559,8 @@
     "themelayerslist": {
       "addlayer": "Přidat vrstvu",
       "addlayerstotheme": "Přidat vrstvy do aktuálního tématu",
-      "addselectedlayers": "Přidat vybrané vrstvy"
+      "addselectedlayers": "Přidat vybrané vrstvy",
+      "existinglayers": ""
     },
     "themeswitcher": {
       "addlayerstotheme": "Přidat vrstvy do aktuálního tématu",
@@ -613,7 +639,9 @@
     },
     "window": {
       "close": "Zavřít",
+      "detach": "",
       "dock": "Přichytit",
+      "embed": "",
       "maximize": "Maximalizovat",
       "minimize": "Minimalizovat",
       "undock": "Zrušit přichycení",

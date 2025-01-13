@@ -4,38 +4,43 @@
     "appmenu": {
       "items": {
         "ExternalLink": "Collegamento esterno",
+        "Bookmark": "Segnalibri",
+        "Compare3D": "Confronta",
+        "DateTime3D": "Data e ora",
+        "Editing": "Strumenti di modifica",
+        "Help": "Aiuto",
+        "LayerTree": "Livelli",
+        "LayerTree3D": "Livelli",
+        "MapExport": "Esporta mappa",
         "MapFilter": "Filta mappa",
+        "Print": "Stampa",
+        "Reports": "Rapporti",
+        "Settings": "Impostazioni",
+        "Share": "Condividi",
+        "ThemeSwitcher": "Temi",
         "AttributeTable": "Tabella attributi",
         "Cyclomedia": "Cyclomedia",
-        "DxfExport": "Esporta su DXF",
-        "Editing": "Strumenti di modifica",
+        "Draw3D": "Disegnare",
         "FeatureForm": "Formulario oggetto",
         "FeatureSearch": "Ricerca oggetto",
         "GeometryDigitizer": "Digitalizzazione geometrie",
-        "Help": "Aiuto",
         "IdentifyPoint": "Identifica punto",
         "IdentifyRegion": "Identifica in un poligono",
         "LayerCatalog": "Catalogo livelli",
-        "LayerTree": "Livelli",
         "Login": "Accedi",
         "Logout": "Disconnetti",
         "MapLegend": "Legenda",
         "Measure": "Misura",
+        "Measure3D": "Misura",
         "MeasureLineString": "Misura una linea",
         "MeasurePolygon": "Misura un poligono",
         "Portal": "Portale",
-        "Print": "Stampa",
-        "RasterExport": "Esporta su immagine",
-        "Reports": "Rapporti",
-        "MapExport": "Esporta mappa",
+        "PrintScreen3D": "Esporta raster",
         "Redlining": "Strumenti di disegno",
         "Routing": "Routing",
-        "Share": "Condividi",
-        "ThemeSwitcher": "Temi",
         "Tools": "Strumenti",
-        "Bookmark": "Segnalibri",
         "TimeManager": "Linea temporale",
-        "Settings": "Impostazioni"
+        "View3D": "Vista 3D"
       },
       "filter": "Filtra menù...",
       "menulabel": "Mappa e strumenti"
@@ -45,20 +50,19 @@
       "all": "Tutti",
       "circleradius": "Raggio del cerchio",
       "clearfilter": "Azzera",
-      "enablelayer": "Attivare il livello",
-      "existinglayer": "Il livello esiste già nella mappa",
+      "existinglayer": "Il layer esiste già nella mappa",
       "filter": "Filtro",
-      "fulltext": "Full text",
-      "invisiblelayer": "Il risultato si trova su un livello che non è visibile.",
+      "layers": "Cartine",
       "limittoarea": "Limita a area",
-      "more": "Altri risultati",
+      "more": "{0} ulteriori risultati",
+      "nodescription": "Nessuna descrizione disponibile",
       "none": "Nessuna",
       "noresults": "Nessun risultato",
+      "placeholder": "Cerca luoghi o aggiungi cartina...",
+      "places": "Luoghi",
       "providerselection": "Selezione provider",
+      "recent": "Ricerche recenti",
       "search": "Cerca",
-      "searchall": "Cerca località o aggiungi cartine...",
-      "searchinprogress": "Ricerca in corso...",
-      "searchreset": "Resetta ricerca",
       "themelayers": "Livelli di temi",
       "themes": "Temi"
     },
@@ -85,7 +89,6 @@
       "discard": "Ripristina riga modificata",
       "formeditmode": "Apri il formulario per l'oggetto selezionato",
       "geomnoadd": "Utilizzare il formulario per creare nuovi oggetti per questo livello",
-      "layer": "Livello",
       "limittoextent": "In estensione mappa",
       "loadfailed": "Errore nel caricamento dei dati",
       "loading": "Caricamento...",
@@ -122,6 +125,11 @@
       "terms_label": "Condizioni di uso",
       "viewertitle_label": "QWC2 Demo"
     },
+    "compare3d": {
+      "clipplane": "Piano di taglio",
+      "compare_objects": "Confronta oggetti",
+      "toggleall": "Tutti"
+    },
     "cookiepopup": {
       "accept": "Accetta",
       "message": "Questo sito web utilizza cookie."
@@ -140,10 +148,24 @@
       "scalehint": "Le registrazioni sono solo visibili sulla mappa a partire da una scala di 1:{0}.",
       "title": "Visualizzatore Cyclomedia"
     },
-    "dxfexport": {
-      "layers": "Livelli",
-      "selectinfo": "Seleziona l'area da esportare",
-      "symbologyscale": "Scala per la simbologia"
+    "draw3d": {
+      "cone": "Cono",
+      "cuboid": "Cuboide",
+      "cylinder": "Cilindro",
+      "delete": "Elimina",
+      "drawings": "Disegni",
+      "newgroupprompt": "Nuovo gruppo disegni",
+      "numericinput": "Formulario numerico",
+      "pick": "Seleziona",
+      "position": "Posizione",
+      "pyramid": "Piramide",
+      "rotate": "Ruota",
+      "rotation": "Rotazione",
+      "scale": "Scala",
+      "sphere": "Sfera",
+      "thescale": "Scala",
+      "translate": "Trasla",
+      "wedge": "Cuneo"
     },
     "editing": {
       "add": "Aggiungi",
@@ -169,7 +191,6 @@
       "reallydelete": "Elimina",
       "relationcommitfailed": "Alcune relazioni non sono state salvate, consultare i tooltip delle icone per i dettagli.",
       "select": "Seleziona...",
-      "selectedpicture": "Immagine selezionata",
       "takepicture": "Foto",
       "unsavedchanged": "Vi sono cambiamenti non salvati. Volete comunque lasciare la pagina?"
     },
@@ -220,8 +241,9 @@
       "clipboard": "Copia negli appunti",
       "download": "Scarica",
       "export": "Esporta",
-      "exportformat": "Formato d'esportazione",
       "featureReport": "Oggetto formulario",
+      "featurecount": "Number oggetti",
+      "layerall": "Tutti i livelli",
       "link": "Link",
       "noattributes": "Nessun attributo",
       "noresults": "Nessun risultato",
@@ -281,6 +303,10 @@
       "visiblefilter": "Filtra livelli non visibili",
       "zoomtolayer": "Zoom a tutto il livello"
     },
+    "layertree3d": {
+      "layers": "Livelli",
+      "objects": "Oggetti"
+    },
     "linkfeatureform": {
       "cancel": "Annulla",
       "close": "Chiudi",
@@ -302,6 +328,11 @@
     "map": {
       "loading": "In caricamento...",
       "resetrotation": "Resetta orientamento"
+    },
+    "map3d": {
+      "syncview": "Sincronizza visuale",
+      "terrain": "Terreno",
+      "title": "Visuale 3D"
     },
     "mapexport": {
       "configuration": "Configurazione",
@@ -338,8 +369,10 @@
       "windowtitle": "Legenda"
     },
     "measureComponent": {
+      "absolute": "m s.l.m.",
       "areaLabel": "Area",
       "bearingLabel": "Direzione",
+      "ground": "m s.l.s.",
       "imperial": "Imperiale",
       "lengthLabel": "Lunghezza",
       "metric": "Metrico",
@@ -374,6 +407,10 @@
     },
     "print": {
       "atlasfeature": "Oggetto atlante",
+      "download": "Scarica",
+      "download_as_onepdf": "come singolo file PDF",
+      "download_as_onezip": "come singolo file ZIP",
+      "download_as_single": "come file singoli",
       "format": "Formato",
       "grid": "Griglia",
       "layout": "Layout",
@@ -383,25 +420,22 @@
       "nolayouts": "Nessun layout di stampa",
       "notheme": "Nessun tema selezionato",
       "output": "Stampa",
+      "overlap": "Sovrapposizione",
       "pickatlasfeature": "Seleziona nel livello {1}...",
       "resolution": "Risoluzione",
       "rotation": "Rotazione",
       "save": "Salva",
       "scale": "Scala",
+      "series": "Stampa serie",
       "submit": "Stampa",
       "wait": "Attendere..."
     },
+    "printscreen3d": {
+      "format": "Formato",
+      "selectinfo": "Seleziona l'area sulla mappa..."
+    },
     "qtdesignerform": {
       "loading": "Caricando formulario..."
-    },
-    "rasterexport": {
-      "format": "Formato",
-      "resolution": "Risoluzione",
-      "scale": "Scala",
-      "size": "Dimensione",
-      "submit": "Esporta",
-      "usersize": "Seleziona sulla mappa...",
-      "wait": "Attendere..."
     },
     "redlining": {
       "border": "Bordo",
@@ -416,6 +450,7 @@
       "draw": "Disegna",
       "edit": "Modifica",
       "ellipse": "Ellisse",
+      "export": "Esporta",
       "freehand": "Mano libera",
       "label": "Ettichetta",
       "layer": "Layer",
@@ -484,16 +519,6 @@
     "scratchdrawing": {
       "finish": "Finito"
     },
-    "searchbox": {
-      "filter": "Filtro",
-      "layers": "Livelli",
-      "more": "Altri risultati",
-      "morelayers": "Sono disponibili altri risultati",
-      "nodescription": "Nessuna descrizione disponibile",
-      "placeholder": "Cerca luoghi o aggiungi cartina...",
-      "places": "Luoghi",
-      "recent": "Ricerche recenti"
-    },
     "serviceinfo": {
       "abstract": "Riassunto",
       "contactEmail": "Email",
@@ -534,7 +559,8 @@
     "themelayerslist": {
       "addlayer": "Aggiungi layer",
       "addlayerstotheme": "Aggiungi layer alla mappa corrente",
-      "addselectedlayers": "Aggiungi i layer selezionati"
+      "addselectedlayers": "Aggiungi i layer selezionati",
+      "existinglayers": "I seguenti layer esistono già nella mappa"
     },
     "themeswitcher": {
       "addlayerstotheme": "Aggiungi layer alla mappa corrente",
@@ -613,7 +639,9 @@
     },
     "window": {
       "close": "Chiudi",
+      "detach": "Staccare",
       "dock": "Aggancia",
+      "embed": "Incorporare",
       "maximize": "Massimizza",
       "minimize": "Minimizza",
       "undock": "Sgancia",
