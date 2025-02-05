@@ -12,6 +12,7 @@
         "LayerTree": "Camadas & Legendas",
         "LayerTree3D": "",
         "MapExport": "Exportar mapa",
+        "MapExport3D": "",
         "MapFilter": "",
         "Print": "Imprimir",
         "Reports": "",
@@ -34,13 +35,35 @@
         "Measure3D": "",
         "MeasureLineString": "Medir uma linha",
         "MeasurePolygon": "Medir um polígono",
+        "NewsPopup": "",
         "Portal": "",
         "PrintScreen3D": "",
         "Redlining": "Linha de demarcação",
         "Routing": "Roteamento",
         "Tools": "Ferramentas de mapa",
         "TimeManager": "Gerenciador de tempo",
-        "View3D": ""
+        "View3D": "",
+        "GwTools": "",
+        "GwInfoPoint": "",
+        "GwInfoDma": "",
+        "GwInfoScada": "",
+        "GwProfilePicker": "",
+        "GwSelector": "",
+        "GwFlowtracetrace": "",
+        "GwFlowtraceexit": "",
+        "GwMincutNetwork": "",
+        "GwMincutManager": "",
+        "GwVisitVisit": "",
+        "GwVisitIncidencia": "",
+        "GwDateSelector": "",
+        "GwVisitManager": "",
+        "GwToolbox": "",
+        "NetCDFExplorer": "",
+        "GwHelp": "",
+        "GwParcelFilter": "",
+        "GwSuperset": "",
+        "GwNonVisualObjectsManager": "",
+        "GwEpaSelector": ""
       },
       "filter": "Filtro",
       "menulabel": "Mapas & Ferramentas"
@@ -69,7 +92,10 @@
     "colorschemes": {
       "default": "",
       "dark": "",
-      "highcontrast": ""
+      "highcontrast": "",
+      "giswater": "",
+      "white": "",
+      "transparent": ""
     },
     "app": {
       "missingbg": "Faltando fundo",
@@ -225,12 +251,12 @@
       "wait": ""
     },
     "heightprofile": {
-      "asl": "a.s.l.",
-      "distance": "Distância",
+      "asl": "",
+      "distance": "",
       "drawnodes": "Desenhar nós",
       "error": "Erro",
       "export": "Exportar",
-      "height": "Altura",
+      "height": "",
       "loading": "Calcular o perfil de altura",
       "loadingimage": "",
       "print": "Imprimir",
@@ -246,11 +272,13 @@
       "layerall": "",
       "link": "Link",
       "noattributes": "Sem atributos",
-      "noresults": "Nenhuma informação disponível para o ponto selecionado",
-      "querying": "Consultando...",
+      "noresults": "",
+      "querying": "",
       "reportfail": "",
       "selectlayer": "",
-      "title": "Informação do recurso"
+      "title": "Informação do recurso",
+      "confirmDiscard": "",
+      "confirmSave": ""
     },
     "imageeditor": {
       "confirmclose": "Confirmar fechamento",
@@ -259,6 +287,7 @@
     "importlayer": {
       "addfailed": "Falha ao adicionar",
       "addlayer": "Adicionar camada",
+      "asgroup": "",
       "connect": "Conectar",
       "filter": "Filtro...",
       "loading": "Carregando...",
@@ -266,13 +295,14 @@
       "nofeatures": "Nenhum recurso poder ser importado.",
       "noresults": "Sem resultados ou URL inválido",
       "notgeopdf": "",
+      "shpreprojectionerror": "",
       "supportedformats": "",
       "unknownproj": "",
       "url": "URL",
       "urlplaceholder": "Insira o endereço URL do WMS, WMTS, WFS..."
     },
     "infotool": {
-      "clickhelpPoint": "Clique numa localização para identificar no mapa",
+      "clickhelpPoint": "",
       "clickhelpPolygon": "Desenhe um polígono em torno das feiçoes para identificar",
       "clickhelpRadius": "Desenhe um raio em torno das feiçoes para identificar",
       "radius": "Raio"
@@ -359,8 +389,8 @@
       "timeto": ""
     },
     "mapinfotooltip": {
-      "elevation": "Elevação",
-      "title": "Posição"
+      "elevation": "",
+      "title": ""
     },
     "maplegend": {
       "bboxdependent": "Caixa da legenda",
@@ -430,10 +460,6 @@
       "submit": "Imprimir",
       "wait": "Aguarde..."
     },
-    "printscreen3d": {
-      "format": "",
-      "selectinfo": ""
-    },
     "qtdesignerform": {
       "loading": "Carregando"
     },
@@ -478,7 +504,7 @@
     },
     "routing": {
       "add": "Adcionar",
-      "addviapoint": "Adicionar ponto de via",
+      "addviapoint": "",
       "arriveat": "Chegada",
       "clear": "Limpar",
       "computefailed": "Falha de processamento",
@@ -486,7 +512,7 @@
       "excludepolygons": "Excluir polígonos",
       "export": "Exportar",
       "fastest": "Mais rápido",
-      "fromhere": "Daqui",
+      "fromhere": "",
       "importerror": "Erro de importação",
       "importhint": "Dica de importação",
       "importpoints": "Imporntar pontos",
@@ -506,11 +532,11 @@
       "mode_transit": "Modo trânsito",
       "mode_walking": "Modo andando",
       "optimized_route": "Rota otimizada",
-      "reachability": "Acessibilidade",
+      "reachability": "",
       "roundtrip": "Ida e volta",
-      "route": "Rota",
+      "route": "",
       "shortest": "Mais próximo",
-      "tohere": "Para cá",
+      "tohere": "",
       "useferries": "Usar ferrovias",
       "usehighways": "Usar rodovias",
       "usetollways": "Use para todos",
@@ -647,6 +673,14 @@
       "undock": "Desencaixar",
       "unmaximize": "Desmaximizar",
       "unminimize": "Desminimizar"
+    },
+    "mincut": {
+      "clickhelpChangeValveStatus": "",
+      "clickhelpNetwork": "",
+      "clickhelpValveUnaccess": ""
+    },
+    "searchbox": {
+      "placeholder": ""
     }
   }
 }

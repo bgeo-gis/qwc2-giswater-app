@@ -12,6 +12,7 @@
         "LayerTree": "Livelli",
         "LayerTree3D": "Livelli",
         "MapExport": "Esporta mappa",
+        "MapExport3D": "Esporta mappa",
         "MapFilter": "Filta mappa",
         "Print": "Stampa",
         "Reports": "Rapporti",
@@ -34,13 +35,35 @@
         "Measure3D": "Misura",
         "MeasureLineString": "Misura una linea",
         "MeasurePolygon": "Misura un poligono",
+        "NewsPopup": "Attualità",
         "Portal": "Portale",
         "PrintScreen3D": "Esporta raster",
         "Redlining": "Strumenti di disegno",
         "Routing": "Routing",
         "Tools": "Strumenti",
         "TimeManager": "Linea temporale",
-        "View3D": "Vista 3D"
+        "View3D": "Vista 3D",
+        "GwTools": "",
+        "GwInfoPoint": "",
+        "GwInfoDma": "",
+        "GwInfoScada": "",
+        "GwProfilePicker": "",
+        "GwSelector": "",
+        "GwFlowtracetrace": "",
+        "GwFlowtraceexit": "",
+        "GwMincutNetwork": "",
+        "GwMincutManager": "",
+        "GwVisitVisit": "",
+        "GwVisitIncidencia": "",
+        "GwDateSelector": "",
+        "GwVisitManager": "",
+        "GwToolbox": "",
+        "NetCDFExplorer": "",
+        "GwHelp": "",
+        "GwParcelFilter": "",
+        "GwSuperset": "",
+        "GwNonVisualObjectsManager": "",
+        "GwEpaSelector": ""
       },
       "filter": "Filtra menù...",
       "menulabel": "Mappa e strumenti"
@@ -69,7 +92,10 @@
     "colorschemes": {
       "default": "Predefinito",
       "dark": "Scuro",
-      "highcontrast": "Alto contrasto"
+      "highcontrast": "Alto contrasto",
+      "giswater": "",
+      "white": "",
+      "transparent": ""
     },
     "app": {
       "missingbg": "Impossibile trovare lo sfondo \"{0}\", viene visualizzato lo sfondo predefinito.",
@@ -225,12 +251,12 @@
       "wait": "Caricamento..."
     },
     "heightprofile": {
-      "asl": "s.l.m.",
-      "distance": "Distanza",
+      "asl": "",
+      "distance": "",
       "drawnodes": "Disegna i nodi",
       "error": "Impossibile caricare il profilo di altezza",
       "export": "Esporta",
-      "height": "Altitudine",
+      "height": "",
       "loading": "Calcolo del profilo di altezza...",
       "loadingimage": "Caricamento dell'immagine della mappa...",
       "print": "Stampa profilo d'altezza",
@@ -246,11 +272,13 @@
       "layerall": "Tutti i livelli",
       "link": "Link",
       "noattributes": "Nessun attributo",
-      "noresults": "Nessun risultato",
-      "querying": "Caricando...",
+      "noresults": "",
+      "querying": "",
       "reportfail": "Errore nella generazione del rapporto",
       "selectlayer": "Seleziona livello...",
-      "title": "Titolo"
+      "title": "Titolo",
+      "confirmDiscard": "",
+      "confirmSave": ""
     },
     "imageeditor": {
       "confirmclose": "Chiudere senza salvare?",
@@ -259,6 +287,7 @@
     "importlayer": {
       "addfailed": "Impossibile aggiungere il livello",
       "addlayer": "Aggiungi livello",
+      "asgroup": "Aggiungi come gruppo",
       "connect": "Connetti",
       "filter": "Filtro",
       "loading": "Caricamento...",
@@ -266,13 +295,14 @@
       "nofeatures": "Non è stato importato nessun oggetto ",
       "noresults": "Nessun risultato o URL non valido",
       "notgeopdf": "Il file selezionato non sembra essere un GeoPDF.",
+      "shpreprojectionerror": "Non è stato possibile riproiettare la geometria dello shapefile, che potrebbe essere posizionata in modo errato.",
       "supportedformats": "Formati supportati",
       "unknownproj": "Il GeoPDF selezionato utilizza una proiezione sconosciuta: {0}",
       "url": "URL",
       "urlplaceholder": "Indirizzo WMS, WMTS, WFS..."
     },
     "infotool": {
-      "clickhelpPoint": "Seleziona un luogo da identificare sulla mappa...",
+      "clickhelpPoint": "",
       "clickhelpPolygon": "Disegna un poligono attorno all'area da identificare",
       "clickhelpRadius": "Imposta un raggio e clicca nella mappa per identificare gli oggetti attorno al punto...",
       "radius": "Raggio"
@@ -359,8 +389,8 @@
       "timeto": "A"
     },
     "mapinfotooltip": {
-      "elevation": "Altitudine",
-      "title": "Posizione"
+      "elevation": "",
+      "title": ""
     },
     "maplegend": {
       "bboxdependent": "Legenda in base all'estensione della mappa",
@@ -430,10 +460,6 @@
       "submit": "Stampa",
       "wait": "Attendere..."
     },
-    "printscreen3d": {
-      "format": "Formato",
-      "selectinfo": "Seleziona l'area sulla mappa..."
-    },
     "qtdesignerform": {
       "loading": "Caricando formulario..."
     },
@@ -478,7 +504,7 @@
     },
     "routing": {
       "add": "Aggiungi",
-      "addviapoint": "Via qui",
+      "addviapoint": "",
       "arriveat": "Arrivo il",
       "clear": "Azzera",
       "computefailed": "Errore durante il calcolo",
@@ -486,7 +512,7 @@
       "excludepolygons": "Escludi aree",
       "export": "Esporta",
       "fastest": "Più veloce",
-      "fromhere": "Da qui",
+      "fromhere": "",
       "importerror": "Impossibile importare. Il contenuto del file deve essere una GeoJSON FeatureCollection di punti.",
       "importhint": "File contenente una GeoJSON FeatureCollection di punti",
       "importpoints": "Importa",
@@ -494,8 +520,8 @@
       "iso_mode": "Modalità",
       "iso_mode_distance": "Distanza",
       "iso_mode_time": "Tempo",
-      "isocenter": "Centro",
-      "isoextracenter": "Ulteriore centro",
+      "isocenter": "",
+      "isoextracenter": "",
       "leaveat": "Partenza il",
       "leavenow": "Parti ora",
       "maxspeed": "Velocità massima",
@@ -506,11 +532,11 @@
       "mode_transit": "Transito",
       "mode_walking": "A piedi",
       "optimized_route": "Rotta ottimale",
-      "reachability": "Raggiungibilità",
+      "reachability": "",
       "roundtrip": "Andata e ritorno",
-      "route": "Rotta",
+      "route": "",
       "shortest": "Più corta",
-      "tohere": "A qui",
+      "tohere": "",
       "useferries": "Utilizza traghetti",
       "usehighways": "Utilizza autostrade",
       "usetollways": "Utilizza strade a pedaggio",
@@ -647,6 +673,14 @@
       "undock": "Sgancia",
       "unmaximize": "Ripristina",
       "unminimize": "Ingrandisci"
+    },
+    "mincut": {
+      "clickhelpChangeValveStatus": "",
+      "clickhelpNetwork": "",
+      "clickhelpValveUnaccess": ""
+    },
+    "searchbox": {
+      "placeholder": ""
     }
   }
 }

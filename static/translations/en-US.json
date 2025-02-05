@@ -12,6 +12,7 @@
         "LayerTree": "Layers & Legend",
         "LayerTree3D": "Layers",
         "MapExport": "Export map",
+        "MapExport3D": "Export map",
         "MapFilter": "Map Filter",
         "Print": "Print",
         "Reports": "Reports",
@@ -34,13 +35,35 @@
         "Measure3D": "Measure",
         "MeasureLineString": "Measure a line",
         "MeasurePolygon": "Measure a polygon",
+        "NewsPopup": "News",
         "Portal": "Portal",
         "PrintScreen3D": "Raster Export",
         "Redlining": "Redlining",
         "Routing": "Routing",
         "Tools": "Map Tools",
         "TimeManager": "Time Manager",
-        "View3D": "3D View"
+        "View3D": "3D View",
+        "GwTools": "Giswater Tools",
+        "GwInfoPoint": "Giswater Info",
+        "GwInfoDma": "Info DMA",
+        "GwInfoScada": "Info Scada",
+        "GwProfilePicker": "Profile",
+        "GwSelector": "Selector",
+        "GwFlowtracetrace": "Flow trace",
+        "GwFlowtraceexit": "Flow exit",
+        "GwMincutNetwork": "Mincut",
+        "GwMincutManager": "Mincut Manager",
+        "GwVisitVisit": "New Visit",
+        "GwVisitIncidencia": "New Incidence",
+        "GwDateSelector": "Date Selector",
+        "GwVisitManager": "Visit Manager",
+        "GwToolbox": "Toolbox",
+        "NetCDFExplorer": "NetCDF Viewer (Beta)",
+        "GwHelp": "Help",
+        "GwParcelFilter": "Filter parcels",
+        "GwSuperset": "Control panel",
+        "GwNonVisualObjectsManager": "Nonvisual objects manager",
+        "GwEpaSelector": "EPA Selector"
       },
       "filter": "Filter menu...",
       "menulabel": "Map & Tools"
@@ -69,7 +92,10 @@
     "colorschemes": {
       "default": "Default",
       "dark": "Dark",
-      "highcontrast": "High contrast"
+      "highcontrast": "High contrast",
+      "giswater": "Giswater",
+      "white": "White",
+      "transparent": "Transparent"
     },
     "app": {
       "missingbg": "Unable to find the background \"{0}\", displaying the default background.",
@@ -250,7 +276,9 @@
       "querying": "Querying...",
       "reportfail": "Failed to generate report",
       "selectlayer": "Select layer...",
-      "title": "Feature Info"
+      "title": "Feature Info",
+      "confirmDiscard": "Do you want to discard the changes?",
+      "confirmSave": "Do you want to save the changes?"
     },
     "imageeditor": {
       "confirmclose": "Close without saving?",
@@ -259,6 +287,7 @@
     "importlayer": {
       "addfailed": "Failed to add layer.",
       "addlayer": "Add layer",
+      "asgroup": "Add as group",
       "connect": "Connect",
       "filter": "Filter...",
       "loading": "Loading...",
@@ -266,6 +295,7 @@
       "nofeatures": "No features could be imported.",
       "noresults": "No results or invalid URL",
       "notgeopdf": "The selected file does not seem to be a GeoPDF.",
+      "shpreprojectionerror": "The Shapefile geometry could not be reprojected, and may be misplaced.",
       "supportedformats": "Supported formats: KML, GeoJSON, GeoPDF, SHP (in zip)",
       "unknownproj": "The selected GeoPDF uses an unknown projection: {0}.",
       "url": "URL",
@@ -429,10 +459,6 @@
       "series": "Print series",
       "submit": "Print",
       "wait": "Please wait..."
-    },
-    "printscreen3d": {
-      "format": "Format",
-      "selectinfo": "Select export area on the map..."
     },
     "qtdesignerform": {
       "loading": "Loading form..."
@@ -647,6 +673,14 @@
       "undock": "Undock",
       "unmaximize": "Restore",
       "unminimize": "Unminimize"
+    },
+    "mincut": {
+      "clickhelpChangeValveStatus": "Click on valves to open or close them after refreshing the Mincut",
+      "clickhelpNetwork": "Click on any arc to perform a Mincut",
+      "clickhelpValveUnaccess": "Click on a valve to make it inoperative"
+    },
+    "searchbox": {
+      "placeholder": "Search place or add map..."
     }
   }
 }

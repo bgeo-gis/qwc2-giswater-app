@@ -12,6 +12,7 @@
         "LayerTree": "Слои и легенда",
         "LayerTree3D": "",
         "MapExport": "экспортировать карту",
+        "MapExport3D": "",
         "MapFilter": "",
         "Print": "Печать",
         "Reports": "",
@@ -34,13 +35,35 @@
         "Measure3D": "",
         "MeasureLineString": "измерить линию",
         "MeasurePolygon": "измерить многоугольник",
+        "NewsPopup": "",
         "Portal": "",
         "PrintScreen3D": "",
         "Redlining": "Обводка",
         "Routing": "",
         "Tools": "Средства картографии",
         "TimeManager": "",
-        "View3D": ""
+        "View3D": "",
+        "GwTools": "",
+        "GwInfoPoint": "",
+        "GwInfoDma": "",
+        "GwInfoScada": "",
+        "GwProfilePicker": "",
+        "GwSelector": "",
+        "GwFlowtracetrace": "",
+        "GwFlowtraceexit": "",
+        "GwMincutNetwork": "",
+        "GwMincutManager": "",
+        "GwVisitVisit": "",
+        "GwVisitIncidencia": "",
+        "GwDateSelector": "",
+        "GwVisitManager": "",
+        "GwToolbox": "",
+        "NetCDFExplorer": "",
+        "GwHelp": "",
+        "GwParcelFilter": "",
+        "GwSuperset": "",
+        "GwNonVisualObjectsManager": "",
+        "GwEpaSelector": ""
       },
       "filter": "",
       "menulabel": "Карта и инструменты"
@@ -69,7 +92,10 @@
     "colorschemes": {
       "default": "",
       "dark": "",
-      "highcontrast": ""
+      "highcontrast": "",
+      "giswater": "",
+      "white": "",
+      "transparent": ""
     },
     "app": {
       "missingbg": "",
@@ -225,12 +251,12 @@
       "wait": ""
     },
     "heightprofile": {
-      "asl": "над у.м.",
-      "distance": "Дистанция",
+      "asl": "",
+      "distance": "",
       "drawnodes": "",
       "error": "",
       "export": "",
-      "height": "Высота",
+      "height": "",
       "loading": "Расчет высоты профиля...",
       "loadingimage": "",
       "print": "",
@@ -246,11 +272,13 @@
       "layerall": "",
       "link": "гиперссылка",
       "noattributes": "Аттрибуты отсутствуют",
-      "noresults": "Для выбранной точки нет доступной информации",
-      "querying": "Выполняется запрос...",
+      "noresults": "",
+      "querying": "",
       "reportfail": "",
       "selectlayer": "",
-      "title": "Информация об объекте"
+      "title": "Информация об объекте",
+      "confirmDiscard": "",
+      "confirmSave": ""
     },
     "imageeditor": {
       "confirmclose": "",
@@ -259,6 +287,7 @@
     "importlayer": {
       "addfailed": "",
       "addlayer": "Добавить слой",
+      "asgroup": "",
       "connect": "Подключиться",
       "filter": "Фильтровать...",
       "loading": "",
@@ -266,6 +295,7 @@
       "nofeatures": "Нет объектов, доступных для импорта",
       "noresults": "",
       "notgeopdf": "",
+      "shpreprojectionerror": "",
       "supportedformats": "",
       "unknownproj": "",
       "url": "",
@@ -359,8 +389,8 @@
       "timeto": ""
     },
     "mapinfotooltip": {
-      "elevation": "Высота над уровнем моря",
-      "title": "Позиция"
+      "elevation": "",
+      "title": ""
     },
     "maplegend": {
       "bboxdependent": "",
@@ -429,10 +459,6 @@
       "series": "",
       "submit": "Печать",
       "wait": ""
-    },
-    "printscreen3d": {
-      "format": "",
-      "selectinfo": ""
     },
     "qtdesignerform": {
       "loading": ""
@@ -647,6 +673,14 @@
       "undock": "",
       "unmaximize": "",
       "unminimize": ""
+    },
+    "mincut": {
+      "clickhelpChangeValveStatus": "",
+      "clickhelpNetwork": "",
+      "clickhelpValveUnaccess": ""
+    },
+    "searchbox": {
+      "placeholder": ""
     }
   }
 }

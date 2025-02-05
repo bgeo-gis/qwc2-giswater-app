@@ -12,6 +12,7 @@
         "LayerTree": "Capas & Leyenda",
         "LayerTree3D": "",
         "MapExport": "Exportar mapa",
+        "MapExport3D": "",
         "MapFilter": "",
         "Print": "Imprimir",
         "Reports": "",
@@ -34,13 +35,35 @@
         "Measure3D": "",
         "MeasureLineString": "Medir una línea",
         "MeasurePolygon": "Medir un polígono",
+        "NewsPopup": "",
         "Portal": "",
         "PrintScreen3D": "",
         "Redlining": "Línea de demarcación",
         "Routing": "Routing",
         "Tools": "Herramientas de Mapa",
         "TimeManager": "Gestor de Tiempo",
-        "View3D": ""
+        "View3D": "",
+        "GwTools": "Herramientas Giswater",
+        "GwInfoPoint": "Giswater Info",
+        "GwInfoDma": "Info DMA",
+        "GwInfoScada": "Info Scada",
+        "GwProfilePicker": "Perfil longitudinal",
+        "GwSelector": "Selector",
+        "GwFlowtracetrace": "Aguas arriba",
+        "GwFlowtraceexit": "Aguas abajo",
+        "GwMincutNetwork": "Polígono de corte",
+        "GwMincutManager": "Gestor de polígonos de corte",
+        "GwVisitVisit": "Nueva Visita",
+        "GwVisitIncidencia": "Nueva Incidencia",
+        "GwDateSelector": "Selector de fecha",
+        "GwVisitManager": "Gestor de Visitas",
+        "GwToolbox": "Caja de herramientas",
+        "NetCDFExplorer": "Visualizador de NetCDF (Beta)",
+        "GwHelp": "Ayuda",
+        "GwParcelFilter": "Filtrar parcelas",
+        "GwSuperset": "Panel de control",
+        "GwNonVisualObjectsManager": "Gestor d'objectes no visuals",
+        "GwEpaSelector": "Selector EPA"
       },
       "filter": "Menú de filtros...",
       "menulabel": "Mapa & Herramientas"
@@ -69,7 +92,10 @@
     "colorschemes": {
       "default": "",
       "dark": "",
-      "highcontrast": ""
+      "highcontrast": "",
+      "giswater": "Giswater",
+      "white": "Blanco",
+      "transparent": "Transparente"
     },
     "app": {
       "missingbg": "",
@@ -250,7 +276,9 @@
       "querying": "Consultando...",
       "reportfail": "",
       "selectlayer": "",
-      "title": "Información del elemento"
+      "title": "Información del elemento",
+      "confirmDiscard": "¿Desea descartar los cambios?",
+      "confirmSave": "¿Desea guardar los cambios?"
     },
     "imageeditor": {
       "confirmclose": "Cerrar sin guardar?",
@@ -259,6 +287,7 @@
     "importlayer": {
       "addfailed": "Error al añadir capa",
       "addlayer": "Agregar capa",
+      "asgroup": "",
       "connect": "Conectar",
       "filter": "Filtrar...",
       "loading": "Cargando...",
@@ -266,6 +295,7 @@
       "nofeatures": "No se pudieron importar elementos.",
       "noresults": "Sin resultados o la dirección URL no es válida",
       "notgeopdf": "",
+      "shpreprojectionerror": "",
       "supportedformats": "",
       "unknownproj": "",
       "url": "URL",
@@ -359,7 +389,7 @@
       "timeto": ""
     },
     "mapinfotooltip": {
-      "elevation": "Elevación",
+      "elevation": "Elevacion",
       "title": "Posición"
     },
     "maplegend": {
@@ -430,10 +460,6 @@
       "submit": "Imprimir",
       "wait": "Por favor espere..."
     },
-    "printscreen3d": {
-      "format": "",
-      "selectinfo": ""
-    },
     "qtdesignerform": {
       "loading": "Cargando formulario..."
     },
@@ -478,7 +504,7 @@
     },
     "routing": {
       "add": "Añadir punto",
-      "addviapoint": "Pasar por aquí",
+      "addviapoint": "Agregar punto intermedio",
       "arriveat": "Llegar a",
       "clear": "Limpiar",
       "computefailed": "Error al calcular",
@@ -647,6 +673,14 @@
       "undock": "Desacoplar",
       "unmaximize": "Restaurar",
       "unminimize": "Desminimizar"
+    },
+    "mincut": {
+      "clickhelpChangeValveStatus": "Haga click en una o mas valvulas para abrirlas o cerrarlas al refrescar el Mincut",
+      "clickhelpNetwork": "Haga click en un arco para hacer un Mincut",
+      "clickhelpValveUnaccess": "Haga click en una valvula para hacerla inoperativa"
+    },
+    "searchbox": {
+      "placeholder": "Busque un lugar o agregue mapa"
     }
   }
 }

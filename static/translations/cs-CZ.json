@@ -12,6 +12,7 @@
         "LayerTree": "Vrstvy & legenda",
         "LayerTree3D": "",
         "MapExport": "Export mapu",
+        "MapExport3D": "",
         "MapFilter": "",
         "Print": "Tisk",
         "Reports": "",
@@ -34,13 +35,35 @@
         "Measure3D": "",
         "MeasureLineString": "Změřit úsek",
         "MeasurePolygon": "Měřit mnohoúhelník",
+        "NewsPopup": "",
         "Portal": "",
         "PrintScreen3D": "",
         "Redlining": "Připomínkování",
         "Routing": "Trasy",
         "Tools": "Nástroje mapy",
         "TimeManager": "",
-        "View3D": ""
+        "View3D": "",
+        "GwTools": "",
+        "GwInfoPoint": "",
+        "GwInfoDma": "",
+        "GwInfoScada": "",
+        "GwProfilePicker": "",
+        "GwSelector": "",
+        "GwFlowtracetrace": "",
+        "GwFlowtraceexit": "",
+        "GwMincutNetwork": "",
+        "GwMincutManager": "",
+        "GwVisitVisit": "",
+        "GwVisitIncidencia": "",
+        "GwDateSelector": "",
+        "GwVisitManager": "",
+        "GwToolbox": "",
+        "NetCDFExplorer": "",
+        "GwHelp": "",
+        "GwParcelFilter": "",
+        "GwSuperset": "",
+        "GwNonVisualObjectsManager": "",
+        "GwEpaSelector": ""
       },
       "filter": "Hledat v menu...",
       "menulabel": "Mapa & Nástroje"
@@ -69,7 +92,10 @@
     "colorschemes": {
       "default": "",
       "dark": "",
-      "highcontrast": ""
+      "highcontrast": "",
+      "giswater": "",
+      "white": "",
+      "transparent": ""
     },
     "app": {
       "missingbg": "",
@@ -225,12 +251,12 @@
       "wait": ""
     },
     "heightprofile": {
-      "asl": "m n. m.",
-      "distance": "Vzdálenost",
+      "asl": "",
+      "distance": "",
       "drawnodes": "",
       "error": "",
       "export": "Export výškového profilu",
-      "height": "Výška",
+      "height": "",
       "loading": "Výpočet výškového profilu...",
       "loadingimage": "",
       "print": "",
@@ -246,11 +272,13 @@
       "layerall": "",
       "link": "Odkaz",
       "noattributes": "Bez atributů",
-      "noresults": "V tomto bodu nejsou k dispozici informace o žádném prvku",
-      "querying": "Dotazování...",
+      "noresults": "",
+      "querying": "",
       "reportfail": "",
       "selectlayer": "",
-      "title": "Informace o prvku"
+      "title": "Informace o prvku",
+      "confirmDiscard": "",
+      "confirmSave": ""
     },
     "imageeditor": {
       "confirmclose": "",
@@ -259,6 +287,7 @@
     "importlayer": {
       "addfailed": "Přidání vrstvy selhalo",
       "addlayer": "Přidat vrstvu",
+      "asgroup": "",
       "connect": "Připojit",
       "filter": "Filtr...",
       "loading": "Načítání...",
@@ -266,13 +295,14 @@
       "nofeatures": "Žádné prvku nebyly importovány.",
       "noresults": "Bez výsledku nebo nevalidní URL",
       "notgeopdf": "",
+      "shpreprojectionerror": "",
       "supportedformats": "",
       "unknownproj": "",
       "url": "URL",
       "urlplaceholder": "Vložit URL pro WMS, WMTS, WFS..."
     },
     "infotool": {
-      "clickhelpPoint": "Klikněte na bod, o kterém chcete zobrazit další informace.",
+      "clickhelpPoint": "",
       "clickhelpPolygon": "Nakreslete polygon okolo prvků, ke kterým chcete zobrazit další informace.",
       "clickhelpRadius": "Nastavte velikost okruhu a klikněte na místo, okolo kterého chcete načíst informace o prvcích.",
       "radius": "Velikost okruhu"
@@ -359,8 +389,8 @@
       "timeto": ""
     },
     "mapinfotooltip": {
-      "elevation": "Nadmořská výška",
-      "title": "Poloha"
+      "elevation": "",
+      "title": ""
     },
     "maplegend": {
       "bboxdependent": "Pouze pro prvky v zobrazující se oblasti",
@@ -430,10 +460,6 @@
       "submit": "Tisk",
       "wait": "Čekejte..."
     },
-    "printscreen3d": {
-      "format": "",
-      "selectinfo": ""
-    },
     "qtdesignerform": {
       "loading": ""
     },
@@ -478,7 +504,7 @@
     },
     "routing": {
       "add": "",
-      "addviapoint": "Přes tento bod",
+      "addviapoint": "",
       "arriveat": "",
       "clear": "",
       "computefailed": "",
@@ -486,7 +512,7 @@
       "excludepolygons": "",
       "export": "",
       "fastest": "",
-      "fromhere": "Odtud",
+      "fromhere": "",
       "importerror": "",
       "importhint": "",
       "importpoints": "",
@@ -494,8 +520,8 @@
       "iso_mode": "",
       "iso_mode_distance": "",
       "iso_mode_time": "",
-      "isocenter": "Centrum",
-      "isoextracenter": "Širší centrum",
+      "isocenter": "",
+      "isoextracenter": "",
       "leaveat": "",
       "leavenow": "",
       "maxspeed": "",
@@ -506,11 +532,11 @@
       "mode_transit": "",
       "mode_walking": "",
       "optimized_route": "",
-      "reachability": "Dostupnost",
+      "reachability": "",
       "roundtrip": "",
-      "route": "Trasa",
+      "route": "",
       "shortest": "",
-      "tohere": "Sem",
+      "tohere": "",
       "useferries": "",
       "usehighways": "",
       "usetollways": "",
@@ -647,6 +673,14 @@
       "undock": "Zrušit přichycení",
       "unmaximize": "Obnovit velikost okna",
       "unminimize": "Obnovit velikost okna"
+    },
+    "mincut": {
+      "clickhelpChangeValveStatus": "",
+      "clickhelpNetwork": "",
+      "clickhelpValveUnaccess": ""
+    },
+    "searchbox": {
+      "placeholder": ""
     }
   }
 }

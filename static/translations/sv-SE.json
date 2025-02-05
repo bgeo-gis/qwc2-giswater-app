@@ -12,6 +12,7 @@
         "LayerTree": "Lager & teckenförklaring",
         "LayerTree3D": "",
         "MapExport": "Exportera karta",
+        "MapExport3D": "",
         "MapFilter": "",
         "Print": "Skriv ut",
         "Reports": "",
@@ -34,13 +35,35 @@
         "Measure3D": "",
         "MeasureLineString": "Mäta en linje",
         "MeasurePolygon": "Mäta en polygon",
+        "NewsPopup": "",
         "Portal": "",
         "PrintScreen3D": "",
         "Redlining": "Rita",
         "Routing": "",
         "Tools": "Kartverktyg",
         "TimeManager": "",
-        "View3D": ""
+        "View3D": "",
+        "GwTools": "",
+        "GwInfoPoint": "",
+        "GwInfoDma": "",
+        "GwInfoScada": "",
+        "GwProfilePicker": "",
+        "GwSelector": "",
+        "GwFlowtracetrace": "",
+        "GwFlowtraceexit": "",
+        "GwMincutNetwork": "",
+        "GwMincutManager": "",
+        "GwVisitVisit": "",
+        "GwVisitIncidencia": "",
+        "GwDateSelector": "",
+        "GwVisitManager": "",
+        "GwToolbox": "",
+        "NetCDFExplorer": "",
+        "GwHelp": "",
+        "GwParcelFilter": "",
+        "GwSuperset": "",
+        "GwNonVisualObjectsManager": "",
+        "GwEpaSelector": ""
       },
       "filter": "",
       "menulabel": "Karta & Verktyg"
@@ -69,7 +92,10 @@
     "colorschemes": {
       "default": "",
       "dark": "",
-      "highcontrast": ""
+      "highcontrast": "",
+      "giswater": "",
+      "white": "",
+      "transparent": ""
     },
     "app": {
       "missingbg": "",
@@ -225,12 +251,12 @@
       "wait": ""
     },
     "heightprofile": {
-      "asl": "m.ö.h.",
-      "distance": "Avstånd",
+      "asl": "",
+      "distance": "",
       "drawnodes": "",
       "error": "",
       "export": "",
-      "height": "Höjd",
+      "height": "",
       "loading": "Beräknar höjdprofil...",
       "loadingimage": "",
       "print": "",
@@ -246,11 +272,13 @@
       "layerall": "",
       "link": "Länk",
       "noattributes": "Inga attribut",
-      "noresults": "Ingen information för vald punkt",
-      "querying": "Frågar...",
+      "noresults": "",
+      "querying": "",
       "reportfail": "",
       "selectlayer": "",
-      "title": "Objektinformation"
+      "title": "Objektinformation",
+      "confirmDiscard": "",
+      "confirmSave": ""
     },
     "imageeditor": {
       "confirmclose": "",
@@ -259,6 +287,7 @@
     "importlayer": {
       "addfailed": "",
       "addlayer": "Lägg till lager",
+      "asgroup": "",
       "connect": "Anslut",
       "filter": "Filter...",
       "loading": "",
@@ -266,6 +295,7 @@
       "nofeatures": "Inga objekt kunde importeras",
       "noresults": "Inget svar eller ogiltig URL",
       "notgeopdf": "",
+      "shpreprojectionerror": "",
       "supportedformats": "",
       "unknownproj": "",
       "url": "URL",
@@ -359,8 +389,8 @@
       "timeto": ""
     },
     "mapinfotooltip": {
-      "elevation": "Höjd",
-      "title": "Position"
+      "elevation": "",
+      "title": ""
     },
     "maplegend": {
       "bboxdependent": "",
@@ -429,10 +459,6 @@
       "series": "",
       "submit": "Skriv ut",
       "wait": "Vänta..."
-    },
-    "printscreen3d": {
-      "format": "",
-      "selectinfo": ""
     },
     "qtdesignerform": {
       "loading": ""
@@ -647,6 +673,14 @@
       "undock": "",
       "unmaximize": "",
       "unminimize": ""
+    },
+    "mincut": {
+      "clickhelpChangeValveStatus": "",
+      "clickhelpNetwork": "",
+      "clickhelpValveUnaccess": ""
+    },
+    "searchbox": {
+      "placeholder": ""
     }
   }
 }

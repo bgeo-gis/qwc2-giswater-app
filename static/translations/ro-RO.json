@@ -12,6 +12,7 @@
         "LayerTree": "Straturi & Legendă",
         "LayerTree3D": "",
         "MapExport": "",
+        "MapExport3D": "",
         "MapFilter": "",
         "Print": "Tipărire",
         "Reports": "",
@@ -34,13 +35,35 @@
         "Measure3D": "",
         "MeasureLineString": "Măsoară o linie",
         "MeasurePolygon": "Măsoară un poligon",
+        "NewsPopup": "",
         "Portal": "",
         "PrintScreen3D": "",
         "Redlining": "Evidențiere",
         "Routing": "Traseu",
         "Tools": "Unelte hartă",
         "TimeManager": "Informații temporale",
-        "View3D": ""
+        "View3D": "",
+        "GwTools": "",
+        "GwInfoPoint": "",
+        "GwInfoDma": "",
+        "GwInfoScada": "",
+        "GwProfilePicker": "",
+        "GwSelector": "",
+        "GwFlowtracetrace": "",
+        "GwFlowtraceexit": "",
+        "GwMincutNetwork": "",
+        "GwMincutManager": "",
+        "GwVisitVisit": "",
+        "GwVisitIncidencia": "",
+        "GwDateSelector": "",
+        "GwVisitManager": "",
+        "GwToolbox": "",
+        "NetCDFExplorer": "",
+        "GwHelp": "",
+        "GwParcelFilter": "",
+        "GwSuperset": "",
+        "GwNonVisualObjectsManager": "",
+        "GwEpaSelector": ""
       },
       "filter": "",
       "menulabel": "Hărți & Unelte"
@@ -69,7 +92,10 @@
     "colorschemes": {
       "default": "",
       "dark": "",
-      "highcontrast": ""
+      "highcontrast": "",
+      "giswater": "",
+      "white": "",
+      "transparent": ""
     },
     "app": {
       "missingbg": "",
@@ -225,12 +251,12 @@
       "wait": ""
     },
     "heightprofile": {
-      "asl": "dM",
-      "distance": "Distanța",
+      "asl": "",
+      "distance": "",
       "drawnodes": "",
       "error": "",
       "export": "Export profil",
-      "height": "Înălțimea",
+      "height": "",
       "loading": "Se calculează profilul...",
       "loadingimage": "",
       "print": "",
@@ -246,11 +272,13 @@
       "layerall": "",
       "link": "Link",
       "noattributes": "Fără atribute",
-      "noresults": "Nu există informații în punctul selectat",
-      "querying": "Interogare...",
+      "noresults": "",
+      "querying": "",
       "reportfail": "",
       "selectlayer": "",
-      "title": "Informații obiect spațial"
+      "title": "Informații obiect spațial",
+      "confirmDiscard": "",
+      "confirmSave": ""
     },
     "imageeditor": {
       "confirmclose": "Închideți fără să salvați modificările?",
@@ -259,6 +287,7 @@
     "importlayer": {
       "addfailed": "Adăugarea stratului a eșuat",
       "addlayer": "Adaugă strat",
+      "asgroup": "",
       "connect": "Conectare",
       "filter": "Filtrare...",
       "loading": "Se încarcă...",
@@ -266,13 +295,14 @@
       "nofeatures": "Nu s-a putut importa niciun obiect spațial",
       "noresults": "Fără rezultat sau adresă URL invalidă",
       "notgeopdf": "",
+      "shpreprojectionerror": "",
       "supportedformats": "",
       "unknownproj": "",
       "url": "Adresă URL",
       "urlplaceholder": "Introduceți adresa URL către WMS, WMTS, WFS..."
     },
     "infotool": {
-      "clickhelpPoint": "Click pe o locație pentru identificarea elementelor din hartă...",
+      "clickhelpPoint": "",
       "clickhelpPolygon": "Încadrați într-un poligon elementele de identificat...",
       "clickhelpRadius": "Setați raza și apoi faceți click pe hartă pentru a identifica elementele din jurul punctului...",
       "radius": "Raza"
@@ -359,8 +389,8 @@
       "timeto": ""
     },
     "mapinfotooltip": {
-      "elevation": "Altitudine",
-      "title": "Poziție"
+      "elevation": "",
+      "title": ""
     },
     "maplegend": {
       "bboxdependent": "Legendă ce depinde de mărimea hărții",
@@ -430,10 +460,6 @@
       "submit": "Tipărește",
       "wait": "Vă rugăm așteptați..."
     },
-    "printscreen3d": {
-      "format": "",
-      "selectinfo": ""
-    },
     "qtdesignerform": {
       "loading": "Formularul se încarcă"
     },
@@ -478,7 +504,7 @@
     },
     "routing": {
       "add": "Adaugă punct",
-      "addviapoint": "Punct intermediar",
+      "addviapoint": "",
       "arriveat": "Punct de sosire",
       "clear": "Curățare",
       "computefailed": "Calculul a eșuat",
@@ -486,7 +512,7 @@
       "excludepolygons": "Exclude poligoane",
       "export": "Export",
       "fastest": "Cea mai rapidă",
-      "fromhere": "De aici",
+      "fromhere": "",
       "importerror": "Importul a eșuat. Fișierul trebuie să fie în format GeoJSON și să conțină o listă (FeatureCollection) de puncte (Point)",
       "importhint": "Fișier în format GeoJSON care să conțină o listă (FeatureCollection) de puncte (Point)",
       "importpoints": "Import",
@@ -494,8 +520,8 @@
       "iso_mode": "Mod",
       "iso_mode_distance": "Distanță",
       "iso_mode_time": "Timp",
-      "isocenter": "Centru",
-      "isoextracenter": "Centru suplimentar",
+      "isocenter": "",
+      "isoextracenter": "",
       "leaveat": "Plecarea la",
       "leavenow": "Plecați acum",
       "maxspeed": "Viteză maximă",
@@ -506,11 +532,11 @@
       "mode_transit": "Tranzit",
       "mode_walking": "Pe jos",
       "optimized_route": "Rută optimizată",
-      "reachability": "Accesibilitate",
+      "reachability": "",
       "roundtrip": "Dus-întors",
-      "route": "Ruta",
+      "route": "",
       "shortest": "Cea mai scurtă",
-      "tohere": "Până aici",
+      "tohere": "",
       "useferries": "Cu bacul",
       "usehighways": "Pe autostradă",
       "usetollways": "Cu taxă",
@@ -647,6 +673,14 @@
       "undock": "Anulează andocarea",
       "unmaximize": "Restaurează",
       "unminimize": "Restaurează"
+    },
+    "mincut": {
+      "clickhelpChangeValveStatus": "",
+      "clickhelpNetwork": "",
+      "clickhelpValveUnaccess": ""
+    },
+    "searchbox": {
+      "placeholder": ""
     }
   }
 }

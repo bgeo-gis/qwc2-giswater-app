@@ -12,6 +12,7 @@
         "LayerTree": "Warstwy i ich legendy",
         "LayerTree3D": "",
         "MapExport": "Eksportuj mapę",
+        "MapExport3D": "",
         "MapFilter": "",
         "Print": "Drukuj",
         "Reports": "",
@@ -34,13 +35,35 @@
         "Measure3D": "",
         "MeasureLineString": "Zmierzyć linię",
         "MeasurePolygon": "Zmierzyć wielokąt",
+        "NewsPopup": "",
         "Portal": "",
         "PrintScreen3D": "",
         "Redlining": "Redlining",
         "Routing": "",
         "Tools": "Narzędzia Mapy",
         "TimeManager": "",
-        "View3D": ""
+        "View3D": "",
+        "GwTools": "",
+        "GwInfoPoint": "",
+        "GwInfoDma": "",
+        "GwInfoScada": "",
+        "GwProfilePicker": "",
+        "GwSelector": "",
+        "GwFlowtracetrace": "",
+        "GwFlowtraceexit": "",
+        "GwMincutNetwork": "",
+        "GwMincutManager": "",
+        "GwVisitVisit": "",
+        "GwVisitIncidencia": "",
+        "GwDateSelector": "",
+        "GwVisitManager": "",
+        "GwToolbox": "",
+        "NetCDFExplorer": "",
+        "GwHelp": "",
+        "GwParcelFilter": "",
+        "GwSuperset": "",
+        "GwNonVisualObjectsManager": "",
+        "GwEpaSelector": ""
       },
       "filter": "",
       "menulabel": "Zawartość mapy i narzędzia"
@@ -69,7 +92,10 @@
     "colorschemes": {
       "default": "",
       "dark": "",
-      "highcontrast": ""
+      "highcontrast": "",
+      "giswater": "",
+      "white": "",
+      "transparent": ""
     },
     "app": {
       "missingbg": "",
@@ -225,12 +251,12 @@
       "wait": ""
     },
     "heightprofile": {
-      "asl": "a.s.l.",
-      "distance": "Odległość",
+      "asl": "",
+      "distance": "",
       "drawnodes": "",
       "error": "",
       "export": "",
-      "height": "Wysokość",
+      "height": "",
       "loading": "Obliczanie profilu wysokości...",
       "loadingimage": "",
       "print": "",
@@ -246,11 +272,13 @@
       "layerall": "",
       "link": "Link",
       "noattributes": "Brak atrybutów",
-      "noresults": "Brak dostępnych danych dla wybranego punktu",
-      "querying": "Przetwarzam zapytanie...",
+      "noresults": "",
+      "querying": "",
       "reportfail": "",
       "selectlayer": "",
-      "title": "Feature Info"
+      "title": "Feature Info",
+      "confirmDiscard": "",
+      "confirmSave": ""
     },
     "imageeditor": {
       "confirmclose": "",
@@ -259,6 +287,7 @@
     "importlayer": {
       "addfailed": "",
       "addlayer": "Dodaj warstwę",
+      "asgroup": "",
       "connect": "Połącz",
       "filter": "Filtruj...",
       "loading": "",
@@ -266,6 +295,7 @@
       "nofeatures": "Elementy nie mogły zostać zaimportowane",
       "noresults": "Brak wyników lub błędny adres URL",
       "notgeopdf": "",
+      "shpreprojectionerror": "",
       "supportedformats": "",
       "unknownproj": "",
       "url": "URL",
@@ -359,8 +389,8 @@
       "timeto": ""
     },
     "mapinfotooltip": {
-      "elevation": "Wysokość",
-      "title": "Pozycja"
+      "elevation": "",
+      "title": ""
     },
     "maplegend": {
       "bboxdependent": "",
@@ -429,10 +459,6 @@
       "series": "",
       "submit": "Drukuj",
       "wait": "Proszę czekać..."
-    },
-    "printscreen3d": {
-      "format": "",
-      "selectinfo": ""
     },
     "qtdesignerform": {
       "loading": ""
@@ -647,6 +673,14 @@
       "undock": "",
       "unmaximize": "",
       "unminimize": ""
+    },
+    "mincut": {
+      "clickhelpChangeValveStatus": "",
+      "clickhelpNetwork": "",
+      "clickhelpValveUnaccess": ""
+    },
+    "searchbox": {
+      "placeholder": ""
     }
   }
 }

@@ -12,6 +12,7 @@
         "LayerTree": "Couches",
         "LayerTree3D": "Couches",
         "MapExport": "Exporter la carte",
+        "MapExport3D": "Exporter la carte",
         "MapFilter": "Filtrer la carte",
         "Print": "Imprimer",
         "Reports": "Rapports",
@@ -34,13 +35,35 @@
         "Measure3D": "Mesurer",
         "MeasureLineString": "Mesurer une ligne",
         "MeasurePolygon": "Mesurer un polygone",
+        "NewsPopup": "Actualités",
         "Portal": "Portail",
         "PrintScreen3D": "Export raster",
         "Redlining": "Dessiner",
         "Routing": "Routage",
         "Tools": "Outils",
         "TimeManager": "Ligne du temps",
-        "View3D": "Vue 3D"
+        "View3D": "Vue 3D",
+        "GwTools": "",
+        "GwInfoPoint": "",
+        "GwInfoDma": "",
+        "GwInfoScada": "",
+        "GwProfilePicker": "",
+        "GwSelector": "",
+        "GwFlowtracetrace": "",
+        "GwFlowtraceexit": "",
+        "GwMincutNetwork": "",
+        "GwMincutManager": "",
+        "GwVisitVisit": "",
+        "GwVisitIncidencia": "",
+        "GwDateSelector": "",
+        "GwVisitManager": "",
+        "GwToolbox": "",
+        "NetCDFExplorer": "",
+        "GwHelp": "",
+        "GwParcelFilter": "",
+        "GwSuperset": "",
+        "GwNonVisualObjectsManager": "",
+        "GwEpaSelector": ""
       },
       "filter": "Filtrer le menu...",
       "menulabel": "Cartes et outils"
@@ -69,7 +92,10 @@
     "colorschemes": {
       "default": "Par défaut",
       "dark": "Sombre",
-      "highcontrast": "Fort contraste"
+      "highcontrast": "Fort contraste",
+      "giswater": "",
+      "white": "",
+      "transparent": ""
     },
     "app": {
       "missingbg": "Impossible de trouver le fond \"{0}\", affichage du fond par défaut.",
@@ -225,12 +251,12 @@
       "wait": "Chargement..."
     },
     "heightprofile": {
-      "asl": "s/mer",
-      "distance": "Distance",
+      "asl": "",
+      "distance": "",
       "drawnodes": "Dessiner des nœuds",
       "error": "Échec du calcul du profil de hauteur",
       "export": "Exporter le profil",
-      "height": "Altitude",
+      "height": "",
       "loading": "Calcul du profil de hauteur...",
       "loadingimage": "Chargement de l'image de la carte...",
       "print": "Imprimer le profil de hauteur",
@@ -246,11 +272,13 @@
       "layerall": "Toutes les couches",
       "link": "Lien",
       "noattributes": "Pas d'attribut",
-      "noresults": "Pas de résultats pour la position sélectionnée",
-      "querying": "Identification en cours...",
+      "noresults": "",
+      "querying": "",
       "reportfail": "Le rapport n'a pas été généré",
       "selectlayer": "Sélectionner la couche...",
-      "title": "Informations sur l'objet"
+      "title": "Informations sur l'objet",
+      "confirmDiscard": "",
+      "confirmSave": ""
     },
     "imageeditor": {
       "confirmclose": "Fermer sans enregistrer?",
@@ -259,6 +287,7 @@
     "importlayer": {
       "addfailed": "La couche n'a pas pu être ajoutée",
       "addlayer": "Ajouter une couche",
+      "asgroup": "Ajouter comme groupe",
       "connect": "Connecter",
       "filter": "Filtrer",
       "loading": "Chargement...",
@@ -266,13 +295,14 @@
       "nofeatures": "Aucune entité ne peut être importée.",
       "noresults": "Pas de résultat ou URL non valide",
       "notgeopdf": "Le fichier sélectionné ne semble pas être un GeoPDF.",
+      "shpreprojectionerror": "La géométrie du fichier Shapefile n'a pas pu être reprojetée et peut être mal placée.",
       "supportedformats": "Formats supportés: KML, GeoJSON, GeoPDF, SHP (zip)",
       "unknownproj": "Le GeoPDF sélectionné utilise une projection inconnue: {0}.",
       "url": "URL",
       "urlplaceholder": "Entrer l'URL d'un WMS, WMTS, WFS..."
     },
     "infotool": {
-      "clickhelpPoint": "Cliquez sur un emplacement pour l'identifier sur la carte...",
+      "clickhelpPoint": "",
       "clickhelpPolygon": "Dessiner un polygone pour identifier les objets",
       "clickhelpRadius": "Configurez un rayon et cliquez sur un emplacement pour identifier les objets autour de ce point",
       "radius": "Rayon"
@@ -359,8 +389,8 @@
       "timeto": "A"
     },
     "mapinfotooltip": {
-      "elevation": "Altitude",
-      "title": "Position"
+      "elevation": "",
+      "title": ""
     },
     "maplegend": {
       "bboxdependent": "Légende dépendante de l'étendue de la carte",
@@ -430,10 +460,6 @@
       "submit": "Imprimer",
       "wait": "Veuillez patienter..."
     },
-    "printscreen3d": {
-      "format": "Format",
-      "selectinfo": "Sélectionner une zone sur la carte..."
-    },
     "qtdesignerform": {
       "loading": "Chargement du formulaire..."
     },
@@ -478,7 +504,7 @@
     },
     "routing": {
       "add": "Ajouter",
-      "addviapoint": "Par ici",
+      "addviapoint": "",
       "arriveat": "Arriver à",
       "clear": "Réinitialiser",
       "computefailed": "Échec du calcul",
@@ -486,7 +512,7 @@
       "excludepolygons": "Exclure les zones",
       "export": "Exporter",
       "fastest": "Plus rapide",
-      "fromhere": "À partir d'ici",
+      "fromhere": "",
       "importerror": "Impossible d'importer. Le contenu du fichier doit être une GeoJSON FeatureCollection de points",
       "importhint": "Fichier contenant une GeoJSON FeatureCollection de points",
       "importpoints": "Importer",
@@ -494,8 +520,8 @@
       "iso_mode": "Mode",
       "iso_mode_distance": "Distance",
       "iso_mode_time": "Temps",
-      "isocenter": "Centre",
-      "isoextracenter": "Centre additionnel",
+      "isocenter": "",
+      "isoextracenter": "",
       "leaveat": "Partir à",
       "leavenow": "Partir maintenant",
       "maxspeed": "Vitesse maximale",
@@ -506,11 +532,11 @@
       "mode_transit": "Transit",
       "mode_walking": "Marcher",
       "optimized_route": "Route optimale",
-      "reachability": "Accessibilité",
+      "reachability": "",
       "roundtrip": "Aller-retour",
-      "route": "Route",
+      "route": "",
       "shortest": "Plus courte",
-      "tohere": "Jusqu'ici",
+      "tohere": "",
       "useferries": "Utiliser les ferries",
       "usehighways": "Utiliser les autoroutes",
       "usetollways": "Utiliser les péages",
@@ -647,6 +673,14 @@
       "undock": "Détacher",
       "unmaximize": "Réduire",
       "unminimize": "Agrandir"
+    },
+    "mincut": {
+      "clickhelpChangeValveStatus": "",
+      "clickhelpNetwork": "",
+      "clickhelpValveUnaccess": ""
+    },
+    "searchbox": {
+      "placeholder": ""
     }
   }
 }
