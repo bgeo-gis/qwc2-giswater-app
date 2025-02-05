@@ -30,7 +30,6 @@ import LayerCatalogPlugin from 'qwc2/plugins/LayerCatalog';
 import LayerTreePlugin from 'qwc2/plugins/LayerTree';
 import LocateButtonPlugin from 'qwc2/plugins/LocateButton';
 import LoginUserPlugin from 'qwc2/plugins/LoginUser';
-import Map3DPlugin from 'qwc2/plugins/Map3D';
 import MapPlugin from 'qwc2/plugins/Map';
 import MapComparePlugin from 'qwc2/plugins/MapCompare';
 import MapCopyrightPlugin from 'qwc2/plugins/MapCopyright';
@@ -55,7 +54,7 @@ import TaskButtonPlugin from 'qwc2/plugins/TaskButton';
 import ThemeSwitcherPlugin from 'qwc2/plugins/ThemeSwitcher';
 import TimeManagerPlugin from 'qwc2/plugins/TimeManager';
 import TopBarPlugin from 'qwc2/plugins/TopBar';
-import {ZoomInPlugin, ZoomOutPlugin} from 'qwc2/plugins/ZoomButtons';
+import { ZoomInPlugin, ZoomOutPlugin } from 'qwc2/plugins/ZoomButtons';
 import EditingSupport from 'qwc2/plugins/map/EditingSupport';
 import LocateSupport from 'qwc2/plugins/map/LocateSupport';
 import MeasurementSupport from 'qwc2/plugins/map/MeasurementSupport';
@@ -64,23 +63,24 @@ import RedliningSupport from 'qwc2/plugins/map/RedliningSupport';
 import ScaleBarSupport from 'qwc2/plugins/map/ScaleBarSupport';
 import SnappingSupport from 'qwc2/plugins/map/SnappingSupport';
 import BufferSupport from 'qwc2/plugins/redlining/RedliningBufferSupport';
+import './SearchProviders.js';
 
 import defaultLocaleData from '../static/translations/en-US.json';
-import {renderHelp} from './Help';
-import {customAttributeCalculator, attributeTransform, customExporters} from './IdentifyExtensions';
+import { renderHelp } from './Help';
+import { customAttributeCalculator, attributeTransform, customExporters } from './IdentifyExtensions';
 
 // Giswater
-import GwInfoPlugin from 'qwc2-giswater/plugins/GwInfo';
-import GwDateSelectorPlugin from 'qwc2-giswater/plugins/GwDateSelector';
-import GwSelectorPlugin from 'qwc2-giswater/plugins/GwSelector';
-import GwProfilePickerPlugin from 'qwc2-giswater/plugins/GwProfilePicker';
-import GwFlowtracePlugin from 'qwc2-giswater/plugins/GwFlowtrace';
+import GwInfoPlugin from 'qwc2-giswater/plugins/basic/GwInfo';
+import GwDateSelectorPlugin from 'qwc2-giswater/plugins/om/GwDateSelector';
+import GwSelectorPlugin from 'qwc2-giswater/plugins/basic/GwSelector';
+import GwProfilePickerPlugin from 'qwc2-giswater/plugins/om/GwProfilePicker';
+import GwFlowtracePlugin from 'qwc2-giswater/plugins/om/GwFlowtrace';
 import GwProfileGraphPlugin from 'qwc2-giswater/plugins/GwProfileGraph';
-import GwMincutPlugin from 'qwc2-giswater/plugins/GwMincut';
-import GwMincutManagerPlugin from 'qwc2-giswater/plugins/GwMincutManager';
-import GwVisitPlugin from 'qwc2-giswater/plugins/GwVisit';
-import GwVisitManagerPlugin from 'qwc2-giswater/plugins/GwVisitManager';
-import GwToolboxPlugin from 'qwc2-giswater/plugins/GwToolbox';
+import GwMincutPlugin from 'qwc2-giswater/plugins/om/GwMincut';
+import GwMincutManagerPlugin from 'qwc2-giswater/plugins/om/GwMincutManager';
+import GwVisitPlugin from 'qwc2-giswater/plugins/om/GwVisit';
+import GwVisitManagerPlugin from 'qwc2-giswater/plugins/om/GwVisitManager';
+import GwToolboxPlugin from 'qwc2-giswater/plugins/utilities/GwToolbox';
 // import GwSearchBox from 'qwc2-giswater/components/GwSearchBox';
 import GwClearTempLayersPlugin from 'qwc2-giswater/plugins/GwClearTempLayers';
 import MapWatermarkPlugin from 'qwc2-giswater/plugins/MapWatermark';
@@ -131,7 +131,6 @@ export default {
             LayerTreePlugin: LayerTreePlugin,
             LocateButtonPlugin: LocateButtonPlugin,
             LoginUserPlugin: LoginUserPlugin,
-            Map3DPlugin: Map3DPlugin,
             MapComparePlugin: MapComparePlugin,
             MapCopyrightPlugin: MapCopyrightPlugin,
             MapExportPlugin: MapExportPlugin,
