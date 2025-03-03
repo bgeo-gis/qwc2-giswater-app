@@ -27,55 +27,55 @@ div#map {
 }
 
 /* ComboBox.css */
-#PluginsContainer
+.PluginsContainer
 div.combobox {
     border-radius: var(--radius-small);
 }
 
 /* HeightProfile.css */
-#PluginsContainer
+.PluginsContainer
 #HeightProfile {
     z-index: 3;
 }
 
 /* GwToolbox.css */
-#PluginsContainer
+.PluginsContainer
 div.toolbox-results-container {
     border-radius: var(--radius-small);
 }
 
 /* App.css */
-#PluginsContainer input,
-#PluginsContainer select,
-#PluginsContainer button,
-#PluginsContainer textarea {
+.PluginsContainer input,
+.PluginsContainer select,
+.PluginsContainer button,
+.PluginsContainer textarea {
     border-radius: var(--radius-small);
 }
 
-#PluginsContainer
+.PluginsContainer
 button.button {
     border-radius: var(--radius-small);
 }
 
 /* AppMenu.css */
-#PluginsContainer 
+.PluginsContainer
 div.AppMenu.appmenu-visible {
     background-color: inherit;
     color: inherit;
 }
 
-#PluginsContainer div.AppMenu .appmenu-icon:hover,
-#PluginsContainer div.AppMenu.appmenu-visible .appmenu-icon {
+.PluginsContainer div.AppMenu .appmenu-icon:hover,
+.PluginsContainer div.AppMenu.appmenu-visible .appmenu-icon {
     background-color: var(--map-button-hover-bg-color);
     color: var(--map-button-hover-text-color);
 }
 
-#PluginsContainer
+.PluginsContainer
 div.AppMenu .appmenu-label {
     display: none;
 }
 
-#PluginsContainer
+.PluginsContainer
 div.AppMenu .appmenu-icon {
     color: var(--map-button-text-color);
     margin: 0;
@@ -90,12 +90,12 @@ div.AppMenu .appmenu-icon {
     pointer-events: all;
 }
 
-#PluginsContainer
+/* .PluginsContainer
 div.AppMenu .appmenu-icon:before {
     height: 100%;
-}
+} */
 
-#PluginsContainer
+.PluginsContainer
 div.AppMenu div.appmenu-menu-container {
     right: 1em;
     box-shadow: var(--shadows);
@@ -104,157 +104,157 @@ div.AppMenu div.appmenu-menu-container {
 }
 
 /* InputContainsr.css */
-#PluginsContainer
+.PluginsContainer
 div.input-container {
     border-radius: var(--radius-small);
 }
 
-#PluginsContainer
+.PluginsContainer
 div.input-container .input-container-input {
     border-radius: var(--radius-small);
 }
 
 /* MessageBar */
-#PluginsContainer
+.PluginsContainer
 #MessageBar div.messagebar {
     box-shadow: var(--shadows);
     border-radius: var(--radius-window);
 }
 
 /* QtDesignerForm.css */
-#PluginsContainer 
+.PluginsContainer
 div.qt-designer-layout-grid {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
 }
 
-#PluginsContainer 
+.PluginsContainer
 .qt-designer-form-datetime > input:first-child {
     border-radius: var(--radius-small) 0 0 var(--radius-small);
 }
 
-#PluginsContainer 
+.PluginsContainer
 .qt-designer-form-datetime > input:nth-last-child(2) {
     border-radius: 0 var(--radius-small) var(--radius-small) 0;
     border-left: none
 }
 
-#PluginsContainer
+.PluginsContainer
 div.qt-designer-form-frame {
     padding: 0.4em;
     border-radius: 0 var(--radius-small) var(--radius-small) var(--radius-small);
 }
 
-#PluginsContainer
+.PluginsContainer
 div.qt-designer-form-tabbar > span {
     border-radius: var(--radius-small) var(--radius-small) 0 0;
     padding: 0 0.5em;
 }
 
 /* ResizeableWindow.css */
-#PluginsContainer
+.PluginsContainer
 div.resizeable-window {
     border-radius: var(--radius-window);
 }
 
-#PluginsContainer
+.PluginsContainer
 div.resizeable-window-body {
     padding: 0.4em;
 }
 
-/* #PluginsContainer
+/* .PluginsContainer
 div.resizeable-window-titlebar {
     border-bottom: 1px solid var(--text-color-disabled);
 } */
 
 /* SearchBox.css */
-#PluginsContainer
+.PluginsContainer
 .searchbox-filter-button {
     height: 100%;
 }
 
-#PluginsContainer
+.PluginsContainer
 div.SearchBox > div.searchbox-results {
     border-radius: var(--radius);
 }
 
-#PluginsContainer
+.PluginsContainer
 div.SearchBox {
     border-radius: var(--radius);
     border: none;
     min-width:9em;
 }
 
-#PluginsContainer
+.PluginsContainer
 div.SearchBox > div.searchbox-field {
     height: 100%;
 }
 
-#PluginsContainer
+.PluginsContainer
 div.SearchBox .input-container-prefix {
     width: 2em;
 }
 
-#PluginsContainer
+.PluginsContainer
 div.SearchBox .input-container-suffix {
     width: 2em;
 }
 
-#PluginsContainer
+.PluginsContainer
 div.SearchBox > div.searchbox-field {
     height: 100%;
 }
 
 /* SideBar.css */
-#PluginsContainer
+.PluginsContainer
 div.sidebar {
     box-shadow: var(--shadows);
     border-radius: var(--radius);
 }
 
-#PluginsContainer
+.PluginsContainer
 div.sidebar-right {
     right: 1em;
 }
 
-#PluginsContainer
+.PluginsContainer
 div.sidebar-left {
     left: 1em;
 }
 
-#PluginsContainer
+.PluginsContainer
 div.sidebar-right:not(.sidebar-open) {
     transform: translateX(100%) translateX(8px) translate(1em);
 }
 
-#PluginsContainer
+.PluginsContainer
 div.sidebar-left:not(.sidebar-open) {
     transform: translateX(-100%) translateX(-8px) translate(-1em);
 }
 
-#PluginsContainer div.mapinfotooltip-titlebar,
-#PluginsContainer div.sidebar div.sidebar-titlebar,
-#PluginsContainer div.resizeable-window-titlebar {
+.PluginsContainer div.mapinfotooltip-titlebar,
+.PluginsContainer div.sidebar div.sidebar-titlebar,
+.PluginsContainer div.resizeable-window-titlebar {
     border-bottom: 1px solid var(--text-color-disabled);
     padding: 0 0.4em;
 }
 
-#PluginsContainer div.sidebar .sidebar-titlebar-icon {
+.PluginsContainer div.sidebar .sidebar-titlebar-icon {
     font-size: 80%;
     margin: 0 0.5em 0 0.25em;
 }
 
-#PluginsContainer div.sidebar div.sidebar-titlebar {
+.PluginsContainer div.sidebar div.sidebar-titlebar {
     border-radius: var(--radius) var(--radius) 0 0;
 }
 
-#PluginsContainer div.mapinfotooltip-titlebar,
-#PluginsContainer div.resizeable-window-titlebar {
+.PluginsContainer div.mapinfotooltip-titlebar,
+.PluginsContainer div.resizeable-window-titlebar {
     border-radius: var(--radius-window) var(--radius-window) 0 0;
 }
 
 /* Toolbar.css */
-#PluginsContainer
+.PluginsContainer
 div.Toolbar > .icon {
     margin-right: 1.25em;
     border: none;
@@ -266,61 +266,152 @@ div.Toolbar > .icon {
     pointer-events: all;
 }
 
-#PluginsContainer
+.PluginsContainer
 div.Toolbar > .icon:before {
-    height: 100%;
     font-size: 140%;
 }
 
-#PluginsContainer div.Toolbar > .icon:hover,
-#PluginsContainer div.Toolbar > .toolbar-item-active {
+.PluginsContainer div.Toolbar > .icon:hover,
+.PluginsContainer div.Toolbar > .toolbar-item-active {
     border: none;
     background-color: var(--map-button-hover-bg-color);
     color: var(--map-button-hover-text-color);
 }
 
 /* ButtonBar.css */
-#PluginsContainer
+.PluginsContainer
 div.ButtonBar span.buttonbar-button-container > button {
     border-radius: 0;
 }
 
-#PluginsContainer
+.PluginsContainer
 div.ButtonBar span.buttonbar-button-container:last-child > button {
     border-radius: 0 var(--radius-small) var(--radius-small) 0;
 }
 
-#PluginsContainer
+.PluginsContainer
 div.ButtonBar span.buttonbar-button-container:first-child > button {
     border-radius: var(--radius-small) 0 0 var(--radius-small);
 }
 
-#PluginsContainer 
+.PluginsContainer
 div.ButtonBar span.buttonbar-button-container:only-child > button {
     border-radius: var(--radius-small);
 }
 
 /* BottomBar.css */
-#PluginsContainer
+.PluginsContainer
 #BottomBar input.bottombar-mousepos {
     border-radius: var(--radius-small) 0 0 var(--radius-small);
 }
 
-#PluginsContainer
+.PluginsContainer
 #BottomBar > span > select {
     border-radius: 0 var(--radius-small) var(--radius-small) 0;
 }
 
 /* MapInfoTooltip.css */
-#PluginsContainer
+.PluginsContainer
 div.mapinfotooltip-window {
     border-radius: var(--radius);
     display: flex;
     flex-direction: column;
 }
 
+.PluginsContainer
+div.mapinfotooltip-window .mapinfotooltip-body-gwinfo button {
+    width: 100%;
+}
+
+div.mapinfotooltip-window .mapinfotooltip-body-gwinfo .hover-dropdown {
+    position: relative;
+}
+
+div.mapinfotooltip-window .mapinfotooltip-body-gwinfo .hover-dropdown > button{
+    min-width: 160px;
+    border: 1px solid #bbb;
+    background-color: #e9e9e9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+div.mapinfotooltip-window .mapinfotooltip-body-gwinfo .hover-dropdown:hover > button {
+    background-color: #bbb;
+}
+
+div.mapinfotooltip-window .mapinfotooltip-body-gwinfo .hover-dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: white;
+    min-width: 160px;
+    /*border: 1px solid #000;*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 5px rgba(136, 136, 136, 1);
+}
+
+div.mapinfotooltip-window .mapinfotooltip-body-gwinfo .hover-dropdown:hover > .dropdown-content {
+    display: block;
+}
+
+div.mapinfotooltip-window .mapinfotooltip-body-gwinfo .hover-dropdown-item {
+    position: relative;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+}
+
+div.mapinfotooltip-window .mapinfotooltip-body-gwinfo .hover-dropdown-item .item-icon {
+    padding: 0px 0px !important;
+    margin-left: auto;
+}
+
+div.mapinfotooltip-window .mapinfotooltip-body-gwinfo .hover-dropdown .dropdown-content > hr{
+    margin: 0;
+}
+
+div.mapinfotooltip-window .mapinfotooltip-body-gwinfo .hover-dropdown-item:hover {
+    background-color: #dcdcdc;
+}
+
+div.mapinfotooltip-window .mapinfotooltip-body-gwinfo .hover-dropdown-item .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: white;
+    min-width: 160px;
+    /*border: 1px solid #000;*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 5px rgba(136, 136, 136, 1);
+}
+
+div.mapinfotooltip-window .mapinfotooltip-body-gwinfo .hover-dropdown-item:hover > .dropdown-content {
+    display: block;
+}
+
+
+div.mapinfotooltip-window .mapinfotooltip-body-gwinfo .hover-dropdown .dropdown-content > span {
+    display: block;
+    padding: 8px 16px !important;
+}
+
+div.mapinfotooltip-window .mapinfotooltip-body-gwinfo .hover-dropdown-item .dropdown-content span:hover {
+    background-color: #dcdcdc;
+}
+
 /* Buttons.css */
-#PluginsContainer
+.PluginsContainer
 button.map-button {
     box-shadow: var(--shadows);
     border-radius: 1.5em; /* Revert to vanilla */
@@ -328,39 +419,40 @@ button.map-button {
 }
 
 /* Measure.css */
-#PluginsContainer
+.PluginsContainer
 div.measure-body * {
     border-radius: var(--radius-small);
 }
 
 /* TopBar.css */
-#PluginsContainer
-#TopBar {
+.PluginsContainer
+.TopBar {
     background-color: transparent;
     box-shadow: none;
-    backdrop-filter: none;
+    backdrop-filter: none !important;
     pointer-events: none;
 }
 
-#PluginsContainer
-#TopBar div.SearchBox {
+.PluginsContainer
+.TopBar div.SearchBox {
     height: 2.5em;
     margin-right: 1.5em;
     box-shadow: var(--shadows);
     pointer-events: all;
 }
 
-#PluginsContainer
-#TopBar div.SearchBox > div.searchbox-field {
+.PluginsContainer
+.TopBar div.SearchBox > div.searchbox-field {
     border: var(--searchbox-border);
 }
 
-#PluginsContainer
-#TopBar img.logo {
+/* Do not display logo image */
+.PluginsContainer
+.TopBar a {
     display: none;
 }
 
-#PluginsContainer
-#TopBar.mobile div.AppMenu .appmenu-button {
+.PluginsContainer
+.TopBar.mobile div.AppMenu .appmenu-button {
     margin-right: 0.5em;
 }
