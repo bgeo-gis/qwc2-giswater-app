@@ -6,7 +6,6 @@
         "ExternalLink": "",
         "Bookmark": "Lesezeichen",
         "Compare3D": "Vergleichen",
-        "DateTime3D": "Datum und Zeit",
         "Editing": "Editieren",
         "Help": "Hilfe",
         "LayerTree": "Ebenen und Legende",
@@ -14,12 +13,15 @@
         "MapExport": "Karte exportieren",
         "MapExport3D": "Karte exportieren",
         "MapFilter": "Kartenfilter",
+        "MapLight3D": "Beleuchtung und Schatten",
         "Print": "Drucken",
         "Reports": "Berichte",
         "Settings": "Einstellungen",
         "Share": "Teilen",
         "ThemeSwitcher": "Themen",
         "AttributeTable": "Attributtabelle",
+        "AuthenticationLogin": "Anmelden",
+        "AuthenticationLogout": "Abmelden",
         "Cyclomedia": "Cyclomedia",
         "Draw3D": "Zeichnen",
         "FeatureForm": "Objektformular",
@@ -36,6 +38,7 @@
         "MeasureLineString": "Messen Linie",
         "MeasurePolygon": "Messen Polygon",
         "NewsPopup": "Aktuelles",
+        "Panoramax": "",
         "Portal": "Portal",
         "PrintScreen3D": "Raster Export",
         "Redlining": "Zeichnen",
@@ -63,7 +66,11 @@
         "GwParcelFilter": "",
         "GwSuperset": "",
         "GwNonVisualObjectsManager": "",
-        "GwEpaSelector": ""
+        "GwEpaSelector": "",
+        "GwEpaManager": "",
+        "GwWorkspaceManager": "",
+        "GwDscenarioManager": "",
+        "GwPsectorManager": ""
       },
       "filter": "Menü filtern...",
       "menulabel": "Karte & Werkzeuge"
@@ -149,7 +156,7 @@
       "mousepos_label": "Koordinaten",
       "scale_label": "Massstab",
       "terms_label": "Nutzungsbedingungen",
-      "viewertitle_label": ""
+      "viewertitle_label": "Homepage"
     },
     "compare3d": {
       "clipplane": "Schnittebene",
@@ -260,7 +267,7 @@
       "loading": "Höhenprofil wird berechnet...",
       "loadingimage": "Kartenbild wird geladen...",
       "print": "Höhenprofil drucken",
-      "title": "Höhenprofil"
+      "title": ""
     },
     "identify": {
       "aggregatedreport": "Aggregierter Bericht",
@@ -398,6 +405,23 @@
       "scaledependent": "Legende abhängig vom Kartenmassstab",
       "windowtitle": "Legende"
     },
+    "maplight3d": {
+      "ambientLightIntensity": "Intensität Umgebungslichts",
+      "directionalLightIntensity": "Intensität gerichtetes Licht",
+      "helpersVisible": "Hilfen anzeigen",
+      "normalBias": "Normal-Verzerrung",
+      "shadowBias": "Schatten-Verzerrung",
+      "shadowMapSize": "Grösse der Schattentextur",
+      "shadowType": "Schattentyp",
+      "shadowVolumeFar": "Schattenvolumen von",
+      "shadowVolumeNear": "Schattenvolumen bis",
+      "shadowintensity": "Schattenintensität",
+      "shadows": "Schatten aktivieren",
+      "showadvanced": "Erweitert anzeigen",
+      "sunazimuth": "Sonnenazimuth",
+      "sunzenith": "Sonnenzenit",
+      "zFactor": "Z-Faktor"
+    },
     "measureComponent": {
       "absolute": "m ü.M.",
       "areaLabel": "Fläche",
@@ -427,6 +451,10 @@
       "side": "Seite",
       "width": "Breite",
       "windowtitle": "Numerische Eingabe"
+    },
+    "panoramax": {
+      "notfound": "",
+      "title": ""
     },
     "pickfeature": {
       "querying": "Abfragen..."

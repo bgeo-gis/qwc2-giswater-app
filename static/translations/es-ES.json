@@ -6,7 +6,6 @@
         "ExternalLink": "",
         "Bookmark": "Marcadores",
         "Compare3D": "",
-        "DateTime3D": "",
         "Editing": "Edición",
         "Help": "Ayuda",
         "LayerTree": "Capas & Leyenda",
@@ -14,12 +13,15 @@
         "MapExport": "Exportar mapa",
         "MapExport3D": "",
         "MapFilter": "",
+        "MapLight3D": "",
         "Print": "Imprimir",
         "Reports": "",
         "Settings": "Opciones",
         "Share": "Compartir enlace",
         "ThemeSwitcher": "Tema",
         "AttributeTable": "Tabla de Atributos",
+        "AuthenticationLogin": "Inicio de sesión",
+        "AuthenticationLogout": "Cierre de sesión",
         "Cyclomedia": "",
         "Draw3D": "",
         "FeatureForm": "Formulario de Elemento",
@@ -36,6 +38,7 @@
         "MeasureLineString": "Medir una línea",
         "MeasurePolygon": "Medir un polígono",
         "NewsPopup": "",
+        "Panoramax": "",
         "Portal": "",
         "PrintScreen3D": "",
         "Redlining": "Línea de demarcación",
@@ -63,7 +66,11 @@
         "GwParcelFilter": "Filtrar parcelas",
         "GwSuperset": "Panel de control",
         "GwNonVisualObjectsManager": "Gestor d'objectes no visuals",
-        "GwEpaSelector": "Selector EPA"
+        "GwEpaSelector": "Selector EPA",
+        "GwEpaManager": "Gestor EPA",
+        "GwWorkspaceManager": "Gestor de espacios de trabajo",
+        "GwDscenarioManager": "Gestor de dscenarios",
+        "GwPsectorManager": "Gestor de planes de sectores"
       },
       "filter": "Menú de filtros...",
       "menulabel": "Mapa & Herramientas"
@@ -398,6 +405,23 @@
       "scaledependent": "",
       "windowtitle": "Leyenda"
     },
+    "maplight3d": {
+      "ambientLightIntensity": "",
+      "directionalLightIntensity": "",
+      "helpersVisible": "",
+      "normalBias": "",
+      "shadowBias": "",
+      "shadowMapSize": "",
+      "shadowType": "",
+      "shadowVolumeFar": "",
+      "shadowVolumeNear": "",
+      "shadowintensity": "",
+      "shadows": "",
+      "showadvanced": "",
+      "sunazimuth": "",
+      "sunzenith": "",
+      "zFactor": ""
+    },
     "measureComponent": {
       "absolute": "",
       "areaLabel": "Area",
@@ -427,6 +451,10 @@
       "side": "",
       "width": "",
       "windowtitle": ""
+    },
+    "panoramax": {
+      "notfound": "",
+      "title": ""
     },
     "pickfeature": {
       "querying": ""

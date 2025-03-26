@@ -7,6 +7,7 @@
     "es-ES",
     "fr-FR",
     "it-IT",
+    "ja-JP",
     "pl-PL",
     "pt-BR",
     "pt-PT",
@@ -23,8 +24,6 @@
     "colorschemes.dark",
     "colorschemes.highcontrast"
   ],
-  "overrides": [
-    "bottombar.viewertitle_label"
-  ],
+  "overrides": [],
   "strings": []
 }

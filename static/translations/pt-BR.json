@@ -6,7 +6,6 @@
         "ExternalLink": "",
         "Bookmark": "Bookmark",
         "Compare3D": "",
-        "DateTime3D": "",
         "Editing": "Edição",
         "Help": "Ajuda",
         "LayerTree": "Camadas & Legendas",
@@ -14,12 +13,15 @@
         "MapExport": "Exportar mapa",
         "MapExport3D": "",
         "MapFilter": "",
+        "MapLight3D": "",
         "Print": "Imprimir",
         "Reports": "",
         "Settings": "Configurações",
         "Share": "Compartilhar link",
         "ThemeSwitcher": "Tema",
         "AttributeTable": "Tabela de atributos",
+        "AuthenticationLogin": "Inicio da sessão",
+        "AuthenticationLogout": "Fim da sessão",
         "Cyclomedia": "Cyclomedia",
         "Draw3D": "",
         "FeatureForm": "Atributos da feição",
@@ -36,6 +38,7 @@
         "MeasureLineString": "Medir uma linha",
         "MeasurePolygon": "Medir um polígono",
         "NewsPopup": "",
+        "Panoramax": "",
         "Portal": "",
         "PrintScreen3D": "",
         "Redlining": "Linha de demarcação",
@@ -63,7 +66,11 @@
         "GwParcelFilter": "",
         "GwSuperset": "",
         "GwNonVisualObjectsManager": "",
-        "GwEpaSelector": ""
+        "GwEpaSelector": "",
+        "GwEpaManager": "",
+        "GwWorkspaceManager": "",
+        "GwDscenarioManager": "",
+        "GwPsectorManager": ""
       },
       "filter": "Filtro",
       "menulabel": "Mapas & Ferramentas"
@@ -149,7 +156,7 @@
       "mousepos_label": "Coordenadas",
       "scale_label": "Escala",
       "terms_label": "Termos de uso",
-      "viewertitle_label": "QWC2 Demo"
+      "viewertitle_label": "Home page"
     },
     "compare3d": {
       "clipplane": "",
@@ -260,7 +267,7 @@
       "loading": "Calcular o perfil de altura",
       "loadingimage": "",
       "print": "Imprimir",
-      "title": "Título"
+      "title": ""
     },
     "identify": {
       "aggregatedreport": "",
@@ -398,6 +405,23 @@
       "scaledependent": "Escala da legenda",
       "windowtitle": "Titulo da janela"
     },
+    "maplight3d": {
+      "ambientLightIntensity": "",
+      "directionalLightIntensity": "",
+      "helpersVisible": "",
+      "normalBias": "",
+      "shadowBias": "",
+      "shadowMapSize": "",
+      "shadowType": "",
+      "shadowVolumeFar": "",
+      "shadowVolumeNear": "",
+      "shadowintensity": "",
+      "shadows": "",
+      "showadvanced": "",
+      "sunazimuth": "",
+      "sunzenith": "",
+      "zFactor": ""
+    },
     "measureComponent": {
       "absolute": "",
       "areaLabel": "Área",
@@ -427,6 +451,10 @@
       "side": "Margem",
       "width": "Largura",
       "windowtitle": "Título da janela"
+    },
+    "panoramax": {
+      "notfound": "",
+      "title": ""
     },
     "pickfeature": {
       "querying": ""

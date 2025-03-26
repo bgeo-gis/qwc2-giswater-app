@@ -6,7 +6,6 @@
         "ExternalLink": "External Link",
         "Bookmark": "Bookmarks",
         "Compare3D": "Compare",
-        "DateTime3D": "Date and Time",
         "Editing": "Editing",
         "Help": "Help",
         "LayerTree": "Layers & Legend",
@@ -14,12 +13,15 @@
         "MapExport": "Export map",
         "MapExport3D": "Export map",
         "MapFilter": "Map Filter",
+        "MapLight3D": "Light and Shadows",
         "Print": "Print",
         "Reports": "Reports",
         "Settings": "Settings",
         "Share": "Share Link",
         "ThemeSwitcher": "Theme",
         "AttributeTable": "Attribute Table",
+        "AuthenticationLogin": "Login",
+        "AuthenticationLogout": "Logout",
         "Cyclomedia": "Cyclomedia",
         "Draw3D": "Draw",
         "FeatureForm": "Feature Form",
@@ -36,6 +38,7 @@
         "MeasureLineString": "Measure a line",
         "MeasurePolygon": "Measure a polygon",
         "NewsPopup": "News",
+        "Panoramax": "Panoramax",
         "Portal": "Portal",
         "PrintScreen3D": "Raster Export",
         "Redlining": "Redlining",
@@ -63,7 +66,11 @@
         "GwParcelFilter": "Filter parcels",
         "GwSuperset": "Control panel",
         "GwNonVisualObjectsManager": "Nonvisual objects manager",
-        "GwEpaSelector": "EPA Selector"
+        "GwEpaSelector": "EPA Selector",
+        "GwEpaManager": "Epa Manager",
+        "GwWorkspaceManager": "Workspace manager",
+        "GwDscenarioManager": "Dscenario manager",
+        "GwPsectorManager": "Psector manager"
       },
       "filter": "Filter menu...",
       "menulabel": "Map & Tools"
@@ -149,7 +156,7 @@
       "mousepos_label": "Coordinates",
       "scale_label": "Scale",
       "terms_label": "Terms of use",
-      "viewertitle_label": "QWC2 Demo"
+      "viewertitle_label": "Homepage"
     },
     "compare3d": {
       "clipplane": "Clipping plane",
@@ -260,7 +267,7 @@
       "loading": "Calculating height profile...",
       "loadingimage": "Loading map image...",
       "print": "Print height profile",
-      "title": "Height profile"
+      "title": ""
     },
     "identify": {
       "aggregatedreport": "Aggregated report",
@@ -398,6 +405,23 @@
       "scaledependent": "Map scale depdendent legend",
       "windowtitle": "Legend"
     },
+    "maplight3d": {
+      "ambientLightIntensity": "Ambient light intensity",
+      "directionalLightIntensity": "Directional light intensity",
+      "helpersVisible": "Show helpers",
+      "normalBias": "Normal bias",
+      "shadowBias": "Shadow bias",
+      "shadowMapSize": "Shadowmap size",
+      "shadowType": "Shadow type",
+      "shadowVolumeFar": "Shadow volume near",
+      "shadowVolumeNear": "Shadow volume far",
+      "shadowintensity": "Shadow intensity",
+      "shadows": "Enable shadows",
+      "showadvanced": "Show advanced",
+      "sunazimuth": "Sun azimuth",
+      "sunzenith": "Sun zenith",
+      "zFactor": "Z-factor"
+    },
     "measureComponent": {
       "absolute": "m AMSL",
       "areaLabel": "Area",
@@ -427,6 +451,10 @@
       "side": "Side",
       "width": "Width",
       "windowtitle": "Numeric input"
+    },
+    "panoramax": {
+      "notfound": "There is no image available for this location.",
+      "title": "Panoramax Viewer"
     },
     "pickfeature": {
       "querying": "Querying..."

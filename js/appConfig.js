@@ -53,7 +53,8 @@ import TaskButtonPlugin from 'qwc2/plugins/TaskButton';
 import ThemeSwitcherPlugin from 'qwc2/plugins/ThemeSwitcher';
 import TimeManagerPlugin from 'qwc2/plugins/TimeManager';
 import TopBarPlugin from 'qwc2/plugins/TopBar';
-import { ZoomInPlugin, ZoomOutPlugin } from 'qwc2/plugins/ZoomButtons';
+import View3DPlugin from 'qwc2/plugins/View3D';
+import {ZoomInPlugin, ZoomOutPlugin} from 'qwc2/plugins/ZoomButtons';
 import EditingSupport from 'qwc2/plugins/map/EditingSupport';
 import LocateSupport from 'qwc2/plugins/map/LocateSupport';
 import MeasurementSupport from 'qwc2/plugins/map/MeasurementSupport';
@@ -62,36 +63,50 @@ import RedliningSupport from 'qwc2/plugins/map/RedliningSupport';
 import ScaleBarSupport from 'qwc2/plugins/map/ScaleBarSupport';
 import SnappingSupport from 'qwc2/plugins/map/SnappingSupport';
 import BufferSupport from 'qwc2/plugins/redlining/RedliningBufferSupport';
-import './SearchProviders.js';
 
 import defaultLocaleData from '../static/translations/en-US.json';
-import { renderHelp } from './Help';
-import { customAttributeCalculator, attributeTransform, customExporters } from './IdentifyExtensions';
+import {customAttributeCalculator, attributeTransform, customExporters} from './IdentifyExtensions';
 
-// Giswater
+import './SearchProviders.js';
+
+/* Giswater plugins */
 import GwInfoPlugin from 'qwc2-giswater/plugins/basic/GwInfo';
+import GwSelectorPlugin  from 'qwc2-giswater/plugins/basic/GwSelector';
+
+import GwDscenarioPlugin  from 'qwc2-giswater/plugins/epa/GwDscenario';
+import GwDscenarioManagerPlugin  from 'qwc2-giswater/plugins/epa/GwDscenarioManager';
+import GwEpaManagerPlugin from 'qwc2-giswater/plugins/epa/GwEpaManager';
+import GwEpaSelectorPlugin from 'qwc2-giswater/plugins/epa/GwEpaSelector';
+import GwNonVisualObjectPlugin from 'qwc2-giswater/plugins/epa/GwNonVisualObject';
+import GwNonVisualObjectsManagerPlugin from 'qwc2-giswater/plugins/epa/GwNonVisualObjectsManager';
+
 import GwDateSelectorPlugin from 'qwc2-giswater/plugins/om/GwDateSelector';
-import GwSelectorPlugin from 'qwc2-giswater/plugins/basic/GwSelector';
-import GwProfilePickerPlugin from 'qwc2-giswater/plugins/om/GwProfilePicker';
 import GwFlowtracePlugin from 'qwc2-giswater/plugins/om/GwFlowtrace';
-import GwProfileGraphPlugin from 'qwc2-giswater/plugins/GwProfileGraph';
 import GwMincutPlugin from 'qwc2-giswater/plugins/om/GwMincut';
+import GwProfilePickerPlugin from 'qwc2-giswater/plugins/om/GwProfilePicker';
 import GwMincutManagerPlugin from 'qwc2-giswater/plugins/om/GwMincutManager';
 import GwVisitPlugin from 'qwc2-giswater/plugins/om/GwVisit';
 import GwVisitManagerPlugin from 'qwc2-giswater/plugins/om/GwVisitManager';
+
+import GwPsectorManagerPlugin from 'qwc2-giswater/plugins/plan/GwPsectorManager';
+import GwPsectorPlugin from 'qwc2-giswater/plugins/plan/GwPsector';
+
 import GwToolboxPlugin from 'qwc2-giswater/plugins/utilities/GwToolbox';
-// import GwSearchBox from 'qwc2-giswater/components/GwSearchBox';
-import GwClearTempLayersPlugin from 'qwc2-giswater/plugins/GwClearTempLayers';
-import MapWatermarkPlugin from 'qwc2-giswater/plugins/MapWatermark';
-import NetCDFExplorerPlugin from 'qwc2-giswater/plugins/NetCDFExplorer';
-import GwLoadPluginPlugin from 'qwc2-giswater/plugins/GwLoadPlugin';
+import GwWorkspaceManagerPlugin from 'qwc2-giswater/plugins/utilities/GwWorkspaceManager';
+import GwWorkspaceObjectPlugin from 'qwc2-giswater/plugins/utilities/GwWorkspaceObject';
+
 import GwInfoValve from 'qwc2-giswater/plugins/tooltip_plugins/GwInfoValve';
 import StreetViewButton from 'qwc2-giswater/plugins/tooltip_plugins/StreetViewButton';
+
+import GwClearTempLayersPlugin from 'qwc2-giswater/plugins/GwClearTempLayers';
 import GwHelpPlugin from 'qwc2-giswater/plugins/GwHelp';
+import GwLoadPluginPlugin from 'qwc2-giswater/plugins/GwLoadPlugin';
+import GwMapInfoTooltipPlugin from 'qwc2-giswater/plugins/GwMapInfoTooltip';
 import GwParcelFilterPlugin from 'qwc2-giswater/plugins/GwParcelFilter';
+import GwProfileGraphV2Plugin from 'qwc2-giswater/plugins/GwProfileGraphV2';
 import GwSupersetPlugin from 'qwc2-giswater/plugins/GwSuperset';
-
-
+import MapWatermarkPlugin from 'qwc2-giswater/plugins/MapWatermark';
+import NetCDFExplorerPlugin from 'qwc2-giswater/plugins/NetCDFExplorer';
 
 export default {
     defaultLocaleData: defaultLocaleData,
@@ -108,8 +123,7 @@ export default {
                 OverviewSupport: OverviewSupport,
                 RedliningSupport: RedliningSupport,
                 ScaleBarSupport: ScaleBarSupport,
-                SnappingSupport: SnappingSupport,
-                GwProfilePickerPlugin: GwProfilePickerPlugin
+                SnappingSupport: SnappingSupport
             }),
             APIPlugin: APIPlugin,
             AttributeTablePlugin: AttributeTablePlugin(/* CustomEditingInterface */),
@@ -123,7 +137,7 @@ export default {
             FeatureFormPlugin: FeatureFormPlugin(/* CustomEditingInterface */),
             GeometryDigitizerPlugin: GeometryDigitizerPlugin,
             HeightProfilePlugin: HeightProfilePlugin,
-            HelpPlugin: HelpPlugin(renderHelp),
+            HelpPlugin: HelpPlugin(),
             HomeButtonPlugin: HomeButtonPlugin,
             IdentifyPlugin: IdentifyPlugin,
             LayerCatalogPlugin: LayerCatalogPlugin,
@@ -163,25 +177,38 @@ export default {
                 Toolbar: Toolbar,
                 FullscreenSwitcher: FullscreenSwitcher
             }),
+            View3DPlugin: View3DPlugin,
             ZoomInPlugin: ZoomInPlugin,
             ZoomOutPlugin: ZoomOutPlugin,
-            GwLoadPluginPlugin: GwLoadPluginPlugin,
             GwInfoPlugin: GwInfoPlugin,
             GwSelectorPlugin: GwSelectorPlugin,
-            GwToolboxPlugin: GwToolboxPlugin,
-            GwClearTempLayersPlugin: GwClearTempLayersPlugin,
+            GwDscenarioPlugin: GwDscenarioPlugin,
+            GwDscenarioManagerPlugin: GwDscenarioManagerPlugin,
+            GwEpaManagerPlugin: GwEpaManagerPlugin,
+            GwEpaSelectorPlugin: GwEpaSelectorPlugin,
+            GwNonVisualObjectPlugin: GwNonVisualObjectPlugin,
+            GwNonVisualObjectsManagerPlugin: GwNonVisualObjectsManagerPlugin,
             GwDateSelectorPlugin: GwDateSelectorPlugin,
             GwFlowtracePlugin: GwFlowtracePlugin,
             GwMincutPlugin: GwMincutPlugin,
             GwMincutManagerPlugin: GwMincutManagerPlugin,
+            GwProfilePickerPlugin: GwProfilePickerPlugin,
             GwVisitPlugin: GwVisitPlugin,
             GwVisitManagerPlugin: GwVisitManagerPlugin,
-            NetCDFExplorerPlugin: NetCDFExplorerPlugin,
-            GwProfileGraphPlugin: GwProfileGraphPlugin,
-            MapWatermarkPlugin: MapWatermarkPlugin,
+            GwPsectorManagerPlugin: GwPsectorManagerPlugin,
+            GwPsectorPlugin: GwPsectorPlugin,
+            GwToolboxPlugin: GwToolboxPlugin,
+            GwWorkspaceManagerPlugin: GwWorkspaceManagerPlugin,
+            GwWorkspaceObjectPlugin: GwWorkspaceObjectPlugin,
+            GwClearTempLayersPlugin: GwClearTempLayersPlugin,
             GwHelpPlugin: GwHelpPlugin,
+            GwLoadPluginPlugin: GwLoadPluginPlugin,
+            GwMapInfoTooltipPlugin: GwMapInfoTooltipPlugin,
             GwParcelFilterPlugin: GwParcelFilterPlugin,
-            GwSupersetPlugin: GwSupersetPlugin
+            GwProfileGraphV2Plugin: GwProfileGraphV2Plugin,
+            GwSupersetPlugin: GwSupersetPlugin,
+            MapWatermarkPlugin: MapWatermarkPlugin,
+            NetCDFExplorerPlugin: NetCDFExplorerPlugin,
         },
         cfg: {
             IdentifyPlugin: {

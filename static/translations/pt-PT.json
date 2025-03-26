@@ -6,7 +6,6 @@
         "ExternalLink": "",
         "Bookmark": "Marcador",
         "Compare3D": "",
-        "DateTime3D": "",
         "Editing": "Edição",
         "Help": "Ajuda",
         "LayerTree": "Árvore de Camadas",
@@ -14,12 +13,15 @@
         "MapExport": "Exportar Mapa",
         "MapExport3D": "",
         "MapFilter": "",
+        "MapLight3D": "",
         "Print": "Imprimir",
         "Reports": "",
         "Settings": "Configurações",
         "Share": "Partilhar Link",
         "ThemeSwitcher": "Tema",
         "AttributeTable": "Tabela de Atributos",
+        "AuthenticationLogin": "Iniciar Sessão",
+        "AuthenticationLogout": "Terminar Sessão",
         "Cyclomedia": "Cyclomedia",
         "Draw3D": "",
         "FeatureForm": "Formulário de Recurso",
@@ -36,6 +38,7 @@
         "MeasureLineString": "Medir Linha",
         "MeasurePolygon": "Medir Polígono",
         "NewsPopup": "",
+        "Panoramax": "",
         "Portal": "",
         "PrintScreen3D": "",
         "Redlining": "Marcação",
@@ -63,7 +66,11 @@
         "GwParcelFilter": "",
         "GwSuperset": "",
         "GwNonVisualObjectsManager": "",
-        "GwEpaSelector": ""
+        "GwEpaSelector": "",
+        "GwEpaManager": "",
+        "GwWorkspaceManager": "",
+        "GwDscenarioManager": "",
+        "GwPsectorManager": ""
       },
       "filter": "Filtro",
       "menulabel": "Mapas e Ferramentas"
@@ -149,7 +156,7 @@
       "mousepos_label": "Coordenadas",
       "scale_label": "Escala",
       "terms_label": "Termos de Uso",
-      "viewertitle_label": ""
+      "viewertitle_label": "Visualizador"
     },
     "compare3d": {
       "clipplane": "",
@@ -260,7 +267,7 @@
       "loading": "A calcular o perfil de altura...",
       "loadingimage": "",
       "print": "Imprimir",
-      "title": "Perfil de Altura"
+      "title": ""
     },
     "identify": {
       "aggregatedreport": "",
@@ -398,6 +405,23 @@
       "scaledependent": "Dependente da Escala",
       "windowtitle": "Legenda do Mapa"
     },
+    "maplight3d": {
+      "ambientLightIntensity": "",
+      "directionalLightIntensity": "",
+      "helpersVisible": "",
+      "normalBias": "",
+      "shadowBias": "",
+      "shadowMapSize": "",
+      "shadowType": "",
+      "shadowVolumeFar": "",
+      "shadowVolumeNear": "",
+      "shadowintensity": "",
+      "shadows": "",
+      "showadvanced": "",
+      "sunazimuth": "",
+      "sunzenith": "",
+      "zFactor": ""
+    },
     "measureComponent": {
       "absolute": "",
       "areaLabel": "Área",
@@ -427,6 +451,10 @@
       "side": "Lado",
       "width": "Largura",
       "windowtitle": "Entrada Numérica"
+    },
+    "panoramax": {
+      "notfound": "",
+      "title": ""
     },
     "pickfeature": {
       "querying": ""

@@ -6,7 +6,6 @@
         "ExternalLink": "",
         "Bookmark": "",
         "Compare3D": "",
-        "DateTime3D": "",
         "Editing": "Redigera",
         "Help": "Hjälp",
         "LayerTree": "Lager & teckenförklaring",
@@ -14,12 +13,15 @@
         "MapExport": "Exportera karta",
         "MapExport3D": "",
         "MapFilter": "",
+        "MapLight3D": "",
         "Print": "Skriv ut",
         "Reports": "",
         "Settings": "",
         "Share": "Dela länk",
         "ThemeSwitcher": "Tema",
         "AttributeTable": "",
+        "AuthenticationLogin": "Logga in",
+        "AuthenticationLogout": "Logga ut",
         "Cyclomedia": "",
         "Draw3D": "",
         "FeatureForm": "",
@@ -36,6 +38,7 @@
         "MeasureLineString": "Mäta en linje",
         "MeasurePolygon": "Mäta en polygon",
         "NewsPopup": "",
+        "Panoramax": "",
         "Portal": "",
         "PrintScreen3D": "",
         "Redlining": "Rita",
@@ -63,7 +66,11 @@
         "GwParcelFilter": "",
         "GwSuperset": "",
         "GwNonVisualObjectsManager": "",
-        "GwEpaSelector": ""
+        "GwEpaSelector": "",
+        "GwEpaManager": "",
+        "GwWorkspaceManager": "",
+        "GwDscenarioManager": "",
+        "GwPsectorManager": ""
       },
       "filter": "",
       "menulabel": "Karta & Verktyg"
@@ -149,7 +156,7 @@
       "mousepos_label": "Koordinater",
       "scale_label": "Skala",
       "terms_label": "Villkor",
-      "viewertitle_label": "QWC2 Demo"
+      "viewertitle_label": ""
     },
     "compare3d": {
       "clipplane": "",
@@ -398,6 +405,23 @@
       "scaledependent": "",
       "windowtitle": ""
     },
+    "maplight3d": {
+      "ambientLightIntensity": "",
+      "directionalLightIntensity": "",
+      "helpersVisible": "",
+      "normalBias": "",
+      "shadowBias": "",
+      "shadowMapSize": "",
+      "shadowType": "",
+      "shadowVolumeFar": "",
+      "shadowVolumeNear": "",
+      "shadowintensity": "",
+      "shadows": "",
+      "showadvanced": "",
+      "sunazimuth": "",
+      "sunzenith": "",
+      "zFactor": ""
+    },
     "measureComponent": {
       "absolute": "",
       "areaLabel": "Area",
@@ -427,6 +451,10 @@
       "side": "",
       "width": "",
       "windowtitle": ""
+    },
+    "panoramax": {
+      "notfound": "",
+      "title": ""
     },
     "pickfeature": {
       "querying": ""

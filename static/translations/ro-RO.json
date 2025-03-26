@@ -6,7 +6,6 @@
         "ExternalLink": "Link extern",
         "Bookmark": "Marcaj",
         "Compare3D": "",
-        "DateTime3D": "",
         "Editing": "Editare",
         "Help": "Ajutor",
         "LayerTree": "Straturi & Legendă",
@@ -14,12 +13,15 @@
         "MapExport": "",
         "MapExport3D": "",
         "MapFilter": "",
+        "MapLight3D": "",
         "Print": "Tipărire",
         "Reports": "",
         "Settings": "Setări",
         "Share": "Trimite Link",
         "ThemeSwitcher": "Hărți tematice",
         "AttributeTable": "Tabela de atribute",
+        "AuthenticationLogin": "Conectează-te",
+        "AuthenticationLogout": "Deconectează-te",
         "Cyclomedia": "Cyclomedia",
         "Draw3D": "",
         "FeatureForm": "Editare atribute",
@@ -36,6 +38,7 @@
         "MeasureLineString": "Măsoară o linie",
         "MeasurePolygon": "Măsoară un poligon",
         "NewsPopup": "",
+        "Panoramax": "",
         "Portal": "",
         "PrintScreen3D": "",
         "Redlining": "Evidențiere",
@@ -63,7 +66,11 @@
         "GwParcelFilter": "",
         "GwSuperset": "",
         "GwNonVisualObjectsManager": "",
-        "GwEpaSelector": ""
+        "GwEpaSelector": "",
+        "GwEpaManager": "",
+        "GwWorkspaceManager": "",
+        "GwDscenarioManager": "",
+        "GwPsectorManager": ""
       },
       "filter": "",
       "menulabel": "Hărți & Unelte"
@@ -398,6 +405,23 @@
       "scaledependent": "Legendă ce depinde de scară",
       "windowtitle": "Legenda"
     },
+    "maplight3d": {
+      "ambientLightIntensity": "",
+      "directionalLightIntensity": "",
+      "helpersVisible": "",
+      "normalBias": "",
+      "shadowBias": "",
+      "shadowMapSize": "",
+      "shadowType": "",
+      "shadowVolumeFar": "",
+      "shadowVolumeNear": "",
+      "shadowintensity": "",
+      "shadows": "",
+      "showadvanced": "",
+      "sunazimuth": "",
+      "sunzenith": "",
+      "zFactor": ""
+    },
     "measureComponent": {
       "absolute": "",
       "areaLabel": "Arie",
@@ -427,6 +451,10 @@
       "side": "Partea",
       "width": "Lățimea",
       "windowtitle": "Valori numerice"
+    },
+    "panoramax": {
+      "notfound": "",
+      "title": ""
     },
     "pickfeature": {
       "querying": ""

@@ -6,7 +6,6 @@
         "ExternalLink": "",
         "Bookmark": "Yer işaretleri",
         "Compare3D": "Karşılaştır",
-        "DateTime3D": "Tarih Zaman",
         "Editing": "Düzenleme",
         "Help": "Yardım",
         "LayerTree": "Katmanlar & Gösterim",
@@ -14,12 +13,15 @@
         "MapExport": "Dışarıya ver",
         "MapExport3D": "",
         "MapFilter": "Harita Filtresi",
+        "MapLight3D": "Tarih Zaman",
         "Print": "Yazdır",
         "Reports": "Raporlar",
         "Settings": "Ayarlar",
         "Share": "Bağlantı Paylaş",
         "ThemeSwitcher": "Tema",
         "AttributeTable": "Öznitelik Tablosu",
+        "AuthenticationLogin": "Giriş",
+        "AuthenticationLogout": "Çıkış",
         "Cyclomedia": "Siklomedya",
         "Draw3D": "Çizim",
         "FeatureForm": "Obje Formu",
@@ -36,6 +38,7 @@
         "MeasureLineString": "Çizgi Ölç",
         "MeasurePolygon": "Alan Ölç",
         "NewsPopup": "",
+        "Panoramax": "",
         "Portal": "Portal",
         "PrintScreen3D": "Görüntüyü ver",
         "Redlining": "Serbest Çizim",
@@ -63,7 +66,11 @@
         "GwParcelFilter": "",
         "GwSuperset": "",
         "GwNonVisualObjectsManager": "",
-        "GwEpaSelector": ""
+        "GwEpaSelector": "",
+        "GwEpaManager": "",
+        "GwWorkspaceManager": "",
+        "GwDscenarioManager": "",
+        "GwPsectorManager": ""
       },
       "filter": "Filtre menüsü...",
       "menulabel": "Harita & Araçlar"
@@ -149,7 +156,7 @@
       "mousepos_label": "Koordinatlar",
       "scale_label": "Ölçek",
       "terms_label": "Kullanım Şartları",
-      "viewertitle_label": ""
+      "viewertitle_label": "QWC"
     },
     "compare3d": {
       "clipplane": "Kırpma düzlemi",
@@ -260,7 +267,7 @@
       "loading": "Yükseklik profili hesaplanıyor...",
       "loadingimage": "Harita görüntüsü yükleniyor",
       "print": "Yükseklik profili yazdır",
-      "title": "Yükseklik profili"
+      "title": ""
     },
     "identify": {
       "aggregatedreport": "Toplu rapor",
@@ -398,6 +405,23 @@
       "scaledependent": "Harita ölçeğine bağlı",
       "windowtitle": "Lejant"
     },
+    "maplight3d": {
+      "ambientLightIntensity": "",
+      "directionalLightIntensity": "",
+      "helpersVisible": "",
+      "normalBias": "",
+      "shadowBias": "",
+      "shadowMapSize": "",
+      "shadowType": "",
+      "shadowVolumeFar": "",
+      "shadowVolumeNear": "",
+      "shadowintensity": "",
+      "shadows": "",
+      "showadvanced": "",
+      "sunazimuth": "",
+      "sunzenith": "",
+      "zFactor": ""
+    },
     "measureComponent": {
       "absolute": "Ortalama yükseklik(m)",
       "areaLabel": "Alan",
@@ -427,6 +451,10 @@
       "side": "Taraf",
       "width": "Genişlik",
       "windowtitle": "Sayısal giriş"
+    },
+    "panoramax": {
+      "notfound": "",
+      "title": ""
     },
     "pickfeature": {
       "querying": "Sorgulanıyor..."
