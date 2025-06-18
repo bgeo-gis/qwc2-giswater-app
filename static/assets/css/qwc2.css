@@ -456,3 +456,26 @@ div.measure-body * {
 .TopBar.mobile div.AppMenu .appmenu-button {
     margin-right: 0.5em;
 }
+div.login-user{
+    right: 50px !important;
+    top: 12px !important;
+    padding: 0.45em !important;
+    border-radius: 20px !important;
+    background-color: var(--map-button-bg-color) !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: opacity 0.3s ease, visibility 0.3s ease !important;
+}
+
+/* Show login-user when appmenu-menu-container is visible */
+.PluginsContainer:has(div.AppMenu.appmenu-visible) div.login-user {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Hide login-user on mobile and tablet devices */
+@media screen and (max-width: 1024px) {
+    div.login-user {
+        display: none !important;
+    }
+}
