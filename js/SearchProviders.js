@@ -140,6 +140,7 @@ function customSearch(text, searchParams, callback, axios) {
         let currentgroup = null;
         let groupcounter = 0;
         let counter = 0;
+        let priority = (response.data.results || []).filter(entry => !entry.bbox).length;
         const results = [];
         const providerId = "custom";
         (response.data.results || []).forEach(entry => {
@@ -148,9 +149,11 @@ function customSearch(text, searchParams, callback, axios) {
                 currentgroup = {
                     id: providerId + "_group" + (groupcounter++),
                     title: entry.displaytext,
-                    items: []
+                    items: [],
+                    priority: priority
                 };
                 results.push(currentgroup);
+                priority--;
             } else if (currentgroup) {
                 currentgroup.items.push({
                     id: providerId + "_result" + (counter++),
