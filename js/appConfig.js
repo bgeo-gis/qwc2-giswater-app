@@ -54,7 +54,7 @@ import ThemeSwitcherPlugin from 'qwc2/plugins/ThemeSwitcher';
 import TimeManagerPlugin from 'qwc2/plugins/TimeManager';
 import TopBarPlugin from 'qwc2/plugins/TopBar';
 import View3DPlugin from 'qwc2/plugins/View3D';
-import {ZoomInPlugin, ZoomOutPlugin} from 'qwc2/plugins/ZoomButtons';
+import { ZoomInPlugin, ZoomOutPlugin } from 'qwc2/plugins/ZoomButtons';
 import EditingSupport from 'qwc2/plugins/map/EditingSupport';
 import LocateSupport from 'qwc2/plugins/map/LocateSupport';
 import MeasurementSupport from 'qwc2/plugins/map/MeasurementSupport';
@@ -71,7 +71,7 @@ import './SearchProviders.js';
 
 /* Giswater plugins */
 import GwInfoPlugin from 'qwc2-giswater/plugins/basic/GwInfo';
-import GwSelectorPlugin  from 'qwc2-giswater/plugins/basic/GwSelector';
+import GwSelectorPlugin from 'qwc2-giswater/plugins/basic/GwSelector';
 
 import GwDscenarioPlugin  from 'qwc2-giswater/plugins/epa/GwDscenario';
 import GwDscenarioManagerPlugin  from 'qwc2-giswater/plugins/epa/GwDscenarioManager';
@@ -123,7 +123,8 @@ export default {
                 OverviewSupport: OverviewSupport,
                 RedliningSupport: RedliningSupport,
                 ScaleBarSupport: ScaleBarSupport,
-                SnappingSupport: SnappingSupport
+                SnappingSupport: SnappingSupport,
+                GwProfilePickerPlugin: GwProfilePickerPlugin
             }),
             APIPlugin: APIPlugin,
             AttributeTablePlugin: AttributeTablePlugin(/* CustomEditingInterface */),
@@ -192,7 +193,7 @@ export default {
             GwFlowtracePlugin: GwFlowtracePlugin,
             GwMincutPlugin: GwMincutPlugin,
             GwMincutManagerPlugin: GwMincutManagerPlugin,
-            GwProfilePickerPlugin: GwProfilePickerPlugin,
+            // GwProfilePickerPlugin: GwProfilePickerPlugin,
             GwVisitPlugin: GwVisitPlugin,
             GwVisitManagerPlugin: GwVisitManagerPlugin,
             GwPsectorManagerPlugin: GwPsectorManagerPlugin,
@@ -201,6 +202,7 @@ export default {
             GwWorkspaceManagerPlugin: GwWorkspaceManagerPlugin,
             GwWorkspaceObjectPlugin: GwWorkspaceObjectPlugin,
             GwClearTempLayersPlugin: GwClearTempLayersPlugin,
+            // GwZoomPlugin: GwZoomPlugin,
             GwHelpPlugin: GwHelpPlugin,
             GwLoadPluginPlugin: GwLoadPluginPlugin,
             GwMapInfoTooltipPlugin: GwMapInfoTooltipPlugin,
