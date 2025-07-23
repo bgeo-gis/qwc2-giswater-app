@@ -2,7 +2,8 @@ const webpack = require('webpack');
 const path = require('path');
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const availableLanguages = require('./static/translations/tsconfig.json').languages;
 
 const today = new Date();
 const buildDate = today.getFullYear() + "." + String(1 + today.getMonth()).padStart(2, '0') + "." + String(today.getDate()).padStart(2, '0');
@@ -57,7 +58,8 @@ module.exports = (env, argv) => {
                     NODE_ENV: JSON.stringify(argv.mode),
                     BuildDate: JSON.stringify(buildDate),
                     Buffer: ['buffer', 'Buffer'],
-                    process: 'process/browser'
+                    process: 'process/browser',
+                    AvailableLanguages: JSON.stringify(availableLanguages)
                 }
             }),
             new webpack.NormalModuleReplacementPlugin(/openlayers$/, path.join(__dirname, "qwc2", "libs", "openlayers")),
