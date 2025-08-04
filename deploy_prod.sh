@@ -1,4 +1,4 @@
 yarn run prod
-rm -rf /opt/qwc2-docker/qwc-docker/volumes/qwc2/*
-cp -R /opt/qwc2-giswater-app/prod/* /opt/qwc2-docker/qwc-docker/volumes/qwc2/
-chown -R 33:33 /opt/qwc2-docker/qwc-docker/volumes/qwc2/assets
+rm -rf /home/bgeoadmin/qwc-docker-dev/qwc-docker/volumes/qwc2/dist/*
+cp -R /home/bgeoadmin/qwc2-giswater-app/prod/dist/* /home/bgeoadmin/qwc-docker-dev/qwc-docker/volumes/qwc2/dist/
+# chown -R 33:33 /home/bgeoadmin/qwc-docker-dev/qwc-docker/volumes/qwc2/assets

@@ -101,7 +101,6 @@ import StreetViewButton from 'qwc2-giswater/plugins/tooltip_plugins/StreetViewBu
 import GwClearTempLayersPlugin from 'qwc2-giswater/plugins/GwClearTempLayers';
 import GwHelpPlugin from 'qwc2-giswater/plugins/GwHelp';
 import GwLoadPluginPlugin from 'qwc2-giswater/plugins/GwLoadPlugin';
-import GwMapInfoTooltipPlugin from 'qwc2-giswater/plugins/GwMapInfoTooltip';
 import GwParcelFilterPlugin from 'qwc2-giswater/plugins/GwParcelFilter';
 import GwProfileGraphV2Plugin from 'qwc2-giswater/plugins/GwProfileGraphV2';
 import GwSupersetPlugin from 'qwc2-giswater/plugins/GwSuperset';
@@ -205,7 +204,6 @@ export default {
             // GwZoomPlugin: GwZoomPlugin,
             GwHelpPlugin: GwHelpPlugin,
             GwLoadPluginPlugin: GwLoadPluginPlugin,
-            GwMapInfoTooltipPlugin: GwMapInfoTooltipPlugin,
             GwParcelFilterPlugin: GwParcelFilterPlugin,
             GwProfileGraphV2Plugin: GwProfileGraphV2Plugin,
             GwSupersetPlugin: GwSupersetPlugin,
