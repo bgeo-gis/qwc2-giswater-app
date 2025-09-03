@@ -32,17 +32,19 @@ function giswaterSearch(text, searchParams, callback, axios) {
         axios.get(requestUrl + "getsearch", { params: params }).then(response => {
             const result = response.data;
             const output = [];
-            result.data.forEach((group) => {
+            console.log("result", result);
+            const dataToProcess = result.body?.data?.searchResults || result.data;
+            dataToProcess.data.forEach((group) => {
                 const items = [];
                 //Don't include tab address
-                if (group.section === "basic_search_v2_tab_address"){
+                if (group.section === "basic_search_v2_tab_address") {
                     return;
                 }
                 group.values?.forEach((entry) => {
                     items.push({
                         id: entry.value,
                         // shorten display_name
-                        text: entry.display_name,
+                        text: entry.displayName || entry.display_name,
                         provider: "giswater",
                         props: {
                             ...entry,
@@ -63,7 +65,7 @@ function giswaterSearch(text, searchParams, callback, axios) {
                 }
             });
             console.log("output", output);
-            callback({results: output});
+            callback({ results: output });
         }).catch((e) => {
             console.error(e);
         });
@@ -170,7 +172,7 @@ function customSearch(text, searchParams, callback, axios) {
                 });
             }
         });
-        callback({results: results});
+        callback({ results: results });
     });
 }
 
