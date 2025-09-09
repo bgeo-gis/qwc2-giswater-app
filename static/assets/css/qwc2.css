@@ -76,9 +76,10 @@ div.AppMenu .appmenu-label {
 }
 
 .plugins-container
-div.AppMenu .appmenu-icon {
+div.AppMenu .appmenu-icon .icon-menu-hamburger {
     color: var(--map-button-text-color);
     margin: 0;
+    margin-right: 0.5em;
     margin-left: 2px;
     background-color: var(--map-button-bg-color);
     border-radius: var(--radius);
