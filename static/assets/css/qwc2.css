@@ -27,55 +27,55 @@ div#map {
 }
 
 /* ComboBox.css */
-.PluginsContainer
+.plugins-container
 div.combobox {
     border-radius: var(--radius-small);
 }
 
 /* HeightProfile.css */
-.PluginsContainer
+.plugins-container
 #HeightProfile {
     z-index: 3;
 }
 
 /* GwToolbox.css */
-.PluginsContainer
+.plugins-container
 div.toolbox-results-container {
     border-radius: var(--radius-small);
 }
 
 /* App.css */
-.PluginsContainer input,
-.PluginsContainer select,
-.PluginsContainer button,
-.PluginsContainer textarea {
+.plugins-container input,
+.plugins-container select,
+.plugins-container button,
+.plugins-container textarea {
     border-radius: var(--radius-small);
 }
 
-.PluginsContainer
+.plugins-container
 button.button {
     border-radius: var(--radius-small);
 }
 
 /* AppMenu.css */
-.PluginsContainer
+.plugins-container
 div.AppMenu.appmenu-visible {
     background-color: inherit;
     color: inherit;
 }
 
-.PluginsContainer div.AppMenu .appmenu-icon:hover,
-.PluginsContainer div.AppMenu.appmenu-visible .appmenu-icon {
+.plugins-container div.AppMenu .appmenu-icon:hover,
+.plugins-container div.AppMenu.appmenu-visible .appmenu-icon {
     background-color: var(--map-button-hover-bg-color);
     color: var(--map-button-hover-text-color);
 }
 
-.PluginsContainer
+.plugins-container
 div.AppMenu .appmenu-label {
     display: none;
 }
 
-.PluginsContainer
+.plugins-container
 div.AppMenu .appmenu-icon {
     color: var(--map-button-text-color);
     margin: 0;
@@ -90,12 +90,12 @@ div.AppMenu .appmenu-icon {
     pointer-events: all;
 }
 
-/* .PluginsContainer
+/* .plugins-container
 div.AppMenu .appmenu-icon:before {
     height: 100%;
 } */
 
-.PluginsContainer
+.plugins-container
 div.AppMenu div.appmenu-menu-container {
     right: 1em;
     box-shadow: var(--shadows);
@@ -104,157 +104,157 @@ div.AppMenu div.appmenu-menu-container {
 }
 
 /* InputContainsr.css */
-.PluginsContainer
+.plugins-container
 div.input-container {
     border-radius: var(--radius-small);
 }
 
-.PluginsContainer
+.plugins-container
 div.input-container .input-container-input {
     border-radius: var(--radius-small);
 }
 
 /* MessageBar */
-.PluginsContainer
+.plugins-container
 #MessageBar div.messagebar {
     box-shadow: var(--shadows);
     border-radius: var(--radius-window);
 }
 
 /* QtDesignerForm.css */
-.PluginsContainer
+.plugins-container
 div.qt-designer-layout-grid {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
 }
 
-.PluginsContainer
+.plugins-container
 .qt-designer-form-datetime > input:first-child {
     border-radius: var(--radius-small) 0 0 var(--radius-small);
 }
 
-.PluginsContainer
+.plugins-container
 .qt-designer-form-datetime > input:nth-last-child(2) {
     border-radius: 0 var(--radius-small) var(--radius-small) 0;
     border-left: none
 }
 
-.PluginsContainer
+.plugins-container
 div.qt-designer-form-frame {
     padding: 0.4em;
     border-radius: 0 var(--radius-small) var(--radius-small) var(--radius-small);
 }
 
-.PluginsContainer
+.plugins-container
 div.qt-designer-form-tabbar > span {
     border-radius: var(--radius-small) var(--radius-small) 0 0;
     padding: 0 0.5em;
 }
 
 /* ResizeableWindow.css */
-.PluginsContainer
+.plugins-container
 div.resizeable-window {
     border-radius: var(--radius-window);
 }
 
-.PluginsContainer
+.plugins-container
 div.resizeable-window-body {
     padding: 0.4em;
 }
 
-/* .PluginsContainer
+/* .plugins-container
 div.resizeable-window-titlebar {
     border-bottom: 1px solid var(--text-color-disabled);
 } */
 
 /* SearchBox.css */
-.PluginsContainer
+.plugins-container
 .searchbox-filter-button {
     height: 100%;
 }
 
-.PluginsContainer
+.plugins-container
 div.SearchBox > div.searchbox-results {
     border-radius: var(--radius);
 }
 
-.PluginsContainer
+.plugins-container
 div.SearchBox {
     border-radius: var(--radius);
     border: none;
     min-width:9em;
 }
 
-.PluginsContainer
+.plugins-container
 div.SearchBox > div.searchbox-field {
     height: 100%;
 }
 
-.PluginsContainer
+.plugins-container
 div.SearchBox .input-container-prefix {
     width: 2em;
 }
 
-.PluginsContainer
+.plugins-container
 div.SearchBox .input-container-suffix {
     width: 2em;
 }
 
-.PluginsContainer
+.plugins-container
 div.SearchBox > div.searchbox-field {
     height: 100%;
 }
 
 /* SideBar.css */
-.PluginsContainer
+.plugins-container
 div.sidebar {
     box-shadow: var(--shadows);
     border-radius: var(--radius);
 }
 
-.PluginsContainer
+.plugins-container
 div.sidebar-right {
     right: 1em;
 }
 
-.PluginsContainer
+.plugins-container
 div.sidebar-left {
     left: 1em;
 }
 
-.PluginsContainer
+.plugins-container
 div.sidebar-right:not(.sidebar-open) {
     transform: translateX(100%) translateX(8px) translate(1em);
 }
 
-.PluginsContainer
+.plugins-container
 div.sidebar-left:not(.sidebar-open) {
     transform: translateX(-100%) translateX(-8px) translate(-1em);
 }
 
-.PluginsContainer div.mapinfotooltip-titlebar,
-.PluginsContainer div.sidebar div.sidebar-titlebar,
-.PluginsContainer div.resizeable-window-titlebar {
+.plugins-container div.mapinfotooltip-titlebar,
+.plugins-container div.sidebar div.sidebar-titlebar,
+.plugins-container div.resizeable-window-titlebar {
     border-bottom: 1px solid var(--text-color-disabled);
     padding: 0 0.4em;
 }
 
-.PluginsContainer div.sidebar .sidebar-titlebar-icon {
+.plugins-container div.sidebar .sidebar-titlebar-icon {
     font-size: 80%;
     margin: 0 0.5em 0 0.25em;
 }
 
-.PluginsContainer div.sidebar div.sidebar-titlebar {
+.plugins-container div.sidebar div.sidebar-titlebar {
     border-radius: var(--radius) var(--radius) 0 0;
 }
 
-.PluginsContainer div.mapinfotooltip-titlebar,
-.PluginsContainer div.resizeable-window-titlebar {
+.plugins-container div.mapinfotooltip-titlebar,
+.plugins-container div.resizeable-window-titlebar {
     border-radius: var(--radius-window) var(--radius-window) 0 0;
 }
 
 /* Toolbar.css */
-.PluginsContainer
+.plugins-container
 div.Toolbar > .icon {
     margin-right: 1.25em;
     border: none;
@@ -266,59 +266,59 @@ div.Toolbar > .icon {
     pointer-events: all;
 }
 
-.PluginsContainer
+.plugins-container
 div.Toolbar > .icon:before {
     font-size: 140%;
 }
 
-.PluginsContainer div.Toolbar > .icon:hover,
-.PluginsContainer div.Toolbar > .toolbar-item-active {
+.plugins-container div.Toolbar > .icon:hover,
+.plugins-container div.Toolbar > .toolbar-item-active {
     border: none;
     background-color: var(--map-button-hover-bg-color);
     color: var(--map-button-hover-text-color);
 }
 
 /* ButtonBar.css */
-.PluginsContainer
+.plugins-container
 div.ButtonBar span.buttonbar-button-container > button {
     border-radius: 0;
 }
 
-.PluginsContainer
+.plugins-container
 div.ButtonBar span.buttonbar-button-container:last-child > button {
     border-radius: 0 var(--radius-small) var(--radius-small) 0;
 }
 
-.PluginsContainer
+.plugins-container
 div.ButtonBar span.buttonbar-button-container:first-child > button {
     border-radius: var(--radius-small) 0 0 var(--radius-small);
 }
 
-.PluginsContainer
+.plugins-container
 div.ButtonBar span.buttonbar-button-container:only-child > button {
     border-radius: var(--radius-small);
 }
 
 /* BottomBar.css */
-.PluginsContainer
+.plugins-container
 #BottomBar input.bottombar-mousepos {
     border-radius: var(--radius-small) 0 0 var(--radius-small);
 }
 
-.PluginsContainer
+.plugins-container
 #BottomBar > span > select {
     border-radius: 0 var(--radius-small) var(--radius-small) 0;
 }
 
 /* MapInfoTooltip.css */
-.PluginsContainer
+.plugins-container
 div.mapinfotooltip-window {
     border-radius: var(--radius);
     display: flex;
     flex-direction: column;
 }
 
-.PluginsContainer
+.plugins-container
 div.mapinfotooltip-window .mapinfotooltip-body-gwinfo button {
     width: 100%;
 }
@@ -411,7 +411,7 @@ div.mapinfotooltip-window .mapinfotooltip-body-gwinfo .hover-dropdown-item .drop
 }
 
 /* Buttons.css */
-.PluginsContainer
+.plugins-container
 button.map-button {
     box-shadow: var(--shadows);
     border-radius: 1.5em; /* Revert to vanilla */
@@ -419,13 +419,13 @@ button.map-button {
 }
 
 /* Measure.css */
-.PluginsContainer
+.plugins-container
 div.measure-body * {
     border-radius: var(--radius-small);
 }
 
 /* TopBar.css */
-.PluginsContainer
+.plugins-container
 .TopBar {
     background-color: transparent;
     box-shadow: none;
@@ -433,7 +433,7 @@ div.measure-body * {
     pointer-events: none;
 }
 
-.PluginsContainer
+.plugins-container
 .TopBar div.SearchBox {
     height: 2.5em;
     margin-right: 1.5em;
@@ -441,37 +441,22 @@ div.measure-body * {
     pointer-events: all;
 }
 
-.PluginsContainer
+.plugins-container
 .TopBar div.SearchBox > div.searchbox-field {
     border: var(--searchbox-border);
 }
 
 /* Do not display logo image */
-.PluginsContainer
+.plugins-container
 .TopBar a {
     display: none;
 }
 
-.PluginsContainer
+.plugins-container
 .TopBar.mobile div.AppMenu .appmenu-button {
     margin-right: 0.5em;
 }
-div.login-user{
-    right: 50px !important;
-    top: 12px !important;
-    padding: 0.45em !important;
-    border-radius: 20px !important;
-    background-color: var(--map-button-bg-color) !important;
-    opacity: 0 !important;
-    visibility: hidden !important;
-    transition: opacity 0.3s ease, visibility 0.3s ease !important;
-}
 
-/* Show login-user when appmenu-menu-container is visible */
-.PluginsContainer:has(div.AppMenu.appmenu-visible) div.login-user {
-    opacity: 1 !important;
-    visibility: visible !important;
-}
 
 /* Hide login-user on mobile and tablet devices */
 @media screen and (max-width: 1024px) {
