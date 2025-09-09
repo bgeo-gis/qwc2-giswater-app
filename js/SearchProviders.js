@@ -34,7 +34,7 @@ function giswaterSearch(text, searchParams, callback, axios) {
             const output = [];
             console.log("result", result);
             const dataToProcess = result.body?.data?.searchResults || result.data;
-            dataToProcess.data.forEach((group) => {
+            dataToProcess.forEach((group) => {
                 const items = [];
                 //Don't include tab address
                 if (group.section === "basic_search_v2_tab_address") {
