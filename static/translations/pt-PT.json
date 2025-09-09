@@ -7,7 +7,9 @@
         "Bookmark": "Marcador",
         "Compare3D": "",
         "Editing": "Edição",
+        "ExportObjects3D": "",
         "Help": "Ajuda",
+        "HideObjects3D": "",
         "LayerTree": "Árvore de Camadas",
         "LayerTree3D": "",
         "MapExport": "Exportar Mapa",
@@ -17,11 +19,12 @@
         "Print": "Imprimir",
         "Reports": "",
         "Settings": "Configurações",
+        "Settings3D": "",
         "Share": "Partilhar Link",
         "ThemeSwitcher": "Tema",
         "AttributeTable": "Tabela de Atributos",
         "AuthenticationLogin": "Iniciar Sessão",
-        "AuthenticationLogout": "Terminar Sessão",
+        "AuthenticationLogout": "Terminar Sessão - {0}",
         "Cyclomedia": "Cyclomedia",
         "Draw3D": "",
         "FeatureForm": "Formulário de Recurso",
@@ -44,33 +47,37 @@
         "Redlining": "Marcação",
         "Routing": "Roteamento",
         "Tools": "Ferramentas do Mapa",
+        "TourGuide": "",
         "TimeManager": "Gestor de Tempo",
         "View3D": "",
+        "GwDateSelector": "Seletor de Data",
+        "GwDscenario": "",
+        "GwDscenarioManager": "",
+        "GwEpaManager": "",
+        "GwEpaSelector": "",
+        "GwMincut": "",
+        "GwMincutManager": "Gestor Mincut",
+        "GwNonVisualObjectsManager": "",
+        "GwParcelFilter": "",
+        "GwProfilePicker": "Perfil",
+        "GwPsector": "",
+        "GwPsectorManager": "",
+        "GwSelector": "Selector",
+        "GwToolbox": "Caixa de Ferramentas",
+        "GwVisitManager": "Gestor de Visitas",
+        "GwWorkspaceManager": "",
         "GwTools": "Ferramentas Giswater",
         "GwInfoPoint": "Informações Giswater",
         "GwInfoDma": "Informações DMA",
         "GwInfoScada": "Informações Scada",
-        "GwProfilePicker": "Perfil",
-        "GwSelector": "Selector",
         "GwFlowtracetrace": "Traçar fluxo",
         "GwFlowtraceexit": "Saída de fluxo",
         "GwMincutNetwork": "Mincut",
-        "GwMincutManager": "Gestor Mincut",
         "GwVisitVisit": "Nova Visita",
         "GwVisitIncidencia": "Nova Incidência",
-        "GwDateSelector": "Seletor de Data",
-        "GwVisitManager": "Gestor de Visitas",
-        "GwToolbox": "Caixa de Ferramentas",
         "NetCDFExplorer": "Visualizador NetCDF (Beta)",
         "GwHelp": "Ajuda",
-        "GwParcelFilter": "",
-        "GwSuperset": "",
-        "GwNonVisualObjectsManager": "",
-        "GwEpaSelector": "",
-        "GwEpaManager": "",
-        "GwWorkspaceManager": "",
-        "GwDscenarioManager": "",
-        "GwPsectorManager": ""
+        "GwSuperset": ""
       },
       "filter": "Filtro",
       "menulabel": "Mapas e Ferramentas"
@@ -94,7 +101,8 @@
       "recent": "Pesquisas Recentes",
       "search": "Pesquisar",
       "themelayers": "",
-      "themes": "Temas"
+      "themes": "Temas",
+      "unknownmore": ""
     },
     "colorschemes": {
       "default": "",
@@ -161,6 +169,8 @@
     "compare3d": {
       "clipplane": "",
       "compare_objects": "",
+      "info_message": "",
+      "modify": "",
       "toggleall": ""
     },
     "cookiepopup": {
@@ -182,11 +192,15 @@
       "title": "Cyclomedia"
     },
     "draw3d": {
+      "clone": "",
       "cone": "",
+      "ctrlhint": "",
       "cuboid": "",
       "cylinder": "",
       "delete": "",
       "drawings": "",
+      "intersect": "",
+      "label": "",
       "newgroupprompt": "",
       "numericinput": "",
       "pick": "",
@@ -196,8 +210,12 @@
       "rotation": "",
       "scale": "",
       "sphere": "",
+      "subtract": "",
       "thescale": "",
+      "thesize": "",
       "translate": "",
+      "undoBool": "",
+      "union": "",
       "wedge": ""
     },
     "editing": {
@@ -213,7 +231,8 @@
       "discard": "Descartar",
       "draw": "Desenhar",
       "feature": "Recurso",
-      "geomreadonly": "Geometria Apenas para Leitura",
+      "geomnonzeroz": "Geometria Apenas para Leitura",
+      "geomreadonly": "",
       "invalidform": "Formulário Inválido",
       "maximize": "Maximizar",
       "minimize": "Minimizar",
@@ -259,6 +278,7 @@
     },
     "heightprofile": {
       "asl": "a.s.l.",
+      "dhmdefaultname": "",
       "distance": "Distância",
       "drawnodes": "Desenhar Nós",
       "error": "Erro",
@@ -267,7 +287,13 @@
       "loading": "A calcular o perfil de altura...",
       "loadingimage": "",
       "print": "Imprimir",
-      "title": ""
+      "title": "Perfil de Altura"
+    },
+    "hideobjects3d": {
+      "clickonmap": "",
+      "object": "",
+      "restore": "",
+      "restoreall": ""
     },
     "identify": {
       "aggregatedreport": "",
@@ -282,7 +308,7 @@
       "noresults": "Nenhuma informação disponível para o ponto selecionado",
       "querying": "A consultar...",
       "reportfail": "",
-      "selectlayer": "",
+      "selectreport": "",
       "title": "Informações do Recurso",
       "confirmDiscard": "",
       "confirmSave": ""
@@ -290,6 +316,10 @@
     "imageeditor": {
       "confirmclose": "Confirmar Fechar",
       "title": "Editor de Imagens"
+    },
+    "import3d": {
+      "importing": "",
+      "noprocessesserver": ""
     },
     "importlayer": {
       "addfailed": "Falha ao Adicionar",
@@ -305,11 +335,12 @@
       "shpreprojectionerror": "",
       "supportedformats": "",
       "unknownproj": "Projeção Desconhecida",
+      "unsupportedfile": "",
       "url": "URL",
       "urlplaceholder": "Insira endereço URL ou WMS, WMTS, WFS..."
     },
     "infotool": {
-      "clickhelpPoint": "Clique num local para identificar no mapa...",
+      "clickhelpPoint": "Clique numa localização para identificar no mapa...",
       "clickhelpPolygon": "Desenhe um polígono em torno das características para identificar...",
       "clickhelpRadius": "Clique para desenhar um raio...",
       "radius": ""
@@ -331,6 +362,7 @@
     "layertree": {
       "compare": "Comparar com a Camada Superior",
       "deletealllayers": "Remover Todas as Camadas",
+      "hidealllayers": "",
       "importlayer": "Importar Camada",
       "maptip": "Mostrar Dicas de Mapa das Camadas",
       "printlegend": "Legenda de Impressão",
@@ -341,8 +373,13 @@
       "zoomtolayer": "Zoom para a Camada"
     },
     "layertree3d": {
+      "customheight": "",
+      "import": "",
+      "importobjects": "",
       "layers": "",
-      "objects": ""
+      "objects": "",
+      "supportedformats": "",
+      "zoomtoobject": ""
     },
     "linkfeatureform": {
       "cancel": "Cancelar",
@@ -367,6 +404,7 @@
       "resetrotation": "Redefinir Rotação"
     },
     "map3d": {
+      "lockview": "",
       "syncview": "",
       "terrain": "",
       "title": ""
@@ -374,6 +412,7 @@
     "mapexport": {
       "configuration": "Configuração",
       "format": "Formato:",
+      "projection": "",
       "resolution": "Resolução:",
       "scale": "Escala:",
       "size": "Tamanho:",
@@ -397,7 +436,7 @@
     },
     "mapinfotooltip": {
       "elevation": "Elevação",
-      "title": "Título"
+      "title": "Posição"
     },
     "maplegend": {
       "bboxdependent": "Dependente da Caixa Delimitadora",
@@ -406,9 +445,12 @@
       "windowtitle": "Legenda do Mapa"
     },
     "maplight3d": {
-      "ambientLightIntensity": "",
-      "directionalLightIntensity": "",
+      "animationstep": "",
+      "date": "",
+      "dayspersec": "",
       "helpersVisible": "",
+      "minspersec": "",
+      "moonLightIntensity": "",
       "normalBias": "",
       "shadowBias": "",
       "shadowMapSize": "",
@@ -418,8 +460,8 @@
       "shadowintensity": "",
       "shadows": "",
       "showadvanced": "",
-      "sunazimuth": "",
-      "sunzenith": "",
+      "sunLightIntensity": "",
+      "time": "",
       "zFactor": ""
     },
     "measureComponent": {
@@ -427,6 +469,7 @@
       "areaLabel": "Área",
       "bearingLabel": "Direção",
       "ground": "",
+      "heightDiffLabel": "",
       "imperial": "Imperial",
       "lengthLabel": "Comprimento",
       "metric": "Métrico",
@@ -549,7 +592,7 @@
       "iso_mode_distance": "Distância do Modo ISO",
       "iso_mode_time": "Tempo do Modo ISO",
       "isocenter": "Centro ISO",
-      "isoextracenter": "Centro extra ISO",
+      "isoextracenter": "Centro Extra ISO",
       "leaveat": "Partir em",
       "leavenow": "Partir agora",
       "maxspeed": "Velocidade Máxima",
@@ -560,7 +603,7 @@
       "mode_transit": "Modo Trânsito",
       "mode_walking": "Modo a Pé",
       "optimized_route": "Rota Otimizada",
-      "reachability": "Acessibilidade",
+      "reachability": "Alcance",
       "roundtrip": "Viagem de Ida e Volta",
       "route": "Rota",
       "shortest": "Mais Curto",
@@ -595,11 +638,16 @@
       "systemlang": "Idioma do Sistema",
       "themes": "Temas"
     },
+    "settings3d": {
+      "quality": ""
+    },
     "share": {
       "QRCodeLinkTitle": "Código QR",
       "directLinkTitle": "Via ligação direta",
       "expires": "Expira",
+      "norestriction": "",
       "refresh": "Atualizar",
+      "restricttogroup": "",
       "shareTitle": "QWC2",
       "showpin": "Mostrar PIN",
       "socialIntro": "Na sua rede social favorita"
@@ -685,11 +733,41 @@
       "fullscreenenable": "Ativar Tela Cheia",
       "home": "Mostrar Mapa Completo",
       "zoomin": "Aumentar Zoom",
-      "zoomout": "Diminuir Zoom"
+      "zoomout": "Diminuir Zoom",
+      "zoomlast": "",
+      "zoomnext": ""
+    },
+    "tourguide": {
+      "done": "",
+      "next": "",
+      "previous": ""
+    },
+    "valuetool": {
+      "all": "",
+      "allbands": "",
+      "alllayers": "",
+      "bands": "",
+      "graph": "",
+      "layer": "",
+      "nodata": "",
+      "options": "",
+      "selectedbands": "",
+      "selectedlayers": "",
+      "selectlayersbands": "",
+      "showbands": "",
+      "showlayers": "",
+      "table": "",
+      "title": "",
+      "visiblelayers": "",
+      "ymax": "",
+      "ymin": ""
     },
     "vectorlayerpicker": {
       "none": "Nenhum",
       "prompt": "Insira o Nome da Camada"
+    },
+    "view3d": {
+      "storingstate": ""
     },
     "window": {
       "close": "Fechar",
@@ -709,6 +787,11 @@
     },
     "searchbox": {
       "placeholder": "Pesquisar..."
+    },
+    "streetview": {
+      "google": "",
+      "streetview": "",
+      "title": ""
     }
   }
 }

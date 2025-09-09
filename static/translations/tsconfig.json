@@ -24,6 +24,8 @@
     "colorschemes.dark",
     "colorschemes.highcontrast"
   ],
-  "overrides": [],
+  "overrides": [
+    "share.socialIntro"
+  ],
   "strings": []
 }

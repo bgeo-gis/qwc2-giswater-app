@@ -7,7 +7,9 @@
         "Bookmark": "",
         "Compare3D": "",
         "Editing": "Edycja",
+        "ExportObjects3D": "",
         "Help": "Pomoc",
+        "HideObjects3D": "",
         "LayerTree": "Warstwy i ich legendy",
         "LayerTree3D": "",
         "MapExport": "Eksportuj mapę",
@@ -17,11 +19,12 @@
         "Print": "Drukuj",
         "Reports": "",
         "Settings": "",
+        "Settings3D": "",
         "Share": "Udostępnij Link",
         "ThemeSwitcher": "Motyw",
         "AttributeTable": "",
         "AuthenticationLogin": "Zaloguj",
-        "AuthenticationLogout": "Wyloguj",
+        "AuthenticationLogout": "Wyloguj - {0}",
         "Cyclomedia": "",
         "Draw3D": "",
         "FeatureForm": "",
@@ -44,33 +47,37 @@
         "Redlining": "Redlining",
         "Routing": "",
         "Tools": "Narzędzia Mapy",
+        "TourGuide": "",
         "TimeManager": "",
         "View3D": "",
+        "GwDateSelector": "",
+        "GwDscenario": "",
+        "GwDscenarioManager": "",
+        "GwEpaManager": "",
+        "GwEpaSelector": "",
+        "GwMincut": "",
+        "GwMincutManager": "",
+        "GwNonVisualObjectsManager": "",
+        "GwParcelFilter": "",
+        "GwProfilePicker": "",
+        "GwPsector": "",
+        "GwPsectorManager": "",
+        "GwSelector": "",
+        "GwToolbox": "",
+        "GwVisitManager": "",
+        "GwWorkspaceManager": "",
         "GwTools": "",
         "GwInfoPoint": "",
         "GwInfoDma": "",
         "GwInfoScada": "",
-        "GwProfilePicker": "",
-        "GwSelector": "",
         "GwFlowtracetrace": "",
         "GwFlowtraceexit": "",
         "GwMincutNetwork": "",
-        "GwMincutManager": "",
         "GwVisitVisit": "",
         "GwVisitIncidencia": "",
-        "GwDateSelector": "",
-        "GwVisitManager": "",
-        "GwToolbox": "",
         "NetCDFExplorer": "",
         "GwHelp": "",
-        "GwParcelFilter": "",
-        "GwSuperset": "",
-        "GwNonVisualObjectsManager": "",
-        "GwEpaSelector": "",
-        "GwEpaManager": "",
-        "GwWorkspaceManager": "",
-        "GwDscenarioManager": "",
-        "GwPsectorManager": ""
+        "GwSuperset": ""
       },
       "filter": "",
       "menulabel": "Zawartość mapy i narzędzia"
@@ -94,7 +101,8 @@
       "recent": "",
       "search": "Szukaj",
       "themelayers": "",
-      "themes": "Motywy"
+      "themes": "Motywy",
+      "unknownmore": ""
     },
     "colorschemes": {
       "default": "",
@@ -161,6 +169,8 @@
     "compare3d": {
       "clipplane": "",
       "compare_objects": "",
+      "info_message": "",
+      "modify": "",
       "toggleall": ""
     },
     "cookiepopup": {
@@ -182,11 +192,15 @@
       "title": ""
     },
     "draw3d": {
+      "clone": "",
       "cone": "",
+      "ctrlhint": "",
       "cuboid": "",
       "cylinder": "",
       "delete": "",
       "drawings": "",
+      "intersect": "",
+      "label": "",
       "newgroupprompt": "",
       "numericinput": "",
       "pick": "",
@@ -196,8 +210,12 @@
       "rotation": "",
       "scale": "",
       "sphere": "",
+      "subtract": "",
       "thescale": "",
+      "thesize": "",
       "translate": "",
+      "undoBool": "",
+      "union": "",
       "wedge": ""
     },
     "editing": {
@@ -213,6 +231,7 @@
       "discard": "Odrzuć",
       "draw": "Rysuj",
       "feature": "",
+      "geomnonzeroz": "",
       "geomreadonly": "",
       "invalidform": "",
       "maximize": "Maksymalizuj",
@@ -258,16 +277,23 @@
       "wait": ""
     },
     "heightprofile": {
-      "asl": "",
-      "distance": "",
+      "asl": "a.s.l.",
+      "dhmdefaultname": "",
+      "distance": "Odległość",
       "drawnodes": "",
       "error": "",
       "export": "",
-      "height": "",
+      "height": "Wysokość",
       "loading": "Obliczanie profilu wysokości...",
       "loadingimage": "",
       "print": "",
       "title": ""
+    },
+    "hideobjects3d": {
+      "clickonmap": "",
+      "object": "",
+      "restore": "",
+      "restoreall": ""
     },
     "identify": {
       "aggregatedreport": "",
@@ -279,10 +305,10 @@
       "layerall": "",
       "link": "Link",
       "noattributes": "Brak atrybutów",
-      "noresults": "",
-      "querying": "",
+      "noresults": "Brak dostępnych danych dla wybranego punktu",
+      "querying": "Przetwarzam zapytanie...",
       "reportfail": "",
-      "selectlayer": "",
+      "selectreport": "",
       "title": "Feature Info",
       "confirmDiscard": "",
       "confirmSave": ""
@@ -290,6 +316,10 @@
     "imageeditor": {
       "confirmclose": "",
       "title": ""
+    },
+    "import3d": {
+      "importing": "",
+      "noprocessesserver": ""
     },
     "importlayer": {
       "addfailed": "",
@@ -305,6 +335,7 @@
       "shpreprojectionerror": "",
       "supportedformats": "",
       "unknownproj": "",
+      "unsupportedfile": "",
       "url": "URL",
       "urlplaceholder": "Podaj URL do WMS, WFS, WMTS..."
     },
@@ -331,6 +362,7 @@
     "layertree": {
       "compare": "Porównaj najwyższą warstwę",
       "deletealllayers": "Usuń wszystkie warstwy",
+      "hidealllayers": "",
       "importlayer": "Importuj warstwę",
       "maptip": "Pokaż wskazówki dla warstwy",
       "printlegend": "Drukuj legendę",
@@ -341,8 +373,13 @@
       "zoomtolayer": ""
     },
     "layertree3d": {
+      "customheight": "",
+      "import": "",
+      "importobjects": "",
       "layers": "",
-      "objects": ""
+      "objects": "",
+      "supportedformats": "",
+      "zoomtoobject": ""
     },
     "linkfeatureform": {
       "cancel": "",
@@ -367,6 +404,7 @@
       "resetrotation": ""
     },
     "map3d": {
+      "lockview": "",
       "syncview": "",
       "terrain": "",
       "title": ""
@@ -374,6 +412,7 @@
     "mapexport": {
       "configuration": "",
       "format": "Format:",
+      "projection": "",
       "resolution": "Rozdzielczość:",
       "scale": "",
       "size": "",
@@ -396,8 +435,8 @@
       "timeto": ""
     },
     "mapinfotooltip": {
-      "elevation": "",
-      "title": ""
+      "elevation": "Wysokość",
+      "title": "Pozycja"
     },
     "maplegend": {
       "bboxdependent": "",
@@ -406,9 +445,12 @@
       "windowtitle": ""
     },
     "maplight3d": {
-      "ambientLightIntensity": "",
-      "directionalLightIntensity": "",
+      "animationstep": "",
+      "date": "",
+      "dayspersec": "",
       "helpersVisible": "",
+      "minspersec": "",
+      "moonLightIntensity": "",
       "normalBias": "",
       "shadowBias": "",
       "shadowMapSize": "",
@@ -418,8 +460,8 @@
       "shadowintensity": "",
       "shadows": "",
       "showadvanced": "",
-      "sunazimuth": "",
-      "sunzenith": "",
+      "sunLightIntensity": "",
+      "time": "",
       "zFactor": ""
     },
     "measureComponent": {
@@ -427,6 +469,7 @@
       "areaLabel": "Obszar",
       "bearingLabel": "Bearing",
       "ground": "",
+      "heightDiffLabel": "",
       "imperial": "",
       "lengthLabel": "Odległość",
       "metric": "",
@@ -595,11 +638,16 @@
       "systemlang": "",
       "themes": ""
     },
+    "settings3d": {
+      "quality": ""
+    },
     "share": {
       "QRCodeLinkTitle": "QR code",
       "directLinkTitle": "Poprzez link bezpośredni",
       "expires": "",
+      "norestriction": "",
       "refresh": "",
+      "restricttogroup": "",
       "shareTitle": "QWC2",
       "showpin": "",
       "socialIntro": "W twoich ulubionych mediach społecznościowych"
@@ -685,11 +733,41 @@
       "fullscreenenable": "",
       "home": "Pokaż całą mapę",
       "zoomin": "Przybliż",
-      "zoomout": "Oddal"
+      "zoomout": "Oddal",
+      "zoomlast": "",
+      "zoomnext": ""
+    },
+    "tourguide": {
+      "done": "",
+      "next": "",
+      "previous": ""
+    },
+    "valuetool": {
+      "all": "",
+      "allbands": "",
+      "alllayers": "",
+      "bands": "",
+      "graph": "",
+      "layer": "",
+      "nodata": "",
+      "options": "",
+      "selectedbands": "",
+      "selectedlayers": "",
+      "selectlayersbands": "",
+      "showbands": "",
+      "showlayers": "",
+      "table": "",
+      "title": "",
+      "visiblelayers": "",
+      "ymax": "",
+      "ymin": ""
     },
     "vectorlayerpicker": {
       "none": "",
       "prompt": ""
+    },
+    "view3d": {
+      "storingstate": ""
     },
     "window": {
       "close": "",
@@ -709,6 +787,11 @@
     },
     "searchbox": {
       "placeholder": ""
+    },
+    "streetview": {
+      "google": "",
+      "streetview": "",
+      "title": ""
     }
   }
 }

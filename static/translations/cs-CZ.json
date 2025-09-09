@@ -7,7 +7,9 @@
         "Bookmark": "Záložky",
         "Compare3D": "",
         "Editing": "Úpravy",
+        "ExportObjects3D": "",
         "Help": "Nápověda",
+        "HideObjects3D": "",
         "LayerTree": "Vrstvy & legenda",
         "LayerTree3D": "",
         "MapExport": "Export mapu",
@@ -17,11 +19,12 @@
         "Print": "Tisk",
         "Reports": "",
         "Settings": "Nastavení",
+        "Settings3D": "",
         "Share": "Sdílet odkaz",
         "ThemeSwitcher": "Téma",
         "AttributeTable": "Atributy",
         "AuthenticationLogin": "Přihlášení",
-        "AuthenticationLogout": "Odhlášení",
+        "AuthenticationLogout": "Odhlášení - {0}",
         "Cyclomedia": "Cyclomedia",
         "Draw3D": "",
         "FeatureForm": "Editační formulář",
@@ -44,33 +47,37 @@
         "Redlining": "Připomínkování",
         "Routing": "Trasy",
         "Tools": "Nástroje mapy",
+        "TourGuide": "",
         "TimeManager": "",
         "View3D": "",
+        "GwDateSelector": "",
+        "GwDscenario": "",
+        "GwDscenarioManager": "",
+        "GwEpaManager": "",
+        "GwEpaSelector": "",
+        "GwMincut": "",
+        "GwMincutManager": "",
+        "GwNonVisualObjectsManager": "",
+        "GwParcelFilter": "",
+        "GwProfilePicker": "",
+        "GwPsector": "",
+        "GwPsectorManager": "",
+        "GwSelector": "",
+        "GwToolbox": "",
+        "GwVisitManager": "",
+        "GwWorkspaceManager": "",
         "GwTools": "",
         "GwInfoPoint": "",
         "GwInfoDma": "",
         "GwInfoScada": "",
-        "GwProfilePicker": "",
-        "GwSelector": "",
         "GwFlowtracetrace": "",
         "GwFlowtraceexit": "",
         "GwMincutNetwork": "",
-        "GwMincutManager": "",
         "GwVisitVisit": "",
         "GwVisitIncidencia": "",
-        "GwDateSelector": "",
-        "GwVisitManager": "",
-        "GwToolbox": "",
         "NetCDFExplorer": "",
         "GwHelp": "",
-        "GwParcelFilter": "",
-        "GwSuperset": "",
-        "GwNonVisualObjectsManager": "",
-        "GwEpaSelector": "",
-        "GwEpaManager": "",
-        "GwWorkspaceManager": "",
-        "GwDscenarioManager": "",
-        "GwPsectorManager": ""
+        "GwSuperset": ""
       },
       "filter": "Hledat v menu...",
       "menulabel": "Mapa & Nástroje"
@@ -94,7 +101,8 @@
       "recent": "Nedávná hledání",
       "search": "Hledat",
       "themelayers": "",
-      "themes": "Témata"
+      "themes": "Témata",
+      "unknownmore": ""
     },
     "colorschemes": {
       "default": "",
@@ -161,6 +169,8 @@
     "compare3d": {
       "clipplane": "",
       "compare_objects": "",
+      "info_message": "",
+      "modify": "",
       "toggleall": ""
     },
     "cookiepopup": {
@@ -182,11 +192,15 @@
       "title": "Cyclomedia"
     },
     "draw3d": {
+      "clone": "",
       "cone": "",
+      "ctrlhint": "",
       "cuboid": "",
       "cylinder": "",
       "delete": "",
       "drawings": "",
+      "intersect": "",
+      "label": "",
       "newgroupprompt": "",
       "numericinput": "",
       "pick": "",
@@ -196,8 +210,12 @@
       "rotation": "",
       "scale": "",
       "sphere": "",
+      "subtract": "",
       "thescale": "",
+      "thesize": "",
       "translate": "",
+      "undoBool": "",
+      "union": "",
       "wedge": ""
     },
     "editing": {
@@ -213,6 +231,7 @@
       "discard": "Vyřadit",
       "draw": "Kreslit",
       "feature": "Prvek",
+      "geomnonzeroz": "",
       "geomreadonly": "",
       "invalidform": "",
       "maximize": "Maximální",
@@ -258,16 +277,23 @@
       "wait": ""
     },
     "heightprofile": {
-      "asl": "",
-      "distance": "",
+      "asl": "m n. m.",
+      "dhmdefaultname": "",
+      "distance": "Vzdálenost",
       "drawnodes": "",
       "error": "",
       "export": "Export výškového profilu",
-      "height": "",
+      "height": "Výška",
       "loading": "Výpočet výškového profilu...",
       "loadingimage": "",
       "print": "",
       "title": ""
+    },
+    "hideobjects3d": {
+      "clickonmap": "",
+      "object": "",
+      "restore": "",
+      "restoreall": ""
     },
     "identify": {
       "aggregatedreport": "",
@@ -279,10 +305,10 @@
       "layerall": "",
       "link": "Odkaz",
       "noattributes": "Bez atributů",
-      "noresults": "",
-      "querying": "",
+      "noresults": "V tomto bodu nejsou k dispozici informace o žádném prvku",
+      "querying": "Dotazování...",
       "reportfail": "",
-      "selectlayer": "",
+      "selectreport": "",
       "title": "Informace o prvku",
       "confirmDiscard": "",
       "confirmSave": ""
@@ -290,6 +316,10 @@
     "imageeditor": {
       "confirmclose": "",
       "title": ""
+    },
+    "import3d": {
+      "importing": "",
+      "noprocessesserver": ""
     },
     "importlayer": {
       "addfailed": "Přidání vrstvy selhalo",
@@ -305,11 +335,12 @@
       "shpreprojectionerror": "",
       "supportedformats": "",
       "unknownproj": "",
+      "unsupportedfile": "",
       "url": "URL",
       "urlplaceholder": "Vložit URL pro WMS, WMTS, WFS..."
     },
     "infotool": {
-      "clickhelpPoint": "",
+      "clickhelpPoint": "Klikněte na bod, o kterém chcete zobrazit další informace.",
       "clickhelpPolygon": "Nakreslete polygon okolo prvků, ke kterým chcete zobrazit další informace.",
       "clickhelpRadius": "Nastavte velikost okruhu a klikněte na místo, okolo kterého chcete načíst informace o prvcích.",
       "radius": "Velikost okruhu"
@@ -331,6 +362,7 @@
     "layertree": {
       "compare": "Porovnat vrchní vrstvy",
       "deletealllayers": "Odstranit všechny vrstvy",
+      "hidealllayers": "",
       "importlayer": "Importovat vrstvu",
       "maptip": "Zobrazovat bubliny nad mapou",
       "printlegend": "Tisk legendy",
@@ -341,8 +373,13 @@
       "zoomtolayer": "Vycentrovat na vrstvu"
     },
     "layertree3d": {
+      "customheight": "",
+      "import": "",
+      "importobjects": "",
       "layers": "",
-      "objects": ""
+      "objects": "",
+      "supportedformats": "",
+      "zoomtoobject": ""
     },
     "linkfeatureform": {
       "cancel": "",
@@ -367,6 +404,7 @@
       "resetrotation": "Obnovit orientaci mapy"
     },
     "map3d": {
+      "lockview": "",
       "syncview": "",
       "terrain": "",
       "title": ""
@@ -374,6 +412,7 @@
     "mapexport": {
       "configuration": "",
       "format": "Formát:",
+      "projection": "",
       "resolution": "Rozlišení:",
       "scale": "Měřítko",
       "size": "Velikost",
@@ -396,8 +435,8 @@
       "timeto": ""
     },
     "mapinfotooltip": {
-      "elevation": "",
-      "title": ""
+      "elevation": "Nadmořská výška",
+      "title": "Poloha"
     },
     "maplegend": {
       "bboxdependent": "Pouze pro prvky v zobrazující se oblasti",
@@ -406,9 +445,12 @@
       "windowtitle": "Legenda"
     },
     "maplight3d": {
-      "ambientLightIntensity": "",
-      "directionalLightIntensity": "",
+      "animationstep": "",
+      "date": "",
+      "dayspersec": "",
       "helpersVisible": "",
+      "minspersec": "",
+      "moonLightIntensity": "",
       "normalBias": "",
       "shadowBias": "",
       "shadowMapSize": "",
@@ -418,8 +460,8 @@
       "shadowintensity": "",
       "shadows": "",
       "showadvanced": "",
-      "sunazimuth": "",
-      "sunzenith": "",
+      "sunLightIntensity": "",
+      "time": "",
       "zFactor": ""
     },
     "measureComponent": {
@@ -427,6 +469,7 @@
       "areaLabel": "Plocha",
       "bearingLabel": "Střed",
       "ground": "",
+      "heightDiffLabel": "",
       "imperial": "Imperiálně",
       "lengthLabel": "Délka",
       "metric": "Metricky",
@@ -532,7 +575,7 @@
     },
     "routing": {
       "add": "",
-      "addviapoint": "",
+      "addviapoint": "Přes tento bod",
       "arriveat": "",
       "clear": "",
       "computefailed": "",
@@ -540,7 +583,7 @@
       "excludepolygons": "",
       "export": "",
       "fastest": "",
-      "fromhere": "",
+      "fromhere": "Odtud",
       "importerror": "",
       "importhint": "",
       "importpoints": "",
@@ -548,8 +591,8 @@
       "iso_mode": "",
       "iso_mode_distance": "",
       "iso_mode_time": "",
-      "isocenter": "",
-      "isoextracenter": "",
+      "isocenter": "Centrum",
+      "isoextracenter": "Širší centrum",
       "leaveat": "",
       "leavenow": "",
       "maxspeed": "",
@@ -560,11 +603,11 @@
       "mode_transit": "",
       "mode_walking": "",
       "optimized_route": "",
-      "reachability": "",
+      "reachability": "Dostupnost",
       "roundtrip": "",
-      "route": "",
+      "route": "Trasa",
       "shortest": "",
-      "tohere": "",
+      "tohere": "Sem",
       "useferries": "",
       "usehighways": "",
       "usetollways": "",
@@ -595,11 +638,16 @@
       "systemlang": "Systémový jazyk",
       "themes": ""
     },
+    "settings3d": {
+      "quality": ""
+    },
     "share": {
       "QRCodeLinkTitle": "QR kód",
       "directLinkTitle": "Přes přímý odkaz",
       "expires": "",
+      "norestriction": "",
       "refresh": "Generovat odkaz",
+      "restricttogroup": "",
       "shareTitle": "QWC2",
       "showpin": "Zobrazit bod",
       "socialIntro": "Na sociální síti"
@@ -685,11 +733,41 @@
       "fullscreenenable": "Na celou obrazovku",
       "home": "Výchozí zobrazení mapy",
       "zoomin": "Přiblížit",
-      "zoomout": "Oddálit"
+      "zoomout": "Oddálit",
+      "zoomlast": "",
+      "zoomnext": ""
+    },
+    "tourguide": {
+      "done": "",
+      "next": "",
+      "previous": ""
+    },
+    "valuetool": {
+      "all": "",
+      "allbands": "",
+      "alllayers": "",
+      "bands": "",
+      "graph": "",
+      "layer": "",
+      "nodata": "",
+      "options": "",
+      "selectedbands": "",
+      "selectedlayers": "",
+      "selectlayersbands": "",
+      "showbands": "",
+      "showlayers": "",
+      "table": "",
+      "title": "",
+      "visiblelayers": "",
+      "ymax": "",
+      "ymin": ""
     },
     "vectorlayerpicker": {
       "none": "Žádná",
       "prompt": "Zadejte název vrstvy"
+    },
+    "view3d": {
+      "storingstate": ""
     },
     "window": {
       "close": "Zavřít",
@@ -709,6 +787,11 @@
     },
     "searchbox": {
       "placeholder": ""
+    },
+    "streetview": {
+      "google": "",
+      "streetview": "",
+      "title": ""
     }
   }
 }

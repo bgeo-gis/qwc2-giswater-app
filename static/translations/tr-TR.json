@@ -7,7 +7,9 @@
         "Bookmark": "Yer işaretleri",
         "Compare3D": "Karşılaştır",
         "Editing": "Düzenleme",
+        "ExportObjects3D": "",
         "Help": "Yardım",
+        "HideObjects3D": "",
         "LayerTree": "Katmanlar & Gösterim",
         "LayerTree3D": "Katmanlar",
         "MapExport": "Dışarıya ver",
@@ -17,11 +19,12 @@
         "Print": "Yazdır",
         "Reports": "Raporlar",
         "Settings": "Ayarlar",
+        "Settings3D": "",
         "Share": "Bağlantı Paylaş",
         "ThemeSwitcher": "Tema",
         "AttributeTable": "Öznitelik Tablosu",
         "AuthenticationLogin": "Giriş",
-        "AuthenticationLogout": "Çıkış",
+        "AuthenticationLogout": "Çıkış - {0}",
         "Cyclomedia": "Siklomedya",
         "Draw3D": "Çizim",
         "FeatureForm": "Obje Formu",
@@ -44,33 +47,37 @@
         "Redlining": "Serbest Çizim",
         "Routing": "Navigasyon",
         "Tools": "Harita Araçları",
+        "TourGuide": "",
         "TimeManager": "Zaman Yöneticisi",
         "View3D": "3 Boyutlu Görünüm",
+        "GwDateSelector": "",
+        "GwDscenario": "",
+        "GwDscenarioManager": "",
+        "GwEpaManager": "",
+        "GwEpaSelector": "",
+        "GwMincut": "",
+        "GwMincutManager": "",
+        "GwNonVisualObjectsManager": "",
+        "GwParcelFilter": "",
+        "GwProfilePicker": "",
+        "GwPsector": "",
+        "GwPsectorManager": "",
+        "GwSelector": "",
+        "GwToolbox": "",
+        "GwVisitManager": "",
+        "GwWorkspaceManager": "",
         "GwTools": "",
         "GwInfoPoint": "",
         "GwInfoDma": "",
         "GwInfoScada": "",
-        "GwProfilePicker": "",
-        "GwSelector": "",
         "GwFlowtracetrace": "",
         "GwFlowtraceexit": "",
         "GwMincutNetwork": "",
-        "GwMincutManager": "",
         "GwVisitVisit": "",
         "GwVisitIncidencia": "",
-        "GwDateSelector": "",
-        "GwVisitManager": "",
-        "GwToolbox": "",
         "NetCDFExplorer": "",
         "GwHelp": "",
-        "GwParcelFilter": "",
-        "GwSuperset": "",
-        "GwNonVisualObjectsManager": "",
-        "GwEpaSelector": "",
-        "GwEpaManager": "",
-        "GwWorkspaceManager": "",
-        "GwDscenarioManager": "",
-        "GwPsectorManager": ""
+        "GwSuperset": ""
       },
       "filter": "Filtre menüsü...",
       "menulabel": "Harita & Araçlar"
@@ -94,7 +101,8 @@
       "recent": "Son aramalar",
       "search": "Ara",
       "themelayers": "Tema katmanları",
-      "themes": "Temalar"
+      "themes": "Temalar",
+      "unknownmore": ""
     },
     "colorschemes": {
       "default": "",
@@ -161,6 +169,8 @@
     "compare3d": {
       "clipplane": "Kırpma düzlemi",
       "compare_objects": "Objeleri karşılaştır",
+      "info_message": "",
+      "modify": "",
       "toggleall": "Tümünü aç-kapat"
     },
     "cookiepopup": {
@@ -182,11 +192,15 @@
       "title": "Cyclomedia Görüntüleyici"
     },
     "draw3d": {
+      "clone": "",
       "cone": "Koni",
+      "ctrlhint": "",
       "cuboid": "Kübik",
       "cylinder": "Silindir",
       "delete": "Sil",
       "drawings": "Çizimler",
+      "intersect": "",
+      "label": "",
       "newgroupprompt": "Yeni çizim grubu",
       "numericinput": "Sayısal giriş",
       "pick": "Seç",
@@ -196,8 +210,12 @@
       "rotation": "Dönüklük",
       "scale": "Ölçek",
       "sphere": "Küre",
+      "subtract": "",
       "thescale": "Ölçek",
+      "thesize": "",
       "translate": "Çevir",
+      "undoBool": "",
+      "union": "",
       "wedge": "Kama"
     },
     "editing": {
@@ -213,7 +231,8 @@
       "discard": "İptal",
       "draw": "Çiz",
       "feature": "Obje",
-      "geomreadonly": "Geometri, sıfır olmayan yükseklik değeri içerdiğinden salt okunur",
+      "geomnonzeroz": "Geometri, sıfır olmayan yükseklik değeri içerdiğinden salt okunur",
+      "geomreadonly": "",
       "invalidform": "Geçersiz form",
       "maximize": "Büyüt",
       "minimize": "Küçült",
@@ -258,16 +277,23 @@
       "wait": "Yükleniyor"
     },
     "heightprofile": {
-      "asl": "",
-      "distance": "",
+      "asl": "a.s.l.",
+      "dhmdefaultname": "",
+      "distance": "Mesafe",
       "drawnodes": "Düğüm noktası çiz",
       "error": "Yükseklik profili hesaplama başarısız",
       "export": "Profili ver",
-      "height": "",
+      "height": "Yükseklik",
       "loading": "Yükseklik profili hesaplanıyor...",
       "loadingimage": "Harita görüntüsü yükleniyor",
       "print": "Yükseklik profili yazdır",
-      "title": ""
+      "title": "Yükseklik profili"
+    },
+    "hideobjects3d": {
+      "clickonmap": "",
+      "object": "",
+      "restore": "",
+      "restoreall": ""
     },
     "identify": {
       "aggregatedreport": "Toplu rapor",
@@ -279,10 +305,10 @@
       "layerall": "Tüm katmanlar",
       "link": "Bağlantı",
       "noattributes": "Öznitelik yok",
-      "noresults": "",
-      "querying": "",
+      "noresults": "Seçilen nokta için geçerli bilgi yok",
+      "querying": "Sorgulanıyor...",
       "reportfail": "Rapor üretilemedi",
-      "selectlayer": "Katman seçiniz...",
+      "selectreport": "",
       "title": "Obje Bilgisi",
       "confirmDiscard": "",
       "confirmSave": ""
@@ -290,6 +316,10 @@
     "imageeditor": {
       "confirmclose": "Kaydetmeden kapat",
       "title": "Resim editörü"
+    },
+    "import3d": {
+      "importing": "",
+      "noprocessesserver": ""
     },
     "importlayer": {
       "addfailed": "Katman ekleme başarısız",
@@ -305,11 +335,12 @@
       "shpreprojectionerror": "",
       "supportedformats": "Desteklenen formatlar: KML, GeoJSON, GeoPDF, SHP (zip içinde)",
       "unknownproj": "Seçilen GeoPDF bilinmeyen projeksiyon kullanıyor: {0}.",
+      "unsupportedfile": "",
       "url": "URL",
       "urlplaceholder": "WMS, WMTS, WFS Adresini giriniz..."
     },
     "infotool": {
-      "clickhelpPoint": "",
+      "clickhelpPoint": "Haritadan bilgi almak için bir noktayı tıklayınız...",
       "clickhelpPolygon": "Bilgi alınacak alanı poligon çizerek belirleyiniz...",
       "clickhelpRadius": "Yarıçap belirleyip çevresinden bilgi almak için bir noktayı tıklayınız",
       "radius": "Yarıçap"
@@ -331,6 +362,7 @@
     "layertree": {
       "compare": "En üst katmanı karşılaştır",
       "deletealllayers": "Tüm katmanları kaldır",
+      "hidealllayers": "",
       "importlayer": "Katmanı içeri al",
       "maptip": "Katman harita ipuçlarını göster",
       "printlegend": "Yazdırma Lejandı",
@@ -341,8 +373,13 @@
       "zoomtolayer": "Katman sınırlarına yaklaş"
     },
     "layertree3d": {
+      "customheight": "",
+      "import": "",
+      "importobjects": "",
       "layers": "Katmanlar",
-      "objects": "Objeler"
+      "objects": "Objeler",
+      "supportedformats": "",
+      "zoomtoobject": ""
     },
     "linkfeatureform": {
       "cancel": "İptal",
@@ -367,6 +404,7 @@
       "resetrotation": "Dönüklüğü sıfırla"
     },
     "map3d": {
+      "lockview": "",
       "syncview": "Görünümü senkronize et",
       "terrain": "Arazi",
       "title": "3 Boyutlu görünüm"
@@ -374,6 +412,7 @@
     "mapexport": {
       "configuration": "Yapılandırma",
       "format": "Format:",
+      "projection": "",
       "resolution": "Çözünürlük:",
       "scale": "Ölçek",
       "size": "Boyut",
@@ -396,8 +435,8 @@
       "timeto": "Bitiş"
     },
     "mapinfotooltip": {
-      "elevation": "",
-      "title": ""
+      "elevation": "Yükseklik",
+      "title": "Konum"
     },
     "maplegend": {
       "bboxdependent": "Harita sınırlarına bağlı lejant",
@@ -406,9 +445,12 @@
       "windowtitle": "Lejant"
     },
     "maplight3d": {
-      "ambientLightIntensity": "",
-      "directionalLightIntensity": "",
+      "animationstep": "",
+      "date": "",
+      "dayspersec": "",
       "helpersVisible": "",
+      "minspersec": "",
+      "moonLightIntensity": "",
       "normalBias": "",
       "shadowBias": "",
       "shadowMapSize": "",
@@ -418,8 +460,8 @@
       "shadowintensity": "",
       "shadows": "",
       "showadvanced": "",
-      "sunazimuth": "",
-      "sunzenith": "",
+      "sunLightIntensity": "",
+      "time": "",
       "zFactor": ""
     },
     "measureComponent": {
@@ -427,6 +469,7 @@
       "areaLabel": "Alan",
       "bearingLabel": "Doğrultu",
       "ground": "İrtifa (m)",
+      "heightDiffLabel": "",
       "imperial": "Imperial",
       "lengthLabel": "Uzunluk",
       "metric": "Metrik",
@@ -532,7 +575,7 @@
     },
     "routing": {
       "add": "Nokta ekle",
-      "addviapoint": "",
+      "addviapoint": "Burası üzerinden",
       "arriveat": "Varış noktası",
       "clear": "Temizle",
       "computefailed": "Hesaplama başarısız",
@@ -540,7 +583,7 @@
       "excludepolygons": "Alanları hariç tut",
       "export": "Dışarı ver",
       "fastest": "En hızlı",
-      "fromhere": "",
+      "fromhere": "Buradan",
       "importerror": "İçeri alma başarısız. Dosya içeriği noktalardan oluşan GeoJSON FeatureCollection olmalı.",
       "importhint": "GeoJSON nokta objeleri kolleksiyonu",
       "importpoints": "İçeri al",
@@ -548,8 +591,8 @@
       "iso_mode": "Mod",
       "iso_mode_distance": "Mesafe",
       "iso_mode_time": "Zaman",
-      "isocenter": "",
-      "isoextracenter": "",
+      "isocenter": "Merkez",
+      "isoextracenter": "İlave merkez",
       "leaveat": "Çıkış zamanı",
       "leavenow": "Şimdi çık",
       "maxspeed": "Maksimum hız",
@@ -560,11 +603,11 @@
       "mode_transit": "Transit",
       "mode_walking": "Yaya",
       "optimized_route": "Optimize edilmiş rota",
-      "reachability": "",
+      "reachability": "Erişilebilirlik",
       "roundtrip": "Gidiş",
-      "route": "",
+      "route": "Rota",
       "shortest": "En kısa",
-      "tohere": "",
+      "tohere": "Buraya",
       "useferries": "Feribot kullan",
       "usehighways": "Otoyolları kullan",
       "usetollways": "Ücretli Yolları kullan",
@@ -595,11 +638,16 @@
       "systemlang": "Sistem dili",
       "themes": "Temalar"
     },
+    "settings3d": {
+      "quality": ""
+    },
     "share": {
       "QRCodeLinkTitle": "Karekod",
       "directLinkTitle": "Doğrudan bağlantı yolu ile",
       "expires": "Bu bağlantı {0} zamanına kadar geçerlidir",
+      "norestriction": "",
       "refresh": "Bağlantı oluştur",
+      "restricttogroup": "",
       "shareTitle": "QWC2",
       "showpin": "Pini göster",
       "socialIntro": "Favori sosyal ağınıza"
@@ -685,11 +733,41 @@
       "fullscreenenable": "Tam ekran görünümü",
       "home": "Haritanın tamamını göster",
       "zoomin": "Yaklaş",
-      "zoomout": "Uzaklaş"
+      "zoomout": "Uzaklaş",
+      "zoomlast": "",
+      "zoomnext": ""
+    },
+    "tourguide": {
+      "done": "",
+      "next": "",
+      "previous": ""
+    },
+    "valuetool": {
+      "all": "",
+      "allbands": "",
+      "alllayers": "",
+      "bands": "",
+      "graph": "",
+      "layer": "",
+      "nodata": "",
+      "options": "",
+      "selectedbands": "",
+      "selectedlayers": "",
+      "selectlayersbands": "",
+      "showbands": "",
+      "showlayers": "",
+      "table": "",
+      "title": "",
+      "visiblelayers": "",
+      "ymax": "",
+      "ymin": ""
     },
     "vectorlayerpicker": {
       "none": "Yok",
       "prompt": "Katman adı giriniz"
+    },
+    "view3d": {
+      "storingstate": ""
     },
     "window": {
       "close": "Kapat",
@@ -709,6 +787,11 @@
     },
     "searchbox": {
       "placeholder": ""
+    },
+    "streetview": {
+      "google": "",
+      "streetview": "",
+      "title": ""
     }
   }
 }

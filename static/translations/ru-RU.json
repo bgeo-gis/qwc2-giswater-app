@@ -7,7 +7,9 @@
         "Bookmark": "",
         "Compare3D": "",
         "Editing": "Правка",
+        "ExportObjects3D": "",
         "Help": "Помощь",
+        "HideObjects3D": "",
         "LayerTree": "Слои и легенда",
         "LayerTree3D": "",
         "MapExport": "экспортировать карту",
@@ -17,6 +19,7 @@
         "Print": "Печать",
         "Reports": "",
         "Settings": "",
+        "Settings3D": "",
         "Share": "Поделиться ссылкой",
         "ThemeSwitcher": "Тема",
         "AttributeTable": "",
@@ -44,33 +47,37 @@
         "Redlining": "Обводка",
         "Routing": "",
         "Tools": "Средства картографии",
+        "TourGuide": "",
         "TimeManager": "",
         "View3D": "",
+        "GwDateSelector": "",
+        "GwDscenario": "",
+        "GwDscenarioManager": "",
+        "GwEpaManager": "",
+        "GwEpaSelector": "",
+        "GwMincut": "",
+        "GwMincutManager": "",
+        "GwNonVisualObjectsManager": "",
+        "GwParcelFilter": "",
+        "GwProfilePicker": "",
+        "GwPsector": "",
+        "GwPsectorManager": "",
+        "GwSelector": "",
+        "GwToolbox": "",
+        "GwVisitManager": "",
+        "GwWorkspaceManager": "",
         "GwTools": "",
         "GwInfoPoint": "",
         "GwInfoDma": "",
         "GwInfoScada": "",
-        "GwProfilePicker": "",
-        "GwSelector": "",
         "GwFlowtracetrace": "",
         "GwFlowtraceexit": "",
         "GwMincutNetwork": "",
-        "GwMincutManager": "",
         "GwVisitVisit": "",
         "GwVisitIncidencia": "",
-        "GwDateSelector": "",
-        "GwVisitManager": "",
-        "GwToolbox": "",
         "NetCDFExplorer": "",
         "GwHelp": "",
-        "GwParcelFilter": "",
-        "GwSuperset": "",
-        "GwNonVisualObjectsManager": "",
-        "GwEpaSelector": "",
-        "GwEpaManager": "",
-        "GwWorkspaceManager": "",
-        "GwDscenarioManager": "",
-        "GwPsectorManager": ""
+        "GwSuperset": ""
       },
       "filter": "",
       "menulabel": "Карта и инструменты"
@@ -94,7 +101,8 @@
       "recent": "",
       "search": "Поиск",
       "themelayers": "",
-      "themes": ""
+      "themes": "",
+      "unknownmore": ""
     },
     "colorschemes": {
       "default": "",
@@ -161,6 +169,8 @@
     "compare3d": {
       "clipplane": "",
       "compare_objects": "",
+      "info_message": "",
+      "modify": "",
       "toggleall": ""
     },
     "cookiepopup": {
@@ -182,11 +192,15 @@
       "title": ""
     },
     "draw3d": {
+      "clone": "",
       "cone": "",
+      "ctrlhint": "",
       "cuboid": "",
       "cylinder": "",
       "delete": "",
       "drawings": "",
+      "intersect": "",
+      "label": "",
       "newgroupprompt": "",
       "numericinput": "",
       "pick": "",
@@ -196,8 +210,12 @@
       "rotation": "",
       "scale": "",
       "sphere": "",
+      "subtract": "",
       "thescale": "",
+      "thesize": "",
       "translate": "",
+      "undoBool": "",
+      "union": "",
       "wedge": ""
     },
     "editing": {
@@ -213,6 +231,7 @@
       "discard": "Отменить изменения",
       "draw": "Нарисовать",
       "feature": "",
+      "geomnonzeroz": "",
       "geomreadonly": "",
       "invalidform": "",
       "maximize": "Развернуть",
@@ -258,16 +277,23 @@
       "wait": ""
     },
     "heightprofile": {
-      "asl": "",
-      "distance": "",
+      "asl": "над у.м.",
+      "dhmdefaultname": "",
+      "distance": "Дистанция",
       "drawnodes": "",
       "error": "",
       "export": "",
-      "height": "",
+      "height": "Высота",
       "loading": "Расчет высоты профиля...",
       "loadingimage": "",
       "print": "",
       "title": ""
+    },
+    "hideobjects3d": {
+      "clickonmap": "",
+      "object": "",
+      "restore": "",
+      "restoreall": ""
     },
     "identify": {
       "aggregatedreport": "",
@@ -279,10 +305,10 @@
       "layerall": "",
       "link": "гиперссылка",
       "noattributes": "Аттрибуты отсутствуют",
-      "noresults": "",
-      "querying": "",
+      "noresults": "Для выбранной точки нет доступной информации",
+      "querying": "Выполняется запрос...",
       "reportfail": "",
-      "selectlayer": "",
+      "selectreport": "",
       "title": "Информация об объекте",
       "confirmDiscard": "",
       "confirmSave": ""
@@ -290,6 +316,10 @@
     "imageeditor": {
       "confirmclose": "",
       "title": ""
+    },
+    "import3d": {
+      "importing": "",
+      "noprocessesserver": ""
     },
     "importlayer": {
       "addfailed": "",
@@ -305,6 +335,7 @@
       "shpreprojectionerror": "",
       "supportedformats": "",
       "unknownproj": "",
+      "unsupportedfile": "",
       "url": "",
       "urlplaceholder": "Введите URL для WMS, WMTS, WFS..."
     },
@@ -331,6 +362,7 @@
     "layertree": {
       "compare": "Сравнить верхний слой",
       "deletealllayers": "",
+      "hidealllayers": "",
       "importlayer": "Импортировать слой",
       "maptip": "Показывать подписи",
       "printlegend": "Распечатать легенду",
@@ -341,8 +373,13 @@
       "zoomtolayer": ""
     },
     "layertree3d": {
+      "customheight": "",
+      "import": "",
+      "importobjects": "",
       "layers": "",
-      "objects": ""
+      "objects": "",
+      "supportedformats": "",
+      "zoomtoobject": ""
     },
     "linkfeatureform": {
       "cancel": "",
@@ -367,6 +404,7 @@
       "resetrotation": ""
     },
     "map3d": {
+      "lockview": "",
       "syncview": "",
       "terrain": "",
       "title": ""
@@ -374,6 +412,7 @@
     "mapexport": {
       "configuration": "",
       "format": "Формат бумаги:",
+      "projection": "",
       "resolution": "Разрешение:",
       "scale": "",
       "size": "",
@@ -396,8 +435,8 @@
       "timeto": ""
     },
     "mapinfotooltip": {
-      "elevation": "",
-      "title": ""
+      "elevation": "Высота над уровнем моря",
+      "title": "Позиция"
     },
     "maplegend": {
       "bboxdependent": "",
@@ -406,9 +445,12 @@
       "windowtitle": ""
     },
     "maplight3d": {
-      "ambientLightIntensity": "",
-      "directionalLightIntensity": "",
+      "animationstep": "",
+      "date": "",
+      "dayspersec": "",
       "helpersVisible": "",
+      "minspersec": "",
+      "moonLightIntensity": "",
       "normalBias": "",
       "shadowBias": "",
       "shadowMapSize": "",
@@ -418,8 +460,8 @@
       "shadowintensity": "",
       "shadows": "",
       "showadvanced": "",
-      "sunazimuth": "",
-      "sunzenith": "",
+      "sunLightIntensity": "",
+      "time": "",
       "zFactor": ""
     },
     "measureComponent": {
@@ -427,6 +469,7 @@
       "areaLabel": "Площадь",
       "bearingLabel": "Пеленг",
       "ground": "",
+      "heightDiffLabel": "",
       "imperial": "",
       "lengthLabel": "Длина",
       "metric": "",
@@ -595,11 +638,16 @@
       "systemlang": "",
       "themes": ""
     },
+    "settings3d": {
+      "quality": ""
+    },
     "share": {
       "QRCodeLinkTitle": "QR-код",
       "directLinkTitle": "По прямой ссылке",
       "expires": "",
+      "norestriction": "",
       "refresh": "",
+      "restricttogroup": "",
       "shareTitle": "QWC2",
       "showpin": "",
       "socialIntro": "В Вашей любимой соцсети"
@@ -685,11 +733,41 @@
       "fullscreenenable": "",
       "home": "Показать всю карту",
       "zoomin": "Увеличить",
-      "zoomout": "Уменьшить"
+      "zoomout": "Уменьшить",
+      "zoomlast": "",
+      "zoomnext": ""
+    },
+    "tourguide": {
+      "done": "",
+      "next": "",
+      "previous": ""
+    },
+    "valuetool": {
+      "all": "",
+      "allbands": "",
+      "alllayers": "",
+      "bands": "",
+      "graph": "",
+      "layer": "",
+      "nodata": "",
+      "options": "",
+      "selectedbands": "",
+      "selectedlayers": "",
+      "selectlayersbands": "",
+      "showbands": "",
+      "showlayers": "",
+      "table": "",
+      "title": "",
+      "visiblelayers": "",
+      "ymax": "",
+      "ymin": ""
     },
     "vectorlayerpicker": {
       "none": "",
       "prompt": ""
+    },
+    "view3d": {
+      "storingstate": ""
     },
     "window": {
       "close": "",
@@ -709,6 +787,11 @@
     },
     "searchbox": {
       "placeholder": ""
+    },
+    "streetview": {
+      "google": "",
+      "streetview": "",
+      "title": ""
     }
   }
 }

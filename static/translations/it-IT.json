@@ -7,7 +7,9 @@
         "Bookmark": "Segnalibri",
         "Compare3D": "Confronta",
         "Editing": "Strumenti di modifica",
+        "ExportObjects3D": "Esporta oggetti",
         "Help": "Aiuto",
+        "HideObjects3D": "Nascondi oggetti",
         "LayerTree": "Livelli",
         "LayerTree3D": "Livelli",
         "MapExport": "Esporta mappa",
@@ -17,11 +19,12 @@
         "Print": "Stampa",
         "Reports": "Rapporti",
         "Settings": "Impostazioni",
+        "Settings3D": "Impostazioni 3D",
         "Share": "Condividi",
         "ThemeSwitcher": "Temi",
         "AttributeTable": "Tabella attributi",
         "AuthenticationLogin": "Accedi",
-        "AuthenticationLogout": "Disconnetti",
+        "AuthenticationLogout": "Disconnetti - {0}",
         "Cyclomedia": "Cyclomedia",
         "Draw3D": "Disegnare",
         "FeatureForm": "Formulario oggetto",
@@ -38,39 +41,43 @@
         "MeasureLineString": "Misura una linea",
         "MeasurePolygon": "Misura un poligono",
         "NewsPopup": "Attualità",
-        "Panoramax": "",
+        "Panoramax": "Panoramax",
         "Portal": "Portale",
         "PrintScreen3D": "Esporta raster",
         "Redlining": "Strumenti di disegno",
         "Routing": "Routing",
         "Tools": "Strumenti",
+        "TourGuide": "Guida introduttiva",
         "TimeManager": "Linea temporale",
         "View3D": "Vista 3D",
+        "GwDateSelector": "",
+        "GwDscenario": "",
+        "GwDscenarioManager": "",
+        "GwEpaManager": "",
+        "GwEpaSelector": "",
+        "GwMincut": "",
+        "GwMincutManager": "",
+        "GwNonVisualObjectsManager": "",
+        "GwParcelFilter": "",
+        "GwProfilePicker": "",
+        "GwPsector": "",
+        "GwPsectorManager": "",
+        "GwSelector": "",
+        "GwToolbox": "",
+        "GwVisitManager": "",
+        "GwWorkspaceManager": "",
         "GwTools": "",
         "GwInfoPoint": "",
         "GwInfoDma": "",
         "GwInfoScada": "",
-        "GwProfilePicker": "",
-        "GwSelector": "",
         "GwFlowtracetrace": "",
         "GwFlowtraceexit": "",
         "GwMincutNetwork": "",
-        "GwMincutManager": "",
         "GwVisitVisit": "",
         "GwVisitIncidencia": "",
-        "GwDateSelector": "",
-        "GwVisitManager": "",
-        "GwToolbox": "",
         "NetCDFExplorer": "",
         "GwHelp": "",
-        "GwParcelFilter": "",
-        "GwSuperset": "",
-        "GwNonVisualObjectsManager": "",
-        "GwEpaSelector": "",
-        "GwEpaManager": "",
-        "GwWorkspaceManager": "",
-        "GwDscenarioManager": "",
-        "GwPsectorManager": ""
+        "GwSuperset": ""
       },
       "filter": "Filtra menù...",
       "menulabel": "Mappa e strumenti"
@@ -94,12 +101,13 @@
       "recent": "Ricerche recenti",
       "search": "Cerca",
       "themelayers": "Livelli di temi",
-      "themes": "Temi"
+      "themes": "Temi",
+      "unknownmore": "Ulteriori risultati"
     },
     "colorschemes": {
       "default": "Predefinito",
       "dark": "Scuro",
-      "highcontrast": "Alto contrasto",
+      "highcontrast": "Contrasto elevato",
       "giswater": "",
       "white": "",
       "transparent": ""
@@ -161,6 +169,8 @@
     "compare3d": {
       "clipplane": "Piano di taglio",
       "compare_objects": "Confronta oggetti",
+      "info_message": "Il confronto tra oggetti è attivo",
+      "modify": "Modifica",
       "toggleall": "Tutti"
     },
     "cookiepopup": {
@@ -182,11 +192,15 @@
       "title": "Visualizzatore Cyclomedia"
     },
     "draw3d": {
+      "clone": "Copia",
       "cone": "Cono",
+      "ctrlhint": "Ctrl per selezione multipla...",
       "cuboid": "Cuboide",
       "cylinder": "Cilindro",
       "delete": "Elimina",
       "drawings": "Disegni",
+      "intersect": "Intersezione",
+      "label": "Ettichetta",
       "newgroupprompt": "Nuovo gruppo disegni",
       "numericinput": "Formulario numerico",
       "pick": "Seleziona",
@@ -196,8 +210,12 @@
       "rotation": "Rotazione",
       "scale": "Scala",
       "sphere": "Sfera",
+      "subtract": "Differenza",
       "thescale": "Scala",
+      "thesize": "Dimensioni",
       "translate": "Trasla",
+      "undoBool": "Annulla l'operazione",
+      "union": "Unione",
       "wedge": "Cuneo"
     },
     "editing": {
@@ -213,7 +231,8 @@
       "discard": "Annulla",
       "draw": "Disegna",
       "feature": "Oggetto",
-      "geomreadonly": "La geometria contiene valori Z non nulli ed è quindi di sola lettura.",
+      "geomnonzeroz": "La geometria contiene valori Z non nulli ed è quindi di sola lettura.",
+      "geomreadonly": "La geometria è di solo lettura.",
       "invalidform": "Formulario invalido",
       "maximize": "Massimizza",
       "minimize": "Minimizza",
@@ -258,16 +277,23 @@
       "wait": "Caricamento..."
     },
     "heightprofile": {
-      "asl": "",
-      "distance": "",
+      "asl": "s.l.m.",
+      "dhmdefaultname": "Insieme di dati",
+      "distance": "Distanza",
       "drawnodes": "Disegna i nodi",
       "error": "Impossibile caricare il profilo di altezza",
       "export": "Esporta",
-      "height": "",
+      "height": "Altitudine",
       "loading": "Calcolo del profilo di altezza...",
       "loadingimage": "Caricamento dell'immagine della mappa...",
       "print": "Stampa profilo d'altezza",
-      "title": ""
+      "title": "Profilo di altezza"
+    },
+    "hideobjects3d": {
+      "clickonmap": "Seleziona oggetto per nasconderlo",
+      "object": "Oggetto",
+      "restore": "Ripristina oggetto",
+      "restoreall": "Ripristina tutti"
     },
     "identify": {
       "aggregatedreport": "Rapporto aggregato",
@@ -279,10 +305,10 @@
       "layerall": "Tutti i livelli",
       "link": "Link",
       "noattributes": "Nessun attributo",
-      "noresults": "",
-      "querying": "",
+      "noresults": "Nessun risultato",
+      "querying": "Caricando...",
       "reportfail": "Errore nella generazione del rapporto",
-      "selectlayer": "Seleziona livello...",
+      "selectreport": "Seleziona rapporto...",
       "title": "Titolo",
       "confirmDiscard": "",
       "confirmSave": ""
@@ -290,6 +316,10 @@
     "imageeditor": {
       "confirmclose": "Chiudere senza salvare?",
       "title": "Editor immagine"
+    },
+    "import3d": {
+      "importing": "Importando {0}...",
+      "noprocessesserver": "Servizio di importazione non configurato"
     },
     "importlayer": {
       "addfailed": "Impossibile aggiungere il livello",
@@ -303,13 +333,14 @@
       "noresults": "Nessun risultato o URL non valido",
       "notgeopdf": "Il file selezionato non sembra essere un GeoPDF.",
       "shpreprojectionerror": "Non è stato possibile riproiettare la geometria dello shapefile, che potrebbe essere posizionata in modo errato.",
-      "supportedformats": "Formati supportati",
+      "supportedformats": "Formati supportati: KML, GeoJSON, GeoPDF, SHP (in zip)",
       "unknownproj": "Il GeoPDF selezionato utilizza una proiezione sconosciuta: {0}",
+      "unsupportedfile": "Formato file non supportato.",
       "url": "URL",
       "urlplaceholder": "Indirizzo WMS, WMTS, WFS..."
     },
     "infotool": {
-      "clickhelpPoint": "",
+      "clickhelpPoint": "Seleziona un luogo da identificare sulla mappa...",
       "clickhelpPolygon": "Disegna un poligono attorno all'area da identificare",
       "clickhelpRadius": "Imposta un raggio e clicca nella mappa per identificare gli oggetti attorno al punto...",
       "radius": "Raggio"
@@ -331,6 +362,7 @@
     "layertree": {
       "compare": "Compara il primo livello",
       "deletealllayers": "Rimuovi tutti i livelli",
+      "hidealllayers": "Nascondi tutti i livelli",
       "importlayer": "Importa livello",
       "maptip": "Attiva maptip",
       "printlegend": "Stampa legenda",
@@ -341,8 +373,13 @@
       "zoomtolayer": "Zoom a tutto il livello"
     },
     "layertree3d": {
+      "customheight": "Valore",
+      "import": "Importa",
+      "importobjects": "Importa oggetti",
       "layers": "Livelli",
-      "objects": "Oggetti"
+      "objects": "Oggetti",
+      "supportedformats": "Formati supportati: GLTF",
+      "zoomtoobject": "Zooma su oggetto"
     },
     "linkfeatureform": {
       "cancel": "Annulla",
@@ -367,13 +404,15 @@
       "resetrotation": "Resetta orientamento"
     },
     "map3d": {
-      "syncview": "Sincronizza visuale",
+      "lockview": "Auto-sincronizzazione delle viste 2D/3D",
+      "syncview": "Sincronizza con visuale 2D",
       "terrain": "Terreno",
       "title": "Visuale 3D"
     },
     "mapexport": {
       "configuration": "Configurazione",
       "format": "Formato",
+      "projection": "Proiezione",
       "resolution": "Risoluzione",
       "scale": "Scala",
       "size": "Dimensione",
@@ -396,8 +435,8 @@
       "timeto": "A"
     },
     "mapinfotooltip": {
-      "elevation": "",
-      "title": ""
+      "elevation": "Altitudine",
+      "title": "Posizione"
     },
     "maplegend": {
       "bboxdependent": "Legenda in base all'estensione della mappa",
@@ -406,9 +445,12 @@
       "windowtitle": "Legenda"
     },
     "maplight3d": {
-      "ambientLightIntensity": "Intensità luce ambientale",
-      "directionalLightIntensity": "Intensità luce direzionale",
+      "animationstep": "Passo animazione",
+      "date": "Data",
+      "dayspersec": "giorni / sec",
       "helpersVisible": "Mostra aiuti",
+      "minspersec": "minuti / sec",
+      "moonLightIntensity": "Intensità luna",
       "normalBias": "Bias normale",
       "shadowBias": "Bias ombra",
       "shadowMapSize": "Dimensione texture ombra",
@@ -418,8 +460,8 @@
       "shadowintensity": "Intensità ombra",
       "shadows": "Abilita ombre",
       "showadvanced": "Mostra avanzato",
-      "sunazimuth": "Azimut sole",
-      "sunzenith": "Zenith sole",
+      "sunLightIntensity": "Intensità sole",
+      "time": "Ora",
       "zFactor": "Fattore Z"
     },
     "measureComponent": {
@@ -427,6 +469,7 @@
       "areaLabel": "Area",
       "bearingLabel": "Direzione",
       "ground": "m s.l.s.",
+      "heightDiffLabel": "Dislivello",
       "imperial": "Imperiale",
       "lengthLabel": "Lunghezza",
       "metric": "Metrico",
@@ -453,8 +496,8 @@
       "windowtitle": "Formulario numerico"
     },
     "panoramax": {
-      "notfound": "",
-      "title": ""
+      "notfound": "Nessun immagine disponibile per questa posizione",
+      "title": "Visualizzatore Panoramax"
     },
     "pickfeature": {
       "querying": "Query..."
@@ -532,7 +575,7 @@
     },
     "routing": {
       "add": "Aggiungi",
-      "addviapoint": "",
+      "addviapoint": "Via qui",
       "arriveat": "Arrivo il",
       "clear": "Azzera",
       "computefailed": "Errore durante il calcolo",
@@ -540,7 +583,7 @@
       "excludepolygons": "Escludi aree",
       "export": "Esporta",
       "fastest": "Più veloce",
-      "fromhere": "",
+      "fromhere": "Da qui",
       "importerror": "Impossibile importare. Il contenuto del file deve essere una GeoJSON FeatureCollection di punti.",
       "importhint": "File contenente una GeoJSON FeatureCollection di punti",
       "importpoints": "Importa",
@@ -548,8 +591,8 @@
       "iso_mode": "Modalità",
       "iso_mode_distance": "Distanza",
       "iso_mode_time": "Tempo",
-      "isocenter": "",
-      "isoextracenter": "",
+      "isocenter": "Centro",
+      "isoextracenter": "Ulteriore centro",
       "leaveat": "Partenza il",
       "leavenow": "Parti ora",
       "maxspeed": "Velocità massima",
@@ -560,11 +603,11 @@
       "mode_transit": "Transito",
       "mode_walking": "A piedi",
       "optimized_route": "Rotta ottimale",
-      "reachability": "",
+      "reachability": "Raggiungibilità",
       "roundtrip": "Andata e ritorno",
-      "route": "",
+      "route": "Rotta",
       "shortest": "Più corta",
-      "tohere": "",
+      "tohere": "A qui",
       "useferries": "Utilizza traghetti",
       "usehighways": "Utilizza autostrade",
       "usetollways": "Utilizza strade a pedaggio",
@@ -595,11 +638,16 @@
       "systemlang": "Lingua del sistema",
       "themes": "Temi"
     },
+    "settings3d": {
+      "quality": "Qualità"
+    },
     "share": {
       "QRCodeLinkTitle": "Codice QR",
       "directLinkTitle": "Collegamento diretto",
       "expires": "Questo permalink è valido fino al {0}.",
+      "norestriction": "Nessuna restrizione",
       "refresh": "Genera permalink",
+      "restricttogroup": "Limitare al gruppo",
       "shareTitle": "QWC2",
       "showpin": "Mostra pin",
       "socialIntro": "Social network"
@@ -685,11 +733,41 @@
       "fullscreenenable": "Attiva modalitä schermo intero",
       "home": "Mostra tutta la mappa intera",
       "zoomin": "Ingrandisci",
-      "zoomout": "Rimpicciolisci"
+      "zoomout": "Rimpicciolisci",
+      "zoomlast": "",
+      "zoomnext": ""
+    },
+    "tourguide": {
+      "done": "Finito",
+      "next": "Avanti",
+      "previous": "Indietro"
+    },
+    "valuetool": {
+      "all": "Tutte",
+      "allbands": "Tutte le bande",
+      "alllayers": "Tutti i livelli",
+      "bands": "Bande",
+      "graph": "Grafico",
+      "layer": "Livello",
+      "nodata": "Nessun dato",
+      "options": "Opzioni",
+      "selectedbands": "Bande selezionate",
+      "selectedlayers": "Livelli selezionati",
+      "selectlayersbands": "Seleziona livelli / bande",
+      "showbands": "Bande",
+      "showlayers": "Livelli",
+      "table": "Tabelle",
+      "title": "Value Tool",
+      "visiblelayers": "Livelli visibili",
+      "ymax": "Min Y",
+      "ymin": "Max Y"
     },
     "vectorlayerpicker": {
       "none": "Nessuno",
       "prompt": "Nome del layer"
+    },
+    "view3d": {
+      "storingstate": "Salvando vista 3D..."
     },
     "window": {
       "close": "Chiudi",
@@ -709,6 +787,11 @@
     },
     "searchbox": {
       "placeholder": ""
+    },
+    "streetview": {
+      "google": "",
+      "streetview": "",
+      "title": ""
     }
   }
 }

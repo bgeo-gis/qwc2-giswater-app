@@ -7,7 +7,9 @@
         "Bookmark": "",
         "Compare3D": "",
         "Editing": "Redigera",
+        "ExportObjects3D": "",
         "Help": "Hjälp",
+        "HideObjects3D": "",
         "LayerTree": "Lager & teckenförklaring",
         "LayerTree3D": "",
         "MapExport": "Exportera karta",
@@ -17,11 +19,12 @@
         "Print": "Skriv ut",
         "Reports": "",
         "Settings": "",
+        "Settings3D": "",
         "Share": "Dela länk",
         "ThemeSwitcher": "Tema",
         "AttributeTable": "",
         "AuthenticationLogin": "Logga in",
-        "AuthenticationLogout": "Logga ut",
+        "AuthenticationLogout": "Logga ut - {0}",
         "Cyclomedia": "",
         "Draw3D": "",
         "FeatureForm": "",
@@ -44,39 +47,43 @@
         "Redlining": "Rita",
         "Routing": "",
         "Tools": "Kartverktyg",
+        "TourGuide": "",
         "TimeManager": "",
         "View3D": "",
+        "GwDateSelector": "",
+        "GwDscenario": "",
+        "GwDscenarioManager": "",
+        "GwEpaManager": "",
+        "GwEpaSelector": "",
+        "GwMincut": "",
+        "GwMincutManager": "",
+        "GwNonVisualObjectsManager": "",
+        "GwParcelFilter": "",
+        "GwProfilePicker": "",
+        "GwPsector": "",
+        "GwPsectorManager": "",
+        "GwSelector": "",
+        "GwToolbox": "",
+        "GwVisitManager": "",
+        "GwWorkspaceManager": "",
         "GwTools": "",
         "GwInfoPoint": "",
         "GwInfoDma": "",
         "GwInfoScada": "",
-        "GwProfilePicker": "",
-        "GwSelector": "",
         "GwFlowtracetrace": "",
         "GwFlowtraceexit": "",
         "GwMincutNetwork": "",
-        "GwMincutManager": "",
         "GwVisitVisit": "",
         "GwVisitIncidencia": "",
-        "GwDateSelector": "",
-        "GwVisitManager": "",
-        "GwToolbox": "",
         "NetCDFExplorer": "",
         "GwHelp": "",
-        "GwParcelFilter": "",
-        "GwSuperset": "",
-        "GwNonVisualObjectsManager": "",
-        "GwEpaSelector": "",
-        "GwEpaManager": "",
-        "GwWorkspaceManager": "",
-        "GwDscenarioManager": "",
-        "GwPsectorManager": ""
+        "GwSuperset": ""
       },
       "filter": "",
       "menulabel": "Karta & Verktyg"
     },
     "search": {
-      "coordinates": "Koordinater",
+      "coordinates": "",
       "all": "",
       "circleradius": "",
       "clearfilter": "",
@@ -94,7 +101,8 @@
       "recent": "",
       "search": "",
       "themelayers": "",
-      "themes": ""
+      "themes": "",
+      "unknownmore": ""
     },
     "colorschemes": {
       "default": "",
@@ -161,6 +169,8 @@
     "compare3d": {
       "clipplane": "",
       "compare_objects": "",
+      "info_message": "",
+      "modify": "",
       "toggleall": ""
     },
     "cookiepopup": {
@@ -182,11 +192,15 @@
       "title": ""
     },
     "draw3d": {
+      "clone": "",
       "cone": "",
+      "ctrlhint": "",
       "cuboid": "",
       "cylinder": "",
       "delete": "",
       "drawings": "",
+      "intersect": "",
+      "label": "",
       "newgroupprompt": "",
       "numericinput": "",
       "pick": "",
@@ -196,8 +210,12 @@
       "rotation": "",
       "scale": "",
       "sphere": "",
+      "subtract": "",
       "thescale": "",
+      "thesize": "",
       "translate": "",
+      "undoBool": "",
+      "union": "",
       "wedge": ""
     },
     "editing": {
@@ -213,6 +231,7 @@
       "discard": "Förkasta",
       "draw": "Rita",
       "feature": "Objekt",
+      "geomnonzeroz": "",
       "geomreadonly": "",
       "invalidform": "",
       "maximize": "Maximera",
@@ -258,16 +277,23 @@
       "wait": ""
     },
     "heightprofile": {
-      "asl": "",
-      "distance": "",
+      "asl": "m.ö.h.",
+      "dhmdefaultname": "",
+      "distance": "Avstånd",
       "drawnodes": "",
       "error": "",
       "export": "",
-      "height": "",
+      "height": "Höjd",
       "loading": "Beräknar höjdprofil...",
       "loadingimage": "",
       "print": "",
       "title": ""
+    },
+    "hideobjects3d": {
+      "clickonmap": "",
+      "object": "",
+      "restore": "",
+      "restoreall": ""
     },
     "identify": {
       "aggregatedreport": "",
@@ -279,10 +305,10 @@
       "layerall": "",
       "link": "Länk",
       "noattributes": "Inga attribut",
-      "noresults": "",
-      "querying": "",
+      "noresults": "Ingen information för vald punkt",
+      "querying": "Frågar...",
       "reportfail": "",
-      "selectlayer": "",
+      "selectreport": "",
       "title": "Objektinformation",
       "confirmDiscard": "",
       "confirmSave": ""
@@ -290,6 +316,10 @@
     "imageeditor": {
       "confirmclose": "",
       "title": ""
+    },
+    "import3d": {
+      "importing": "",
+      "noprocessesserver": ""
     },
     "importlayer": {
       "addfailed": "",
@@ -305,6 +335,7 @@
       "shpreprojectionerror": "",
       "supportedformats": "",
       "unknownproj": "",
+      "unsupportedfile": "",
       "url": "URL",
       "urlplaceholder": "Skriv in URL till WMS, WMTS, WFS..."
     },
@@ -331,6 +362,7 @@
     "layertree": {
       "compare": "Jämför översta lagret",
       "deletealllayers": "Ta bort alla lager",
+      "hidealllayers": "",
       "importlayer": "Importera lager",
       "maptip": "Visa karttips för lager",
       "printlegend": "Skriv ut teckenförklaring",
@@ -341,8 +373,13 @@
       "zoomtolayer": ""
     },
     "layertree3d": {
+      "customheight": "",
+      "import": "",
+      "importobjects": "",
       "layers": "",
-      "objects": ""
+      "objects": "",
+      "supportedformats": "",
+      "zoomtoobject": ""
     },
     "linkfeatureform": {
       "cancel": "",
@@ -367,6 +404,7 @@
       "resetrotation": ""
     },
     "map3d": {
+      "lockview": "",
       "syncview": "",
       "terrain": "",
       "title": ""
@@ -374,6 +412,7 @@
     "mapexport": {
       "configuration": "",
       "format": "Format:",
+      "projection": "",
       "resolution": "Upplösning:",
       "scale": "",
       "size": "",
@@ -396,8 +435,8 @@
       "timeto": ""
     },
     "mapinfotooltip": {
-      "elevation": "",
-      "title": ""
+      "elevation": "Höjd",
+      "title": "Position"
     },
     "maplegend": {
       "bboxdependent": "",
@@ -406,9 +445,12 @@
       "windowtitle": ""
     },
     "maplight3d": {
-      "ambientLightIntensity": "",
-      "directionalLightIntensity": "",
+      "animationstep": "",
+      "date": "",
+      "dayspersec": "",
       "helpersVisible": "",
+      "minspersec": "",
+      "moonLightIntensity": "",
       "normalBias": "",
       "shadowBias": "",
       "shadowMapSize": "",
@@ -418,8 +460,8 @@
       "shadowintensity": "",
       "shadows": "",
       "showadvanced": "",
-      "sunazimuth": "",
-      "sunzenith": "",
+      "sunLightIntensity": "",
+      "time": "",
       "zFactor": ""
     },
     "measureComponent": {
@@ -427,6 +469,7 @@
       "areaLabel": "Area",
       "bearingLabel": "Bäring",
       "ground": "",
+      "heightDiffLabel": "",
       "imperial": "",
       "lengthLabel": "Längd",
       "metric": "",
@@ -595,11 +638,16 @@
       "systemlang": "",
       "themes": ""
     },
+    "settings3d": {
+      "quality": ""
+    },
     "share": {
       "QRCodeLinkTitle": "QR kod",
       "directLinkTitle": "Via en direktlänk",
       "expires": "",
+      "norestriction": "",
       "refresh": "",
+      "restricttogroup": "",
       "shareTitle": "QWC2",
       "showpin": "",
       "socialIntro": "I ditt favoritnätverk"
@@ -685,11 +733,41 @@
       "fullscreenenable": "",
       "home": "Visa hela kartan",
       "zoomin": "Zooma in",
-      "zoomout": "Zooma ut"
+      "zoomout": "Zooma ut",
+      "zoomlast": "",
+      "zoomnext": ""
+    },
+    "tourguide": {
+      "done": "",
+      "next": "",
+      "previous": ""
+    },
+    "valuetool": {
+      "all": "",
+      "allbands": "",
+      "alllayers": "",
+      "bands": "",
+      "graph": "",
+      "layer": "",
+      "nodata": "",
+      "options": "",
+      "selectedbands": "",
+      "selectedlayers": "",
+      "selectlayersbands": "",
+      "showbands": "",
+      "showlayers": "",
+      "table": "",
+      "title": "",
+      "visiblelayers": "",
+      "ymax": "",
+      "ymin": ""
     },
     "vectorlayerpicker": {
       "none": "",
       "prompt": ""
+    },
+    "view3d": {
+      "storingstate": ""
     },
     "window": {
       "close": "",
@@ -709,6 +787,11 @@
     },
     "searchbox": {
       "placeholder": ""
+    },
+    "streetview": {
+      "google": "",
+      "streetview": "",
+      "title": ""
     }
   }
 }

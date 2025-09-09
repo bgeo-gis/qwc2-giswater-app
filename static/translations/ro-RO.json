@@ -7,7 +7,9 @@
         "Bookmark": "Marcaj",
         "Compare3D": "",
         "Editing": "Editare",
+        "ExportObjects3D": "",
         "Help": "Ajutor",
+        "HideObjects3D": "",
         "LayerTree": "Straturi & Legendă",
         "LayerTree3D": "",
         "MapExport": "",
@@ -17,11 +19,12 @@
         "Print": "Tipărire",
         "Reports": "",
         "Settings": "Setări",
+        "Settings3D": "",
         "Share": "Trimite Link",
         "ThemeSwitcher": "Hărți tematice",
         "AttributeTable": "Tabela de atribute",
         "AuthenticationLogin": "Conectează-te",
-        "AuthenticationLogout": "Deconectează-te",
+        "AuthenticationLogout": "Deconectează-te - {0}",
         "Cyclomedia": "Cyclomedia",
         "Draw3D": "",
         "FeatureForm": "Editare atribute",
@@ -44,39 +47,43 @@
         "Redlining": "Evidențiere",
         "Routing": "Traseu",
         "Tools": "Unelte hartă",
+        "TourGuide": "",
         "TimeManager": "Informații temporale",
         "View3D": "",
+        "GwDateSelector": "",
+        "GwDscenario": "",
+        "GwDscenarioManager": "",
+        "GwEpaManager": "",
+        "GwEpaSelector": "",
+        "GwMincut": "",
+        "GwMincutManager": "",
+        "GwNonVisualObjectsManager": "",
+        "GwParcelFilter": "",
+        "GwProfilePicker": "",
+        "GwPsector": "",
+        "GwPsectorManager": "",
+        "GwSelector": "",
+        "GwToolbox": "",
+        "GwVisitManager": "",
+        "GwWorkspaceManager": "",
         "GwTools": "",
         "GwInfoPoint": "",
         "GwInfoDma": "",
         "GwInfoScada": "",
-        "GwProfilePicker": "",
-        "GwSelector": "",
         "GwFlowtracetrace": "",
         "GwFlowtraceexit": "",
         "GwMincutNetwork": "",
-        "GwMincutManager": "",
         "GwVisitVisit": "",
         "GwVisitIncidencia": "",
-        "GwDateSelector": "",
-        "GwVisitManager": "",
-        "GwToolbox": "",
         "NetCDFExplorer": "",
         "GwHelp": "",
-        "GwParcelFilter": "",
-        "GwSuperset": "",
-        "GwNonVisualObjectsManager": "",
-        "GwEpaSelector": "",
-        "GwEpaManager": "",
-        "GwWorkspaceManager": "",
-        "GwDscenarioManager": "",
-        "GwPsectorManager": ""
+        "GwSuperset": ""
       },
       "filter": "",
       "menulabel": "Hărți & Unelte"
     },
     "search": {
-      "coordinates": "Coordonate",
+      "coordinates": "",
       "all": "Toate",
       "circleradius": "",
       "clearfilter": "",
@@ -94,7 +101,8 @@
       "recent": "Căutări recente",
       "search": "Caută",
       "themelayers": "",
-      "themes": "Hărți tematice"
+      "themes": "Hărți tematice",
+      "unknownmore": ""
     },
     "colorschemes": {
       "default": "",
@@ -161,6 +169,8 @@
     "compare3d": {
       "clipplane": "",
       "compare_objects": "",
+      "info_message": "",
+      "modify": "",
       "toggleall": ""
     },
     "cookiepopup": {
@@ -182,11 +192,15 @@
       "title": "Informații Cyclomedia"
     },
     "draw3d": {
+      "clone": "",
       "cone": "",
+      "ctrlhint": "",
       "cuboid": "",
       "cylinder": "",
       "delete": "",
       "drawings": "",
+      "intersect": "",
+      "label": "",
       "newgroupprompt": "",
       "numericinput": "",
       "pick": "",
@@ -196,8 +210,12 @@
       "rotation": "",
       "scale": "",
       "sphere": "",
+      "subtract": "",
       "thescale": "",
+      "thesize": "",
       "translate": "",
+      "undoBool": "",
+      "union": "",
       "wedge": ""
     },
     "editing": {
@@ -213,7 +231,8 @@
       "discard": "Renunță",
       "draw": "Desenare",
       "feature": "Obiect spațial",
-      "geomreadonly": "Geometria include valori Z și, prin urmare, nu poate fi editată",
+      "geomnonzeroz": "Geometria include valori Z și, prin urmare, nu poate fi editată",
+      "geomreadonly": "",
       "invalidform": "Date invalide în formular",
       "maximize": "Maximizează",
       "minimize": "Minimizează",
@@ -258,16 +277,23 @@
       "wait": ""
     },
     "heightprofile": {
-      "asl": "",
-      "distance": "",
+      "asl": "dM",
+      "dhmdefaultname": "",
+      "distance": "Distanța",
       "drawnodes": "",
       "error": "",
       "export": "Export profil",
-      "height": "",
+      "height": "Înălțimea",
       "loading": "Se calculează profilul...",
       "loadingimage": "",
       "print": "",
       "title": ""
+    },
+    "hideobjects3d": {
+      "clickonmap": "",
+      "object": "",
+      "restore": "",
+      "restoreall": ""
     },
     "identify": {
       "aggregatedreport": "",
@@ -279,10 +305,10 @@
       "layerall": "",
       "link": "Link",
       "noattributes": "Fără atribute",
-      "noresults": "",
-      "querying": "",
+      "noresults": "Nu există informații în punctul selectat",
+      "querying": "Interogare...",
       "reportfail": "",
-      "selectlayer": "",
+      "selectreport": "",
       "title": "Informații obiect spațial",
       "confirmDiscard": "",
       "confirmSave": ""
@@ -290,6 +316,10 @@
     "imageeditor": {
       "confirmclose": "Închideți fără să salvați modificările?",
       "title": "Editor de imagine"
+    },
+    "import3d": {
+      "importing": "",
+      "noprocessesserver": ""
     },
     "importlayer": {
       "addfailed": "Adăugarea stratului a eșuat",
@@ -305,11 +335,12 @@
       "shpreprojectionerror": "",
       "supportedformats": "",
       "unknownproj": "",
+      "unsupportedfile": "",
       "url": "Adresă URL",
       "urlplaceholder": "Introduceți adresa URL către WMS, WMTS, WFS..."
     },
     "infotool": {
-      "clickhelpPoint": "",
+      "clickhelpPoint": "Click pe o locație pentru identificarea elementelor din hartă...",
       "clickhelpPolygon": "Încadrați într-un poligon elementele de identificat...",
       "clickhelpRadius": "Setați raza și apoi faceți click pe hartă pentru a identifica elementele din jurul punctului...",
       "radius": "Raza"
@@ -331,6 +362,7 @@
     "layertree": {
       "compare": "Compară stratul de sus",
       "deletealllayers": "Elimină toate straturile",
+      "hidealllayers": "",
       "importlayer": "Import strat",
       "maptip": "Arată indicii hartă",
       "printlegend": "Tipărește legenda",
@@ -341,8 +373,13 @@
       "zoomtolayer": "Vedeți tot stratul"
     },
     "layertree3d": {
+      "customheight": "",
+      "import": "",
+      "importobjects": "",
       "layers": "",
-      "objects": ""
+      "objects": "",
+      "supportedformats": "",
+      "zoomtoobject": ""
     },
     "linkfeatureform": {
       "cancel": "Renunță",
@@ -367,6 +404,7 @@
       "resetrotation": "Resetează rotația"
     },
     "map3d": {
+      "lockview": "",
       "syncview": "",
       "terrain": "",
       "title": ""
@@ -374,6 +412,7 @@
     "mapexport": {
       "configuration": "",
       "format": "",
+      "projection": "",
       "resolution": "",
       "scale": "",
       "size": "",
@@ -396,8 +435,8 @@
       "timeto": ""
     },
     "mapinfotooltip": {
-      "elevation": "",
-      "title": ""
+      "elevation": "Altitudine",
+      "title": "Poziție"
     },
     "maplegend": {
       "bboxdependent": "Legendă ce depinde de mărimea hărții",
@@ -406,9 +445,12 @@
       "windowtitle": "Legenda"
     },
     "maplight3d": {
-      "ambientLightIntensity": "",
-      "directionalLightIntensity": "",
+      "animationstep": "",
+      "date": "",
+      "dayspersec": "",
       "helpersVisible": "",
+      "minspersec": "",
+      "moonLightIntensity": "",
       "normalBias": "",
       "shadowBias": "",
       "shadowMapSize": "",
@@ -418,8 +460,8 @@
       "shadowintensity": "",
       "shadows": "",
       "showadvanced": "",
-      "sunazimuth": "",
-      "sunzenith": "",
+      "sunLightIntensity": "",
+      "time": "",
       "zFactor": ""
     },
     "measureComponent": {
@@ -427,6 +469,7 @@
       "areaLabel": "Arie",
       "bearingLabel": "Direcție",
       "ground": "",
+      "heightDiffLabel": "",
       "imperial": "Mărimi imperiale",
       "lengthLabel": "Lungime",
       "metric": "Mărimi metrice",
@@ -532,7 +575,7 @@
     },
     "routing": {
       "add": "Adaugă punct",
-      "addviapoint": "",
+      "addviapoint": "Punct intermediar",
       "arriveat": "Punct de sosire",
       "clear": "Curățare",
       "computefailed": "Calculul a eșuat",
@@ -540,7 +583,7 @@
       "excludepolygons": "Exclude poligoane",
       "export": "Export",
       "fastest": "Cea mai rapidă",
-      "fromhere": "",
+      "fromhere": "De aici",
       "importerror": "Importul a eșuat. Fișierul trebuie să fie în format GeoJSON și să conțină o listă (FeatureCollection) de puncte (Point)",
       "importhint": "Fișier în format GeoJSON care să conțină o listă (FeatureCollection) de puncte (Point)",
       "importpoints": "Import",
@@ -548,8 +591,8 @@
       "iso_mode": "Mod",
       "iso_mode_distance": "Distanță",
       "iso_mode_time": "Timp",
-      "isocenter": "",
-      "isoextracenter": "",
+      "isocenter": "Centru",
+      "isoextracenter": "Centru suplimentar",
       "leaveat": "Plecarea la",
       "leavenow": "Plecați acum",
       "maxspeed": "Viteză maximă",
@@ -560,11 +603,11 @@
       "mode_transit": "Tranzit",
       "mode_walking": "Pe jos",
       "optimized_route": "Rută optimizată",
-      "reachability": "",
+      "reachability": "Accesibilitate",
       "roundtrip": "Dus-întors",
-      "route": "",
+      "route": "Ruta",
       "shortest": "Cea mai scurtă",
-      "tohere": "",
+      "tohere": "Până aici",
       "useferries": "Cu bacul",
       "usehighways": "Pe autostradă",
       "usetollways": "Cu taxă",
@@ -595,11 +638,16 @@
       "systemlang": "Liba sistemului",
       "themes": ""
     },
+    "settings3d": {
+      "quality": ""
+    },
     "share": {
       "QRCodeLinkTitle": "Cod QR",
       "directLinkTitle": "Via link direct",
       "expires": "",
+      "norestriction": "",
       "refresh": "Generare link permanent",
+      "restricttogroup": "",
       "shareTitle": "Link permanent",
       "showpin": "Arată pin",
       "socialIntro": "În rețeaua socială favorită"
@@ -685,11 +733,41 @@
       "fullscreenenable": "Activează mod pe-tot-ecranul",
       "home": "Arată toată harta",
       "zoomin": "Mărire",
-      "zoomout": "Micșorare"
+      "zoomout": "Micșorare",
+      "zoomlast": "",
+      "zoomnext": ""
+    },
+    "tourguide": {
+      "done": "",
+      "next": "",
+      "previous": ""
+    },
+    "valuetool": {
+      "all": "",
+      "allbands": "",
+      "alllayers": "",
+      "bands": "",
+      "graph": "",
+      "layer": "",
+      "nodata": "",
+      "options": "",
+      "selectedbands": "",
+      "selectedlayers": "",
+      "selectlayersbands": "",
+      "showbands": "",
+      "showlayers": "",
+      "table": "",
+      "title": "",
+      "visiblelayers": "",
+      "ymax": "",
+      "ymin": ""
     },
     "vectorlayerpicker": {
       "none": "Niciunul",
       "prompt": "Introdu numele stratului"
+    },
+    "view3d": {
+      "storingstate": ""
     },
     "window": {
       "close": "Închide",
@@ -709,6 +787,11 @@
     },
     "searchbox": {
       "placeholder": ""
+    },
+    "streetview": {
+      "google": "",
+      "streetview": "",
+      "title": ""
     }
   }
 }
