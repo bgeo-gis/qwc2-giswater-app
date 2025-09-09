@@ -6,6 +6,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+import {lazy} from 'react';
+
 import AppMenu from 'qwc2/components/AppMenu';
 import FullscreenSwitcher from 'qwc2/components/FullscreenSwitcher';
 import SearchBox from 'qwc2/components/SearchBox';
@@ -39,9 +41,10 @@ import MapLegendPlugin from 'qwc2/plugins/MapLegend';
 import MapTipPlugin from 'qwc2/plugins/MapTip';
 import MeasurePlugin from 'qwc2/plugins/Measure';
 import NewsPopupPlugin from 'qwc2/plugins/NewsPopup';
+import OverviewMapPlugin from 'qwc2/plugins/OverviewMap';
+import PanoramaxPlugin from 'qwc2/plugins/Panoramax';
 import PortalPlugin from 'qwc2/plugins/Portal';
 import PrintPlugin from 'qwc2/plugins/Print';
-import ProcessNotificationsPlugin from 'qwc2/plugins/ProcessNotifications';
 import RedliningPlugin from 'qwc2/plugins/Redlining';
 import ReportsPlugin from 'qwc2/plugins/Reports';
 import RoutingPlugin from 'qwc2/plugins/Routing';
@@ -53,19 +56,17 @@ import TaskButtonPlugin from 'qwc2/plugins/TaskButton';
 import ThemeSwitcherPlugin from 'qwc2/plugins/ThemeSwitcher';
 import TimeManagerPlugin from 'qwc2/plugins/TimeManager';
 import TopBarPlugin from 'qwc2/plugins/TopBar';
+import TourGuidePlugin from 'qwc2/plugins/TourGuide';
+import ValueToolPlugin from 'qwc2/plugins/ValueTool';
 import View3DPlugin from 'qwc2/plugins/View3D';
-import { ZoomInPlugin, ZoomOutPlugin } from 'qwc2/plugins/ZoomButtons';
+import {ZoomInPlugin, ZoomOutPlugin} from 'qwc2/plugins/ZoomButtons';
 import EditingSupport from 'qwc2/plugins/map/EditingSupport';
 import LocateSupport from 'qwc2/plugins/map/LocateSupport';
 import MeasurementSupport from 'qwc2/plugins/map/MeasurementSupport';
-import OverviewSupport from 'qwc2/plugins/map/OverviewSupport';
 import RedliningSupport from 'qwc2/plugins/map/RedliningSupport';
-import ScaleBarSupport from 'qwc2/plugins/map/ScaleBarSupport';
 import SnappingSupport from 'qwc2/plugins/map/SnappingSupport';
 import BufferSupport from 'qwc2/plugins/redlining/RedliningBufferSupport';
-
-import defaultLocaleData from '../static/translations/en-US.json';
-import {customAttributeCalculator, attributeTransform, customExporters} from './IdentifyExtensions';
+import defaultLocaleData from 'qwc2/static/translations/en-US.json';
 
 import './SearchProviders.js';
 
@@ -73,8 +74,8 @@ import './SearchProviders.js';
 import GwInfoPlugin from 'qwc2-giswater/plugins/basic/GwInfo';
 import GwSelectorPlugin from 'qwc2-giswater/plugins/basic/GwSelector';
 
-import GwDscenarioPlugin  from 'qwc2-giswater/plugins/epa/GwDscenario';
-import GwDscenarioManagerPlugin  from 'qwc2-giswater/plugins/epa/GwDscenarioManager';
+import GwDscenarioPlugin from 'qwc2-giswater/plugins/epa/GwDscenario';
+import GwDscenarioManagerPlugin from 'qwc2-giswater/plugins/epa/GwDscenarioManager';
 import GwEpaManagerPlugin from 'qwc2-giswater/plugins/epa/GwEpaManager';
 import GwEpaSelectorPlugin from 'qwc2-giswater/plugins/epa/GwEpaSelector';
 import GwNonVisualObjectPlugin from 'qwc2-giswater/plugins/epa/GwNonVisualObject';
@@ -99,6 +100,7 @@ import GwInfoValve from 'qwc2-giswater/plugins/tooltip_plugins/GwInfoValve';
 import StreetViewButton from 'qwc2-giswater/plugins/tooltip_plugins/StreetViewButton';
 
 import GwClearTempLayersPlugin from 'qwc2-giswater/plugins/GwClearTempLayers';
+// import GwZoomPlugin from 'qwc2-giswater/plugins/utilities/GwZoom';
 import GwHelpPlugin from 'qwc2-giswater/plugins/GwHelp';
 import GwLoadPluginPlugin from 'qwc2-giswater/plugins/GwLoadPlugin';
 import GwParcelFilterPlugin from 'qwc2-giswater/plugins/GwParcelFilter';
@@ -106,6 +108,8 @@ import GwProfileGraphV2Plugin from 'qwc2-giswater/plugins/GwProfileGraphV2';
 import GwSupersetPlugin from 'qwc2-giswater/plugins/GwSuperset';
 import MapWatermarkPlugin from 'qwc2-giswater/plugins/MapWatermark';
 import NetCDFExplorerPlugin from 'qwc2-giswater/plugins/NetCDFExplorer';
+import DrAnimationPlugin from 'qwc2-giswater/plugins/utilities/DrAnimation';
+
 
 export default {
     defaultLocaleData: defaultLocaleData,
@@ -119,9 +123,7 @@ export default {
                 EditingSupport: EditingSupport,
                 MeasurementSupport: MeasurementSupport,
                 LocateSupport: LocateSupport,
-                OverviewSupport: OverviewSupport,
                 RedliningSupport: RedliningSupport,
-                ScaleBarSupport: ScaleBarSupport,
                 SnappingSupport: SnappingSupport,
                 GwProfilePickerPlugin: GwProfilePickerPlugin
             }),
@@ -155,9 +157,10 @@ export default {
             MapTipPlugin: MapTipPlugin,
             MeasurePlugin: MeasurePlugin,
             NewsPopupPlugin: NewsPopupPlugin,
+            OverviewMapPlugin: OverviewMapPlugin,
+            PanoramaxPlugin: PanoramaxPlugin,
             PortalPlugin: PortalPlugin,
             PrintPlugin: PrintPlugin,
-            ProcessNotificationsPlugin: ProcessNotificationsPlugin,
             RedliningPlugin: RedliningPlugin({
                 BufferSupport: BufferSupport
             }),
@@ -177,7 +180,25 @@ export default {
                 Toolbar: Toolbar,
                 FullscreenSwitcher: FullscreenSwitcher
             }),
-            View3DPlugin: View3DPlugin,
+            TourGuidePlugin: TourGuidePlugin,
+            ValueToolPlugin: ValueToolPlugin,
+            View3DPlugin: View3DPlugin({
+                BackgroundSwitcher3D: lazy(() => import('qwc2/plugins/map3d/BackgroundSwitcher3D')),
+                BottomBar3D: lazy(() => import('qwc2/plugins/map3d/BottomBar3D')),
+                Compare3D: lazy(() => import('qwc2/plugins/map3d/Compare3D')),
+                Draw3D: lazy(() => import('qwc2/plugins/map3d/Draw3D')),
+                ExportObjects3D: lazy(() => import('qwc2/plugins/map3d/ExportObjects3D')),
+                HideObjects3D: lazy(() => import('qwc2/plugins/map3d/HideObjects3D')),
+                Identify3D: lazy(() => import('qwc2/plugins/map3d/Identify3D')),
+                LayerTree3D: lazy(() => import('qwc2/plugins/map3d/LayerTree3D')),
+                MapCopyright3D: lazy(() => import('qwc2/plugins/map3d/MapCopyright3D')),
+                MapExport3D: lazy(() => import('qwc2/plugins/map3d/MapExport3D')),
+                MapLight3D: lazy(() => import('qwc2/plugins/map3d/MapLight3D')),
+                Measure3D: lazy(() => import('qwc2/plugins/map3d/Measure3D')),
+                OverviewMap3D: lazy(() => import('qwc2/plugins/map3d/OverviewMap3D')),
+                Settings3D: lazy(() => import('qwc2/plugins/map3d/Settings3D')),
+                TopBar3D: lazy(() => import('qwc2/plugins/map3d/TopBar3D'))
+            }),
             ZoomInPlugin: ZoomInPlugin,
             ZoomOutPlugin: ZoomOutPlugin,
             GwInfoPlugin: GwInfoPlugin,
@@ -209,13 +230,9 @@ export default {
             GwSupersetPlugin: GwSupersetPlugin,
             MapWatermarkPlugin: MapWatermarkPlugin,
             NetCDFExplorerPlugin: NetCDFExplorerPlugin,
+            DrAnimationPlugin: DrAnimationPlugin
         },
         cfg: {
-            IdentifyPlugin: {
-                attributeCalculator: customAttributeCalculator,
-                attributeTransform: attributeTransform,
-                customExporters: customExporters
-            }
         }
     },
     actionLogger: (action) => {
