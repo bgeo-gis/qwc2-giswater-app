@@ -115,7 +115,9 @@ function giswaterGetGeometry(result, callback, customAxios) {
                 geometry: result.data.geometry.st_astext,
                 crs: props.crs,
                 center: center,
-                bbox: bbox
+                bbox: bbox,
+                x: center[0],
+                y: center[1]
             });
 
             console.log("Callback::: ", callback);
@@ -136,7 +138,8 @@ function customSearch(text, searchParams, callback, axios) {
     const params = {
         theme: searchParams.theme.title,
         searchtables: tables.join(','),
-        query: text
+        query: text,
+        limit: searchParams.limit || 5  // limit number of results
     };
     axios.get(requestUrl + "search", { params: params }).then(response => {
         let currentgroup = null;
@@ -179,6 +182,8 @@ function customSearch(text, searchParams, callback, axios) {
 function customSearchGeom(resultItem, callback, customAxios) {
     const axiosInstance = customAxios || axios;
     console.log("axios:", axiosInstance);
+    const props = resultItem.props;
+
 
     if (!axiosInstance) {
         console.error("Error: axios not defined in customSearchGeom.");
@@ -192,7 +197,25 @@ function customSearchGeom(resultItem, callback, customAxios) {
         displaytext: resultItem.text
     };
     axiosInstance.get(requestUrl + "searchGeom", { params: params }).then(response => {
-        callback({ geometry: response.data, crs: resultItem.crs });
+        const geometry = response.data;
+        let center = [0, 0];
+        if (geometry && geometry.coordinates) {
+            if (geometry.type === "Point") {
+                center = geometry.coordinates;
+            } else if (geometry.type === "Polygon" && geometry.coordinates[0]) {
+                // Calculate center of polygon
+                const coords = geometry.coordinates[0];
+                const sum = coords.reduce((acc, coord) => [acc[0] + coord[0], acc[1] + coord[1]], [0, 0]);
+                center = [sum[0] / coords.length, sum[1] / coords.length];
+            }
+        }
+        callback({
+            geometry: geometry,
+            crs: props.crs,
+            center: center,
+            x: center[0],
+            y: center[1]
+        });
     });
 }
 
