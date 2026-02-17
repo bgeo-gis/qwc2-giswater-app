@@ -135,11 +135,12 @@ function customSearch(text, searchParams, callback, axios) {
     const requestUrl = GwUtils.getServiceUrl("customSearch");
 
     const tables = searchParams.cfgParams.tables;
+    const limit = searchParams.cfgParams.limit;
     const params = {
         theme: searchParams.theme.title,
         searchtables: tables.join(','),
         query: text,
-        limit: searchParams.limit || 5  // limit number of results
+        limit: limit,
     };
     axios.get(requestUrl + "search", { params: params }).then(response => {
         let currentgroup = null;
