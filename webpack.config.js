@@ -41,6 +41,9 @@ module.exports = (env, argv) => {
         },
         resolve: {
             extensions: [".mjs", ".js", ".jsx", ".ts", ".tsx"],
+            alias: {
+                "@giro3d/giro3d": "@sourcepole/qwc-giro3d"
+            },
             fallback: {
                 path: require.resolve("path-browserify"),
                 stream: require.resolve("stream-browserify"),
@@ -73,6 +76,13 @@ module.exports = (env, argv) => {
                     { from: 'static' }
                 ]
             })
+        ],
+        ignoreWarnings: [
+            // Suppress warning about findDOMNode not found in react-dom (React 19 removed it)
+            {
+                module: /react-onclickoutside/,
+                message: /findDOMNode/
+            }
         ],
         module: {
             rules: [
