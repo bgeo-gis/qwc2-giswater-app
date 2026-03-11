@@ -465,3 +465,11 @@ div.measure-body * {
         display: none !important;
     }
 }
+
+/* Mobile: Move TaskBar (MessageBar) to bottom of the map */
+@media (max-width: 768px) {
+    div.messagebar-container {
+        top: auto !important;
+        bottom: 3em !important;
+    }
+}
