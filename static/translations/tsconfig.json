@@ -1,6 +1,7 @@
 {
   "languages": [
     "bg-BG",
+    "ca-ES",
     "de-DE",
     "de-CH",
     "en-US",
@@ -22,7 +23,8 @@
     "search.coordinates",
     "colorschemes.default",
     "colorschemes.dark",
-    "colorschemes.highcontrast"
+    "colorschemes.highcontrast",
+    "mincut.changeValveStatusWarning"
   ],
   "overrides": [
     "share.socialIntro"

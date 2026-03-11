@@ -16,6 +16,8 @@
         "MapExport3D": "",
         "MapFilter": "Филтър на картата",
         "MapLight3D": "Дата и час",
+        "ObjectList": "",
+        "PlotInfoTool": "",
         "Print": "Отпечатване",
         "Reports": "Доклади",
         "Settings": "Настройки",
@@ -41,11 +43,13 @@
         "MeasureLineString": "Измерване на линия",
         "MeasurePolygon": "Измерване на полигон",
         "NewsPopup": "",
+        "ObliqueView": "",
         "Panoramax": "",
         "Portal": "Портал",
         "PrintScreen3D": "Експорт на мрежата",
         "Redlining": "Redlining",
         "Routing": "Маршрутизиране",
+        "SensorThingsTool": "",
         "Tools": "Инструменти за карта",
         "TourGuide": "",
         "TimeManager": "Мениджър на времето",
@@ -77,16 +81,15 @@
         "GwVisitIncidencia": "Нова заболеваемост",
         "NetCDFExplorer": "Преглед на NetCDF (бета версия)",
         "GwHelp": "Помощ",
-        "GwSuperset": "Контролен панел"
+        "GwSuperset": "Контролен панел",
+        "GwGo2Epa": ""
       },
       "filter": "Меню за филтриране...",
       "menulabel": "Карта и инструменти"
     },
     "search": {
       "coordinates": "",
-      "all": "Всички",
       "circleradius": "Радиус на кръга",
-      "clearfilter": "Clear",
       "existinglayer": "Слоят вече съществува в картата",
       "filter": "Прецизиране на търсенето",
       "layers": "Слоеве",
@@ -94,12 +97,12 @@
       "more": "{0} още резултати",
       "nodescription": "Няма налично описание",
       "none": "Няма",
-      "noresults": "Няма резултати",
       "placeholder": "Търсене на място или добавяне на карта...",
       "places": "Места",
       "providerselection": "Търсене на доставчици",
       "recent": "Последни търсения",
       "search": "Търсене",
+      "tasks": "",
       "themelayers": "Тематични слоеве",
       "themes": "Теми",
       "unknownmore": ""
@@ -112,8 +115,15 @@
       "white": "Бял",
       "transparent": "Прозрачен"
     },
+    "mincut": {
+      "changeValveStatusWarning": "",
+      "clickhelpChangeValveStatus": "Щракнете върху клапаните, за да ги отворите или затворите след обновяване на Mincut",
+      "clickhelpNetwork": "Щракнете върху всяка дъга, за да извършите Mincut",
+      "clickhelpValveUnaccess": "Кликнете върху клапан, за да го изключите от работа"
+    },
     "app": {
       "missingbg": "Не може да се намери фонът \"{0}\", показва се фонът по подразбиране.",
+      "missingdefaulttheme": "",
       "missinglayers": "Не мога да намеря следните слоеве: {0}.",
       "missingpermalink": "Посоченият пермалък или маркер е невалиден или е изтекъл.",
       "missingprojection": "Невъзможно е да се зареди темата \"{0}\": проекцията {1} не е дефинирана.",
@@ -121,23 +131,22 @@
     },
     "attribtable": {
       "addfeature": "Добавяне на функция",
+      "calculatedfield": "",
       "commit": "Поемане на ангажимент за променен ред",
       "csvexport": "Експорт на CSV",
-      "delete": "Изтриване на",
       "deletefailed": "Една или повече функции не могат да бъдат изтрити",
       "deletefeatures": "Изтриване на избрани функции",
       "deleting": "Изтриване на функции...",
       "discard": "Отхвърляне на променен ред",
       "formeditmode": "Отваряне на формата за редактиране на избраната функция",
+      "fulldatasetload": "",
       "geomnoadd": "Моля, използвайте формата за редактиране за добавяне на нови функции към този слой",
       "limittoextent": "Ограничаване на обхвата на картата",
       "loadfailed": "Неуспешно зареждане на данните за функцията",
-      "loading": "Зареждане...",
       "nodelete": "Не изтривайте",
       "nogeomnoform": "Формата за редактиране не е налична за слоеве без геометрия",
       "pleasereload": "Натиснете бутона \"Презареждане\", за да заредите таблицата с атрибутите...",
       "reload": "Презареждане",
-      "selectlayer": "Изберете слой...",
       "title": "Таблица на атрибутите",
       "zoomtoselection": "Увеличаване на избраните функции"
     },
@@ -147,14 +156,12 @@
     "bookmark": {
       "add": "Създаване на нов маркер",
       "addfailed": "Неуспешно създаване на отметки",
-      "description": "Въведете описание...",
       "lastUpdate": "Последно запазен",
       "manage": "Управление на отметките",
       "nobookmarks": "Няма отметки",
       "notloggedin": "Трябва да сте влезли в системата, за да съхранявате отметки",
       "open": "Отваряне на отметки в текущия раздел",
       "openTab": "Отваряне на отметки в раздела",
-      "remove": "Премахване на отметки",
       "removefailed": "Не успя да премахне отметките",
       "savefailed": "Неуспешно актуализиране на отметките",
       "update": "Актуализиране на отметките",
@@ -165,6 +172,38 @@
       "scale_label": "Стълбища",
       "terms_label": "Условия за ползване",
       "viewertitle_label": "Начална страница"
+    },
+    "common": {
+      "all": "Всички",
+      "cancel": "Отмяна на",
+      "circle": "Кръг",
+      "clear": "Clear",
+      "clone": "",
+      "close": "Затвори",
+      "delete": "Изтриване на",
+      "download": "Изтегляне",
+      "ellipse": "Елипса",
+      "export": "Експорт",
+      "format": "Формат",
+      "line": "Линия",
+      "loading": "Зареждане...",
+      "lock2dview": "",
+      "noresults": "Няма резултати",
+      "pick": "Изберете",
+      "point": "Точка",
+      "polygon": "Полигон",
+      "rectangle": "Правоъгълник",
+      "rename": "",
+      "resolution": "Резолюция",
+      "save": "Запазете",
+      "select": "Изберете",
+      "selectlayer": "Изберете слой...",
+      "square": "Квадрат",
+      "sync2dview": "Синхронизиране на изгледа",
+      "text": "Текст",
+      "wait": "Моля, изчакайте...",
+      "zoomin": "Увеличаване на мащаба",
+      "zoomout": "Увеличаване на мащаба"
     },
     "compare3d": {
       "clipplane": "Плоскост на изрязване",
@@ -192,18 +231,14 @@
       "title": "Cyclomedia Viewer"
     },
     "draw3d": {
-      "clone": "",
       "cone": "Конус",
-      "ctrlhint": "",
       "cuboid": "Кубоид",
       "cylinder": "Цилиндър",
-      "delete": "Изтриване на",
       "drawings": "Чертежи",
       "intersect": "",
       "label": "",
       "newgroupprompt": "Нова група за рисуване",
       "numericinput": "Цифрово въвеждане",
-      "pick": "Изберете",
       "position": "Позиция",
       "pyramid": "Пирамида",
       "rotate": "Завъртете",
@@ -218,44 +253,53 @@
       "union": "",
       "wedge": "Клин"
     },
+    "editdataset3d": {
+      "moveobj": "",
+      "zoomto": ""
+    },
     "editing": {
       "add": "Добавяне на",
       "attrtable": "Таблица",
       "canceldelete": "Не изтривайте",
-      "clearpicture": "Clear",
+      "clone_all": "",
+      "clone_copy": "",
+      "clone_defaulted": "",
+      "clone_dontcopy": "",
+      "clone_hidden": "",
+      "clone_none": "",
+      "clone_select_attrs": "",
+      "clone_visible": "",
       "commit": "Поемане на ангажимент",
       "commitfailed": "Ангажиментът е неуспешен",
       "contraintviolation": "Нарушение на ограничението",
       "create": "Създаване на",
-      "delete": "Изтриване на",
       "discard": "Изхвърляне",
       "draw": "Начертайте",
       "feature": "Функции",
       "geomnonzeroz": "Геометрията съдържа ненулеви стойности на Z и следователно е само за четене.",
       "geomreadonly": "",
       "invalidform": "Невалиден формуляр",
-      "maximize": "Увеличете максимално",
-      "minimize": "Минимизиране на",
       "noeditablelayers": "Няма слоеве за редактиране.",
       "paint": "Промяна на",
-      "pick": "Изберете",
       "pickdrawfeature": "Клониране на съществуваща геометрия",
       "reallydelete": "Изтриване на",
       "relationcommitfailed": "Някои стойности на отношенията не могат да бъдат предадени, проверете за повече информация подсказките на иконата",
-      "select": "Изберете",
       "takepicture": "Направете снимка",
       "unsavedchanged": "Има неспасени промени. Искате ли все пак да напуснете страницата?"
     },
+    "featureattributes": {
+      "name": "",
+      "nofeatureormultiple": "",
+      "value": "",
+      "windowtitle": ""
+    },
     "featureform": {
       "feature": "Функции",
-      "noresults": "Няма резултати",
       "querying": "Запитване...",
       "title": "Формуляр на функцията"
     },
     "featuresearch": {
-      "noresults": "Няма резултати",
       "query": "Запитване",
-      "select": "Изберете...",
       "title": "Търсене на функции"
     },
     "fileselector": {
@@ -273,8 +317,7 @@
       "line_buffer": "Линия (към буфера)",
       "point_buffer": "Точка (към буфера)",
       "selfinter": "Един или повече полигони съдържат самопресичания",
-      "send": "Изпрати",
-      "wait": "Зареждане..."
+      "send": "Изпрати"
     },
     "heightprofile": {
       "asl": "a.s.l.",
@@ -298,16 +341,19 @@
     "identify": {
       "aggregatedreport": "Обобщен доклад",
       "clipboard": "Копиране в клипборда",
-      "download": "Изтегляне",
-      "export": "Експорт",
+      "compare": "",
+      "comparing": "",
       "featureReport": "Отчет за функциите",
-      "featurecount": "Брой функции",
+      "featurecount": "",
       "layerall": "Всички слоеве",
       "link": "Връзка към",
+      "multiview": "",
       "noattributes": "Без атрибути",
       "noresults": "Няма налична информация за избраната точка",
       "querying": "Запитване...",
       "reportfail": "Неуспешно генериране на отчет",
+      "results": "",
+      "selectforcompare": "",
       "selectreport": "",
       "title": "Информация за функциите",
       "confirmDiscard": "Искате ли да отхвърлите промените?",
@@ -327,7 +373,6 @@
       "asgroup": "",
       "connect": "Свържете",
       "filter": "Филтър...",
-      "loading": "Зареждане...",
       "localfile": "Местен файл",
       "nofeatures": "Не могат да бъдат импортирани никакви функции.",
       "noresults": "Няма резултати или има невалиден URL адрес",
@@ -368,6 +413,7 @@
       "printlegend": "Легенда за печат",
       "separator": "Сепаратор",
       "separatortooltip": "Добавяне на разделител",
+      "togglegroup": "",
       "transparency": "Trasparency",
       "visiblefilter": "Филтриране на невидими слоеве",
       "zoomtolayer": "Увеличаване на слоя"
@@ -382,8 +428,6 @@
       "zoomtoobject": ""
     },
     "linkfeatureform": {
-      "cancel": "Отмяна на",
-      "close": "Затвори",
       "drawhint": "Нарисувайте обекта на картата...",
       "pickhint": "Изберете елемент от картата..."
     },
@@ -399,37 +443,31 @@
         "PERMISSION_DENIED": "Позиция: разрешението е отказано"
       }
     },
+    "locationrecorder": {
+      "record": "",
+      "stop": ""
+    },
     "map": {
       "loading": "Зареждане...",
       "resetrotation": "Нулиране на въртенето"
     },
     "map3d": {
-      "lockview": "",
-      "syncview": "Синхронизиране на изгледа",
       "terrain": "Земя",
       "title": "3D изглед"
     },
     "mapexport": {
       "configuration": "Конфигурация",
-      "format": "Формат",
       "projection": "",
-      "resolution": "Резолюция",
       "scale": "Стълбища",
       "size": "Размер",
-      "submit": "Експорт",
-      "usersize": "Изберете на картата...",
-      "wait": "Моля, изчакайте..."
+      "usersize": "Изберете на картата..."
     },
     "mapfilter": {
       "addcustomfilter": "Добавяне на потребителски филтър",
       "brokenrendering": "Възможно е изобразяването на картата да бъде нарушено поради невалиден израз на филтъра",
-      "cancel": "Отмяна на",
       "geomfilter": "Геометрия",
       "hidefiltergeom": "Скриване на геометрията на филтъра",
       "invalidfilter": "Невалиден израз на филтъра",
-      "save": "Запазете",
-      "select": "Изберете...",
-      "selectlayer": "Избор на слой",
       "timefilter": "Време",
       "timefrom": "От",
       "timeto": "За"
@@ -473,16 +511,18 @@
       "imperial": "Imperial",
       "lengthLabel": "Дължина",
       "metric": "Метричен",
-      "pointLabel": "Позиция"
+      "pointLabel": "Позиция",
+      "showmeasurements": "Показване на измерванията"
     },
     "misc": {
       "ctrlclickhint": "Отваряне с Ctrl+Click"
     },
     "navbar": {
-      "perpage": "на страница"
+      "next": "",
+      "perpage": "на страница",
+      "prev": ""
     },
     "newspopup": {
-      "dialogclose": "Затвори",
       "dontshowagain": "Не показвайте отново",
       "title": "Новини"
     },
@@ -490,10 +530,36 @@
       "angle": "Ъгъл",
       "featureunsupported": "Цифровото въвеждане не е достъпно за тази геометрия",
       "height": "Височина",
-      "nofeature": "Няма активна функция",
+      "nofeatureormultiple": "",
       "side": "Страна",
       "width": "Ширина",
       "windowtitle": "Цифрово въвеждане"
+    },
+    "obliqueview": {
+      "nodataset": "",
+      "title": ""
+    },
+    "oereb": {
+      "concernedThemes": "",
+      "fundationdatastate": "",
+      "fundations": "",
+      "generalInformation": "",
+      "generalinfo": "",
+      "hidefulllegend": "",
+      "hints": "",
+      "legalbasis": "",
+      "notConcernedThemes": "",
+      "nrpoints": "",
+      "perc": "",
+      "regulations": "",
+      "responsibleauthority": "",
+      "responsibleoffice": "",
+      "share": "",
+      "showfulllegend": "",
+      "themeWithoutData": "",
+      "type": "",
+      "title": "",
+      "failed": ""
     },
     "panoramax": {
       "notfound": "",
@@ -502,86 +568,67 @@
     "pickfeature": {
       "querying": "Запитване..."
     },
+    "plotinfotool": {
+      "failed": "",
+      "loading": ""
+    },
     "portal": {
       "filter": "Филтрирайте темите...",
       "menulabel": "Меню"
     },
     "print": {
       "atlasfeature": "Функцията Atlas",
-      "download": "Изтегляне",
       "download_as_onepdf": "като един PDF документ",
       "download_as_onezip": "като един файл ZIP",
       "download_as_single": "като отделни файлове",
-      "format": "Формат",
       "grid": "Мрежа",
       "layout": "Макет",
       "legend": "Легенда",
-      "maximize": "Увеличете максимално",
-      "minimize": "Минимизиране на",
       "nolayouts": "Избраната тема не поддържа печат",
       "notheme": "Не е избрана тема",
       "output": "Изход за печат",
       "overlap": "Припокриване",
       "pickatlasfeature": "Изберете в слой {0}...",
-      "resolution": "Резолюция",
       "rotation": "Завъртане",
-      "save": "Запазете",
       "scale": "Стълбища",
       "series": "Серия за печат",
-      "submit": "Отпечатване",
-      "wait": "Моля, изчакайте..."
+      "submit": "Отпечатване"
     },
     "qtdesignerform": {
       "loading": "Зареждане на формуляра..."
     },
     "redlining": {
-      "border": "Граница",
+      "attributes": "",
       "buffer": "Буфер",
       "buffercompute": "Изчисляване",
       "bufferdistance": "Разстояние",
       "bufferlayer": "Дестинация",
       "bufferlayername": "Буфер",
       "bufferselectfeature": "Изберете функция, която да буферира...",
-      "circle": "Кръг",
-      "delete": "Изтриване на",
+      "ctrlhint": "",
       "draw": "Начертайте",
       "edit": "Редактиране на",
-      "ellipse": "Елипса",
-      "export": "Експорт",
       "freehand": "Рисуване със свободна ръка",
       "label": "Етикет",
       "layer": "Слой",
       "layertitle": "Redlining",
-      "line": "Линия",
       "markers": "Маркери",
-      "measurements": "Показване на измерванията",
       "numericinput": "Цифрово въвеждане",
-      "pick": "Изберете",
-      "point": "Точка",
-      "polygon": "Полигон",
-      "rectangle": "Правоъгълник",
       "size": "Размер",
-      "square": "Квадрат",
-      "text": "Текст",
-      "transform": "Преобразуване",
-      "width": "Ширина"
+      "transform": "Преобразуване"
     },
     "reports": {
-      "all": "Всички",
-      "download": "Изтегляне",
-      "pick": "Изберете",
       "region": "Изберете регион",
       "selectlayer": "Изберете слой на отчета..."
     },
     "routing": {
       "add": "Добавяне на точка",
+      "addlayer": "",
       "addviapoint": "Чрез тук",
       "arriveat": "Пристигнете в",
-      "clear": "Clear",
       "computefailed": "Неуспешно изчисление",
       "computing": "Изчисляване...",
       "excludepolygons": "Изключване на области",
-      "export": "Експорт",
       "fastest": "Най-бързият",
       "fromhere": "Оттук",
       "importerror": "Импортирането е неуспешно. Съдържанието на файла трябва да бъде GeoJSON FeatureCollection от точкови характеристики.",
@@ -615,6 +662,99 @@
     },
     "scratchdrawing": {
       "finish": "Завършете"
+    },
+    "sensorthingstool": {
+      "addDatastream": "",
+      "datastreamInfo": {
+        "calibration": "",
+        "description": "",
+        "location": "",
+        "name": "",
+        "observedProperty": "",
+        "sensor": "",
+        "thing": "",
+        "title": "",
+        "unit": ""
+      },
+      "datastreamLabel": "",
+      "datastreamNone": "",
+      "datastreamOptions": {
+        "arithmeticMean": "",
+        "percentiles": "",
+        "percentilesDesc": "",
+        "showOnSecondYAxis": "",
+        "showPercentiles": "",
+        "title": ""
+      },
+      "datastreamTable": {
+        "fullPeriod": "",
+        "selectedPeriod": "",
+        "timestamp": "",
+        "title": "",
+        "unit": "",
+        "value": ""
+      },
+      "datastreamsFilter": {
+        "observedProperty": "",
+        "sensor": "",
+        "thing": "",
+        "title": ""
+      },
+      "exportCSV": "",
+      "exportImage": "",
+      "graphOptions": {
+        "reverseAxis": "",
+        "threshold": "",
+        "thresholdLabel": "",
+        "thresholdValue": "",
+        "title": "",
+        "toggleGridLines": "",
+        "toggleSecondYAxis": "",
+        "xAxis": "",
+        "xAxisAtTop": "",
+        "yAuto": "",
+        "yAxis": "",
+        "yMax": "",
+        "yMin": ""
+      },
+      "intervalOptions": {
+        "custom": "",
+        "day": "",
+        "hour": "",
+        "month": "",
+        "week": "",
+        "year": ""
+      },
+      "locationInfo": {
+        "description": "",
+        "inactive": "",
+        "name": "",
+        "platform": "",
+        "qompSensorId": "",
+        "serialNumber": "",
+        "title": ""
+      },
+      "locationLabel": "",
+      "pickLocation": "",
+      "pickLocationDesc": "",
+      "removeDatastream": "",
+      "removeLocation": "",
+      "selectInterval": "",
+      "selectLocation": "",
+      "setEndToNow": "",
+      "setPeriodAfterBegin": "",
+      "setPeriodBeforeEnd": "",
+      "showDefaultPeriod": "",
+      "showFullPeriod": "",
+      "showNextPeriod": "",
+      "showPrevPeriod": "",
+      "statistics": {
+        "arithmeticMean": "",
+        "nthPercentile": ""
+      },
+      "title": "",
+      "zoomIn": "",
+      "zoomOut": ""
     },
     "serviceinfo": {
       "abstract": "Резюме",
@@ -659,6 +799,7 @@
       "vertex": "Прилепване към върховете"
     },
     "themelayerslist": {
+      "addanyway": "",
       "addlayer": "Добавяне на слой",
       "addlayerstotheme": "Добавяне на слоеве към текущата карта",
       "addselectedlayers": "Добавяне на избран(и) слой(и)",
@@ -692,7 +833,6 @@
       "group": "Атрибут за групиране",
       "groupnone": "Няма",
       "home": "Нулиране на времевата линия",
-      "loading": "Зареждане...",
       "loop": "Цикъл",
       "markers": "Маркери",
       "notemporaldata": "В картата не се виждат временни слоеве.",
@@ -723,19 +863,13 @@
         "months": "месеци",
         "seconds": "секунди",
         "years": "години"
-      },
-      "zoomin": "Увеличаване на мащаба",
-      "zoomout": "Увеличаване на мащаба"
+      }
     },
     "tooltip": {
       "background": "Превключване на фона",
       "fullscreendisable": "Деактивиране на режима на цял екран",
       "fullscreenenable": "Активиране на режим на цял екран",
-      "home": "Покажи цялата карта",
-      "zoomin": "Увеличаване на мащаба",
-      "zoomout": "Увеличаване на мащаба",
-      "zoomlast": "",
-      "zoomnext": ""
+      "home": "Покажи цялата карта"
     },
     "tourguide": {
       "done": "",
@@ -743,7 +877,6 @@
       "previous": ""
     },
     "valuetool": {
-      "all": "",
       "allbands": "",
       "alllayers": "",
       "bands": "",
@@ -770,7 +903,6 @@
       "storingstate": ""
     },
     "window": {
-      "close": "Затвори",
       "detach": "Отделяне на",
       "dock": "Док",
       "embed": "Вграждане",
@@ -780,10 +912,9 @@
       "unmaximize": "Възстановяване на",
       "unminimize": "Намалете до минимум"
     },
-    "mincut": {
-      "clickhelpChangeValveStatus": "Щракнете върху клапаните, за да ги отворите или затворите след обновяване на Mincut",
-      "clickhelpNetwork": "Щракнете върху всяка дъга, за да извършите Mincut",
-      "clickhelpValveUnaccess": "Кликнете върху клапан, за да го изключите от работа"
+    "plotdescr": {
+      "title": "",
+      "requestPdf": ""
     },
     "searchbox": {
       "placeholder": "Търсене на място или добавяне на карта..."

@@ -16,6 +16,8 @@
         "MapExport3D": "",
         "MapFilter": "",
         "MapLight3D": "",
+        "ObjectList": "",
+        "PlotInfoTool": "",
         "Print": "Печать",
         "Reports": "",
         "Settings": "",
@@ -41,11 +43,13 @@
         "MeasureLineString": "измерить линию",
         "MeasurePolygon": "измерить многоугольник",
         "NewsPopup": "",
+        "ObliqueView": "",
         "Panoramax": "",
         "Portal": "",
         "PrintScreen3D": "",
         "Redlining": "Обводка",
         "Routing": "",
+        "SensorThingsTool": "",
         "Tools": "Средства картографии",
         "TourGuide": "",
         "TimeManager": "",
@@ -77,16 +81,15 @@
         "GwVisitIncidencia": "",
         "NetCDFExplorer": "",
         "GwHelp": "",
-        "GwSuperset": ""
+        "GwSuperset": "",
+        "GwGo2Epa": ""
       },
       "filter": "",
       "menulabel": "Карта и инструменты"
     },
     "search": {
       "coordinates": "",
-      "all": "Всё",
       "circleradius": "",
-      "clearfilter": "",
       "existinglayer": "",
       "filter": "",
       "layers": "",
@@ -94,12 +97,12 @@
       "more": "",
       "nodescription": "",
       "none": "",
-      "noresults": "",
       "placeholder": "",
       "places": "",
       "providerselection": "",
       "recent": "",
       "search": "Поиск",
+      "tasks": "",
       "themelayers": "",
       "themes": "",
       "unknownmore": ""
@@ -112,8 +115,15 @@
       "white": "",
       "transparent": ""
     },
+    "mincut": {
+      "changeValveStatusWarning": "",
+      "clickhelpChangeValveStatus": "",
+      "clickhelpNetwork": "",
+      "clickhelpValveUnaccess": ""
+    },
     "app": {
       "missingbg": "",
+      "missingdefaulttheme": "",
       "missinglayers": "",
       "missingpermalink": "",
       "missingprojection": "",
@@ -121,23 +131,22 @@
     },
     "attribtable": {
       "addfeature": "",
+      "calculatedfield": "",
       "commit": "",
       "csvexport": "",
-      "delete": "",
       "deletefailed": "",
       "deletefeatures": "",
       "deleting": "",
       "discard": "",
       "formeditmode": "",
+      "fulldatasetload": "",
       "geomnoadd": "",
       "limittoextent": "",
       "loadfailed": "",
-      "loading": "",
       "nodelete": "",
       "nogeomnoform": "",
       "pleasereload": "",
       "reload": "",
-      "selectlayer": "",
       "title": "",
       "zoomtoselection": ""
     },
@@ -147,14 +156,12 @@
     "bookmark": {
       "add": "",
       "addfailed": "",
-      "description": "",
       "lastUpdate": "",
       "manage": "",
       "nobookmarks": "",
       "notloggedin": "",
       "open": "",
       "openTab": "",
-      "remove": "",
       "removefailed": "",
       "savefailed": "",
       "update": "",
@@ -165,6 +172,38 @@
       "scale_label": "Масштаб",
       "terms_label": "Условия использования",
       "viewertitle_label": "Домашняя страница"
+    },
+    "common": {
+      "all": "",
+      "cancel": "",
+      "circle": "",
+      "clear": "",
+      "clone": "",
+      "close": "",
+      "delete": "",
+      "download": "",
+      "ellipse": "",
+      "export": "",
+      "format": "Формат бумаги:",
+      "line": "Линия",
+      "loading": "",
+      "lock2dview": "",
+      "noresults": "",
+      "pick": "",
+      "point": "Точка",
+      "polygon": "Полигон",
+      "rectangle": "",
+      "rename": "",
+      "resolution": "Разрешение:",
+      "save": "",
+      "select": "Выберите...",
+      "selectlayer": "",
+      "square": "",
+      "sync2dview": "",
+      "text": "Текст",
+      "wait": "",
+      "zoomin": "Увеличить",
+      "zoomout": "Уменьшить"
     },
     "compare3d": {
       "clipplane": "",
@@ -192,18 +231,14 @@
       "title": ""
     },
     "draw3d": {
-      "clone": "",
       "cone": "",
-      "ctrlhint": "",
       "cuboid": "",
       "cylinder": "",
-      "delete": "",
       "drawings": "",
       "intersect": "",
       "label": "",
       "newgroupprompt": "",
       "numericinput": "",
-      "pick": "",
       "position": "",
       "pyramid": "",
       "rotate": "",
@@ -218,44 +253,53 @@
       "union": "",
       "wedge": ""
     },
+    "editdataset3d": {
+      "moveobj": "",
+      "zoomto": ""
+    },
     "editing": {
       "add": "",
       "attrtable": "",
       "canceldelete": "Не удалять",
-      "clearpicture": "",
+      "clone_all": "",
+      "clone_copy": "",
+      "clone_defaulted": "",
+      "clone_dontcopy": "",
+      "clone_hidden": "",
+      "clone_none": "",
+      "clone_select_attrs": "",
+      "clone_visible": "",
       "commit": "Подтвердить изменения",
       "commitfailed": "",
       "contraintviolation": "",
       "create": "",
-      "delete": "Удалить",
       "discard": "Отменить изменения",
       "draw": "Нарисовать",
       "feature": "",
       "geomnonzeroz": "",
       "geomreadonly": "",
       "invalidform": "",
-      "maximize": "Развернуть",
-      "minimize": "Свернуть",
       "noeditablelayers": "Отсутствуют доступные для редактирования слои.",
       "paint": "",
-      "pick": "Выбрать",
       "pickdrawfeature": "",
       "reallydelete": "Удалить",
       "relationcommitfailed": "",
-      "select": "Выберите...",
       "takepicture": "",
       "unsavedchanged": ""
     },
+    "featureattributes": {
+      "name": "",
+      "nofeatureormultiple": "",
+      "value": "",
+      "windowtitle": ""
+    },
     "featureform": {
       "feature": "",
-      "noresults": "",
       "querying": "",
       "title": ""
     },
     "featuresearch": {
-      "noresults": "",
       "query": "",
-      "select": "",
       "title": ""
     },
     "fileselector": {
@@ -273,8 +317,7 @@
       "line_buffer": "",
       "point_buffer": "",
       "selfinter": "",
-      "send": "",
-      "wait": ""
+      "send": ""
     },
     "heightprofile": {
       "asl": "над у.м.",
@@ -298,16 +341,19 @@
     "identify": {
       "aggregatedreport": "",
       "clipboard": "",
-      "download": "",
-      "export": "Экспорт",
+      "compare": "",
+      "comparing": "",
       "featureReport": "Отчёт об объекте",
       "featurecount": "",
       "layerall": "",
       "link": "гиперссылка",
+      "multiview": "",
       "noattributes": "Аттрибуты отсутствуют",
       "noresults": "Для выбранной точки нет доступной информации",
       "querying": "Выполняется запрос...",
       "reportfail": "",
+      "results": "",
+      "selectforcompare": "",
       "selectreport": "",
       "title": "Информация об объекте",
       "confirmDiscard": "",
@@ -327,7 +373,6 @@
       "asgroup": "",
       "connect": "Подключиться",
       "filter": "Фильтровать...",
-      "loading": "",
       "localfile": "",
       "nofeatures": "Нет объектов, доступных для импорта",
       "noresults": "",
@@ -368,6 +413,7 @@
       "printlegend": "Распечатать легенду",
       "separator": "",
       "separatortooltip": "",
+      "togglegroup": "",
       "transparency": "",
       "visiblefilter": "",
       "zoomtolayer": ""
@@ -382,8 +428,6 @@
       "zoomtoobject": ""
     },
     "linkfeatureform": {
-      "cancel": "",
-      "close": "",
       "drawhint": "",
       "pickhint": ""
     },
@@ -399,37 +443,31 @@
         "PERMISSION_DENIED": "Геолокация: доступ воспрещен"
       }
     },
+    "locationrecorder": {
+      "record": "",
+      "stop": ""
+    },
     "map": {
       "loading": "Загрузка...",
       "resetrotation": ""
     },
     "map3d": {
-      "lockview": "",
-      "syncview": "",
       "terrain": "",
       "title": ""
     },
     "mapexport": {
       "configuration": "",
-      "format": "Формат бумаги:",
       "projection": "",
-      "resolution": "Разрешение:",
       "scale": "",
       "size": "",
-      "submit": "",
-      "usersize": "",
-      "wait": ""
+      "usersize": ""
     },
     "mapfilter": {
       "addcustomfilter": "",
       "brokenrendering": "",
-      "cancel": "",
       "geomfilter": "",
       "hidefiltergeom": "",
       "invalidfilter": "",
-      "save": "",
-      "select": "",
-      "selectlayer": "",
       "timefilter": "",
       "timefrom": "",
       "timeto": ""
@@ -473,16 +511,18 @@
       "imperial": "",
       "lengthLabel": "Длина",
       "metric": "",
-      "pointLabel": "Позиция"
+      "pointLabel": "Позиция",
+      "showmeasurements": ""
     },
     "misc": {
       "ctrlclickhint": ""
     },
     "navbar": {
-      "perpage": ""
+      "next": "",
+      "perpage": "",
+      "prev": ""
     },
     "newspopup": {
-      "dialogclose": "",
       "dontshowagain": "",
       "title": ""
     },
@@ -490,10 +530,36 @@
       "angle": "",
       "featureunsupported": "",
       "height": "",
-      "nofeature": "",
+      "nofeatureormultiple": "",
       "side": "",
       "width": "",
       "windowtitle": ""
+    },
+    "obliqueview": {
+      "nodataset": "",
+      "title": ""
+    },
+    "oereb": {
+      "concernedThemes": "",
+      "fundationdatastate": "",
+      "fundations": "",
+      "generalInformation": "",
+      "generalinfo": "",
+      "hidefulllegend": "",
+      "hints": "",
+      "legalbasis": "",
+      "notConcernedThemes": "",
+      "nrpoints": "",
+      "perc": "",
+      "regulations": "",
+      "responsibleauthority": "",
+      "responsibleoffice": "",
+      "share": "",
+      "showfulllegend": "",
+      "themeWithoutData": "",
+      "type": "",
+      "title": "",
+      "failed": ""
     },
     "panoramax": {
       "notfound": "",
@@ -502,86 +568,67 @@
     "pickfeature": {
       "querying": ""
     },
+    "plotinfotool": {
+      "failed": "",
+      "loading": ""
+    },
     "portal": {
       "filter": "",
       "menulabel": ""
     },
     "print": {
       "atlasfeature": "",
-      "download": "",
       "download_as_onepdf": "",
       "download_as_onezip": "",
       "download_as_single": "",
-      "format": "Формат бумаги",
       "grid": "Сетка",
       "layout": "Формат бумаги",
       "legend": "",
-      "maximize": "Развернуть",
-      "minimize": "Свернуть",
       "nolayouts": "Выбранная тема не поддерживает печать",
       "notheme": "Тема не выбрана",
       "output": "",
       "overlap": "",
       "pickatlasfeature": "",
-      "resolution": "Разрешение",
       "rotation": "Поворот",
-      "save": "",
       "scale": "Масштаб",
       "series": "",
-      "submit": "Печать",
-      "wait": ""
+      "submit": "Печать"
     },
     "qtdesignerform": {
       "loading": ""
     },
     "redlining": {
-      "border": "Граница",
+      "attributes": "",
       "buffer": "",
       "buffercompute": "",
       "bufferdistance": "",
       "bufferlayer": "",
       "bufferlayername": "",
       "bufferselectfeature": "",
-      "circle": "",
-      "delete": "",
+      "ctrlhint": "",
       "draw": "",
       "edit": "",
-      "ellipse": "",
-      "export": "",
       "freehand": "",
       "label": "Надпись",
       "layer": "",
       "layertitle": "",
-      "line": "Линия",
       "markers": "",
-      "measurements": "",
       "numericinput": "",
-      "pick": "Выбрать",
-      "point": "Точка",
-      "polygon": "Полигон",
-      "rectangle": "",
       "size": "Размер",
-      "square": "",
-      "text": "Текст",
-      "transform": "",
-      "width": "Ширина"
+      "transform": ""
     },
     "reports": {
-      "all": "",
-      "download": "",
-      "pick": "",
       "region": "",
       "selectlayer": ""
     },
     "routing": {
       "add": "",
+      "addlayer": "",
       "addviapoint": "",
       "arriveat": "",
-      "clear": "",
       "computefailed": "",
       "computing": "",
       "excludepolygons": "",
-      "export": "",
       "fastest": "",
       "fromhere": "",
       "importerror": "",
@@ -615,6 +662,99 @@
     },
     "scratchdrawing": {
       "finish": ""
+    },
+    "sensorthingstool": {
+      "addDatastream": "",
+      "datastreamInfo": {
+        "calibration": "",
+        "description": "",
+        "location": "",
+        "name": "",
+        "observedProperty": "",
+        "sensor": "",
+        "thing": "",
+        "title": "",
+        "unit": ""
+      },
+      "datastreamLabel": "",
+      "datastreamNone": "",
+      "datastreamOptions": {
+        "arithmeticMean": "",
+        "percentiles": "",
+        "percentilesDesc": "",
+        "showOnSecondYAxis": "",
+        "showPercentiles": "",
+        "title": ""
+      },
+      "datastreamTable": {
+        "fullPeriod": "",
+        "selectedPeriod": "",
+        "timestamp": "",
+        "title": "",
+        "unit": "",
+        "value": ""
+      },
+      "datastreamsFilter": {
+        "observedProperty": "",
+        "sensor": "",
+        "thing": "",
+        "title": ""
+      },
+      "exportCSV": "",
+      "exportImage": "",
+      "graphOptions": {
+        "reverseAxis": "",
+        "threshold": "",
+        "thresholdLabel": "",
+        "thresholdValue": "",
+        "title": "",
+        "toggleGridLines": "",
+        "toggleSecondYAxis": "",
+        "xAxis": "",
+        "xAxisAtTop": "",
+        "yAuto": "",
+        "yAxis": "",
+        "yMax": "",
+        "yMin": ""
+      },
+      "intervalOptions": {
+        "custom": "",
+        "day": "",
+        "hour": "",
+        "month": "",
+        "week": "",
+        "year": ""
+      },
+      "locationInfo": {
+        "description": "",
+        "inactive": "",
+        "name": "",
+        "platform": "",
+        "qompSensorId": "",
+        "serialNumber": "",
+        "title": ""
+      },
+      "locationLabel": "",
+      "pickLocation": "",
+      "pickLocationDesc": "",
+      "removeDatastream": "",
+      "removeLocation": "",
+      "selectInterval": "",
+      "selectLocation": "",
+      "setEndToNow": "",
+      "setPeriodAfterBegin": "",
+      "setPeriodBeforeEnd": "",
+      "showDefaultPeriod": "",
+      "showFullPeriod": "",
+      "showNextPeriod": "",
+      "showPrevPeriod": "",
+      "statistics": {
+        "arithmeticMean": "",
+        "nthPercentile": ""
+      },
+      "title": "",
+      "zoomIn": "",
+      "zoomOut": ""
     },
     "serviceinfo": {
       "abstract": "",
@@ -659,6 +799,7 @@
       "vertex": ""
     },
     "themelayerslist": {
+      "addanyway": "",
       "addlayer": "",
       "addlayerstotheme": "",
       "addselectedlayers": "",
@@ -692,7 +833,6 @@
       "group": "",
       "groupnone": "",
       "home": "",
-      "loading": "",
       "loop": "",
       "markers": "",
       "notemporaldata": "",
@@ -723,19 +863,13 @@
         "months": "",
         "seconds": "",
         "years": ""
-      },
-      "zoomin": "",
-      "zoomout": ""
+      }
     },
     "tooltip": {
       "background": "Сменить фон",
       "fullscreendisable": "",
       "fullscreenenable": "",
-      "home": "Показать всю карту",
-      "zoomin": "Увеличить",
-      "zoomout": "Уменьшить",
-      "zoomlast": "",
-      "zoomnext": ""
+      "home": "Показать всю карту"
     },
     "tourguide": {
       "done": "",
@@ -743,7 +877,6 @@
       "previous": ""
     },
     "valuetool": {
-      "all": "",
       "allbands": "",
       "alllayers": "",
       "bands": "",
@@ -770,7 +903,6 @@
       "storingstate": ""
     },
     "window": {
-      "close": "",
       "detach": "",
       "dock": "",
       "embed": "",
@@ -780,10 +912,9 @@
       "unmaximize": "",
       "unminimize": ""
     },
-    "mincut": {
-      "clickhelpChangeValveStatus": "",
-      "clickhelpNetwork": "",
-      "clickhelpValveUnaccess": ""
+    "plotdescr": {
+      "title": "",
+      "requestPdf": ""
     },
     "searchbox": {
       "placeholder": ""
