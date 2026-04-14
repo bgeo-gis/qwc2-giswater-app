@@ -49,7 +49,6 @@
         "PrintScreen3D": "Експорт на мрежата",
         "Redlining": "Redlining",
         "Routing": "Маршрутизиране",
-        "SensorThingsTool": "",
         "Tools": "Инструменти за карта",
         "TourGuide": "",
         "TimeManager": "Мениджър на времето",
@@ -81,8 +80,7 @@
         "GwVisitIncidencia": "Нова заболеваемост",
         "NetCDFExplorer": "Преглед на NetCDF (бета версия)",
         "GwHelp": "Помощ",
-        "GwSuperset": "Контролен панел",
-        "GwGo2Epa": ""
+        "GwSuperset": "Контролен панел"
       },
       "filter": "Меню за филтриране...",
       "menulabel": "Карта и инструменти"
@@ -158,6 +156,7 @@
       "addfailed": "Неуспешно създаване на отметки",
       "lastUpdate": "Последно запазен",
       "manage": "Управление на отметките",
+      "newbookmark": "",
       "nobookmarks": "Няма отметки",
       "notloggedin": "Трябва да сте влезли в системата, за да съхранявате отметки",
       "open": "Отваряне на отметки в текущия раздел",
@@ -174,6 +173,7 @@
       "viewertitle_label": "Начална страница"
     },
     "common": {
+      "add": "Добавяне на",
       "all": "Всички",
       "cancel": "Отмяна на",
       "circle": "Кръг",
@@ -258,7 +258,6 @@
       "zoomto": ""
     },
     "editing": {
-      "add": "Добавяне на",
       "attrtable": "Таблица",
       "canceldelete": "Не изтривайте",
       "clone_all": "",
@@ -452,6 +451,7 @@
       "resetrotation": "Нулиране на въртенето"
     },
     "map3d": {
+      "noterrain": "",
       "terrain": "Земя",
       "title": "3D изглед"
     },
@@ -484,6 +484,7 @@
     },
     "maplight3d": {
       "animationstep": "",
+      "currentdatetime": "",
       "date": "",
       "dayspersec": "",
       "helpersVisible": "",
@@ -663,99 +664,6 @@
     "scratchdrawing": {
       "finish": "Завършете"
     },
-    "sensorthingstool": {
-      "addDatastream": "",
-      "datastreamInfo": {
-        "calibration": "",
-        "description": "",
-        "location": "",
-        "name": "",
-        "observedProperty": "",
-        "sensor": "",
-        "thing": "",
-        "title": "",
-        "unit": ""
-      },
-      "datastreamLabel": "",
-      "datastreamNone": "",
-      "datastreamOptions": {
-        "arithmeticMean": "",
-        "percentiles": "",
-        "percentilesDesc": "",
-        "showOnSecondYAxis": "",
-        "showPercentiles": "",
-        "title": ""
-      },
-      "datastreamTable": {
-        "fullPeriod": "",
-        "selectedPeriod": "",
-        "timestamp": "",
-        "title": "",
-        "unit": "",
-        "value": ""
-      },
-      "datastreamsFilter": {
-        "observedProperty": "",
-        "sensor": "",
-        "thing": "",
-        "title": ""
-      },
-      "exportCSV": "",
-      "exportImage": "",
-      "graphOptions": {
-        "reverseAxis": "",
-        "threshold": "",
-        "thresholdLabel": "",
-        "thresholdValue": "",
-        "title": "",
-        "toggleGridLines": "",
-        "toggleSecondYAxis": "",
-        "xAxis": "",
-        "xAxisAtTop": "",
-        "yAuto": "",
-        "yAxis": "",
-        "yMax": "",
-        "yMin": ""
-      },
-      "intervalOptions": {
-        "custom": "",
-        "day": "",
-        "hour": "",
-        "month": "",
-        "week": "",
-        "year": ""
-      },
-      "locationInfo": {
-        "description": "",
-        "inactive": "",
-        "name": "",
-        "platform": "",
-        "qompSensorId": "",
-        "serialNumber": "",
-        "title": ""
-      },
-      "locationLabel": "",
-      "pickLocation": "",
-      "pickLocationDesc": "",
-      "removeDatastream": "",
-      "removeLocation": "",
-      "selectInterval": "",
-      "selectLocation": "",
-      "setEndToNow": "",
-      "setPeriodAfterBegin": "",
-      "setPeriodBeforeEnd": "",
-      "showDefaultPeriod": "",
-      "showFullPeriod": "",
-      "showNextPeriod": "",
-      "showPrevPeriod": "",
-      "statistics": {
-        "arithmeticMean": "",
-        "nthPercentile": ""
-      },
-      "title": "",
-      "zoomIn": "",
-      "zoomOut": ""
-    },
     "serviceinfo": {
       "abstract": "Резюме",
       "contactEmail": "Имейл",
@@ -779,6 +687,7 @@
       "themes": "Теми"
     },
     "settings3d": {
+      "fov": "",
       "quality": ""
     },
     "share": {

@@ -49,7 +49,6 @@
         "PrintScreen3D": "ラスタ・エクスポート",
         "Redlining": "スケッチ",
         "Routing": "ルート探索",
-        "SensorThingsTool": "",
         "Tools": "地図ツール",
         "TourGuide": "ツアー・ガイド",
         "TimeManager": "タイム・マネージャ",
@@ -123,6 +122,7 @@
       "addfailed": "ブックマークを作成出来ませんでした",
       "lastUpdate": "最後の保存",
       "manage": "ブックマークを管理",
+      "newbookmark": "",
       "nobookmarks": "ブックマーク無し",
       "notloggedin": "ブックマークを保存するためにはログインする必要があります",
       "open": "ブックマークを現在のタブで開く",
@@ -139,6 +139,7 @@
       "viewertitle_label": "QWC2 デモ"
     },
     "common": {
+      "add": "追加",
       "all": "全て",
       "cancel": "キャンセル",
       "circle": "円",
@@ -223,7 +224,6 @@
       "zoomto": ""
     },
     "editing": {
-      "add": "追加",
       "attrtable": "テーブル",
       "canceldelete": "削除しない",
       "clone_all": "",
@@ -415,6 +415,7 @@
       "resetrotation": "回転をリセット"
     },
     "map3d": {
+      "noterrain": "",
       "terrain": "地形",
       "title": "3D ビュー"
     },
@@ -447,6 +448,7 @@
     },
     "maplight3d": {
       "animationstep": "アニメーション・ステップ",
+      "currentdatetime": "",
       "date": "日付",
       "dayspersec": "日数 / 秒",
       "helpersVisible": "補助オブジェクト表示",
@@ -626,99 +628,6 @@
     "scratchdrawing": {
       "finish": "完了"
     },
-    "sensorthingstool": {
-      "addDatastream": "",
-      "datastreamInfo": {
-        "calibration": "",
-        "description": "",
-        "location": "",
-        "name": "",
-        "observedProperty": "",
-        "sensor": "",
-        "thing": "",
-        "title": "",
-        "unit": ""
-      },
-      "datastreamLabel": "",
-      "datastreamNone": "",
-      "datastreamOptions": {
-        "arithmeticMean": "",
-        "percentiles": "",
-        "percentilesDesc": "",
-        "showOnSecondYAxis": "",
-        "showPercentiles": "",
-        "title": ""
-      },
-      "datastreamTable": {
-        "fullPeriod": "",
-        "selectedPeriod": "",
-        "timestamp": "",
-        "title": "",
-        "unit": "",
-        "value": ""
-      },
-      "datastreamsFilter": {
-        "observedProperty": "",
-        "sensor": "",
-        "thing": "",
-        "title": ""
-      },
-      "exportCSV": "",
-      "exportImage": "",
-      "graphOptions": {
-        "reverseAxis": "",
-        "threshold": "",
-        "thresholdLabel": "",
-        "thresholdValue": "",
-        "title": "",
-        "toggleGridLines": "",
-        "toggleSecondYAxis": "",
-        "xAxis": "",
-        "xAxisAtTop": "",
-        "yAuto": "",
-        "yAxis": "",
-        "yMax": "",
-        "yMin": ""
-      },
-      "intervalOptions": {
-        "custom": "",
-        "day": "",
-        "hour": "",
-        "month": "",
-        "week": "",
-        "year": ""
-      },
-      "locationInfo": {
-        "description": "",
-        "inactive": "",
-        "name": "",
-        "platform": "",
-        "qompSensorId": "",
-        "serialNumber": "",
-        "title": ""
-      },
-      "locationLabel": "",
-      "pickLocation": "",
-      "pickLocationDesc": "",
-      "removeDatastream": "",
-      "removeLocation": "",
-      "selectInterval": "",
-      "selectLocation": "",
-      "setEndToNow": "",
-      "setPeriodAfterBegin": "",
-      "setPeriodBeforeEnd": "",
-      "showDefaultPeriod": "",
-      "showFullPeriod": "",
-      "showNextPeriod": "",
-      "showPrevPeriod": "",
-      "statistics": {
-        "arithmeticMean": "",
-        "nthPercentile": ""
-      },
-      "title": "",
-      "zoomIn": "",
-      "zoomOut": ""
-    },
     "serviceinfo": {
       "abstract": "概要",
       "contactEmail": "メール",
@@ -742,6 +651,7 @@
       "themes": "テーマ"
     },
     "settings3d": {
+      "fov": "",
       "quality": ""
     },
     "share": {

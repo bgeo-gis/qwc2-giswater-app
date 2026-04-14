@@ -49,7 +49,6 @@
         "PrintScreen3D": "Exportar ràster",
         "Redlining": "Línia de demarcació",
         "Routing": "Routing",
-        "SensorThingsTool": "",
         "Tools": "Eines de Mapa",
         "TourGuide": "Guia turística",
         "TimeManager": "Gestor de Temps",
@@ -81,8 +80,7 @@
         "GwVisitIncidencia": "Nova Incidencia",
         "NetCDFExplorer": "Visualitzador de NetCDF (Beta)",
         "GwHelp": "Ajuda",
-        "GwSuperset": "Quadre de comandament",
-        "GwGo2Epa": ""
+        "GwSuperset": "Quadre de comandament"
       },
       "filter": "Menú de filtres...",
       "menulabel": "Mapa & Eines"
@@ -158,6 +156,7 @@
       "addfailed": "Error al crear",
       "lastUpdate": "Darrer canvi",
       "manage": "Gestionar",
+      "newbookmark": "",
       "nobookmarks": "Cap marcador",
       "notloggedin": "No logat",
       "open": "Obrir",
@@ -174,6 +173,7 @@
       "viewertitle_label": "Pàgina d'inici"
     },
     "common": {
+      "add": "Afegir",
       "all": "Tot",
       "cancel": "Cancel·lar",
       "circle": "Circle",
@@ -258,7 +258,6 @@
       "zoomto": "Fer zoom a l'objecte"
     },
     "editing": {
-      "add": "Afegir",
       "attrtable": "Taula",
       "canceldelete": "No esborrar",
       "clone_all": "Tots",
@@ -452,6 +451,7 @@
       "resetrotation": "Reiniciar rotació"
     },
     "map3d": {
+      "noterrain": "",
       "terrain": "Terreny",
       "title": "Vista 3D"
     },
@@ -484,6 +484,7 @@
     },
     "maplight3d": {
       "animationstep": "Pas d'animació",
+      "currentdatetime": "",
       "date": "Data",
       "dayspersec": "dies / segon",
       "helpersVisible": "Mostrar ajudes",
@@ -663,99 +664,6 @@
     "scratchdrawing": {
       "finish": "Finalitzar"
     },
-    "sensorthingstool": {
-      "addDatastream": "",
-      "datastreamInfo": {
-        "calibration": "",
-        "description": "",
-        "location": "",
-        "name": "",
-        "observedProperty": "",
-        "sensor": "",
-        "thing": "",
-        "title": "",
-        "unit": ""
-      },
-      "datastreamLabel": "",
-      "datastreamNone": "",
-      "datastreamOptions": {
-        "arithmeticMean": "",
-        "percentiles": "",
-        "percentilesDesc": "",
-        "showOnSecondYAxis": "",
-        "showPercentiles": "",
-        "title": ""
-      },
-      "datastreamTable": {
-        "fullPeriod": "",
-        "selectedPeriod": "",
-        "timestamp": "",
-        "title": "",
-        "unit": "",
-        "value": ""
-      },
-      "datastreamsFilter": {
-        "observedProperty": "",
-        "sensor": "",
-        "thing": "",
-        "title": ""
-      },
-      "exportCSV": "",
-      "exportImage": "",
-      "graphOptions": {
-        "reverseAxis": "",
-        "threshold": "",
-        "thresholdLabel": "",
-        "thresholdValue": "",
-        "title": "",
-        "toggleGridLines": "",
-        "toggleSecondYAxis": "",
-        "xAxis": "",
-        "xAxisAtTop": "",
-        "yAuto": "",
-        "yAxis": "",
-        "yMax": "",
-        "yMin": ""
-      },
-      "intervalOptions": {
-        "custom": "",
-        "day": "",
-        "hour": "",
-        "month": "",
-        "week": "",
-        "year": ""
-      },
-      "locationInfo": {
-        "description": "",
-        "inactive": "",
-        "name": "",
-        "platform": "",
-        "qompSensorId": "",
-        "serialNumber": "",
-        "title": ""
-      },
-      "locationLabel": "",
-      "pickLocation": "",
-      "pickLocationDesc": "",
-      "removeDatastream": "",
-      "removeLocation": "",
-      "selectInterval": "",
-      "selectLocation": "",
-      "setEndToNow": "",
-      "setPeriodAfterBegin": "",
-      "setPeriodBeforeEnd": "",
-      "showDefaultPeriod": "",
-      "showFullPeriod": "",
-      "showNextPeriod": "",
-      "showPrevPeriod": "",
-      "statistics": {
-        "arithmeticMean": "",
-        "nthPercentile": ""
-      },
-      "title": "",
-      "zoomIn": "",
-      "zoomOut": ""
-    },
     "serviceinfo": {
       "abstract": "Resum",
       "contactEmail": "Adreça electrònica",
@@ -779,6 +687,7 @@
       "themes": "Temes"
     },
     "settings3d": {
+      "fov": "",
       "quality": ""
     },
     "share": {

@@ -49,7 +49,6 @@
         "PrintScreen3D": "",
         "Redlining": "Evidențiere",
         "Routing": "Traseu",
-        "SensorThingsTool": "",
         "Tools": "Unelte hartă",
         "TourGuide": "",
         "TimeManager": "Informații temporale",
@@ -81,8 +80,7 @@
         "GwVisitIncidencia": "",
         "NetCDFExplorer": "",
         "GwHelp": "",
-        "GwSuperset": "",
-        "GwGo2Epa": ""
+        "GwSuperset": ""
       },
       "filter": "",
       "menulabel": "Hărți & Unelte"
@@ -158,6 +156,7 @@
       "addfailed": "Semnul de carte nu a putut fi creat",
       "lastUpdate": "Ultima actualizare",
       "manage": "Gestionează ssemnele de carte",
+      "newbookmark": "",
       "nobookmarks": "Nu există semne de carte salvate",
       "notloggedin": "Pentru a salva semnele de carte trebuie să fiți autentificat",
       "open": "Deschide deschide semnul de carte în această pagină",
@@ -174,6 +173,7 @@
       "viewertitle_label": "Despre"
     },
     "common": {
+      "add": "Adaugă",
       "all": "",
       "cancel": "",
       "circle": "Cerc",
@@ -258,7 +258,6 @@
       "zoomto": ""
     },
     "editing": {
-      "add": "Adaugă",
       "attrtable": "Tabel",
       "canceldelete": "Nu șterge",
       "clone_all": "",
@@ -452,6 +451,7 @@
       "resetrotation": "Resetează rotația"
     },
     "map3d": {
+      "noterrain": "",
       "terrain": "",
       "title": ""
     },
@@ -484,6 +484,7 @@
     },
     "maplight3d": {
       "animationstep": "",
+      "currentdatetime": "",
       "date": "",
       "dayspersec": "",
       "helpersVisible": "",
@@ -663,99 +664,6 @@
     "scratchdrawing": {
       "finish": "Finalizare"
     },
-    "sensorthingstool": {
-      "addDatastream": "",
-      "datastreamInfo": {
-        "calibration": "",
-        "description": "",
-        "location": "",
-        "name": "",
-        "observedProperty": "",
-        "sensor": "",
-        "thing": "",
-        "title": "",
-        "unit": ""
-      },
-      "datastreamLabel": "",
-      "datastreamNone": "",
-      "datastreamOptions": {
-        "arithmeticMean": "",
-        "percentiles": "",
-        "percentilesDesc": "",
-        "showOnSecondYAxis": "",
-        "showPercentiles": "",
-        "title": ""
-      },
-      "datastreamTable": {
-        "fullPeriod": "",
-        "selectedPeriod": "",
-        "timestamp": "",
-        "title": "",
-        "unit": "",
-        "value": ""
-      },
-      "datastreamsFilter": {
-        "observedProperty": "",
-        "sensor": "",
-        "thing": "",
-        "title": ""
-      },
-      "exportCSV": "",
-      "exportImage": "",
-      "graphOptions": {
-        "reverseAxis": "",
-        "threshold": "",
-        "thresholdLabel": "",
-        "thresholdValue": "",
-        "title": "",
-        "toggleGridLines": "",
-        "toggleSecondYAxis": "",
-        "xAxis": "",
-        "xAxisAtTop": "",
-        "yAuto": "",
-        "yAxis": "",
-        "yMax": "",
-        "yMin": ""
-      },
-      "intervalOptions": {
-        "custom": "",
-        "day": "",
-        "hour": "",
-        "month": "",
-        "week": "",
-        "year": ""
-      },
-      "locationInfo": {
-        "description": "",
-        "inactive": "",
-        "name": "",
-        "platform": "",
-        "qompSensorId": "",
-        "serialNumber": "",
-        "title": ""
-      },
-      "locationLabel": "",
-      "pickLocation": "",
-      "pickLocationDesc": "",
-      "removeDatastream": "",
-      "removeLocation": "",
-      "selectInterval": "",
-      "selectLocation": "",
-      "setEndToNow": "",
-      "setPeriodAfterBegin": "",
-      "setPeriodBeforeEnd": "",
-      "showDefaultPeriod": "",
-      "showFullPeriod": "",
-      "showNextPeriod": "",
-      "showPrevPeriod": "",
-      "statistics": {
-        "arithmeticMean": "",
-        "nthPercentile": ""
-      },
-      "title": "",
-      "zoomIn": "",
-      "zoomOut": ""
-    },
     "serviceinfo": {
       "abstract": "Abstract",
       "contactEmail": "Email",
@@ -779,6 +687,7 @@
       "themes": ""
     },
     "settings3d": {
+      "fov": "",
       "quality": ""
     },
     "share": {

@@ -49,7 +49,6 @@
         "PrintScreen3D": "Görüntüyü ver",
         "Redlining": "Serbest Çizim",
         "Routing": "Navigasyon",
-        "SensorThingsTool": "",
         "Tools": "Harita Araçları",
         "TourGuide": "",
         "TimeManager": "Zaman Yöneticisi",
@@ -81,8 +80,7 @@
         "GwVisitIncidencia": "",
         "NetCDFExplorer": "",
         "GwHelp": "",
-        "GwSuperset": "",
-        "GwGo2Epa": ""
+        "GwSuperset": ""
       },
       "filter": "Filtre menüsü...",
       "menulabel": "Harita & Araçlar"
@@ -158,6 +156,7 @@
       "addfailed": "Yer işareti oluşturulamadı",
       "lastUpdate": "Son kaydedilen",
       "manage": "Yer işaretlerini yönet",
+      "newbookmark": "",
       "nobookmarks": "Yer işareti yok",
       "notloggedin": "Yer işaretlerini kaydedebilmek için giriş yapmalısınız",
       "open": "Yer işaretini geçerli sekmede aç",
@@ -174,6 +173,7 @@
       "viewertitle_label": "QWC"
     },
     "common": {
+      "add": "Ekle",
       "all": "Tümü",
       "cancel": "İptal",
       "circle": "Daire",
@@ -258,7 +258,6 @@
       "zoomto": ""
     },
     "editing": {
-      "add": "Ekle",
       "attrtable": "Tablo",
       "canceldelete": "Silme",
       "clone_all": "",
@@ -452,6 +451,7 @@
       "resetrotation": "Dönüklüğü sıfırla"
     },
     "map3d": {
+      "noterrain": "",
       "terrain": "Arazi",
       "title": "3 Boyutlu görünüm"
     },
@@ -484,6 +484,7 @@
     },
     "maplight3d": {
       "animationstep": "",
+      "currentdatetime": "",
       "date": "",
       "dayspersec": "",
       "helpersVisible": "",
@@ -663,99 +664,6 @@
     "scratchdrawing": {
       "finish": "Bitir"
     },
-    "sensorthingstool": {
-      "addDatastream": "",
-      "datastreamInfo": {
-        "calibration": "",
-        "description": "",
-        "location": "",
-        "name": "",
-        "observedProperty": "",
-        "sensor": "",
-        "thing": "",
-        "title": "",
-        "unit": ""
-      },
-      "datastreamLabel": "",
-      "datastreamNone": "",
-      "datastreamOptions": {
-        "arithmeticMean": "",
-        "percentiles": "",
-        "percentilesDesc": "",
-        "showOnSecondYAxis": "",
-        "showPercentiles": "",
-        "title": ""
-      },
-      "datastreamTable": {
-        "fullPeriod": "",
-        "selectedPeriod": "",
-        "timestamp": "",
-        "title": "",
-        "unit": "",
-        "value": ""
-      },
-      "datastreamsFilter": {
-        "observedProperty": "",
-        "sensor": "",
-        "thing": "",
-        "title": ""
-      },
-      "exportCSV": "",
-      "exportImage": "",
-      "graphOptions": {
-        "reverseAxis": "",
-        "threshold": "",
-        "thresholdLabel": "",
-        "thresholdValue": "",
-        "title": "",
-        "toggleGridLines": "",
-        "toggleSecondYAxis": "",
-        "xAxis": "",
-        "xAxisAtTop": "",
-        "yAuto": "",
-        "yAxis": "",
-        "yMax": "",
-        "yMin": ""
-      },
-      "intervalOptions": {
-        "custom": "",
-        "day": "",
-        "hour": "",
-        "month": "",
-        "week": "",
-        "year": ""
-      },
-      "locationInfo": {
-        "description": "",
-        "inactive": "",
-        "name": "",
-        "platform": "",
-        "qompSensorId": "",
-        "serialNumber": "",
-        "title": ""
-      },
-      "locationLabel": "",
-      "pickLocation": "",
-      "pickLocationDesc": "",
-      "removeDatastream": "",
-      "removeLocation": "",
-      "selectInterval": "",
-      "selectLocation": "",
-      "setEndToNow": "",
-      "setPeriodAfterBegin": "",
-      "setPeriodBeforeEnd": "",
-      "showDefaultPeriod": "",
-      "showFullPeriod": "",
-      "showNextPeriod": "",
-      "showPrevPeriod": "",
-      "statistics": {
-        "arithmeticMean": "",
-        "nthPercentile": ""
-      },
-      "title": "",
-      "zoomIn": "",
-      "zoomOut": ""
-    },
     "serviceinfo": {
       "abstract": "Özet",
       "contactEmail": "Email",
@@ -779,6 +687,7 @@
       "themes": "Temalar"
     },
     "settings3d": {
+      "fov": "",
       "quality": ""
     },
     "share": {

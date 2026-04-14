@@ -49,7 +49,6 @@
         "PrintScreen3D": "Raster Export",
         "Redlining": "Redlining",
         "Routing": "Routing",
-        "SensorThingsTool": "SensorThings Query",
         "Tools": "Map Tools",
         "TourGuide": "Tour Guide",
         "TimeManager": "Time Manager",
@@ -81,8 +80,7 @@
         "GwVisitIncidencia": "New Incidence",
         "NetCDFExplorer": "NetCDF Viewer (Beta)",
         "GwHelp": "Help",
-        "GwSuperset": "Control panel",
-        "GwGo2Epa": "Go2EPA"
+        "GwSuperset": "Control panel"
       },
       "filter": "Filter menu...",
       "menulabel": "Map & Tools"
@@ -158,6 +156,7 @@
       "addfailed": "Failed to create bookmark",
       "lastUpdate": "Last saved",
       "manage": "Manage bookmarks",
+      "newbookmark": "New bookmark",
       "nobookmarks": "No bookmarks",
       "notloggedin": "You need to be logged in to store bookmarks",
       "open": "Open bookmark in current tab",
@@ -174,6 +173,7 @@
       "viewertitle_label": "Homepage"
     },
     "common": {
+      "add": "Add",
       "all": "All",
       "cancel": "Cancel",
       "circle": "Circle",
@@ -258,7 +258,6 @@
       "zoomto": "Zoom to object"
     },
     "editing": {
-      "add": "Add",
       "attrtable": "Table",
       "canceldelete": "Don't delete",
       "clone_all": "All",
@@ -452,6 +451,7 @@
       "resetrotation": "Reset rotation"
     },
     "map3d": {
+      "noterrain": "No terrain",
       "terrain": "Terrain",
       "title": "3D View"
     },
@@ -484,6 +484,7 @@
     },
     "maplight3d": {
       "animationstep": "Animation step",
+      "currentdatetime": "Current date and time",
       "date": "Date",
       "dayspersec": "days / second",
       "helpersVisible": "Show helpers",
@@ -663,99 +664,6 @@
     "scratchdrawing": {
       "finish": "Finish"
     },
-    "sensorthingstool": {
-      "addDatastream": "Add datastream to graph",
-      "datastreamInfo": {
-        "calibration": "Calibration",
-        "description": "Description",
-        "location": "Location",
-        "name": "Name",
-        "observedProperty": "Observed Property",
-        "sensor": "Sensor",
-        "thing": "Thing",
-        "title": "Datastream info",
-        "unit": "Unit"
-      },
-      "datastreamLabel": "Datastream",
-      "datastreamNone": "No results",
-      "datastreamOptions": {
-        "arithmeticMean": "Arithmetic mean",
-        "percentiles": "Percentiles",
-        "percentilesDesc": "Enter percentiles as comma-separated values",
-        "showOnSecondYAxis": "Show on second y-axis",
-        "showPercentiles": "Show percentiles",
-        "title": "Datastream statistics"
-      },
-      "datastreamTable": {
-        "fullPeriod": "Available period",
-        "selectedPeriod": "Selected period",
-        "timestamp": "Timestamp",
-        "title": "Datastream table",
-        "unit": "Unit",
-        "value": "Value"
-      },
-      "datastreamsFilter": {
-        "observedProperty": "Observed Property",
-        "sensor": "Sensor",
-        "thing": "Thing",
-        "title": "Datastreams filter"
-      },
-      "exportCSV": "Export as CSV",
-      "exportImage": "Export as image",
-      "graphOptions": {
-        "reverseAxis": "Reverse axis",
-        "threshold": "Threshold",
-        "thresholdLabel": "Label",
-        "thresholdValue": "Value",
-        "title": "Settings",
-        "toggleGridLines": "Grid lines",
-        "toggleSecondYAxis": "Second y-axis",
-        "xAxis": "X-axis",
-        "xAxisAtTop": "Position at the top",
-        "yAuto": "auto",
-        "yAxis": "Y-axis",
-        "yMax": "Upper limit",
-        "yMin": "Lower limit"
-      },
-      "intervalOptions": {
-        "custom": "Custom",
-        "day": "Day",
-        "hour": "Hour",
-        "month": "Month",
-        "week": "Week",
-        "year": "Year"
-      },
-      "locationInfo": {
-        "description": "Description",
-        "inactive": "Inactive",
-        "name": "Name",
-        "platform": "Platform",
-        "qompSensorId": "QOMP Sensor ID",
-        "serialNumber": "Serial Number",
-        "title": "Location Info"
-      },
-      "locationLabel": "Location",
-      "pickLocation": "Pick location in map",
-      "pickLocationDesc": "Pick a location in the map",
-      "removeDatastream": "Remove datastream",
-      "removeLocation": "Remove location",
-      "selectInterval": "Select interval",
-      "selectLocation": "Select location",
-      "setEndToNow": "Set end time to now",
-      "setPeriodAfterBegin": "Set period to interval after start time",
-      "setPeriodBeforeEnd": "Set period to interval before end time",
-      "showDefaultPeriod": "Show default period",
-      "showFullPeriod": "Show full period",
-      "showNextPeriod": "Show next period",
-      "showPrevPeriod": "Show previous period",
-      "statistics": {
-        "arithmeticMean": "Arithmetic mean",
-        "nthPercentile": "th percentile"
-      },
-      "title": "SensorThings Query",
-      "zoomIn": "Zoom in",
-      "zoomOut": "Zoom out"
-    },
     "serviceinfo": {
       "abstract": "Abstract",
       "contactEmail": "Email",
@@ -779,6 +687,7 @@
       "themes": "Themes"
     },
     "settings3d": {
+      "fov": "Field of view",
       "quality": "Quality"
     },
     "share": {

@@ -14,13 +14,10 @@ FROM alpine:3.19
 
 RUN apk add --no-cache bash coreutils
 
-# Create non-root user for security
-RUN addgroup -g 1000 appgroup && \
-    adduser -u 1000 -G appgroup -D -h /app appuser
 
 WORKDIR /app
 
-COPY --from=builder --chown=appuser:appgroup /app/prod /app/prod
+COPY --from=builder --chown=33:33 /app/prod /app/prod
 
 # Deploy script (runs as non-root)
 RUN printf '%s\n' \
@@ -37,6 +34,6 @@ RUN printf '%s\n' \
 'echo "Deploy completado."' \
 > /copy_build.sh && chmod +x /copy_build.sh
 
-USER appuser
+USER 33
 
 ENTRYPOINT ["/copy_build.sh"]
