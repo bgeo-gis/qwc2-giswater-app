@@ -4,9 +4,17 @@ RUN apk add --no-cache git
 
 WORKDIR /app
 
-# Copy all sources first (workspaces qwc2, qwc2-giswater needed for install)
-COPY . .
+# Copy dependency manifests first so `yarn install` can be cached
+COPY package.json yarn.lock ./
+COPY qwc2/package.json qwc2/package.json
+COPY qwc2-giswater/package.json qwc2-giswater/package.json
+COPY qwc2/scripts/ qwc2/scripts/
+
+# Install dependencies (cached as long as manifests are unchanged)
 RUN yarn install --frozen-lockfile
+
+# Copy the rest of the sources only after dependencies are resolved
+COPY . .
 RUN yarn run prod
 
 # Runtime stage - minimal Alpine
