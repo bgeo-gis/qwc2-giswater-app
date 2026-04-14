@@ -17,7 +17,7 @@ RUN apk add --no-cache bash coreutils
 
 WORKDIR /app
 
-COPY --from=builder --chown=33:33 /app/prod /app/prod
+COPY --from=builder /app/prod /app/prod
 
 # Deploy script (runs as non-root)
 RUN printf '%s\n' \
@@ -33,7 +33,5 @@ RUN printf '%s\n' \
 'cp -R /app/prod/translations/* /target/translations/' \
 'echo "Deploy completado."' \
 > /copy_build.sh && chmod +x /copy_build.sh
-
-USER 33
 
 ENTRYPOINT ["/copy_build.sh"]
