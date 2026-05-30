@@ -26,6 +26,15 @@ div#map {
     background-color: var(--map-background-color);
 }
 
+/* MapButton.css */
+@media (hover: none) {
+    .plugins-container
+    button.map-button.map-button-engaged:hover {
+        background-color: yellow;
+        color: var(--map-button-bg-color);
+    }
+}
+
 /* ComboBox.css */
 .plugins-container
 div.combobox {
