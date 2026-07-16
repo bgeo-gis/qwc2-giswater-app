@@ -18,7 +18,7 @@ COPY . .
 RUN yarn run prod
 
 # Runtime stage - minimal Alpine
-FROM alpine:3.19
+FROM alpine:latest
 
 RUN apk add --no-cache bash coreutils
 
