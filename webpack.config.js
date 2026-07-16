@@ -1,6 +1,6 @@
 const webpack = require('webpack');
 const path = require('path');
-const {CleanWebpackPlugin} = require('clean-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const availableLanguages = require('./static/translations/tsconfig.json').languages;
@@ -41,9 +41,6 @@ module.exports = (env, argv) => {
         },
         resolve: {
             extensions: [".mjs", ".js", ".jsx", ".ts", ".tsx"],
-            alias: {
-                "@giro3d/giro3d": "@sourcepole/qwc-giro3d"
-            },
             fallback: {
                 path: require.resolve("path-browserify"),
                 stream: require.resolve("stream-browserify"),
@@ -96,8 +93,8 @@ module.exports = (env, argv) => {
                 {
                     test: /\.css$/,
                     use: [
-                        {loader: 'style-loader'},
-                        {loader: 'css-loader'}
+                        { loader: 'style-loader' },
+                        { loader: 'css-loader' }
                     ]
                 },
                 {
